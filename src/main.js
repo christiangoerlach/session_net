@@ -1,3 +1,5 @@
+const fs = require('fs');
+const path = require('path');
 const ConfigManager = require('./config-manager');
 const { getLogger } = require('./logger');
 const ErrorHandler = require('./error-handler');
@@ -14,6 +16,7 @@ const TerminProcessor = require('./termin-processor');
   const logger = getLogger({ logFilePath: 'session_net.log' });
   const errorHandler = new ErrorHandler();
   const fileSystem = new FileSystemManager(config.get('output.directory'));
+  let browserManager = null; // Browser-Manager global verfügbar machen
   
   try {
     // Konfiguration validieren
@@ -21,7 +24,7 @@ const TerminProcessor = require('./termin-processor');
     
     logger.startOperation('Website-Downloader', 'Main');
     
-    const browserManager = new BrowserManager();
+    browserManager = new BrowserManager();
     
     // Browser initialisieren
     const page = await browserManager.initialize();
@@ -30,6 +33,7 @@ const TerminProcessor = require('./termin-processor');
     const authManager = new AuthManager(page);
     const calendarNavigator = new CalendarNavigator(page);
     const terminExtractor = new TerminExtractor(page);
+    const terminProcessor = new TerminProcessor(page); // TerminProcessor global verfügbar machen
     
     // Login durchführen
     await authManager.login(
@@ -72,82 +76,103 @@ const TerminProcessor = require('./termin-processor');
       monthFolderName
     );
     
-    // Termine extrahieren (mit Cache-Funktionalität)
-    const uniqueTermine = await terminExtractor.extractTermine(monatOrdner);
-    
-    if (uniqueTermine.length === 0) {
-      logger.warn('Keine Termine gefunden. Überprüfen Sie die Selektoren.', 'Main');
-      return;
-    }
-    
-    logger.info(`${uniqueTermine.length} Termine gefunden - Prüfung erfolgt direkt über Dateisystem`, 'Main');
-    
-    // Termin-Processor initialisieren
-    const terminProcessor = new TerminProcessor(page);
-    
-    // Termine verarbeiten
-    for (let i = 0; i < uniqueTermine.length; i++) {
-      const termin = uniqueTermine[i];
+    // Prüfen ob der Monat bereits vollständig geladen ist
+    const monatVollständigGeladen = fs.existsSync(path.join(monatOrdner, 'monat_vollstaendig.txt'));
+    if (monatVollständigGeladen) {
+      console.log(`⏭️ Monat ${monthFolderName} bereits vollständig geladen - überspringe`);
+      // NICHT return - fahre mit der Navigation zu vorherigen Monaten fort
+    } else {
+      // Termine extrahieren (mit Cache-Funktionalität)
+      const uniqueTermine = await terminExtractor.extractTermine(monatOrdner);
       
-      await terminProcessor.processTermin(termin, monatOrdner, kalenderCurrentUrl);
-      
-      // Speicher nach jedem Termin freigeben
-      console.log(`  🧹 Termin abgeschlossen: ${termin.terminName}`);
-      
-      // Speicher freigeben ohne Browser-Kontext neu zu starten
-      if (i < uniqueTermine.length - 1) { // Nicht beim letzten Termin
-        console.log(`  🧹 Speicher wird freigegeben...`);
-        
-        // Zurück zur Kalender-Seite navigieren (bleibt im gleichen Kontext)
-        await page.goto(kalenderCurrentUrl);
-        await page.waitForTimeout(2000);
-        
-        // Manuell Garbage Collection anstoßen
-        if (global.gc) {
-          global.gc();
+      if (uniqueTermine.length === 0) {
+        logger.warn('Keine Termine gefunden. Überprüfen Sie die Selektoren.', 'Main');
+        // NICHT return - fahre mit der Navigation zu vorherigen Monaten fort
+             } else {
+         logger.info(`${uniqueTermine.length} Termine gefunden - Prüfung erfolgt direkt über Dateisystem`, 'Main');
+         
+         // Termine verarbeiten
+         for (let i = 0; i < uniqueTermine.length; i++) {
+           const termin = uniqueTermine[i];
+           
+           await terminProcessor.processTermin(termin, monatOrdner, kalenderCurrentUrl);
+          
+          // Speicher nach jedem Termin freigeben
+          console.log(`  🧹 Termin abgeschlossen: ${termin.terminName}`);
+          
+          // Speicher freigeben ohne Browser-Kontext neu zu starten
+          if (i < uniqueTermine.length - 1) { // Nicht beim letzten Termin
+            console.log(`  🧹 Speicher wird freigegeben...`);
+            
+            // Zurück zur Kalender-Seite navigieren (bleibt im gleichen Kontext)
+            await page.goto(kalenderCurrentUrl);
+            await page.waitForTimeout(2000);
+            
+            // Manuell Garbage Collection anstoßen
+            if (global.gc) {
+              global.gc();
+            }
+            
+            // Zusätzliche Speicherbereinigung
+            const memUsage = process.memoryUsage();
+            const usedMB = Math.round(memUsage.heapUsed / 1024 / 1024);
+            console.log(`  📊 Speicherverbrauch: ${usedMB}MB`);
+            
+            console.log(`  ✅ Speicher freigegeben, Session bleibt erhalten`);
+          }
         }
         
-        // Zusätzliche Speicherbereinigung
-        const memUsage = process.memoryUsage();
-        const usedMB = Math.round(memUsage.heapUsed / 1024 / 1024);
-        console.log(`  📊 Speicherverbrauch: ${usedMB}MB`);
+        console.log(`\n📋 Zusammenfassung der Termine:`);
+        console.log(`   Gesamt: ${uniqueTermine.length} Termine`);
+        console.log(`   Erster Termin: ${uniqueTermine[0].tag}. - ${uniqueTermine[0].terminName}`);
+        console.log(`   Letzter Termin: ${uniqueTermine[uniqueTermine.length - 1].tag}. - ${uniqueTermine[uniqueTermine.length - 1].terminName}`);
+        console.log(`   💡 Prüfung auf bereits geladene Termine erfolgt direkt über Dateisystem (termin_vollstaendig.txt)`);
         
-        console.log(`  ✅ Speicher freigegeben, Session bleibt erhalten`);
+        // Monat als vollständig markieren
+        const monatVollständigDatei = path.join(monatOrdner, 'monat_vollstaendig.txt');
+        const monatVollständigInfo = `Monat vollständig geladen: ${new Date().toISOString()}\nAnzahl Termine: ${uniqueTermine.length}\n`;
+        fs.writeFileSync(monatVollständigDatei, monatVollständigInfo, 'utf8');
+        console.log(`   ✅ Monat ${monthFolderName} als vollständig markiert`);
       }
     }
-    
-    console.log(`\n📋 Zusammenfassung der Termine:`);
-    console.log(`   Gesamt: ${uniqueTermine.length} Termine`);
-    console.log(`   Erster Termin: ${uniqueTermine[0].tag}. - ${uniqueTermine[0].terminName}`);
-    console.log(`   Letzter Termin: ${uniqueTermine[uniqueTermine.length - 1].tag}. - ${uniqueTermine[uniqueTermine.length - 1].terminName}`);
-    console.log(`   💡 Prüfung auf bereits geladene Termine erfolgt direkt über Dateisystem (termin_vollstaendig.txt)`);
     
     // Aktuelle URL der Kalender-Seite anzeigen
     console.log(`🌐 Kalender-Seite URL: ${kalenderCurrentUrl}`);
     
-    // Automatische Navigation zum nächsten Monat (optional)
-    logger.info('Starte automatische Navigation zum nächsten Monat...', 'Main');
+    // Automatische Navigation zu vorherigen Monaten (rückwärts durch die Monate)
+    logger.info('Starte automatische Navigation zu vorherigen Monaten...', 'Main');
     
     let monthCounter = 1;
     const maxMonths = 12;
+    let processedMonths = new Set(); // Set um bereits verarbeitete Monate zu tracken
+    processedMonths.add(monthFolderName); // Aktueller Monat ist bereits verarbeitet
     
     while (monthCounter <= maxMonths) {
       logger.info(`Verarbeite Monat ${monthCounter}/${maxMonths}...`, 'Main');
       
-      const navigationSuccess = await calendarNavigator.navigateToNextMonth();
+      // Versuche zum vorherigen Monat zu navigieren
+      const navigationSuccess = await calendarNavigator.navigateToPreviousMonth();
       
       if (!navigationSuccess) {
-        logger.warn('Navigation zum nächsten Monat fehlgeschlagen - beende automatische Navigation', 'Main');
+        logger.warn('Navigation zum vorherigen Monat fehlgeschlagen - beende automatische Navigation', 'Main');
         break;
       }
       
       const newMonthInfo = await calendarNavigator.getCurrentMonthInfo();
-      if (!newMonthInfo || newMonthInfo === monthFolderName) {
+      if (!newMonthInfo) {
         logger.warn('Keine neuen Monats-Informationen gefunden - beende automatische Navigation', 'Main');
         break;
       }
       
+      // Prüfe ob wir diesen Monat bereits verarbeitet haben
+      if (processedMonths.has(newMonthInfo)) {
+        logger.info(`Monat ${newMonthInfo} bereits verarbeitet - überspringe`, 'Main');
+        monthCounter++;
+        continue;
+      }
+      
       logger.info(`Neuer Monat gefunden: ${newMonthInfo}`, 'Main');
+      processedMonths.add(newMonthInfo); // Markiere als verarbeitet
       
       const newMonthFolderName = newMonthInfo
         .replace(/[<>:"/\\|?*]/g, '_')
@@ -159,6 +184,14 @@ const TerminProcessor = require('./termin-processor');
         process.env.OUTPUT_DIRECTORY || 'pohlheim_geschuetzt',
         newMonthFolderName
       );
+      
+      // Prüfen ob der neue Monat bereits vollständig geladen ist
+      const newMonatVollständigGeladen = fs.existsSync(path.join(newMonatOrdner, 'monat_vollstaendig.txt'));
+      if (newMonatVollständigGeladen) {
+        logger.info(`Monat ${newMonthInfo} bereits vollständig geladen - überspringe`, 'Main');
+        monthCounter++;
+        continue;
+      }
       
       const newUniqueTermine = await terminExtractor.extractTermine(newMonatOrdner);
       
@@ -182,6 +215,13 @@ const TerminProcessor = require('./termin-processor');
       }
       
       logger.info(`Monat ${monthCounter} abgeschlossen: ${newMonthInfo} (${newUniqueTermine.length} Termine)`, 'Main');
+      
+      // Neuen Monat als vollständig markieren
+      const newMonatVollständigDatei = path.join(newMonatOrdner, 'monat_vollstaendig.txt');
+      const newMonatVollständigInfo = `Monat vollständig geladen: ${new Date().toISOString()}\nAnzahl Termine: ${newUniqueTermine.length}\n`;
+      fs.writeFileSync(newMonatVollständigDatei, newMonatVollständigInfo, 'utf8');
+      logger.info(`Monat ${newMonthInfo} als vollständig markiert`, 'Main');
+      
       monthCounter++;
     }
     
@@ -193,7 +233,9 @@ const TerminProcessor = require('./termin-processor');
     
   } catch (error) {
     console.error('❌ Fehler beim Ausführen des Skripts:', error);
-    await browserManager.close();
+    if (browserManager) {
+      await browserManager.close();
+    }
     process.exit(1);
   }
 })();

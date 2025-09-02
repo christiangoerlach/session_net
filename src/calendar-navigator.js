@@ -123,25 +123,37 @@ class CalendarNavigator {
     return monatOrdner;
   }
 
-  async navigateToNextMonth() {
+  async navigateToPreviousMonth() {
     try {
       const currentUrl = this.page.url();
+      const currentMonthInfo = await this.getCurrentMonthInfo();
       
-      // Einfache Navigation mit Zurück-Pfeil
-      const backArrow = await this.page.locator('a.smcfiltermenuprev, a[title*="Zurück"], a[title*="Previous"], a:has-text("‹"), a:has-text("←")').first();
+      console.log(`🔄 Versuche Navigation zum vorherigen Monat...`);
+      console.log(`📍 Aktuelle URL: ${currentUrl}`);
+      console.log(`📅 Aktueller Monat: ${currentMonthInfo}`);
       
-      if (await backArrow.count() > 0) {
-        await backArrow.click();
+      // Navigation mit Zurück-Pfeil (vorheriger Monat)
+      const prevArrow = await this.page.locator('a.smcfiltermenuprev, a[title*="Zurück"], a[title*="Previous"], a:has-text("‹"), a:has-text("←")').first();
+      
+      if (await prevArrow.count() > 0) {
+        console.log(`⬅️ Zurück-Pfeil gefunden - klicke...`);
+        await prevArrow.click();
         await this.page.waitForTimeout(3000);
         
         const newUrl = this.page.url();
-        return newUrl !== currentUrl;
+        const newMonthInfo = await this.getCurrentMonthInfo();
+        
+        console.log(`🔄 Neue URL: ${newUrl}`);
+        console.log(`📅 Neuer Monat: ${newMonthInfo}`);
+        
+        return newUrl !== currentUrl && newMonthInfo !== currentMonthInfo;
       }
       
       // Alternative: Dropdown-Navigation
       const dropdown = await this.page.locator('select[name*="month"], select[name*="monat"]').first();
       
       if (await dropdown.count() > 0) {
+        console.log(`📋 Dropdown gefunden - versuche Navigation...`);
         const currentMonth = await dropdown.evaluate(el => el.value);
         const options = await dropdown.locator('option').all();
         const optionValues = [];
@@ -154,18 +166,97 @@ class CalendarNavigator {
         
         const currentIndex = optionValues.findIndex(o => o.value === currentMonth);
         if (currentIndex > 0) {
-          const previousMonth = optionValues[currentIndex - 1];
-          await dropdown.selectOption(previousMonth.value);
+          const prevMonth = optionValues[currentIndex - 1];
+          console.log(`📅 Wähle vorherigen Monat: ${prevMonth.text} (${prevMonth.value})`);
+          await dropdown.selectOption(prevMonth.value);
           await this.page.waitForTimeout(3000);
           
           const newUrl = this.page.url();
-          return newUrl !== currentUrl;
+          const newMonthInfo = await this.getCurrentMonthInfo();
+          
+          console.log(`🔄 Neue URL: ${newUrl}`);
+          console.log(`📅 Neuer Monat: ${newMonthInfo}`);
+          
+          return newUrl !== currentUrl && newMonthInfo !== currentMonthInfo;
+        } else {
+          console.log(`⚠️ Kein vorheriger Monat im Dropdown verfügbar`);
         }
       }
       
+      console.log(`❌ Keine Navigation zum vorherigen Monat möglich`);
       return false;
       
     } catch (error) {
+      console.log(`❌ Fehler bei Navigation zum vorherigen Monat: ${error.message}`);
+      return false;
+    }
+  }
+
+  async navigateToNextMonth() {
+    try {
+      const currentUrl = this.page.url();
+      const currentMonthInfo = await this.getCurrentMonthInfo();
+      
+      console.log(`🔄 Versuche Navigation zum nächsten Monat...`);
+      console.log(`📍 Aktuelle URL: ${currentUrl}`);
+      console.log(`📅 Aktueller Monat: ${currentMonthInfo}`);
+      
+      // Navigation mit Vorwärts-Pfeil (nächster Monat)
+      const nextArrow = await this.page.locator('a.smcfiltermenunext, a[title*="Weiter"], a[title*="Next"], a:has-text("›"), a:has-text("→")').first();
+      
+      if (await nextArrow.count() > 0) {
+        console.log(`➡️ Vorwärts-Pfeil gefunden - klicke...`);
+        await nextArrow.click();
+        await this.page.waitForTimeout(3000);
+        
+        const newUrl = this.page.url();
+        const newMonthInfo = await this.getCurrentMonthInfo();
+        
+        console.log(`🔄 Neue URL: ${newUrl}`);
+        console.log(`📅 Neuer Monat: ${newMonthInfo}`);
+        
+        return newUrl !== currentUrl && newMonthInfo !== currentMonthInfo;
+      }
+      
+      // Alternative: Dropdown-Navigation
+      const dropdown = await this.page.locator('select[name*="month"], select[name*="monat"]').first();
+      
+      if (await dropdown.count() > 0) {
+        console.log(`📋 Dropdown gefunden - versuche Navigation...`);
+        const currentMonth = await dropdown.evaluate(el => el.value);
+        const options = await dropdown.locator('option').all();
+        const optionValues = [];
+        
+        for (const option of options) {
+          const value = await option.getAttribute('value');
+          const text = await option.textContent();
+          optionValues.push({ value, text: text.trim() });
+        }
+        
+        const currentIndex = optionValues.findIndex(o => o.value === currentMonth);
+        if (currentIndex >= 0 && currentIndex < optionValues.length - 1) {
+          const nextMonth = optionValues[currentIndex + 1];
+          console.log(`📅 Wähle nächsten Monat: ${nextMonth.text} (${nextMonth.value})`);
+          await dropdown.selectOption(nextMonth.value);
+          await this.page.waitForTimeout(3000);
+          
+          const newUrl = this.page.url();
+          const newMonthInfo = await this.getCurrentMonthInfo();
+          
+          console.log(`🔄 Neue URL: ${newUrl}`);
+          console.log(`📅 Neuer Monat: ${newMonthInfo}`);
+          
+          return newUrl !== currentUrl && newMonthInfo !== currentMonthInfo;
+        } else {
+          console.log(`⚠️ Kein nächster Monat im Dropdown verfügbar`);
+        }
+      }
+      
+      console.log(`❌ Keine Navigation zum nächsten Monat möglich`);
+      return false;
+      
+    } catch (error) {
+      console.log(`❌ Fehler bei Navigation zum nächsten Monat: ${error.message}`);
       return false;
     }
   }
