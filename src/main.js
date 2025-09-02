@@ -143,12 +143,11 @@ const TerminProcessor = require('./termin-processor');
     logger.info('Starte automatische Navigation zu vorherigen Monaten...', 'Main');
     
     let monthCounter = 1;
-    const maxMonths = 12;
     let processedMonths = new Set(); // Set um bereits verarbeitete Monate zu tracken
     processedMonths.add(monthFolderName); // Aktueller Monat ist bereits verarbeitet
     
-    while (monthCounter <= maxMonths) {
-      logger.info(`Verarbeite Monat ${monthCounter}/${maxMonths}...`, 'Main');
+    while (true) { // Unbegrenzte Schleife - läuft bis keine Navigation mehr möglich ist
+      logger.info(`Verarbeite Monat ${monthCounter}...`, 'Main');
       
       // Versuche zum vorherigen Monat zu navigieren
       const navigationSuccess = await calendarNavigator.navigateToPreviousMonth();
