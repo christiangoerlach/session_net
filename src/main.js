@@ -64,22 +64,56 @@ const TerminProcessor = require('./termin-processor');
       return;
     }
     
+    // Bestehende Kalender-Ordner in Jahresordner verschieben
+    await calendarNavigator.moveExistingCalendarFolders(
+      process.env.OUTPUT_DIRECTORY || 'pohlheim_geschuetzt'
+    );
+    
+    // Nächsten zu downloadenden Monat ermitteln
+    const nextMonthInfo = await calendarNavigator.findNextMonthToDownload(
+      process.env.OUTPUT_DIRECTORY || 'pohlheim_geschuetzt'
+    );
+    
+    console.log(`🎯 Nächster zu downloadender Monat: ${nextMonthInfo.month} ${nextMonthInfo.year}`);
+    console.log(`📁 Zielordner: ${nextMonthInfo.folderName}`);
+    
     // Zur Kalender-Seite navigieren
     const kalenderCurrentUrl = await calendarNavigator.navigateToCalendar(calendarUrl);
     
     // Monats-Informationen extrahieren
     const monthFolderName = await calendarNavigator.extractMonthInfo();
     
+    // Prüfe ob der extrahierte Monat mit dem ermittelten Monat übereinstimmt
+    if (monthFolderName !== nextMonthInfo.folderName) {
+      console.log(`⚠️ Warnung: Extrahierter Monat (${monthFolderName}) stimmt nicht mit ermitteltem Monat (${nextMonthInfo.folderName}) überein`);
+      console.log(`📅 Verwende ermittelten Monat: ${nextMonthInfo.folderName}`);
+    }
+    
+    // Verwende den ermittelten Monatsnamen
+    const targetMonthFolderName = nextMonthInfo.folderName;
+    
+    // Navigiere zum korrekten Monat über Rückwärts-Navigation
+    console.log(`🎯 Navigiere zum Zielmonat: ${nextMonthInfo.month} ${nextMonthInfo.year}`);
+    const navigationSuccess = await calendarNavigator.navigateToSpecificMonth(nextMonthInfo.year, nextMonthInfo.month);
+    
+    if (!navigationSuccess) {
+      console.log(`⚠️ Rückwärts-Navigation fehlgeschlagen - verwende aktuellen Monat`);
+    }
+    
+    // Finale Monatsinformationen extrahieren
+    const finalMonthInfo = await calendarNavigator.getCurrentMonthInfo();
+    console.log(`📅 Finaler Monat auf der Seite: ${finalMonthInfo}`);
+    
     // Kalender-Seite speichern
     const monatOrdner = await calendarNavigator.saveCalendarPage(
       process.env.OUTPUT_DIRECTORY || 'pohlheim_geschuetzt',
-      monthFolderName
+      targetMonthFolderName
     );
     
     // Prüfen ob der Monat bereits vollständig geladen ist
     const monatVollständigGeladen = fs.existsSync(path.join(monatOrdner, 'monat_vollstaendig.txt'));
     if (monatVollständigGeladen) {
-      console.log(`⏭️ Monat ${monthFolderName} bereits vollständig geladen - überspringe`);
+      console.log(`⏭️ Monat ${targetMonthFolderName} bereits vollständig geladen - überspringe`);
       // NICHT return - fahre mit der Navigation zu vorherigen Monaten fort
     } else {
       // Termine extrahieren (mit Cache-Funktionalität)
@@ -132,19 +166,26 @@ const TerminProcessor = require('./termin-processor');
         const monatVollständigDatei = path.join(monatOrdner, 'monat_vollstaendig.txt');
         const monatVollständigInfo = `Monat vollständig geladen: ${new Date().toISOString()}\nAnzahl Termine: ${uniqueTermine.length}\n`;
         fs.writeFileSync(monatVollständigDatei, monatVollständigInfo, 'utf8');
-        console.log(`   ✅ Monat ${monthFolderName} als vollständig markiert`);
+        console.log(`   ✅ Monat ${targetMonthFolderName} als vollständig markiert`);
+        
+        // Prüfe ob es sich um Januar handelt und erstelle jahr_vollstaendig.txt
+        await calendarNavigator.checkAndCreateYearCompleteFile(
+          process.env.OUTPUT_DIRECTORY || 'pohlheim_geschuetzt',
+          targetMonthFolderName,
+          uniqueTermine.length
+        );
       }
     }
     
     // Aktuelle URL der Kalender-Seite anzeigen
-    console.log(`🌐 Kalender-Seite URL: ${kalenderCurrentUrl}`);
+    console.log(`🌐 Kalender-Seite URL: ${page.url()}`);
     
     // Automatische Navigation zu vorherigen Monaten (rückwärts durch die Monate)
     logger.info('Starte automatische Navigation zu vorherigen Monaten...', 'Main');
     
     let monthCounter = 1;
     let processedMonths = new Set(); // Set um bereits verarbeitete Monate zu tracken
-    processedMonths.add(monthFolderName); // Aktueller Monat ist bereits verarbeitet
+    processedMonths.add(targetMonthFolderName); // Aktueller Monat ist bereits verarbeitet
     
     while (true) { // Unbegrenzte Schleife - läuft bis keine Navigation mehr möglich ist
       logger.info(`Verarbeite Monat ${monthCounter}...`, 'Main');
@@ -204,10 +245,10 @@ const TerminProcessor = require('./termin-processor');
       
       for (let i = 0; i < newUniqueTermine.length; i++) {
         const termin = newUniqueTermine[i];
-        await terminProcessor.processTermin(termin, newMonatOrdner, kalenderCurrentUrl);
+        await terminProcessor.processTermin(termin, newMonatOrdner, page.url());
         
         if (i < newUniqueTermine.length - 1) {
-          await page.goto(kalenderCurrentUrl);
+          await page.goto(page.url());
           await page.waitForTimeout(2000);
           if (global.gc) global.gc();
         }
@@ -220,6 +261,13 @@ const TerminProcessor = require('./termin-processor');
       const newMonatVollständigInfo = `Monat vollständig geladen: ${new Date().toISOString()}\nAnzahl Termine: ${newUniqueTermine.length}\n`;
       fs.writeFileSync(newMonatVollständigDatei, newMonatVollständigInfo, 'utf8');
       logger.info(`Monat ${newMonthInfo} als vollständig markiert`, 'Main');
+      
+      // Prüfe ob es sich um Januar handelt und erstelle jahr_vollstaendig.txt
+      await calendarNavigator.checkAndCreateYearCompleteFile(
+        process.env.OUTPUT_DIRECTORY || 'pohlheim_geschuetzt',
+        newMonthFolderName,
+        newUniqueTermine.length
+      );
       
       monthCounter++;
     }
