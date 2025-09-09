@@ -1,0 +1,312 @@
+{
+  "document": {
+    "docType": "session_protocol",
+    "fields": {
+      "document_type": {
+        "type": "string",
+        "value": "Niederschrift"
+      },
+      "session_type": {
+        "type": "string",
+        "value": "Stadtverordnetenversammlung"
+      },
+      "date": {
+        "type": "date",
+        "value": "14.09.2023"
+      },
+      "duration": {
+        "type": "string",
+        "value": "19:05  Uhr bis 20:01  Uhr"
+      },
+      "location": {
+        "type": "string",
+        "value": "Volkshalle Watzenborn -Steinberg, Ludwigstraße 33 -35, 35415 Pohlheim"
+      },
+      "attendance_present": {
+        "type": "array",
+        "value": [
+          {
+            "name": "STV Peter Alexander",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Malke Aydin  ab TOP 3",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Angelika Bartosch",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Karsten Beck er",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Horst Jürgen Briegel",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Lukas Budak",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Sonya Can",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Georg Celik",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Iliyo Danho",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Lorenz Diehl  ab TOP 4",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Kevin Engel",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Björn Feuerbach",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Samuel Gergin",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Eckart Hafemann",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Uwe Happel",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Antje Häuser",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Prof.  Dr. Ernst -Ulrich Huster",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Erich Klotz",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Michel Kögler",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Matthias Kücükkaplan",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Reiner Leidich",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Marc Werner Punzert",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Fabian Schäfer",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Michaela Schöffmann",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Andreas Schuch",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Melanie Schunk -Wießner",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Prof. Dr. Helge Stadelmann",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Fadi Touma",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Simone van Slobbe -Schneider",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Malek Yacoub",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV/024/2021 -2026",
+            "function": "Vom Magistrat",
+            "status": "present"
+          },
+          {
+            "name": "Stadtrat Israel Be Josef",
+            "function": "Vom Magistrat",
+            "status": "present"
+          },
+          {
+            "name": "Stadtrat Jörg Buß",
+            "function": "Vom Magistrat",
+            "status": "present"
+          },
+          {
+            "name": "Stadtrat Ewald Seidler",
+            "function": "Vom Magistrat",
+            "status": "present"
+          },
+          {
+            "name": "Stefan Huster",
+            "function": "Von der Verwaltung",
+            "status": "present"
+          },
+          {
+            "name": "Thomas Telling",
+            "function": "Schriftführer(in)",
+            "status": "present"
+          },
+          {
+            "name": "Entschuldi gt:",
+            "function": "Schriftführer(in)",
+            "status": "present"
+          },
+          {
+            "name": "STV Risko Bulut",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Simon Hafemann",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Bettina Jost",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Matthias Jung",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Norman Klotz",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "STV Dr. Melanie Neeb",
+            "function": "Von der Stadtverordnetenversammlung",
+            "status": "present"
+          },
+          {
+            "name": "Bürgermeister Andreas Ruck",
+            "function": "Vom Magistrat",
+            "status": "present"
+          },
+          {
+            "name": "Erster Stadtrat Klaus Dieter Gimbel",
+            "function": "Vom Magistrat",
+            "status": "present"
+          },
+          {
+            "name": "Stadtrat Ph ilipp Niklas Mackowiak",
+            "function": "Vom Magistrat",
+            "status": "present"
+          },
+          {
+            "name": "Stadtrat Reinhard Peter",
+            "function": "Vom Magistrat",
+            "status": "present"
+          },
+          {
+            "name": "Stadtrat Dr. Karl Ernst Rainer Pfaff",
+            "function": "Vom Magistrat",
+            "status": "present"
+          },
+          {
+            "name": "Stadtrat Wolfgang Sames",
+            "function": "Vom Magistrat",
+            "status": "present"
+          }
+        ]
+      },
+      "attendance_excused": {
+        "type": "array",
+        "value": []
+      },
+      "attendance_summary": {
+        "type": "object",
+        "value": {
+          "total_present": 49,
+          "total_excused": 0,
+          "total_participants": 49
+        }
+      }
+    }
+  },
+  "labels": [
+    {
+      "label": "document_type",
+      "confidence": 0.95,
+      "source": "extracted"
+    },
+    {
+      "label": "session_type",
+      "confidence": 0.9,
+      "source": "extracted"
+    },
+    {
+      "label": "attendance_data",
+      "confidence": 0.85,
+      "source": "extracted"
+    }
+  ],
+  "azure_metadata": {
+    "analysis_method": "Azure + Local",
+    "total_pages": 2,
+    "extraction_timestamp": "2025-09-08T23:46:59.374216",
+    "document_path": "D:\\ki\\session_net\\pohlheim_protokolle\\Stavo\\2023_September_Stadtverordnetenversammlung_Niederschrift_STV.pdf"
+  }
+}

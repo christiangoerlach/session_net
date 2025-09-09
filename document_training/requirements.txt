@@ -1,0 +1,6 @@
+azure-ai-documentintelligence>=1.0.0
+python-dotenv>=1.0.0
+PyPDF2
+requests>=2.25.0
+azure-storage-blob
+PyMuPDF>=1.23.0
