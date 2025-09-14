@@ -3,8 +3,8 @@
   "document_type": "Niederschrift",
   "session_type": "Stadtverordnetenversammlung",
   "date": "2023-05-04T00:00:00Z",
-  "duration": "19:03  Uhr bis 20:44  Uhr",
-  "location": "Volkshalle Watzenborn -Steinberg, Ludwigstraße 33 -35, 35415 Pohlheim",
+  "duration": "19:03 Uhr bis 20:44 Uhr",
+  "location": "Volkshalle Watzenborn-Steinberg, Ludwigstraße 33-35, 35415 Pohlheim",
   "attendance_present": [
     {
       "name": "STV Peter Alexander",
@@ -92,7 +92,7 @@
       "status": "present"
     },
     {
-      "name": "STV Prof. Dr. Ernst -Ulrich Huster",
+      "name": "STV Prof. Dr. Ernst-Ulrich Huster",
       "function": "Von der Stadtverordnetenversammlung",
       "status": "present"
     },
@@ -147,7 +147,7 @@
       "status": "present"
     },
     {
-      "name": "STV Melanie Schunk -Wießner",
+      "name": "STV Melanie Schunk-Wießner",
       "function": "Von der Stadtverordnetenversammlung",
       "status": "present"
     },
@@ -162,12 +162,12 @@
       "status": "present"
     },
     {
-      "name": "STV Simone van Slobbe -Schneider",
+      "name": "STV Simone van Slobbe-Schneider",
       "function": "Von der Stadtverordnetenversammlung",
       "status": "present"
     },
     {
-      "name": "STV/021/2021 -2026  STV Malek Yacoub",
+      "name": "STV Malek Yacoub",
       "function": "Von der Stadtverordnetenversammlung",
       "status": "present"
     },
@@ -200,61 +200,206 @@
       "name": "Thomas Telling",
       "function": "Schriftführer(in)",
       "status": "present"
-    },
-    {
-      "name": "Entschuldigt :",
-      "function": "Schriftführer(in)",
-      "status": "present"
-    },
+    }
+  ],
+  "attendance_excused": [
     {
       "name": "STV Lukas Budak",
       "function": "Von der Stadtverordnetenversammlung",
-      "status": "present"
+      "status": "excused"
     },
     {
       "name": "STV Matthias Jung",
       "function": "Von der Stadtverordnetenversammlung",
-      "status": "present"
+      "status": "excused"
     },
     {
       "name": "STV Erich Klotz",
       "function": "Von der Stadtverordnetenversammlung",
-      "status": "present"
+      "status": "excused"
     },
     {
       "name": "Stadtrat Israel Be Josef",
       "function": "Vom Magistrat",
-      "status": "present"
+      "status": "excused"
     },
     {
       "name": "Erster Stadtrat Klaus Dieter Gimbel",
       "function": "Vom Magistrat",
-      "status": "present"
+      "status": "excused"
     },
     {
       "name": "Stadtrat Reinhard Peter",
       "function": "Vom Magistrat",
-      "status": "present"
+      "status": "excused"
     },
     {
       "name": "Stadtrat Dr. Karl Ernst Rainer Pfaff",
       "function": "Vom Magistrat",
-      "status": "present"
+      "status": "excused"
     },
     {
       "name": "Stadtrat Wolfgang Sames",
       "function": "Vom Magistrat",
-      "status": "present"
+      "status": "excused"
     }
   ],
-  "attendance_excused": [],
-  "total_present": 48,
-  "total_excused": 0,
-  "total_participants": 48,
-  "agenda": "TOP 1  Eröffnung sowie Feststellung der ordnungsgemäßen \nLadung und der Beschlussfähigkeit   \n   \nTOP 2  Feststellung der Niederschrift(en) v om 23. und 24. März \n2023   \n   \nTOP 3  Präsentation der Entwurfsplanung Kita Magdeburger \nStraße durch den Architekten  STV-206/2021 -\n2026  \n   \nTOP 4  Antrag \"Jugend entscheidet\" vom 9. März 2023 betr. \nÖPNV - Busverkehr  A-194/2021 -2026  \n   \nTOP 5  Antrag \"Juge nd entscheidet\" vom 9. März 2023 betr. \nErtüchtigung vorhandener Sportstätten  A-195/2021 -2026  \n   \nTOP 6  Antrag der Fraktion Bündnis 90/Die Grünen vom 22. \nMärz 2023 betr. Bürgerbeteiligung Windpark Höhlerberg  A-197/2021 -2026  \n\n____ _______  \n \nSTV/021/2021 -2026  TOP 7  Bebauungsplan Nr. 23 ,,Garbenteich -Ost\" im Stadtteil \nGarbenteich;  \nEinleitungsbeschluss für ein ,,ergänzendes Verfahren\" \ngem. § 214 Abs. 4 BauGB  STV-199/2021 -\n2026  \n   \nTOP 8  Brand - und Katastrophenschutz;  \nVerlängerung des Vertrages zum Kreisfahrzeugkonzept \nFeuerwehr mit dem  Landkreis Gießen und dessen 18 \nKreiskommunen  STV-200/2021 -\n2026  \n   \nTOP 9  Betriebskommission Wasserwerke Pohlheim;  \nWahl einer Vertreterin/eines Vertreters und einer Stell-\nvertreterin/eines Stellvertreters in die Betriebskommissi-\non Wasserwerke Pohlheim; Pe rsonalrat  STV-201/2021 -\n2026  \n   \nTOP 10  Erweiterung und Sanierung Kita Garbenteich \"Unten\" \nFröbelstraße 4  \nTeilweise Aufhebung des Sperrvermerks für Ausschrei-\nbung von Planungsleistungen  STV-203/2021 -\n2026  \n   \nTOP 11  Städt. Anwesen Ludwigstrasse 37 im Stad tteil Watzen-\nborn-Steinberg;  \nUm- und Anbau zu einem Jugendzentrum;  \nAufhebung Sperrvermerk;  \nArchitektenleistung  STV-204/2021 -\n2026  \n   \nTOP 12  Bericht über den Haushaltsvollzug zum 31.03.2023  STV-205/2021 -\n2026  \n   \nTOP 13  Antrag der CDU -Fraktion vom 21. Ap ril 2023 betr. Pho-\ntovoltaikanlagen auf den KiTa -Gebäuden und anderen \nöffentlichen Gebäuden  A-207/2021 -2026  \n   \nTOP 14  Antrag der CDU -Fraktion vom 21. April 2023 betr. Bau-\ngebiet „Hinter der Burg“ in Grüningen  A-208/2021 -2026  \n   \nTOP 15  Antrag der CDU -Fraktion vom 21. April 2023 betr. Öff-\nnungszeiten des Stadtbüros  A-209/2021 -2026  \n   \nTOP 16  Antrag der CDU -Fraktion vom 21. April 2023 betr. Kita -\nNeubau Magdeburger Straße  A-210/2021 -2026  \n   \nTOP 17  Mitteilungen   \n   \nTOP 18  Beantwortung von Anfragen   \n   \nTOP 18.1  Anfrage 1   \n   \nTOP 18.2  Anfrage 2   \n\n____ _______  \n \nSTV/021/2021 -2026",
+  "total_present": 39,
+  "total_excused": 8,
+  "total_participants": 47,
+  "agenda": "TOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen\nLadung und der Beschlussfähigkeit\nTOP 2 Feststellung der Niederschrift(en) vom 23. und 24. März\n2023\nTOP 3 Präsentation der Entwurfsplanung Kita Magdeburger STV-206/2021-\nStraße durch den Architekten 2026\nTOP 4 Antrag \"Jugend entscheidet\" vom 9. März 2023 betr. A-194/2021-2026\nÖPNV - Busverkehr\nTOP 5 Antrag \"Jugend entscheidet\" vom 9. März 2023 betr. A-195/2021-2026\nErtüchtigung vorhandener Sportstätten\nTOP 6 Antrag der Fraktion Bündnis 90/Die Grünen vom 22. A-197/2021-2026\nMärz 2023 betr. Bürgerbeteiligung Windpark Höhlerberg\n___________\n\n\nTOP 7 Bebauungsplan Nr. 23 ,,Garbenteich-Ost\" im Stadtteil STV-199/2021-\nGarbenteich; 2026\nEinleitungsbeschluss für ein ,,ergänzendes Verfahren\"\ngem. § 214 Abs. 4 BauGB\nTOP 8 Brand- und Katastrophenschutz; STV-200/2021-\nVerlängerung des Vertrages zum Kreisfahrzeugkonzept 2026\nFeuerwehr mit dem Landkreis Gießen und dessen 18\nKreiskommunen\nTOP 9 Betriebskommission Wasserwerke Pohlheim; STV-201/2021-\nWahl einer Vertreterin/eines Vertreters und einer Stell- 2026\nvertreterin/eines Stellvertreters in die Betriebskommissi-\non Wasserwerke Pohlheim; Personalrat\nTOP 10 Erweiterung und Sanierung Kita Garbenteich \"Unten\" STV-203/2021-\nFröbelstraße 4 2026\nTeilweise Aufhebung des Sperrvermerks für Ausschrei-\nbung von Planungsleistungen\nTOP 11 Städt. Anwesen Ludwigstrasse 37 im Stadtteil Watzen- STV-204/2021-\nborn-Steinberg; 2026\nUm- und Anbau zu einem Jugendzentrum;\nAufhebung Sperrvermerk;\nArchitektenleistung\nTOP 12 Bericht über den Haushaltsvollzug zum 31.03.2023 STV-205/2021-\n2026\nTOP 13 Antrag der CDU-Fraktion vom 21. April 2023 betr. Pho- A-207/2021-2026\ntovoltaikanlagen auf den KiTa-Gebäuden und anderen\nöffentlichen Gebäuden\nTOP 14 Antrag der CDU-Fraktion vom 21. April 2023 betr. Bau- A-208/2021-2026\ngebiet „Hinter der Burg“ in Grüningen\nTOP 15 Antrag der CDU-Fraktion vom 21. April 2023 betr. Öff- A-209/2021-2026\nnungszeiten des Stadtbüros\nTOP 16 Antrag der CDU-Fraktion vom 21. April 2023 betr. Kita- A-210/2021-2026\nNeubau Magdeburger Straße\nTOP 17 Mitteilungen\nTOP 18 Beantwortung von Anfragen\nTOP 18.1 Anfrage 1\nTOP 18.2 Anfrage 2\n___________\n\n\n--- SEITE 4 ---",
+  "top_contents": [
+    {
+      "nummer": "1",
+      "ueberschrift": "TOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen Ladung und der Be-\nschlussfähigkeit",
+      "vorlage": "",
+      "inhalt": "Stadtverordnetenvorsteherin Hiltrud Hofmann begrüßt alle Anwesenden und stellt ordnungs-\ngemäße Ladung und Beschlussfähigkeit fest.\nSie teilt mit, dass der Tagesordnungspunkt 11 von der heutigen Tagesordnung abgesetzt\nund erneut in den Ausschüssen beraten werde.\nAnschließend nimmt sie die Gelegenheit war und gratuliert den Stadtverordneten Risko\nBulut, Samuel Gergin, Uwe Happel und Peter Alexander sowie Bürgermeister Andreas Ruck\nund Ersten Stadtrat Klaus Dieter Gimbel nachträglich zum Geburtstag.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "2",
+      "ueberschrift": "TOP 2 Feststellung der Niederschrift(en) vom 23. und 24. März 2023",
+      "vorlage": "",
+      "inhalt": "Die Niederschriften vom 23. und 24. März 2023 werden ohne Änderung festgestellt.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "3",
+      "ueberschrift": "TOP 3 Präsentation der Entwurfsplanung Kita Magdeburger Straße durch den Ar-\nchitekten",
+      "vorlage": "Vorlage: STV-206/2021-2026",
+      "inhalt": "Zu diesem Tagesordnungspunkt sind Frau Melanie Geiss und Frau Daniela Schönberger\nvom Architekturbüro planwerk anwesend und stellen die Entwurfsplanung zum Kita-Neubau\nMagdeburger Straße vor.\nAnschließend werden Fragen aus den Reihen der Stadtverordnetenversammlung durch die\nArchitektinnen beantwortet.\nBürgermister Andreas Ruck erläutert den weiteren Verlauf der Planungen. Die endgültige\nBeschlussfassung solle in der Sitzung der Stadtverordnetenversammlung am\n14. September 2023 erfolgen. Es sei vorgesehen, den Offenlagebeschluss am 1. Juni 2023\nim Magistrat und am 15. Juni 2023 in der Stadtverordnetenversammlung zu beraten\nDie vorgestellten Pläne werden der Niederschrift als Anlage beigefügt und können in der\nnächsten Sitzungsrunde im Juni beraten werden.\nAußerdem teilt Bürgermeister Andreas Ruck mit, dass der zukünftige Betreiber der Kita mit in\ndie Planungen einbezogen werde.\nDie Stadtverordnetenversammlung nimmt die Präsentation der Entwurfsplanung zur Kennt-\nnis.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "4",
+      "ueberschrift": "TOP 4 Antrag \"Jugend entscheidet\" vom 9. März 2023 betr. ÖPNV - Busverkehr",
+      "vorlage": "Vorlage: A-194/2021-2026",
+      "inhalt": "STV Eckart Hafemann berichtet aus der Sitzung des Ausschusses für Bauen, Stadtentwick-\nlung und Umwelt.\nDer Antrag bleibt im Geschäftsgang und wird in einer gemeinsamen Sitzung aller Ausschüs-\nse am 24. Mai 2023 erneut beraten.\n___________\n\n\n--- SEITE 5 ---",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "5",
+      "ueberschrift": "TOP 5 Antrag \"Jugend entscheidet\" vom 9. März 2023 betr. Ertüchtigung vorhan-\ndener Sportstätten",
+      "vorlage": "Vorlage: A-195/2021-2026",
+      "inhalt": "STV Uwe Happel berichtet aus der Sitzung des Ausschusses für Soziales, Kultur und Sport.\nDie Stadtverordnetenvorsteherin lässt über folgenden Beschlussvorschlag abstimmen:\n„Die Stadtverordnetenversammlung beschließt, bei der Investition I064501-02 – Projekte\n„Jugend entscheidet“ den Sperrvermerk für einen Teilbetrag von 25.000 Euro aufzuheben.“",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen\nDer Antrag bleibt im Geschäftsgang und wird in einer gemeinsamen Sitzung aller Ausschüs-\nse am 24. Mai 2023 erneut beraten."
+    },
+    {
+      "nummer": "6",
+      "ueberschrift": "TOP 6 Antrag der Fraktion Bündnis 90/Die Grünen vom 22. März 2023 betr. Bürger-\nbeteiligung Windpark Höhlerberg",
+      "vorlage": "Vorlage: A-197/2021-2026",
+      "inhalt": "Der Stadtverordnetenversammlung liegt folgender Antrag der Fraktion Bündnis 90/Die Grü-\nnen vom 22. März 2023 vor:\n„Der Magistrat wird beauftragt, sich dringend bei der Windenergiepark Höhlerberg GmbH,\nHauptstr. 2-4, 77704 Oberkirch dafür einzusetzen, dass eine Bürgerbeteiligung beim Betrieb\ndes Windkraftrades auf dem Pohlheimer Gelände ermöglicht werden kann, beispielsweise\ndurch Einbeziehung einer Bürgergenossenschaft.\nÜber die Ergebnisse sind die Stadtverordneten per Email zu informieren, und über die Er-\ngebnisse soll in der nächsten Gremienrunde beraten werden.“\nSTV Simone van Slobbe-Schneider bringt den Antrag ein und begründet ihn.\nBürgermeister Andreas Ruck gibt Informationen zum aktuellen Sachstand.\nStadtverordnetenvorsteherin Hiltrud Hofmann regt an, den alten Vertrag allen Stadtverordne-\nten zukommen zu lassen.\nAnschließend lässt sie über den Antrag wie folgt abstimmen:",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n32 Ja-Stimmen\n1 Nein-Stimme\n1 Enthaltung"
+    },
+    {
+      "nummer": "7",
+      "ueberschrift": "TOP 7 Bebauungsplan Nr. 23 ,,Garbenteich-Ost\" im Stadtteil Garbenteich;",
+      "vorlage": "",
+      "inhalt": "Einleitungsbeschluss für ein ,,ergänzendes Verfahren\" gem. § 214 Abs. 4\nBauGB\nVorlage: STV-199/2021-2026\n___________\n\n\nSTV Eckart Hafemann berichtet aus der Sitzung des Ausschusses für Bauen, Stadtentwick-\nlung und Umwelt.\nDie Stadtverordnetenvorsteherin lässt über folgenden Beschlussvorschlag abstimmen:\n„Die Stadtverordnetenversammlung beschließt, ein ergänzendes Verfahren nach § 214 Abs.\n4 BauGB für den Bebauungsplan Nr. 23 „Garbenteich Ost“ einzuleiten und nach Fertigstel-\nlung des neuen Artenschutzkonzepts eine erneute Öffentlichkeits- und Behördenbeteiligung\nmit eingeschränkter Möglichkeit zur Stellungnahme nach § 4a Abs. 3 S. 2 BauGB durchzu-\nführen.“",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n26 Ja-Stimmen\n7 Nein-Stimmen\n1 Enthaltung"
+    },
+    {
+      "nummer": "8",
+      "ueberschrift": "TOP 8 Brand- und Katastrophenschutz;",
+      "vorlage": "",
+      "inhalt": "Verlängerung des Vertrages zum Kreisfahrzeugkonzept Feuerwehr mit dem\nLandkreis Gießen und dessen 18 Kreiskommunen\nVorlage: STV-200/2021-2026\nSTV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nÜber den Beschlussvorschlag wird wie folgt abgestimmt:\n„Die Stadtverordnetenversammlung beschließt, zur Sicherung der kommunalen Pflichtaufga-\nben im Bereich des Brandschutzes, die Verlängerung des „Vertrages über die interkommu-\nnale Zusammenarbeit bei der Erfüllung von Aufgaben nach dem Hessischen Brand- und\nKatastrophenschutzgesetz“ mit dem Landkreis Gießen mit Wirkung zum 1. Januar 2023 ab-\nzuschließen.“",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "9",
+      "ueberschrift": "TOP 9 Betriebskommission Wasserwerke Pohlheim;",
+      "vorlage": "",
+      "inhalt": "Wahl einer Vertreterin/eines Vertreters und einer Stellvertreterin/eines Stell-\nvertreters in die Betriebskommission Wasserwerke Pohlheim; Personalrat\nVorlage: STV-201/2021-2026\nSTV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nDie Stadtverordnetenvorsteherin lässt über folgenden Beschlussvorschlag abstimmen:\nDie Stadtverordnetenversammlung beschließt, Herrn Alexander Bauer für die Stellvertreter-\nposition für die Betriebskommission zu wählen.\n\n\n\n--- SEITE 7 ---",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen\n___________"
+    },
+    {
+      "nummer": "10",
+      "ueberschrift": "TOP 10 Erweiterung und Sanierung Kita Garbenteich \"Unten\" Fröbelstraße 4",
+      "vorlage": "",
+      "inhalt": "Teilweise Aufhebung des Sperrvermerks für Ausschreibung von Planungs-\nleistungen\nVorlage: STV-203/2021-2026\nSTV Eckart Hafemann berichtet aus der Sitzung des Ausschusses für Bauen, Stadtentwick-\nlung und Umwelt.\nSTV Uwe Happel berichtet aus der Sitzung des Ausschusses für Soziales, Kultur und Sport.\nSTV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nÜber den Beschlussvorschlag wird wie folgt abgestimmt:\n„Die Stadtverordnetenversammlung beschließt den Sperrvermerk zum Haushaltsansatz\n2023 und den VE 2023 für die Investitionen Kita Garbenteich, Investitionsprogramm\nI064601-24, in Höhe eines Teilbetrags von 200.000 € für die Ausschreibung und Vergabe\nvon Planungsleistungen aufzuheben.“",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "11",
+      "ueberschrift": "TOP 11 Städt. Anwesen Ludwigstrasse 37 im Stadtteil Watzenborn-Steinberg;\nUm- und Anbau zu einem Jugendzentrum;\nAufhebung Sperrvermerk;\nArchitektenleistung",
+      "vorlage": "Vorlage: STV-204/2021-2026",
+      "inhalt": "Zurückgestellt.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "12",
+      "ueberschrift": "TOP 12 Bericht über den Haushaltsvollzug zum 31.03.2023",
+      "vorlage": "Vorlage: STV-205/2021-2026",
+      "inhalt": "Der Bericht über den Haushaltsvollzug zum 31.03.2023 ist den Stadtverordneten bereits vor-\nab zugegangen und zur Kenntnis genommen worden.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "13",
+      "ueberschrift": "TOP 13 Antrag der CDU-Fraktion vom 21. April 2023 betr. Photovoltaikanlagen auf",
+      "vorlage": "",
+      "inhalt": "den KiTa-Gebäuden und anderen öffentlichen Gebäuden\nVorlage: A-207/2021-2026\nDer Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vom\n21. April 2023 vor:\n„Der Magistrat wird beauftragt ein Konzept (inkl. Machbarkeit und Kostenfaktor) zur Errich-\ntung von Photovoltaikanlagen auf den städtischen -Gebäuden vorzulegen, welches die\nStadtverordneten in die Lage versetzt über die Reihenfolge und den Zeitraum einer Umset-\nzung zu beschließen.“\nSTV Reiner Leidich bringt den Antrag ein, begründet ihn und verweist ihn in den Ausschuss\nfür Bauen, Stadtentwicklung und Umwelt sowie in den Klimabeirat.\n___________\n\n\nBürgermeister Andreas Ruck gibt eine kurze Stellungnahme zum Antrag ab und teilt mit,\ndass noch in diesem Jahr auf den Dächern der Limeshalle sowie der Kulturellen Mitte Photo-\nvoltaikanlagen installiert werden sollen.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "14",
+      "ueberschrift": "TOP 14 Antrag der CDU-Fraktion vom 21. April 2023 betr. Baugebiet „Hinter der\nBurg“ in Grüningen",
+      "vorlage": "Vorlage: A-208/2021-2026",
+      "inhalt": "Der Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vom\n21. April 2023 vor:\n„Die Stadtverordnetenversammlung möge beschließen:\n1. Der dem Ortsbeirat vorgelegte Entwurf des Bebauungsplans Nr. 9 „Am Wartweg und\nBurgweg“ (s. Anlage) ist in der Stadtverordnetenversammlung durch das Planungs-\nbüro vorzustellen.\n2. Die einzelnen Fraktionen sollen ihre Änderungswünsche zur Entwurfsplanung in-\nnerhalb von 14 Tagen nach der Präsentation der Stadtverordnetenvorsteherin\nschriftlich mitteilen. Diese sind in der folgenden Sitzung des BSU-Ausschusses zu\ndiskutieren, so dass der Stadtverordnetenversammlung eine Beschlussempfehlung\nvorgelegt werden kann. Dabei ist auch eine Aussage zum Umgang mit dem durch die\nSPD bei den Haushaltsberatungen angebrachten Sperrvermerk zu treffen.“\nSTV Dr. Melanie Neeb bringt den Antrag ein, begründet ihn und verweist ihn in den Aus-\nschuss für Bauen, Stadtentwicklung und Umwelt.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15",
+      "ueberschrift": "TOP 15 Antrag der CDU-Fraktion vom 21. April 2023 betr. Öffnungszeiten des Stadt-\nbüros",
+      "vorlage": "Vorlage: A-209/2021-2026",
+      "inhalt": "Der Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vom\n21. April 2023 vor:\n„Der Magistrat wird aufgefordert, unverzüglich die Öffnungszeiten des Stadtbüros wieder wie\nfolgt bürgerfreundlich anzupassen:\nStadtbüro: Mo, Di, Do: 7:30 - 18 Uhr, Fr: 7:30 - 12 Uhr\nWeiterhin wird der Magistrat aufgefordert die Online-Terminvergabe für das Stadtbüro kurz-\nfristig wieder freizuschalten.“\nSTV Prof. Dr. Helge Stadelmann bringt den Antrag ein, begründet ihn und verweist ihn in den\nAusschuss für Soziales, Kultur und Sport sowie in de Haupt- und Finanzausschuss.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "16",
+      "ueberschrift": "TOP 16 Antrag der CDU-Fraktion vom 21. April 2023 betr. Kita-Neubau Magdeburger\nStraße",
+      "vorlage": "Vorlage: A-210/2021-2026",
+      "inhalt": "Der Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vom\n21. April 2023 vor:\n___________\n\n\n„Die CDU-Fraktion beantragt für die Mai-Sitzung der Stadtverordnetenversammlung:\nVorstellung der Vorentwurfsplanungen des Kita-Neubaus in der Magdeburger Straße durch\ndas beauftragte Planungsbüro oder die Bauverwaltung. Eine Vorabzusendung der Entwurfs-\nunterlagen wird beantragt.“\nSTV Reiner Leidich teilt mit, dass der Antrag auf Grund der Präsentation (s.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "3",
+      "ueberschrift": "TOP 3) Erledi-\ngung erfahren habe.",
+      "vorlage": "",
+      "inhalt": "",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "17",
+      "ueberschrift": "TOP 17 Mitteilungen\nKeine.",
+      "vorlage": "",
+      "inhalt": "",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "18",
+      "ueberschrift": "TOP 18 Beantwortung von Anfragen",
+      "vorlage": "",
+      "inhalt": "",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "18.1",
+      "ueberschrift": "TOP 18.1 Anfrage 1",
+      "vorlage": "",
+      "inhalt": "Es liegt folgende Anfrage des Stadtverordneten Reiner Leidich vor:\n„Sehr geehrter Herr Bürgermeister,\nim Investitionsplan für 2022 sind für die Kirchstraße 2 folgende Maßnahmen aufgeführt und\nwurden entsprechend beschlossen:\nBeschaffung von Klimageräten sowie neue Teeküche im OG. Für beide Maßnahmen wurden\n42.000 € zur Verfügung gestellt. Für die Teeküche im OG wurde ein Haushaltsrest über\n12.000 € gebildet.\nIch bitte um Beantwortung folgender Fragen:\n1. Wieviel wurde für die Sanierung des Besucher-/Wartezimmers ausgegeben? Auf\nwelchen Konten erfolgte die Verbuchung?\n2. Wieviel wurde für die Möblierung/Ausstattung (siehe Bilder) ausgegeben? Auf wel-\nchen Konten erfolgte die Verbuchung?\n3. Ich bitte um Vorlage eines Ausdruckes vom Investitionskonto für das Jahr 2022 mit\nder Nr. I010005-22 Investitionen Kirchstraße 2.\n4. Nach meiner Erinnerung wurde zwischen 2016 und 2019 das Besucher-\n/Wartezimmer renoviert.\na) Wie hoch waren die damaligen Kosten und welche Arbeiten wurden ausgeführt?\nb) Warum wurde der Fußbodenbelag in 2022 ausgetauscht, obgleich der bisherige\neinen guten Zustand vermittelte?“\nDie Beantwortung wird der Niederschrift als Anlage beigefügt.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "18.2",
+      "ueberschrift": "TOP 18.2 Anfrage 2",
+      "vorlage": "",
+      "inhalt": "Es liegt folgende Anfrage des Stadtverordneten Prof. Dr. Helge Stadelmann vor:\n„Sehr geehrter Herr Bürgermeister,\n___________\n\n\nin der Stadtverordnetensitzung vom 03.02.2022 wurde der vorgenannte Antrag bei Enthal-\ntung der CDU",
+      "abstimmung": "einstimmig beschlossen.\nIch bitte um einen Sachstandsbericht zu den einzelnen Beschlusspunkten (s. Anlage).\nDaneben bitte ich um konkrete Aussagen zu den Möglichkeiten der Umsetzung eines Famili-\nenzentrums im Zusammenhang mit dem geplanten Kita-Neubau in der Kirchstraße sowie im\nSchwarzen Morgen.“\nBürgermeister Andreas erläutert ausführlich den Sachstand. Zur Frage der Fördermittel für\nden Aufbau und Betrieb von Familienzentren teilt er folgendes mit:\nFördermittel Landkreis:\nGemäß der Richtline Maßnahmen des Landkreises Gießen zur Weiterentwicklung von Kin-\ndertageseinrichtungen in Kinder- und Familienzentren unter Einbeziehung des Hessischen\nBildungs- und Erziehungsplans werden jährlich folgende Mittel zur Verfügung gestellt:\n- Auf Trägereben eine Anschubfinanzierung für Seminare in Höhe von 2.500,00 € jähr-\nlich.\n- Auf Einrichtungsebene gegliedert für Konzepte 3.000,00 € und für Projekte 2.500,00\n€ jährlich.\n- Für eine Koordinationsstelle (Nachweis Arbeitsvertrag) werden jährlich für maximal\nsechs Träger Mittel in Höhe von 6.000,00 € zur Verfügung gestellt.\nFördermittel Land:\nGemäß der Neufassung der Fach- und Fördergrundsätze zur Etablierung von Familienzen-\ntren in Hessen fördert das Land als Projektförderung im Wege der Festbetragsfinanzierung\nals nicht rückzahlbaren Zuschuss 18.000,00 € pro Einrichtung und Haushaltsjahr.\nDie Umsetzung eines Familienzentrums sei grundsätzlich vorstellbar."
+    }
+  ],
   "analysis_method": "Azure + Local",
   "total_pages": 2,
-  "extraction_timestamp": "2025-09-14T11:58:52.265598",
+  "extraction_timestamp": "2025-09-14T14:03:25.196794",
   "document_path": "input\\2023_Mai_Stadtverordnetenversammlung_Niederschrift_STV.pdf",
   "full_text": "Stadt Pohlheim\nPohlheim, 10.05.2023\nAz .: STV/021/2021-2026\nNIEDERSCHRIFT\nüber die Sitzung der Stadtverordnetenversammlung der Stadt Pohlheim\nTag:\n04.05.2023\nDauer:\n19:03 Uhr bis 20:44 Uhr\nOrt:\nVolkshalle Watzenborn-Steinberg, Ludwigstraße 33-35, 35415 Pohlheim\nAnwesend:\nVon der Stadtverordnetenversammlung\nStadtverordnetenvorsteherin Hiltrud Hofmann\nSTV Peter Alexander\nSTV Malke Aydin\nSTV Angelika Bartosch\nSTV Karsten Becker\nSTV Horst Jürgen Briegel\nSTV Risko Bulut\nSTV Sonya Can\nSTV Georg Celik\nSTV Iliyo Danho\nSTV Lorenz Diehl\nSTV Kevin Engel\nSTV Björn Feuerbach\nSTV Samuel Gergin\nSTV Eckart Hafemann\nSTV Simon Hafemann\nSTV Uwe Happel\nSTV Antje Häuser\nSTV Prof. Dr. Ernst-Ulrich Huster\nSTV Bettina Jost\nSTV Norman Klotz\nSTV Michel Kögler\nSTV Matthias Kücükkaplan\nSTV Reiner Leidich\nSTV Dr. Melanie Neeb\nSTV Marc Werner Punzert\nSTV Fabian Schäfer\nSTV Michaela Schöffmann\nSTV Andreas Schuch\nSTV Melanie Schunk-Wießner\nSTV Prof. Dr. Helge Stadelmann\nSTV Fadi Touma\nSTV Simone van Slobbe-Schneider\nSeite 1 von 10\nSTV/021/2021-2026\nSTV Malek Yacoub\nVom Magistrat\nBürgermeister Andreas Ruck\nStadtrat Jörg Buß\nStadtrat Philipp Niklas Mackowiak\nStadtrat Ewald Seidler\nVon der Verwaltung\nStefan Huster\nSchriftführer(in)\nThomas Telling\nEntschuldigt:\nVon der Stadtverordnetenversammlung\nSTV Lukas Budak\nSTV Matthias Jung\nSTV Erich Klotz\nVom Magistrat\nStadtrat Israel Be Josef\nErster Stadtrat Klaus Dieter Gimbel\nStadtrat Reinhard Peter\nStadtrat Dr. Karl Ernst Rainer Pfaff\nStadtrat Wolfgang Sames\nTAGESORDNUNG:\nTOP 1\nEröffnung sowie Feststellung der ordnungsgemäßen\nLadung und der Beschlussfähigkeit\nTOP 2\nFeststellung der Niederschrift(en) vom 23. und 24. März\n2023\nTOP 3\nPräsentation der Entwurfsplanung Kita Magdeburger\nStraße durch den Architekten\nSTV-206/2021-\n2026\nTOP 4\nAntrag \"Jugend entscheidet\" vom 9. März 2023 betr.\nÖPNV - Busverkehr\nA-194/2021-2026\nTOP 5\nAntrag \"Jugend entscheidet\" vom 9. März 2023 betr.\nErtüchtigung vorhandener Sportstätten\nA-195/2021-2026\nTOP 6\nAntrag der Fraktion Bündnis 90/Die Grünen vom 22.\nMärz 2023 betr. Bürgerbeteiligung Windpark Höhlerberg\nA-197/2021-2026\nSeite 2 von 10\nSTV/021/2021-2026\n"
 }

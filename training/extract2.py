@@ -2,7 +2,7 @@ import re
 import os
 import json
 import base64
-import PyPDF2
+import pdfplumber
 from datetime import datetime
 from azure.ai.documentintelligence import DocumentIntelligenceClient
 from azure.core.credentials import AzureKeyCredential
@@ -50,6 +50,159 @@ class DocumentAnalyzer:
             # Bei Parsing-Fehlern ursprünglichen String zurückgeben
             return date_string
     
+    def extract_top_contents(self, text):
+        """
+        Extrahiert die einzelnen TOPs mit ihren Inhalten
+        
+        Args:
+            text (str): Der zu analysierende Text
+            
+        Returns:
+            list: Liste von TOP-Dictionaries mit nummer, ueberschrift, vorlage, inhalt, abstimmung
+        """
+        # Finde das Ende der Tagesordnung (vor der Beschlussphase)
+        tagesordnung_match = re.search(r'TAGESORDNUNG\s*:?', text, re.IGNORECASE)
+        if not tagesordnung_match:
+            return []
+        
+        agenda_start = tagesordnung_match.end()
+        
+        # Finde alle TOPs nach der Tagesordnung
+        top_matches = list(re.finditer(r'TOP\s+(\d+(?:\.\d+)?)', text[agenda_start:], re.IGNORECASE))
+        
+        if len(top_matches) < 2:
+            return []
+        
+        # Finde das erste echte TOP 1 (Tagesordnung)
+        first_top1_text = None
+        for match in top_matches:
+            if match.group(1) == '1':
+                first_top1_text = text[agenda_start + match.end():agenda_start + match.end() + 50]
+                break
+        
+        # Finde das Ende der Tagesordnung durch Text-Vergleich
+        agenda_end = None
+        for i, match in enumerate(top_matches):
+            top_num = match.group(1)
+            if top_num == '1' and i > 0:  # Nicht das erste TOP 1
+                current_text = text[agenda_start + match.end():agenda_start + match.end() + 50]
+                if first_top1_text and current_text.strip() == first_top1_text.strip():
+                    agenda_end = agenda_start + match.start()
+                    break
+        
+        if not agenda_end:
+            return []
+        
+        # Extrahiere den Bereich nach der Tagesordnung (Beschlussphase)
+        beschluss_text = text[agenda_end:]
+        
+        # Finde das Ende der Beschlussphase (vor Unterschriften)
+        unterschrift_patterns = [
+            r'Die Vorsitzende.*?Schriftführer',
+            r'Vorsitzende.*?Schriftführer',
+            r'Unterschriften',
+            r'gez\..*?gez\.'
+        ]
+        
+        beschluss_end = len(beschluss_text)
+        for pattern in unterschrift_patterns:
+            match = re.search(pattern, beschluss_text, re.DOTALL | re.IGNORECASE)
+            if match:
+                beschluss_end = match.start()
+                break
+        
+        beschluss_text = beschluss_text[:beschluss_end]
+        
+        # Verbesserte TOP-Extraktion
+        tops = []
+        
+        # Finde alle TOP-Positionen
+        top_positions = list(re.finditer(r'TOP\s+(\d+(?:\.\d+)?)', beschluss_text, re.IGNORECASE))
+        
+        for i, match in enumerate(top_positions):
+            top_num = match.group(1)
+            start_pos = match.start()
+            
+            # Bestimme das Ende dieses TOPs
+            if i + 1 < len(top_positions):
+                end_pos = top_positions[i + 1].start()
+            else:
+                end_pos = len(beschluss_text)
+            
+            # Extrahiere den TOP-Inhalt
+            content = beschluss_text[start_pos:end_pos].strip()
+            
+            # Bereinige den Inhalt
+            content = re.sub(r'\n--- SEITE \d+ ---\n', '\n', content)
+            content = re.sub(r'\n\s*\n\s*\n', '\n\n', content)
+            content = re.sub(r'Seite \d+ von \d+', '', content)
+            content = re.sub(r'STV/\d+/\d+-\d+', '', content)
+            
+            # Teile in Überschrift, Vorlage, Inhalt und Abstimmung
+            lines = content.split('\n')
+            if lines:
+                # Extrahiere mehrzeilige Überschrift
+                ueberschrift_lines = []
+                current_line = 0
+                
+                # Erste Zeile ist immer Teil der Überschrift
+                ueberschrift_lines.append(lines[current_line].strip())
+                current_line += 1
+                
+                # Prüfe weitere Zeilen auf Überschrift-Kriterien
+                while current_line < len(lines):
+                    line = lines[current_line].strip()
+                    
+                    # Stoppe bei leeren Zeilen oder wenn Inhalt beginnt
+                    if not line or line.startswith('Vorlage:') or line.startswith('Die Stadtverordneten'):
+                        break
+                    
+                    # Prüfe auf eingerückte Zeilen (Überschrift-Fortsetzung)
+                    if line.startswith(' ') or len(line) < 50:  # Kurze oder eingerückte Zeilen
+                        ueberschrift_lines.append(line)
+                        current_line += 1
+                    else:
+                        break
+                
+                ueberschrift = '\n'.join(ueberschrift_lines).strip()
+                
+                # Extrahiere Vorlage
+                vorlage = ''
+                if current_line < len(lines) and lines[current_line].strip().startswith('Vorlage:'):
+                    vorlage = lines[current_line].strip()
+                    current_line += 1
+                
+                # Rest ist Inhalt
+                inhalt_lines = lines[current_line:]
+                inhalt = '\n'.join(inhalt_lines).strip()
+                
+                # Suche nach Abstimmung
+                abstimmung = ''
+                abstimmung_patterns = [
+                    r'Abstimmungsergebnis:.*?(?=\n\n|\nTOP|\nDie Vorsitzende|$)',
+                    r'Abstimmung:.*?(?=\n\n|\nTOP|\nDie Vorsitzende|$)',
+                    r'Einstimmig beschlossen.*?(?=\n\n|\nTOP|\nDie Vorsitzende|$)',
+                    r'Mit Stimmenmehrheit beschlossen.*?(?=\n\n|\nTOP|\nDie Vorsitzende|$)'
+                ]
+                
+                for pattern in abstimmung_patterns:
+                    abstimmung_match = re.search(pattern, inhalt, re.DOTALL | re.IGNORECASE)
+                    if abstimmung_match:
+                        abstimmung = abstimmung_match.group(0).strip()
+                        # Entferne Abstimmung aus dem Inhalt
+                        inhalt = re.sub(pattern, '', inhalt, flags=re.DOTALL | re.IGNORECASE).strip()
+                        break
+                
+                tops.append({
+                    'nummer': top_num,
+                    'ueberschrift': ueberschrift,
+                    'vorlage': vorlage,
+                    'inhalt': inhalt,
+                    'abstimmung': abstimmung
+                })
+        
+        return tops
+    
     def extract_agenda(self, text):
         """
         Extrahiert die Tagesordnung aus dem Text mit OCR-Fehler-Korrektur
@@ -60,8 +213,8 @@ class DocumentAnalyzer:
         Returns:
             str: Die vollständige Tagesordnung oder Fehlermeldung
         """
-        # Finde TAGESORDNUNG:
-        tagesordnung_match = re.search(r'TAGESORDNUNG\s*:', text, re.IGNORECASE)
+        # Finde TAGESORDNUNG: (flexibler)
+        tagesordnung_match = re.search(r'TAGESORDNUNG\s*:?', text, re.IGNORECASE)
         if not tagesordnung_match:
             return 'TAGESORDNUNG: nicht gefunden'
         
@@ -90,8 +243,8 @@ class DocumentAnalyzer:
                 # Prüfe den Text nach diesem TOP 1
                 current_text = text[agenda_start + match.end():agenda_start + match.end() + 50]
                 
-                # Wenn der Text gleich dem ersten TOP 1 ist, ist es die Beschlussphase
-                if first_top1_text and current_text == first_top1_text:
+                # Wenn der Text ähnlich dem ersten TOP 1 ist, ist es die Beschlussphase
+                if first_top1_text and current_text.strip() == first_top1_text.strip():
                     agenda_end = agenda_start + match.start()
                     break
         
@@ -299,6 +452,7 @@ class DocumentAnalyzer:
         metadata = results.get('metadata', {})
         attendance_data = results.get('attendance_data', {})
         agenda_text = results.get('agenda', '')
+        top_contents = results.get('top_contents', [])
         
         # Anwesenheitsdaten konvertieren
         attendance_present = []
@@ -337,6 +491,7 @@ class DocumentAnalyzer:
             "total_excused": len(attendance_excused),
             "total_participants": len(attendance_present) + len(attendance_excused),
             "agenda": agenda_text,  # Neue Tagesordnung
+            "top_contents": top_contents,  # Neue TOP-Inhalte
             "analysis_method": results.get('analysis_method', 'unknown'),
             "total_pages": results.get('total_pages', 0),
             "extraction_timestamp": results.get('extraction_timestamp', ''),
@@ -393,7 +548,7 @@ class DocumentAnalyzer:
     
     def extract_text_locally(self, document_path):
         """
-        Extrahiert Text aus PDF mit lokaler PyPDF2-Analyse (alle Seiten)
+        Extrahiert Text aus PDF mit lokaler pdfplumber-Analyse (alle Seiten)
         
         Args:
             document_path (str): Pfad zur PDF-Datei
@@ -402,21 +557,23 @@ class DocumentAnalyzer:
             str: Vollständiger Text aller Seiten
         """
         try:
-            with open(document_path, 'rb') as file:
-                pdf_reader = PyPDF2.PdfReader(file)
+            with pdfplumber.open(document_path) as pdf:
                 full_text = ""
                 
-                print(f"📄 Lokale PDF-Analyse: {len(pdf_reader.pages)} Seiten gefunden")
+                print(f"📄 Lokale PDF-Analyse mit pdfplumber: {len(pdf.pages)} Seiten gefunden")
                 
-                for page_num, page in enumerate(pdf_reader.pages, 1):
+                for page_num, page in enumerate(pdf.pages, 1):
                     page_text = page.extract_text()
-                    full_text += f"\n--- SEITE {page_num} ---\n"
-                    full_text += page_text
-                    print(f"  ✅ Seite {page_num} extrahiert")
+                    if page_text:
+                        full_text += f"\n--- SEITE {page_num} ---\n"
+                        full_text += page_text
+                        print(f"  ✅ Seite {page_num} extrahiert ({len(page_text)} Zeichen)")
+                    else:
+                        print(f"  ⚠️ Seite {page_num} konnte nicht extrahiert werden")
                 
                 return full_text
         except Exception as e:
-            print(f"Fehler bei lokaler PDF-Analyse: {e}")
+            print(f"Fehler bei lokaler PDF-Analyse mit pdfplumber: {e}")
             return None
     
     def find_all_attendance_in_text(self, text):
@@ -519,6 +676,9 @@ class DocumentAnalyzer:
             # Tagesordnung extrahieren
             agenda = self.extract_agenda(local_text)
             
+            # TOP-Inhalte extrahieren
+            top_contents = self.extract_top_contents(local_text)
+            
             return {
                 "document_path": document_path,
                 "layout_tops": layout_tops,
@@ -526,6 +686,7 @@ class DocumentAnalyzer:
                 "all_attendance_matches": all_attendance_matches,
                 "metadata": local_metadata,  # Verwende lokale Metadaten
                 "agenda": agenda,  # Neue Tagesordnung
+                "top_contents": top_contents,  # Neue TOP-Inhalte
                 "total_pages": len(response.pages),
                 "full_text": full_text,
                 "local_full_text": local_text,  # Zusätzlich: Lokaler Text
@@ -536,6 +697,9 @@ class DocumentAnalyzer:
             # Tagesordnung aus Azure-Text extrahieren
             agenda = self.extract_agenda(full_text)
             
+            # TOP-Inhalte aus Azure-Text extrahieren
+            top_contents = self.extract_top_contents(full_text)
+            
             return {
                 "document_path": document_path,
                 "layout_tops": layout_tops,
@@ -543,6 +707,7 @@ class DocumentAnalyzer:
                 "all_attendance_matches": all_attendance_matches,
                 "metadata": metadata,
                 "agenda": agenda,  # Neue Tagesordnung
+                "top_contents": top_contents,  # Neue TOP-Inhalte
                 "total_pages": len(response.pages),
                 "full_text": full_text,
                 "analysis_method": "Azure only"

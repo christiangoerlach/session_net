@@ -3,8 +3,8 @@
   "document_type": "Niederschrift",
   "session_type": "Stadtverordnetenversammlung",
   "date": "2023-06-15T00:00:00Z",
-  "duration": "19:00  Uhr bis 21:54  Uhr",
-  "location": "Volkshalle Watzenborn -Steinberg, Ludwigstraße 33 -35, 35415 Pohlheim",
+  "duration": "19:00 Uhr bis 21:54 Uhr",
+  "location": "Volkshalle Watzenborn-Steinberg, Ludwigstraße 33-35, 35415 Pohlheim",
   "attendance_present": [
     {
       "name": "STV Peter Alexander",
@@ -22,7 +22,7 @@
       "status": "present"
     },
     {
-      "name": "STV Horst Jürgen Briegel  ab TOP",
+      "name": "STV Horst Jürgen Briegel ab TOP",
       "function": "Von der Stadtverordnetenversammlung",
       "status": "present"
     },
@@ -87,7 +87,7 @@
       "status": "present"
     },
     {
-      "name": "STV Prof. Dr. Ernst -Ulrich Huster",
+      "name": "STV Prof. Dr. Ernst-Ulrich Huster",
       "function": "Von der Stadtverordnetenversammlung",
       "status": "present"
     },
@@ -142,17 +142,17 @@
       "status": "present"
     },
     {
-      "name": "STV Melanie Schun k-Wießner",
+      "name": "STV Melanie Schunk-Wießner",
       "function": "Von der Stadtverordnetenversammlung",
       "status": "present"
     },
     {
-      "name": "STV Fadi Touma  ab TOP",
+      "name": "STV Fadi Touma ab TOP",
       "function": "Von der Stadtverordnetenversammlung",
       "status": "present"
     },
     {
-      "name": "STV Simone van Slobbe -Schneider",
+      "name": "STV Simone van Slobbe-Schneider",
       "function": "Von der Stadtverordnetenversammlung",
       "status": "present"
     },
@@ -162,38 +162,33 @@
       "status": "present"
     },
     {
-      "name": "STV/022/2021 -2026  Vom Magistrat",
-      "function": "Von der Stadtverordnetenversammlung",
-      "status": "present"
-    },
-    {
       "name": "Bürgermeister Andreas Ruck",
-      "function": "Von der Stadtverordnetenversammlung",
+      "function": "Vom Magistrat",
       "status": "present"
     },
     {
       "name": "Stadtrat Israel Be Josef",
-      "function": "Von der Stadtverordnetenversammlung",
+      "function": "Vom Magistrat",
       "status": "present"
     },
     {
       "name": "Stadtrat Jörg Buß",
-      "function": "Von der Stadtverordnetenversammlung",
+      "function": "Vom Magistrat",
       "status": "present"
     },
     {
       "name": "Erster Stadtrat Klaus Dieter Gimbel",
-      "function": "Von der Stadtverordnetenversammlung",
+      "function": "Vom Magistrat",
       "status": "present"
     },
     {
       "name": "Stadtrat Reinhard Peter",
-      "function": "Von der Stadtverordnetenversammlung",
+      "function": "Vom Magistrat",
       "status": "present"
     },
     {
-      "name": "Stadtrat E wald Seidler",
-      "function": "Von der Stadtverordnetenversammlung",
+      "name": "Stadtrat Ewald Seidler",
+      "function": "Vom Magistrat",
       "status": "present"
     },
     {
@@ -205,61 +200,283 @@
       "name": "VBW Bianca Krieb",
       "function": "Schriftführerin",
       "status": "present"
-    },
-    {
-      "name": "Entschuldigt :",
-      "function": "Schriftführerin",
-      "status": "present"
-    },
+    }
+  ],
+  "attendance_excused": [
     {
       "name": "STV Angelika Bartosch",
       "function": "Von der Stadtverordnetenversammlung",
-      "status": "present"
+      "status": "excused"
     },
     {
       "name": "STV Kevin Engel",
       "function": "Von der Stadtverordnetenversammlung",
-      "status": "present"
+      "status": "excused"
     },
     {
       "name": "STV Matthias Jung",
       "function": "Von der Stadtverordnetenversammlung",
-      "status": "present"
+      "status": "excused"
     },
     {
       "name": "STV Erich Klotz",
       "function": "Von der Stadtverordnetenversammlung",
-      "status": "present"
+      "status": "excused"
     },
     {
       "name": "STV Prof. Dr. Helge Stadelmann",
       "function": "Von der Stadtverordnetenversammlung",
-      "status": "present"
+      "status": "excused"
     },
     {
       "name": "Stadtrat Philipp Niklas Mackowiak",
       "function": "Vom Magistrat",
-      "status": "present"
+      "status": "excused"
     },
     {
       "name": "Stadtrat Dr. Karl Ernst Rainer Pfaff",
       "function": "Vom Magistrat",
-      "status": "present"
+      "status": "excused"
     },
     {
       "name": "Stadtrat Wolfgang Sames",
       "function": "Vom Magistrat",
-      "status": "present"
+      "status": "excused"
     }
   ],
-  "attendance_excused": [],
-  "total_present": 49,
-  "total_excused": 0,
-  "total_participants": 49,
-  "agenda": "TOP 1  Eröffnung sowie Feststellung der ordnungsgemäßen \nLadung und der Beschlussfähigkeit   \n   \nTOP 2  Feststellung der  Niederschrift vom 4. Mai 2023   \n   \nTOP 3  Wahl der Schöffen für die Amtsperiode 2024 - 2028; \nAufstellung der Vorschlagslisten für Schöffen gemäß § \n36 GVG  STV-219/2021 -\n2026  \n   \nTOP 4  Antrag \"Jugend entscheidet\" vom 9. März 2023 betr. \nÖPNV - Busverkehr  A-194/2021 -2026  \n   \nTOP 5  Antrag \"Jugend entscheidet\" vom 9. März 2023 betr. \nErtüchtigung vorhandener Sportstätten  A-195/2021 -2026  \n   \nTOP 6  Abschluss einer vertraglichen Vereinbarung zur Über-\nlassung und Nutzung eines Grundstücks zur Errichtung \nvon Gebä uden in Holzbauweise für die Unterbringung \nvon Flüchtlingen  STV-222/2021 -\n2026  \n___________  \n \nSTV/022/2021 -2026     \nTOP 7  Antrag der CDU -Fraktion vom 21. April 2023 betr. Pho-\ntovoltaikanlagen auf den KiTa -Gebäuden und anderen \nöffentlichen Gebäuden  A-207/2021 -2026  \n   \nTOP 8  Antrag der CD U-Fraktion vom 21. April 2023 betr. Bau-\ngebiet „Hinter der Burg“ in Grüningen  A-208/2021 -2026  \n   \nTOP 9  Antrag der CDU -Fraktion vom 21. April 2023 betr. Öff-\nnungszeiten des Stadtbüros  A-209/2021 -2026  \n   \nTOP 10  Antrag der Fraktion FREIE WÄHLER vom 29. Ap ril 2023 \nbetr. Prüfung der Eignung von Flächen der Stadt Pohl-\nheim zur Errichtung von Windenergieanlagen sowie \nEnergiespeichern  A-212/2021 -2026  \n   \nTOP 11  Antrag der CDU -Fraktion vom 5. Mai 2023 betr. Neubau \nKita Kirchstraße  A-214/2021 -2026  \n   \nTOP 12  Antrag der CDU -Fraktion vom 18.05.2023 betr. Sanie-\nrung des Festplatzes in Watzenborn -Steinberg  A-215/2021 -2026  \n   \nTOP 13  Städt. Anwesen Ludwigstrasse 37 im Stadtteil Watzen-\nborn-Steinberg;  \nUm- und Anbau zu einem Jugendzentrum;  \nGrundlagenermittlung;  \nTeilaufhebung Sperrvermerk;  \nBeauftragung Architektenleistung  STV-220/2021 -\n2026  \n   \nTOP 14  Beratung und Beschlussfassung über die vorgestellte \nEntwurfsplanung zum Neubau der Kita Magdeburger \nStraße in Watzenborn -Steinberg, Baugebiet \"Am \nSchwarzen Morgen\"  STV-216/2021 -\n2026  \n   \nTOP 15  Vergabe der Leitungsrechts - und Wegerechte in der \nSparte Strom nach § 46 Gesetz über die Elektrizitäts - \nund Gasversorgung (EnWG); Konzessionsvergabe \n\"Strom\"  STV-221/2021 -\n2026  \n   \nTOP 16  Antrag der CDU -Fraktion vom 18. Mai 2023  betr. Pla-\nnung einer Flüchtlingsunterkunft \"Am Schwimmbad\"  A-223/2021 -2026  \n   \nTOP 17  Antrag der SPD -Fraktion vom 3. Juni 2023 betr. Bauge-\nbiet \"Oberweg IV\"  A-225/2021 -2026  \n   \nTOP 18  Antrag der CDU -Fraktion vom 27. Mai 2023 betr. Über-\nsendung von Nieder schriften von Magistratssitzungen  A-226/2021 -2026  \n   \nTOP 19  Mitteilungen   \n   \nTOP 19.1  Mitteilung 1   \n   \nTOP 19.2  Mitteilung 2   \n   \nTOP 20  Beantwortung von Anfragen   \n___________  \n \nSTV/022/2021 -2026     \nTOP 20.1  Anfrage 1   \n   \nTOP 20.2  Anfrage 2   \n   \nTOP 20.3  Anfrage 3   \n   \nTOP 20.4  Anfrage 4   \n   \nTOP 20.5  Anfrage 5",
+  "total_present": 39,
+  "total_excused": 8,
+  "total_participants": 47,
+  "agenda": "TOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen\nLadung und der Beschlussfähigkeit\nTOP 2 Feststellung der Niederschrift vom 4. Mai 2023\nTOP 3 Wahl der Schöffen für die Amtsperiode 2024 - 2028; STV-219/2021-\nAufstellung der Vorschlagslisten für Schöffen gemäß § 2026\n36 GVG\nTOP 4 Antrag \"Jugend entscheidet\" vom 9. März 2023 betr. A-194/2021-2026\nÖPNV - Busverkehr\nTOP 5 Antrag \"Jugend entscheidet\" vom 9. März 2023 betr. A-195/2021-2026\nErtüchtigung vorhandener Sportstätten\nTOP 6 Abschluss einer vertraglichen Vereinbarung zur Über- STV-222/2021-\nlassung und Nutzung eines Grundstücks zur Errichtung 2026\nvon Gebäuden in Holzbauweise für die Unterbringung\nvon Flüchtlingen\n___________\n\n\nTOP 7 Antrag der CDU-Fraktion vom 21. April 2023 betr. Pho- A-207/2021-2026\ntovoltaikanlagen auf den KiTa-Gebäuden und anderen\nöffentlichen Gebäuden\nTOP 8 Antrag der CDU-Fraktion vom 21. April 2023 betr. Bau- A-208/2021-2026\ngebiet „Hinter der Burg“ in Grüningen\nTOP 9 Antrag der CDU-Fraktion vom 21. April 2023 betr. Öff- A-209/2021-2026\nnungszeiten des Stadtbüros\nTOP 10 Antrag der Fraktion FREIE WÄHLER vom 29. April 2023 A-212/2021-2026\nbetr. Prüfung der Eignung von Flächen der Stadt Pohl-\nheim zur Errichtung von Windenergieanlagen sowie\nEnergiespeichern\nTOP 11 Antrag der CDU-Fraktion vom 5. Mai 2023 betr. Neubau A-214/2021-2026\nKita Kirchstraße\nTOP 12 Antrag der CDU-Fraktion vom 18.05.2023 betr. Sanie- A-215/2021-2026\nrung des Festplatzes in Watzenborn-Steinberg\nTOP 13 Städt. Anwesen Ludwigstrasse 37 im Stadtteil Watzen- STV-220/2021-\nborn-Steinberg; 2026\nUm- und Anbau zu einem Jugendzentrum;\nGrundlagenermittlung;\nTeilaufhebung Sperrvermerk;\nBeauftragung Architektenleistung\nTOP 14 Beratung und Beschlussfassung über die vorgestellte STV-216/2021-\nEntwurfsplanung zum Neubau der Kita Magdeburger 2026\nStraße in Watzenborn-Steinberg, Baugebiet \"Am\nSchwarzen Morgen\"\nTOP 15 Vergabe der Leitungsrechts- und Wegerechte in der STV-221/2021-\nSparte Strom nach § 46 Gesetz über die Elektrizitäts- 2026\nund Gasversorgung (EnWG); Konzessionsvergabe\n\"Strom\"\nTOP 16 Antrag der CDU-Fraktion vom 18. Mai 2023 betr. Pla- A-223/2021-2026\nnung einer Flüchtlingsunterkunft \"Am Schwimmbad\"\nTOP 17 Antrag der SPD-Fraktion vom 3. Juni 2023 betr. Bauge- A-225/2021-2026\nbiet \"Oberweg IV\"\nTOP 18 Antrag der CDU-Fraktion vom 27. Mai 2023 betr. Über- A-226/2021-2026\nsendung von Niederschriften von Magistratssitzungen\nTOP 19 Mitteilungen\nTOP 19.1 Mitteilung 1\nTOP 19.2 Mitteilung 2\nTOP 20 Beantwortung von Anfragen\n___________\n\n\nTOP 20.1 Anfrage 1\nTOP 20.2 Anfrage 2\nTOP 20.3 Anfrage 3\nTOP 20.4 Anfrage 4\nTOP 20.5 Anfrage 5",
+  "top_contents": [
+    {
+      "nummer": "1",
+      "ueberschrift": "TOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen Ladung und der Be-\nschlussfähigkeit",
+      "vorlage": "",
+      "inhalt": "Die Stadtverordnetenvorsteherin Hiltrud Hofmann erwähnt den Sayfo-Gedenktag am Denk-\nmal in Pohlheim kurz vor der Sitzung der Stadtverordnetenversammlung, wo einige Gremi-\nenmitglieder teilnahmen. Hier wurde an die Opfer des Genozids gedacht. Sie freute sich über\nzahlreiche Besucher.\nStadtverordnetenvorsteherin Hiltrud Hofmann begrüßt alle Anwesenden und stellt ordnungs-\ngemäße Ladung und Beschlussfähigkeit fest.\nAnschließend nimmt sie die Gelegenheit war und gratuliert den Stadtverordneten Fabian\nSchäfer, Andreas Schuch, Malke Aydin, Bettina Jost, Marc Werner Punzert, Simon\nHafemann, Erich Klotz sowie Stadtrat Reinhard Peter nachträglich zum Geburtstag.\nSie informiert, dass\n-",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "12",
+      "ueberschrift": "TOP 12 Antrag der CDU-Fraktion vom 18.05.2023 betr. Sanierung des Festplatzes in\nWatzenborn-Steinberg",
+      "vorlage": "",
+      "inhalt": "im Geschäftsgang verbleibe. Hier wurden Fragen vorgelegt, die noch zu beantworten\nseien.\n-",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "13",
+      "ueberschrift": "TOP 13 Städt. Anwesen Ludwigstrasse 37 im Stadtteil Watzenborn-Steinberg;\nUm- und Anbau zu einem Jugendzentrum;\nGrundlagenermittlung;\nTeilaufhebung Sperrvermerk;\nBeauftragung Architektenleistung",
+      "vorlage": "",
+      "inhalt": "abgesetzt werde, da hier noch Klärungsbedarf bestehe. Es gebe hier einen neuen\nAntrag der SPD-Fraktion, zudem habe die CDU-Fraktion angekündigt auch noch ei-\nnen Antrag zu formulieren. Diese Anträge werden dann in die Beratung einfließen. Es\nsoll eine gemeinsame Sitzung aller drei Ausschüsse nur zu diesem Punkt stattfinden.\n-",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15",
+      "ueberschrift": "TOP 15 Vergabe der Leitungsrechts- und Wegerechte in der Sparte Strom nach § 46",
+      "vorlage": "",
+      "inhalt": "Gesetz über die Elektrizitäts- und Gasversorgung (EnWG); Konzessionsvergabe\n\"Strom\"\nebenfalls abgesetzt werde. Es gebe eine Überlegung eine gemeinsame Haupt- und\nFinanzausschusssitzung mit Gemeinde Fernwald stattfinden zu lassen.\nAuf die Frage, ob es weitere Änderungswünsche gebe, gibt es keine Rückmeldungen.\n___________\n\n\n--- SEITE 5 ---",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "2",
+      "ueberschrift": "TOP 2 Feststellung der Niederschrift vom 4. Mai 2023",
+      "vorlage": "",
+      "inhalt": "Die Stadtverordnetenvorsteherin Hiltrud Hofmann informiert darüber, dass die beantragte\nÄnderung im Protokoll bereits vorgenommen wurde.\nDer letzte Satz unter",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "3",
+      "ueberschrift": "TOP 3 „Die Stadtverordnetenversammlung nimmt die Entwurfsplanung",
+      "vorlage": "",
+      "inhalt": "zur Kenntnis.“ wurde geändert und lautet nun „Die Stadtverordnetenversammlung nimmt die\nPräsentation der Entwurfsplanung zur Kenntnis.“.\nSTV Reiner Leidich spricht an, dass die Sitzungen der Stadtverordnetenversammlung in letz-\nter Zeit bei den Abstimmergebnissen ohne Fraktionsnennungen protokolliert wurden.\nDie Stadtverordnetenvorsteherin Hiltrud Hofmann teilt mit, dass es im Ältestenrat angespro-\nchen wurde. Dies sei zu klären. Für die heutige Sitzung werde wieder die Fraktionsnennung\nerfolgen.\nDa die Niederschrift vom 04.05.2023 bereits angepasst wurde, wird diese ohne Änderung\nfestgestellt.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "3",
+      "ueberschrift": "TOP 3 Wahl der Schöffen für die Amtsperiode 2024 - 2028; Aufstellung der Vor-\nschlagslisten für Schöffen gemäß § 36 GVG",
+      "vorlage": "Vorlage: STV-219/2021-2026",
+      "inhalt": "Bürgermeister Andreas Ruck teilt mit, dass eine weitere Person noch in die Liste aufzuneh-\nmen sei. Es sei im Magistrat eingereicht worden. Nach erfolgter Prüfung durch die Verwal-\ntung, könne die Person aufgenommen werden. Aufgenommen werde Herr Peter Schmidt\naus Pohlheim von Beruf Rentner auf Position 41.\nSTV Eckart Hafemann berichtet aus der Haupt- und Finanzausschusssitzung.\nDie Stadtverordnetenversammlung beschließt die folgende Vorschlagsliste für die Wahl der\nSchöffen für die Amtsperiode 2024 – 2028:\nName, Geb.-Datum/ Schöffin/\nNr. Straße Wohnort Tel.-Nr. Beruf\nVorname Ort Schöffe\n1 Bartsch geb. Am 35415 0179/ 04.04.1954 Amtsg./ Rentnerin\nHildebrand, Hombiegel Pohlheim 2134587 Berlin Landg.\nMargot 15\n2 Rustige, Am Erlenhof 35415 0174/ 19.10.1965 Landg. Berater\nBurkhard 3 Pohlheim 3085583 Paderborn\n3 Meyer, Eberstädter 35415 0176/ 25.03.1991 Amtsg./ Oberstudienrat\nTim Julian Weg 7 Pohlheim 31563442 Bottrop Landg.\n4 Arnold, Solweg 17 35415 06404/ 12.01.1961 Amtsg./ Sekretärin im öfftl.\ngeb. Stoll, Pohlheim 62364 Leihgestern Landg. Dienst (Kommune);\nAngela Vorzimmertätigkeiten;\nab Mai 2023 in der\nRuhephase der\nAltersteilzeit\n___________\n\n\n5 Arnold, Solweg 17 35415 06404/ 19.03.1959 Amtsg./ Projektmanager in\nReiner Pohlheim 62364 Gießen Landg. der Ruhephase\nder Altersteilzeit,\nab 01.06.2023\nRentner\n6 Leidich, Schul- 35415 06403/ 17.01.1966 Landg. Verwaltungsfach-\nMartin straße 23 Pohlheim 64406 Gießen angestellter\nim Personal-\nmanagement, Perso-\nnalsachbearbeiter\n7 Hafermann, Jenaer Str. 35415 0179/ 01.09.1954 Landg. Medizinal-\ngeb. De 53 Pohlheim 4578926 Rio De Janeiro oberrätin\nCastro, in Ruhestand\nPurelisa (Ärztin)\n8 Metke, Bruckner- 35415 0174/ 26.03.1992 Amtsg. Leitung klinischer\ngeb. Metke, straße 6 Pohlheim 1944695 Marburg Prozesse und\nKatrin Wehrda Digitalisierung in\neinem Krankenhaus\nder\nMaximalversorgung\n9 Köhler, Backhaus- 35415 0151/ 29.10.1967 Amtsg./ Arbeitsvermittler\nDirk gasse 4 Pohlheim 20428493 Bad Hersfeld Landg. Agentur für Arbeit\n10 Pfaff, Jahnstraße 35415 0151/ 11.10.1989 Amtsg. Bauingenieurin\nAlisa 3 Pohlheim 58847186 Gießen\n11 Messer, Hubertus- 35415 0171/ 28.09.1976 Amtsg. Leitende Angestellte\nHeike straße 52 Pohlheim 1112920 Neustadt/\na.d.Weinstraße\n12 Kecel, Nelkenweg 35415 0176/ 29.05.1988 Landg. Syndikus-\nPatrick 11 Pohlheim 72631033 Gießen Steuerberater\n13 Mayer, Am 35415 06004/ 04.01.1976 Amtsg. Sachbearbeiterin\ngeb. Ofner, Kirchgarten Pohlheim 954156 Butzbach/\nSabine 25 Wetterau\n14 Noah, Wilhelm- 35415 0152/ 14.01.1988 Landg. Chief Human\nLina Leuschner- Pohlheim 09383035 Gießen Relations\nStraße 11 Officer (CHRO)\n15 Weber, Am Kir- 35415 29.05.1963 Landg. Justizvollzugs-\nMarkus schen- Pohlheim Wetzlar beamter\nwald ab Oktober 2023 im\n45 Ruhestand\n16 Dombrowski, Zur Wind- 35415 0171/ 09.08.1974 Amtsg./ Einzelhandels-\nThomas- mühle 4 Pohlheim 6352907 Gießen Landg. kaufmann (Automobil-\nThorsten branche)\n17 Klemens, Zur Luther- 35415 0176/ 14.04.1986 Landg. Sachbearbeiter und\nMarco linde 41 Pohlheim 63737820 Gießen Ausbildungs-\nkordinator\nim Jobcenter\n___________\n\n\n18 Müller, Am Hom- 35415 0172/ 18.05.1964 Amtsg./ Sozialversicherungs-\nKarl Wilhelm biegel 22 Pohlheim 9609231 Hausen Landg. angestelllter bei der\nAOK Hessen\n19 Böhm, Goethe- 35415 01578/ 07.04.1997 Amtsg./ Bauingenieur (Master\nNoah Nikolai straße 27 Pohlheim 8503030 Gießen Landg. of Engineering)\n20 Böhm, Goethe- 35415 01577/ 22.07.1965 Amtsg./ Diplom\ngeb. Vogel, straße 27 Pohlheim 4266024 Nassau/Lahn Landg. Ernährungswissen-\nHeike schaftlerin\n21 Schwarz, An der Ha- 35415 0162/ 16.09.1969 Landg. Dipl. Finanzwirtin;\nKerstin selhecke 5 Pohlheim 1664971 Lich Beamtin (AR`in)\nim geh. Dienst\nder hessischen Finanz-\nverwaltung\n22 Rinn, Gießener 35415 0171/ 14.02.1959 Landg. Steuerberater\nErnst-Michael Straße 104 Pohlheim 3567483 Watzenborn-\nSteinberg\n23 Stumpf, Konrad- 35415 0171/ 05.11.1963 Landg. Angestellter\nNorfried Adenauer- Pohlheim 3847829 Gießen\nStraße 33\n24 Claus, Hauptstraße 35415 0157/ 17.10.1962 Amtsg./ Staatl. gepr.\nHolger 112 Pohlheim 32570260 Gießen Landg. Maschinen-\nbautechniker; Techni-\nscher\nEinkäufer\n25 Koch, Am 35415 0172/ 27.05.1979 Amtsg./ Rentnerin\nSusanne Kirchgarten Pohlheim 5867948 Gießen Landg.\n25\n26 Horst, Jenaer Str. 35415 0172/ 03.10.1961 Landg. Dipl. Betriebswirt/\ngeb.benMeftah, 55 Pohlheim 4893912 Gießen kaufm. Angestellter\nHabib Alexan-\nder\n27 Brückel, Gießener 35415 06403/ 03.11.1963 Amtsg. Assistentin\ngeb. Hof, Straße 104 Pohlheim 95560 Gießen der Geschäftsleitung\nCarmen\n28 Jüttemeier, Paul- 35415 06403/ 15.06.1957 Landg. Oberstudienrätin a. D.\nAnneliese Hutten- Pohlheim 62169 Ahlen/Westf.\nChristine Ring 20\n29 Szauter, Am Hom- 35415 0151/ 23.09.1958 Landg. Rentner\nAchim biegel 35 Pohlheim 70008807 Allendorf Lum-\nda\n30 Kolb, geb. Sudeten- 35415 0171/ 20.02.1965 Landg. Zahnmedizinische\nSchartel, straße 6 Pohlheim 5355912 Gießen Verwaltungs-\nMaria assistentin\n31 Laufenberg, Königs- 35415 0641/ 07.11.1955 Landg. Förderschul-\ngeb. Blum, berger Pohlheim 42165 Fulda lehrerin i.R.\nMonika Straße 12\n32 Görlach, Kellerei- 35415 0157/ 14.12.1976 Amtsg./ Bankkaufmann\nChristian gasse 1 Pohlheim 73675012 Gießen Landg.\n33 Ehler, Bahnhof- 35415 15.09.1961 Amtsg./ Tierärztin\nAndrea straße 46 Pohlheim Schwalheim Landg.\n___________\n\n\n34 Eidens, Heinrich- 35415 06403/ 26.12.1956 Amtsg./ Rentner\nJohannes Lübke- Pohlheim 73464 Duisburg Landg.\nMaria Erich Ring 39\n35 Hahn, Schanzen- 35415 0160/ 19.03.1967 Amtsg. Bankkaufmann, z.Zt.\nReinhold straße 19 Pohlheim 93288306 Ziegenhain freigestelltes Betriebs-\nSchwalmst. rats-\nmitglied und stellv.\nBetriebsratvorsitzender\n36 von Marcard, Bahnhof- 35415 06403/ 20.10.1958 Landg. Wisschenschaftliche\ngeb. Oehl- straße 91 Pohlheim 67707 Celle Mitarbeiterin/\nmann, Umweltingenieurin\nGisa\n37 Lang-Altmann, Admonter 35415 06404/ 05.05.1955 Amtsg./ Ärztlliche Gutachterin\ngeb. Lang, Ring 44 Pohlheim 62576 Schwäbisch Landg. beim Hess. Amt für\nSieglinde Hall Versorgung und Sozia-\nElisabeth les\n38 Hammel, Wagner- 35415 0176/ 21.01.1977 Amtsg./ Technischer\nSascha straße 5 Pohlheim 22932244 Gießen-Lahn Landg. Redakteur\n39 Noorda, Asterweg 35415 0160/ 20.02.1971 Amtsg./ Lehrer\nVolker 34 Pohlheim 94711993 Wetzlar Landg.\n40 Präßler, Sarah Erfurter 35415 0162/ 04.07.1986 Amtsg. Mitarbeiterin im\nWaltraud Straße 3 Pohlheim 2928026 Gera öfftl. Dienst\nMarianne\n41 Schmidt, Peter Breslauer 35415 0641/46675 25.05.1956 Amtsg./ Rentner\nStr. 9 Pohlheim Gießen Landg.",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "4",
+      "ueberschrift": "TOP 4 Antrag \"Jugend entscheidet\" vom 9. März 2023 betr. ÖPNV - Busverkehr",
+      "vorlage": "Vorlage: A-194/2021-2026",
+      "inhalt": "STV Eckart Hafemann berichtet aus der gemeinsamen Sitzung aller drei Ausschüsse.\nDer Stadtverordnetenversammlung liegt folgender Antrag „Jugend entscheidet“ vom\n09.03.2023 vor:\n„Die Stadtverordnetenversammlung möge beschließen, dass\n1) die Busse jede halbe Stunde in die Stadt (Gießen) und wieder zurückfahren. Der\nLetzte soll am Wochenende um ca. 1 Uhr in die Stadt fahren und gegen 2 Uhr zu-\nrückfahren.\n2) die Busse jede Stunde von Pohlheim nach Linden fahren.\n3) Busverbindungen innerhalb von Pohlheim ca. alle 30 Minuten fahren.“\nDer erste Satz des Antrages wurde in der gemeinsamen Sitzung der drei Ausschüsse am\n24.05.2023 geändert. Der Antrag erhielt folgenden Wortlaut:\n___________\n\n\n„Die Stadtverordnetenversammlung bittet den Magistrat, sich in Absprache mit dem AK-\nÖPNV, dem Ausschuss für Bauen, Stadtentwicklung und Umwelt und den Verkehrsträgern\nVGO/ZOV/RMV dafür einzusetzen, dass\n1) die Busse jede halbe Stunde in die Stadt (Gießen) und wieder zurückfahren. Der\nLetzte soll am Wochenende um ca. 1 Uhr in die Stadt fahren und gegen 2 Uhr zurück-\nfahren.\n2) die Busse jede Stunde von Pohlheim nach Linden fahren.\n3) Busverbindungen innerhalb von Pohlheim ca. alle 30 Minuten fahren.“\nÜber den geänderten Antrag wird wie folgt abgestimmt:",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "5",
+      "ueberschrift": "TOP 5 Antrag \"Jugend entscheidet\" vom 9. März 2023 betr. Ertüchtigung vorhan-\ndener Sportstätten",
+      "vorlage": "Vorlage: A-195/2021-2026",
+      "inhalt": "STV Eckart Hafemann berichtet aus der gemeinsamen Sitzung aller drei Ausschüsse.\nDer Stadtverordnetenversammlung liegt folgender Antrag „Jugend entscheidet“ vom\n09.03.2023 vor:\n„Die Stadtverordnetenversammlung möge beschließen, dass\n1. vorhandene Sportstätten in Watzenborn-Steinberg ertüchtigt werden:\n- Herderstrasse/Hallenbad: Tore richtig aufstellen, Bespielbarkeit verbessern, Käfig\noder Ballfangzaun prüfen und installieren\n- Spielplatz Bruchstraße: Bespielbarkeit verbessern (u.a. regelmäßig mähen), Käfig\noder Ballfangzaun prüfen und installieren\n- Tennisplatz Neumühle: Boden erneuern und Netz installieren, für Jugendliche zu-\ngänglich machen\n- Mockswiese: 2 Basketballkörbe, Spielfeldmarkierung, Ballfangzaun\n2. dass das Kinder- und Jugendbüro Ansprechpartner werden soll, wenn an den o.g.\nSportstätten etwas repariert oder der Rasen gemäht werden muss. Diese\nInformationen soll das Kinder- und Jugendbüro dann an die zuständigen Abteilungen\nin der Stadtverwaltung weitergeben.\n3. in Dorf-Güll an der Klosterwaldhalle eine Draußen-Tischtennisplatte fest installiert\nwird und zwei Basketballkörbe plus Markierungen\n4. in allen Stadtteilen Außentreffpunkte geschaffen werden, die überdacht und mit Müll-\neimern ausgestattet sind, von denen Jugendliche nicht weggeschickt werden\ndürfen, wenn sie sich dort treffen\n5. ein Multifunktionssportfeld im Süden von Pohlheim errichtet wird, welches von den\nJugendlichen aus den Stadtteilen Dorf-Güll, Holzheim und Grüningen genutzt werden\nsoll, am Besten in Holzheim“",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "6",
+      "ueberschrift": "TOP 6 Abschluss einer vertraglichen Vereinbarung zur Überlassung und Nutzung",
+      "vorlage": "",
+      "inhalt": "eines Grundstücks zur Errichtung von Gebäuden in Holzbauweise für die\nUnterbringung von Flüchtlingen\nVorlage: STV-222/2021-2026\n___________\n\n\nSTV Eckart Hafemann berichtet aus der Haupt- und Finanzausschusssitzung.\nSTV Malke Aydin bringt folgenden Änderungsantrag zum",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "6",
+      "ueberschrift": "TOP 6 ein und begründet ihn.\nAntrag der CDU-Fraktion",
+      "vorlage": "",
+      "inhalt": "„Die Stadtverordnetenversammlung möge beschließen:\nDer Magistrat wird gebeten den vorliegenden Vertrag mit dem Landkreis Gießen so abzu-\nschließen, dass unverzüglich für bis zu 40 Flüchtlinge Unterkünfte in einem Einzelgebäude\nentstehen können (vgl. Hungen, Lich u. Allendorf).“\nNach eingehender Beratung erfolgt auf Anregung durch STV Fabian Schäfer eine Sitzungs-\nunterbrechung von 19.55 Uhr – 20.02 Uhr.\nAntrag STV Fabian Schäfer\nNach der Sitzungsunterbrechung beantragt STV Fabian Schäfer die Anpassung des Vertra-\nges dahingehend, dass es dem Landkreis Gießen in die Ermächtigung gestellt wird, unter\nstädtebaulichen und betriebswirtschaftlichen Gesichtspunkten, auf der Fläche Gebäude für\nbis zu 35 Personen zu planen und das aufgeteilt in maximal 4 Gebäuden.\nSTV Reiner Leidich erklärt, dass die CDU-Fraktion sich dem Änderungsantrag von STV Fa-\nbian Schäfer anschließe und somit ihren Antrag zurückziehe.\nDie Stadtverordnetenvorsteherin Hiltrud Hofmann lässt zunächst über den Änderungsantrag\nvon STV Fabian Schäfer abstimmen:",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit abgelehnt\n10 Ja-Stimmen (8 CDU, 2 FDP)\n19 Nein-Stimmen (11 SPD, 6 Grüne, 2 FW)\n2 Enthaltungen (2 FW)\nIm Anschluss lässt die Stadtverordnetenvorsteherin über den vorliegenden Vertrag, damit\nüber den Beschlussvorschlag der Verwaltung abstimmen:\nDie Stadtverordnetenversammlung nimmt die vorgelegte „Vertragliche Vereinbarung zur\nÜberlassung und Nutzung eines Grundstücks zur Errichtung von Gebäuden in Holzbauweise\nfür die Unterbringung von Flüchtlingen“ über eine Teilfläche des städtischen Grundstücks\nGemarkung Watzenborn-Steinberg Flur 10 Nr. 2/4, Schönbornswiese zustimmend zur\nKenntnis und beschließt die Vereinbarung mit dem Landkreis Gießen abzuschließen.\nAbstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n19 Ja-Stimmen (11 SPD, 6 Grüne, 2 FDP)\n11 Nein-Stimmen (8 CDU, 3 FW)\n1 Enthaltung (1 FW)"
+    },
+    {
+      "nummer": "7",
+      "ueberschrift": "TOP 7 Antrag der CDU-Fraktion vom 21. April 2023 betr. Photovoltaikanlagen auf",
+      "vorlage": "",
+      "inhalt": "den KiTa-Gebäuden und anderen öffentlichen Gebäuden\nVorlage: A-207/2021-2026\nSTV Eckart Hafemann berichtet aus der Sitzung des Ausschusses für Bauen, Stadtentwick-\nlung und Umwelt.\nDer Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vom 21.04.2023\nvor:\n___________\n\n\n„Der Magistrat wird beauftragt ein Konzept (inkl. Machbarkeit und Kostenfaktor) zur Errich-\ntung von Photovoltaikanlagen auf den städtischen -Gebäuden vorzulegen, welches die\nStadtverordneten in die Lage versetzt über die Reihenfolge und den Zeitraum einer Umset-\nzung zu beschließen.“\nIn der Sitzung des Ausschusses für Bauen, Stadtentwicklung und Umwelt wurde am\n05.06.2023 folgender Änderungsantrag eingebracht:\n„Der Magistrat wird beauftragt einen Fahrplan (inkl. Machbarkeit und Kostenfaktor) zur Er-\nrichtung von Photovoltaikanlagen auf den städtischen -Gebäuden vorzulegen, welches die\nStadtverordneten über die Reihenfolge und den Zeitraum informiert.“\n(Als Protokollnotiz der Niederschrift über die Sitzung des Ausschusses für Bauen, Stadtent-\nwicklung und Umwelt vom 05.06.2023 wurde aufgenommen, dass neben den städtischen\nGebäuden auch andere Flächen (wie z. B. Parkflächen) auf Umsetzung geprüft werden sol-\nlen.)\nÜber den geänderten Antrag wird wie folgt abgestimmt:",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "8",
+      "ueberschrift": "TOP 8 Antrag der CDU-Fraktion vom 21. April 2023 betr. Baugebiet „Hinter der\nBurg“ in Grüningen",
+      "vorlage": "Vorlage: A-208/2021-2026",
+      "inhalt": "STV Fadi Touma ist ab diesem Tagesordnungspunkt anwesend.\nSTV Eckart Hafemann berichtet aus der Sitzung des Ausschusses für Bauen, Stadtentwick-\nlung und Umwelt.\nDer Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vom 21.04.2023\nvor:\n„Die Stadtverordnetenversammlung möge beschließen:\n1. Der dem Ortsbeirat vorgelegte Entwurf des Bebauungsplans Nr. 9 „Am Wartweg und\nBurgweg“ (s. Anlage; Anmerkung Protokollantin: Anlage zum Antrag) ist in der Stadt-\nverordnetenversammlung durch das Planungsbüro vorzustellen.\n2. Die einzelnen Fraktionen sollen ihre Änderungswünsche zur Entwurfsplanung\ninnerhalb von 14 Tagen nach der Präsentation der Stadtverordnetenvorsteherin\nschriftlich mitteilen. Diese sind in der folgenden Sitzung des BSU-Ausschusses zu\ndiskutieren, so dass der Stadtverordnetenversammlung eine Beschlussempfehlung\nvorgelegt werden kann. Dabei ist auch eine Aussage zum Umgang mit dem durch die\nSPD bei den Haushaltsberatungen angebrachten Sperrvermerk zu treffen.“\n\n\n\n--- SEITE 12 ---",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit abgelehnt\n12 Ja-Stimmen (8 CDU, 4 FW)\n18 Nein-Stimmen (12 SPD, 6 Grüne)\n2 Enthaltungen (2 FDP)\n___________"
+    },
+    {
+      "nummer": "9",
+      "ueberschrift": "TOP 9 Antrag der CDU-Fraktion vom 21. April 2023 betr. Öffnungszeiten des Stadt-\nbüros",
+      "vorlage": "Vorlage: A-209/2021-2026",
+      "inhalt": "STV Uwe Happel berichtet aus der Sitzung des Ausschusses für Soziales, Kultur und Sport.\nDer Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vom 21.04.2023\nvor:\n„Der Magistrat wird aufgefordert, unverzüglich die Öffnungszeiten des Stadtbüros wieder wie\nfolgt bürgerfreundlich anzupassen:\nStadtbüro: Mo, Di, Do: 7:30 - 18 Uhr, Fr: 7:30 - 12 Uhr\nWeiterhin wird der Magistrat aufgefordert die Online-Terminvergabe für das Stadtbüro kurz-\nfristig wieder freizuschalten.“\nIn der Sitzung des Ausschusses für Soziales, Kultur und Sport am 06.06.2023 wurde folgen-\nder Änderungsantrag eingebracht und beschlossen. Der Haupt- und Finanzausschuss\nschloss sich dem am 07.06.2023 an.\n„Der Magistrat wird gebeten zu prüfen, ob die Öffnungszeiten des Stadtbüros wieder bürger-\nfreundlicher wie folgt angepasst werden können:\nStadtbüro: Mo, Di, Do: 7:30 - 18 Uhr, Fr: 7:30 - 12 Uhr\nWeiterhin wird der Magistrat gebeten zu prüfen, ob gleichzeitig die Online-Terminvergabe für\ndas Stadtbüro kurzfristig wiedereingerichtet werden kann.\nÜber das Ergebnis ist dem Ausschuss für Soziales, Kultur und Sport und der Stadtverordne-\ntenversammlung in den Sitzungen im Juli 2023 zu berichten.“\nÜber den geänderten Antrag wird wie folgt abgestimmt:",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "10",
+      "ueberschrift": "TOP 10 Antrag der Fraktion FREIE WÄHLER vom 29. April 2023 betr. Prüfung der",
+      "vorlage": "",
+      "inhalt": "Eignung von Flächen der Stadt Pohlheim zur Errichtung von Windenergie-\nanlagen sowie Energiespeichern\nVorlage: A-212/2021-2026\nSTV Eckart Hafemann berichtet aus der Sitzung des Ausschusses für Bauen, Stadtentwick-\nlung und Umwelt.\nDer Stadtverordnetenversammlung liegt folgender Antrag der Fraktion FREIE WÄHLER vom\n29.04.2023 vor:\n„Die Stadtverordnetenversammlung möge beschließen:\nDer Magistrat der Stadt Pohlheim wird gebeten, die Eignung von Flächen der Stadt Pohl-\nheim, in den beiden im Teilregionalplan Energie Mittelhessen ausgewiesenen Vorranggebie-\nten zur Nutzung der Windenergie (VRG WE) 4403 sowie 4404, für die Errichtung von Wind-\nenergieanlagen zu prüfen. Weiterhin sollen die Möglichkeiten der Speicherung der erzeugten\n___________\n\n\nEnergie (Batteriespeicher, Erzeugung von Wasserstoff, etc.) geprüft werden. Teilergebnisse\nund Ergebnisse der Prüfung sind in der Stadtverordnetenversammlung zu berichten.“\nDie Stadtverordnetenvorsteherin Hiltrud Hofmann merkt an, dass auch in der Sitzung des\nKlimabeirats berichtet werden sollte, da der Punkt noch nicht vom Klimabeirat behandelt\nwurde.\nSTV Reiner Leidich erklärt, ein Bericht vom Klimamanager würde reichen.",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "11",
+      "ueberschrift": "TOP 11 Antrag der CDU-Fraktion vom 5. Mai 2023 betr. Neubau Kita Kirchstraße",
+      "vorlage": "Vorlage: A-214/2021-2026",
+      "inhalt": "STV Eckart Hafemann berichtet aus der Sitzung des Ausschusses für Bauen, Stadtentwick-\nlung und Umwelt.\nSTV Uwe Happel berichtet aus der Sitzung des Ausschusses für Soziales, Kultur und Sport.\nDer Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vom 05.05.2023\nvor:\n„Die Stadtverordnetenversammlung möge beschließen:\n1. Beim Neubau einer Kindertagesstätte sind Räumlichkeiten zum Betrieb eines Famili-\nenzentrums und ein Multifunktionsraum mit Schwingboden zur Vereinsnutzung mit\neinzuplanen.\n2. Der Neubau ist hinter dem Bestandsgebäude zu errichten. Dieses ist bis zur Fertig-\nstellung des Neubaus weiterhin als Kita zu nutzen und erst nach dem Umzug in den\nNeubau niederzulegen. Auf dem alten Platz des Bestandsgebäudes werden Park-\nplätze errichtet.“\nNach eingehender Beratung erfolgt eine Sitzungsunterbrechung von 20.52 Uhr – 20.59 Uhr.\nNach der Pause teilt die Stadtverordnetenvorsteherin Hiltrud Hofmann mit, dass die CDU-\nFraktion auf die Abstimmung verzichte, wenn in der Niederschrift festgehalten werde, dass\nihr Antrag bei der Entwicklung des Konzeptes, Vorstellung im September, berücksichtigt\nwerde.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "12",
+      "ueberschrift": "TOP 12 Antrag der CDU-Fraktion vom 18.05.2023 betr. Sanierung des Festplatzes in\nWatzenborn-Steinberg",
+      "vorlage": "Vorlage: A-215/2021-2026",
+      "inhalt": "Abgesetzt.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "13",
+      "ueberschrift": "TOP 13 Städt. Anwesen Ludwigstrasse 37 im Stadtteil Watzenborn-Steinberg;\nUm- und Anbau zu einem Jugendzentrum;\nGrundlagenermittlung;\nTeilaufhebung Sperrvermerk;\nBeauftragung Architektenleistung",
+      "vorlage": "Vorlage: STV-220/2021-2026",
+      "inhalt": "___________\n\n\nAbgesetzt.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "14",
+      "ueberschrift": "TOP 14 Beratung und Beschlussfassung über die vorgestellte Entwurfsplanung",
+      "vorlage": "",
+      "inhalt": "zum Neubau der Kita Magdeburger Straße in Watzenborn-Steinberg, Bauge-\nbiet \"Am Schwarzen Morgen\"\nVorlage: STV-216/2021-2026\nSTV Eckart Hafemann berichtet aus den Sitzungen des Ausschusses für Bauen, Stadtent-\nwicklung und Umwelt und des Haupt- und Finanzausschusses.\nSTV Uwe Happel berichtet aus der Sitzung des Ausschusses für Soziales, Kultur und Sport.\nSTV Malke Aydin erkundigt sich, ob der Magistrat neue Architektenleistungen vergeben ha-\nbe. Er bittet die Frage und die Antwort zu Protokoll zu nehmen.\nDer Bürgermeister Andreas Ruck teilt mit, dass keine neuen Architektenleistungen vergeben\nwurden.\nSTV Malke Aydin trägt den CDU-Änderungsantrag vor und begründet ihn. Dieser Ände-\nrungsantrag wurde in der Sitzung des Ausschusses für Bauen, Stadtentwicklung und Umwelt\n(BSU) am 05.06.2023 erstmalig gestellt:\n1. „Bis zum Bestehen des endgültigen Baurechtes für das Grundstück sind keine weite-\nren Architektenleistungen für einen Kita-Neubau zu vergeben.\n2. Sobald Baurecht festgestellt werden kann, sind die Planungen zum Bau eines zwei-\ngeschossigen Kita-Neubaus im rückwärtigen Grundstücksteil fortzuführen.“\nZunächst lässt die Stadtverordnetenvorsteherin Hiltrud Hofmann über den CDU-\nÄnderungsantrag abstimmen:",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit abgelehnt\n8 Ja-Stimmen (8 CDU)\n19 Nein-Stimmen (12 SPD, 6 Grüne, 1 FDP)\n5 Enthaltung (4 FW, 1 FDP)\nDie Ausschüsse empfehlen den gekürzten Beschlussvorschlag der Verwaltung (der letzte\nSatz wurde gestrichen).\nSomit lässt die Stadtverordnetenvorsteherin über folgenden Beschlussvorschlag abstimmen:\nDie Stadtverordnetenversammlung beschließt, dass die Planung und Ausführung der Maß-\nnahme „Neubau der Kita Magdeburger Straße“ auf Grundlage der Entwurfsplanung des Ar-\nchitekturbüros planwerk aus Hanau fortgesetzt werden soll, das Architekturbüro soll mit der\nLeistungsphase 4 (Genehmigungsplanung) fortfahren.\nAbstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n20 Ja-Stimmen (12 SPD, 6 Grüne, 2 FDP)\n12 Nein-Stimmen (8 CDU, 4 FW)"
+    },
+    {
+      "nummer": "15",
+      "ueberschrift": "TOP 15 Vergabe der Leitungsrechts- und Wegerechte in der Sparte Strom nach § 46",
+      "vorlage": "",
+      "inhalt": "Gesetz über die Elektrizitäts- und Gasversorgung (EnWG); Konzessionsver-\ngabe \"Strom\"\nVorlage: STV-221/2021-2026\n___________\n\n\nAbgesetzt.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "16",
+      "ueberschrift": "TOP 16 Antrag der CDU-Fraktion vom 18. Mai 2023 betr. Planung einer Flüchtlings-\nunterkunft \"Am Schwimmbad\"",
+      "vorlage": "Vorlage: A-223/2021-2026",
+      "inhalt": "STV Eckart Hafemann berichtet aus der Sitzung des Ausschusses für Bauen, Stadtentwick-\nlung und Umwelt.\nSTV Uwe Happel berichtet aus der Sitzung des Ausschusses für Soziales, Kultur und Sport.\nDer Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vom 18.05.2023\nvor:\n„Die CDU-Fraktion bittet im Rahmen der nächsten Stadtverordnetenversammlung nach Vor-\nabberatung im BSU und SKS folgenden Beschluss zu fassen:\n1. Für das Grundstück „Am Schwimmbad“ sind sämtliche Planungen zur Errichtung\neiner Flüchtlingsunterkunft einzustellen.\n2. Sofern der Landkreis Gießen neben dem Grundstück „Schönbornwiese“ ein weiteres\nGrundstück zur Errichtung einer dauerhaften Flüchtlingsunterkunft benötigt, sind der\nStadtverordnetenversammlung baureife Grundstücke vorzuschlagen.“\nIn der Sitzung des Ausschusses für Bauen, Stadtentwicklung und Umwelt wurde am\n05.06.2023 folgender Änderungsantrag der Fraktion Bündnis 90/Die Grünen vorgelegt und\ndarüber abgestimmt. Der Ausschuss für Soziales, Kultur und Sport schloss sich am\n06.06.2023 dem an.\n1. „Das Grundstück „Am Schwimmbad“ soll grundsätzlich nicht bebaut und weitere\nPlanungen generell unterlassen werden.\n2. Sofern der Landkreis Gießen neben dem Grundstück „Schönbornwiese“ ein weiteres\nGrundstück zur Errichtung einer dauerhaften Flüchtlingsunterkunft benötigt, sind der\nStadtverordnetenversammlung baureife Grundstücke vorzuschlagen.“\nÜber den Änderungsantrag der Fraktion Bündnis 90/Die Grünen wird wie folgt abgestimmt:",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n19 Ja-Stimmen (8 CDU, 6 Grüne, 4 FW, 1 FDP)\n12 Nein-Stimmen (11 SPD, 1 FDP)\n1 Enthaltung (1 SPD)"
+    },
+    {
+      "nummer": "17",
+      "ueberschrift": "TOP 17 Antrag der SPD-Fraktion vom 3. Juni 2023 betr. Baugebiet \"Oberweg IV\"",
+      "vorlage": "Vorlage: A-225/2021-2026",
+      "inhalt": "Der Stadtverordnetenversammlung liegt folgender Antrag der SPD-Fraktion vom 03.06.2023\nvor:\n„Die Stadtverordnetenversammlung der Stadt Pohlheim möge beschließen:\n1. Der Magistrat wird mit der Überprüfung beauftragt, in welchem Umfang auf Basis der\naus der Vergangenheit gegebenen Planunterlagen und sonstiger zu beachtender\nGegebenheiten ein Aufstellungsbeschluss gefasst werden kann.\n___________\n\n\n2. In diesem Zusammenhang ist festzustellen, ob und in welcher Form für den als\nMischgebiet vorgesehenen Bereich auf Grund gegebener Interessenlage ein „Vorha-\nbenbezogener Bebauungsplan“ realisierbar ist.“\nSTV Peter Alexander bringt den Antrag ein, begründet ihn und verweist ihn in den\nAusschuss für Bauen, Stadtentwicklung und Umwelt.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "18",
+      "ueberschrift": "TOP 18 Antrag der CDU-Fraktion vom 27. Mai 2023 betr. Übersendung von Nieder-\nschriften von Magistratssitzungen",
+      "vorlage": "Vorlage: A-226/2021-2026",
+      "inhalt": "Der Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vom 27.05.2023\nvor:\n„Der Magistrat wird aufgefordert ab sofort wieder die vollständigen Ergebnisniederschriften\n(ohne Personalangeleigenheiten) über ihre Sitzungen dem/der Stadtverordnetenvorsteher/in\nsowie allen Fraktionsvorsitzenden zu übersenden. Die seit kurzem gekürzten Versionen (ab\nNr. 39) sind noch in vollständigem Umfang zu übersenden.“\nSTV Reiner Leidich bringt den Antrag ein und begründet ihn.\nDer Bürgermeister Andreas Ruck teilt zu Protokoll mit, dass die Protokolle wieder in\nungekürzter Fassung verteilt werden. Auf Nachfrage gibt er zu Protokoll, auch die Versionen\nab Nr. 39 noch in vollständigem Umfang zu übersenden.\nDie Stadtverordnetenvorsteherin Hiltrud Hofmann berichtet auch von der Aussprache im\nÄltestenrat.\nDa der Bürgermeister der Zusendung der vollständigen Niederschriften, auch ab Nr. 39\nzustimmte, erklärt STV Reiner Leidich, der Antrag werde zurückgezogen.",
+      "abstimmung": "Abstimmungsergebnis: Zurückgezogen"
+    },
+    {
+      "nummer": "19",
+      "ueberschrift": "TOP 19 Mitteilungen",
+      "vorlage": "",
+      "inhalt": "",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "19.1",
+      "ueberschrift": "TOP 19.1 Mitteilung 1",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck bezieht sich auf die Anfrage von STV Malke Aydin (unter An-\nfrage 1 aufgeführt), wann das Sportstättenkonzept vorgestellt werde und informiert, dass die\nVorstellung in der kommenden Sitzung der Stadtverordnetenversammlung am 20.07.2023\ngeplant sei.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "19.2",
+      "ueberschrift": "TOP 19.2 Mitteilung 2",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck informiert über die Informationsveranstaltung zum Thema\nWindpark Höhlerberg am 18.07.2023 um 19 Uhr im Bürgerhaus Lich. Die Einladung werde\ndem Protokoll beigefügt.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "20",
+      "ueberschrift": "TOP 20 Beantwortung von Anfragen\n___________",
+      "vorlage": "",
+      "inhalt": "--- SEITE 17 ---",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "20.1",
+      "ueberschrift": "TOP 20.1 Anfrage 1",
+      "vorlage": "",
+      "inhalt": "Es liegt folgende Anfrage des Stadtverordneten Malke Aydin vor:\n„Das Sportentwicklungskonzept wurde mit allen relevanten Sport- und Bewegungsakteuren\nvor Ort und mit Vertretern jeder Fraktion der Stadtverordnetenversammlung in vier umfang-\nreichen Arbeitssitzungen ausgearbeitet. Wichtige Entscheidungen stehen an für die Vereine\nund auch die Jugendlichen haben ihre Wünsche geäußert. Hier sollten wir Fahrt aufnehmen!\nWann wird das Sportentwicklungskonzept den städtischen Gremien vorgestellt?“\nBürgermeister Andreas Ruck beantwortet die Anfrage. Siehe Mitteilung 1",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "20.2",
+      "ueberschrift": "TOP 20.2 Anfrage 2",
+      "vorlage": "",
+      "inhalt": "Es liegt folgende Anfrage der Stadtverordneten Michaela Schöffmann vor:\n„Digitales Potenzialflächenkataster\nSeit April 2023 stellt das Land Hessen den Kommunen das Digitale\nPotenzialflächenkataster kostenlos zur Verfügung.\nDigitale Potenzialflächenkataster verbessern die planerische Basis in der Regional-\nund Bauleitplanung zugunsten der Ausschöpfung von Entwicklungspotenzialen im\nInnenbereich.\nMit der Web-Anwendung können Kommunen ihre Potenzialflächen wie Baulücken,\nBrachflächen, Flächen mit hohem Entwicklungspotenzial und Gebäudeleerstände\neinfach erfassen. In der Anwendung sind Planungs- und Geoinformationen in Form\ndigitaler Karten zur Einschätzung der Potenzialflächen hinterlegt.\n(Quelle: https://landesplanung.hessen.de/potenzialflaechenkataster)\n• Wird das Digitale Potenzialflächenkataster von der Stadt Pohlheim genutzt bzw. hat\nsich die Stadt Pohlheim zur Nutzung angemeldet?“\nBürgermeister Andreas Ruck teilt mit, dass die Stadt angemeldet worden sei und das Poten-\nzialflächenkataster benutze.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "20.3",
+      "ueberschrift": "TOP 20.3 Anfrage 3",
+      "vorlage": "",
+      "inhalt": "Es liegen folgenden Anfragen des Stadtverordneten Prof. Dr. Ernst- Ulrich Huster vor:\n„Sehr verehrte Frau Stadtverordnetenvorsteherin,\nhiermit stelle ich zwei Anfragen an den Magistrat der Stadt Pohlheim, vertreten durch den\nHerrn Bürgermeister:\n1. Im Stadtteil Watzenborn-Steinberg stagniert eine Baustelle am Kreuzplatz/ Bahnhof-\nstraße. Der Baukran wurde demontiert. Weitere Baufortschritte sind nicht zu erkennen.\nFragen: Ist der Stadt Pohlheim der Grund für den Baustopp bekannt? Warum muss das\nBaugerüst, das den an sich schon sehr engen Bürgersteig komplett blockiert, stehen\nbleiben, obwohl es derzeit nicht genutzt wird? Wie schätzen Sie die Gefährdung der\nPassanten an dieser Stelle ein, zumal auf der anderen Straßenseite gegenüber diesem\nBaugerüst auch noch die Bushaltestelle der Linie 375 liegt? Wie gedenkt die Stadt in\nZukunft bei der Erteilung von Genehmigungen für die Inanspruchnahme von öffentlichen\n___________\n\n\nVerkehrswegen während einer Bauphase mit möglicherweise eintretenden Baustopps\numzugehen?\n2. Aufgrund des bestehenden Defizits an Plätzen in den Kindertagesstätten kann nicht al-\nlen Anträgen entsprochen werden, es werden aber offensichtlich auch keine Auskünfte\nerteilt, ob man auf einer Warteliste vermerkt ist und welchen Platz man da einnimmt.\nFragen: Nach welchen Kriterien erfolgen Zusagen bzw. Absagen von Anträgen auf Zu-\nteilung eines Betreuungsplatzes in einer Kita in Pohlheim? Gibt es hier vergleichbare\nKriterien bei den kommunalen und bei den Kitas, die in Trägerschaft der Lebenshilfe ge-\nführt werden? Trifft es zu, dass Kitaplätze bevorzugt an neu zugezogene Familien bzw.\nderen Kinder vergeben werden? Warum gibt es keine Wartelisten mit dem Effekt, dass\nAntragsteller*innen absehen können, wann in etwa mit der Zuteilung eines Kita-Platzes\ngerechnet werden kann? Ist der Stadt bekannt, dass Arbeitgeber*innen von Mitarbei-\nter*innen, die wegen der Betreuung eines Kindes freigestellt sind, Auskunft begehren,\nwann mit einer Rückkehr an den freigehaltenen Arbeitsplatz zu rechnen ist?“\nBürgermeister Andreas Ruck beantwortet die Anfragen:\nZu 1:\nDie Erteilung eines Baustopps erfolgt durch die Bauaufsicht des Landkreises Gießen. Die\nStadt Pohlheim erhält lediglich Kenntnis davon. Nähere Informationen dürfen aus daten-\nschutzrechtlichen Gründen nicht weitergegeben werden. Zudem informiert der Bürgermeister\nüber die Funktion des Arbeitsgerüstes, Zweckmäßigkeit des Rückbaus und über die vorlie-\ngende Gerüstgenehmigung.\nZu 2:\n1. Nach welchen Kriterien erfolgen Zusagen bzw. Absagen von Anträgen auf Zu-\nteilung eines Betreuungsplatzes in einer Kita in Pohlheim?\nDie Zuteilung eines Betreuungsplatzes erfolgt gemäß der Aufnahmekriterien nach\n§ 5 der Satzung über die Betreuung von Kindern in den Tageseinrichtungen für Kin-\nder in der Stadt Pohlheim (Benutzungssatzung).\n2. Gibt es hier vergleichbare Kriterien bei den kommunalen und bei den Kitas, die\nin Trägerschaft der Lebenshilfe geführt werden?\nEs gibt keine Unterschiede. Auch die Kitas in Trägerschaft der Lebenshilfe sind bei\nder Zuteilung der Betreuungsplätze an die Kriterien der o. g. Satzung gebunden.\n3. Trifft es zu, dass Kitaplätze bevorzugt an neu zugezogene Familien bzw. deren\nKinder vergeben werden?\nEs trifft nicht zu, dass Kitaplätze bevorzugt an neu zugezogene Familien vergeben\nwerden.\n4. Warum gibt es keine Wartelisten mit dem Effekt, dass Antragsteller*innen ab-\nsehen können, wann in etwa mit der Zuteilung eines Kitaplatzes gerechnet wer-\nden kann?\n___________\n\n\nGrundsätzlich erhalten alle Eltern, die Ihr Kind über das Anmeldeportal „webKITA“\nvoranmelden eine Bestätigung per E-Mail, dass Ihr Kind auf einer Warteliste aufge-\nnommen wurde. Auch bei Aufnahmegesprächen mit Eltern wird auf die Warteliste\nhingewiesen. Nur der Effekt wann mit einer Zuteilung eines Kitaplatzes gerechnet\nwerden kann, lässt sich aufgrund der Komplexität der Platzvergaben nicht darstellen.\n5. Ist der Stadt bekannt, dass Arbeitgeber*innen von Mitarbeiter*innen, die wegen\nder Betreuung eines Kindes freigestellt sind, Auskunft begehren, wann mit ei-\nner Rückkehr an den freigehaltenen Arbeitsplatz zu rechnen ist?\nIn Einzelfällen wurde dies in Aufnahmegesprächen von Eltern erwähnt. Die Regel jedoch ist\nes nicht.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "20.4",
+      "ueberschrift": "TOP 20.4 Anfrage 4",
+      "vorlage": "",
+      "inhalt": "Es liegt folgende Anfrage der Stadtverordneten Michaela Schöffmann vor:\n„Licher Wiesnfest Pohlheim\nNach dem diesjährigen Licher Wiesnfest auf der Mockswiese gab es Kritik des Veranstalters\nin Bezug auf den Zustand des Festplatzes.\nIm Haushalt sind 40.000 Euro zur Sanierung eingestellt.\nSind weitere Kosten zur Sanierung zu erwarten?\nWie hoch sind die jährlichen Einnahmen der Stadt Pohlheim zu diesem Event?\nEntstehen der Stadt Kosten durch die Veranstaltung?“\nBürgermeister Andreas Ruck teilt mit, dass es hier, abgesehen von der Festplatzmiete, keine\nEinnahmen gebe.\nAußerdem informiert er über die aktuellen Planungen und den Sachstand. So sei das eigent-\nliche Ziel, die Asphaltfläche zu entsiegeln. Es müsse nach einer kostendeckenden Lösung\ngeschaut werden.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "20.5",
+      "ueberschrift": "TOP 20.5 Anfrage 5",
+      "vorlage": "",
+      "inhalt": "Es liegen folgende Anfragen des Stadtverordneten Björn Feuerbach vor:\n„Sehr geehrte Frau Hofmann\nSehr geehrter Herr Ruck\nIch bitte um Beantwortung folgender Fragen entweder mündlich in der kommenden Stavo\noder schriftlich.\nIn der Online-Ausgabe der Gießener Zeitung wurde berichtet, dass sich die Magistratsmit-\nglieder Jörg Buß und Ewald Seidler von einem Vorstandsmitglied des FC Teutonia Gießen\nüber den Zustand der Tennenlaufbahn berichten ließen. Im Pressebericht wird der techni-\nsche Aufbau der dreischichtigen Tennenlaufbahn als sehr komplex und Technisch schwierig\nbeschrieben.\nFrage: Entspricht es der Wahrheit, dass Herr Ruck einen Magistratskollegen mit\nSanierungsarbeiten der Laufbahn beauftragt hat?\n___________\n\n\nFrage: Verfügte der Magistratskollege über das notwendige Fachwissen und Spezialgerät,\num eine solche Arbeit sachgerecht zu erledigen?\nFrage: entspricht es den Tatsachen, dass durch die angeblich kostengünstigere Lösung, es\nzu den im Artikel beschriebenen schweren Schäden an der Laufbahn kam?\nLaut Pressebericht liegt dem Magistrat das Angebot einer Fachfirma vor, das die Sanie-\nrungskosten auf 34.000 € beziffert?\nFrage hierzu: liegt dem Magistrat das Angebot einer Fachfirma vor?\nFalls es ein Angebot einer Fachfirma, welches die Kosten mit 34.000 € ausweist, gibt, warum\nwurde dennoch ein Magistratskollege beauftragt?\nUnd\nIm Haushalt stehen 100.000 € Sanierungskosten für die Laufbahn.\nFrage: Wie kommt es zu den 100.000 € im Haushalt?\nFrage: Liegen dem Magistrat Angebote oder Gutachten zum derzeitigen Zustand der Lauf-\nbahn vor?\nFrage: Falls nun die unterste Drainage-Schicht obenauf liegt, ist hier von einem Totalscha-\nden zu sprechen?\nFrage: Wie hoch schätzt der Magistrat die Kosten um die Laufbahn in seinem jetzigen Zu-\nstand wieder gebrauchsfähig zu machen?“\nBürgermeister Andreas Ruck teilt mit, dass die Fragen auch dem Magistrat vorgelegt worden\nseien. Er werde die Fragen dazu heute nicht beantworten, da noch ein Verfahren anhängig\nsei. Er wolle den Abschluss des Verfahrens abwarten. Dann beantworte er die Anfragen sehr\ngerne.",
+      "abstimmung": ""
+    }
+  ],
   "analysis_method": "Azure + Local",
   "total_pages": 2,
-  "extraction_timestamp": "2025-09-14T11:58:18.131344",
+  "extraction_timestamp": "2025-09-14T14:03:18.889024",
   "document_path": "input\\2023_Juni_Stadtverordnetenversammlung_Niederschrift_STV.pdf",
   "full_text": "Stadt Pohlheim\nPohlheim, 21.06.2023\nAz .: STV/022/2021-2026\nNIEDERSCHRIFT\nüber die Sitzung der Stadtverordnetenversammlung der Stadt Pohlheim\nTag:\n15.06.2023\nDauer:\n19:00 Uhr bis 21:54 Uhr\nOrt:\nVolkshalle Watzenborn-Steinberg, Ludwigstraße 33-35, 35415 Pohlheim\nAnwesend:\nVon der Stadtverordnetenversammlung\nStadtverordnetenvorsteherin Hiltrud Hofmann\nSTV Peter Alexander\nSTV Malke Aydin\nSTV Karsten Becker\nSTV Horst Jürgen Briegel\nSTV Lukas Budak\nSTV Risko Bulut\nSTV Sonya Can\nSTV Georg Celik\nSTV Iliyo Danho\nSTV Lorenz Diehl\nSTV Björn Feuerbach\nSTV Samuel Gergin\nSTV Eckart Hafemann\nSTV Simon Hafemann\nSTV Uwe Happel\nSTV Antje Häuser\nSTV Prof. Dr. Ernst-Ulrich Huster\nSTV Bettina Jost\nSTV Norman Klotz\nSTV Michel Kögler\nSTV Matthias Kücükkaplan\nSTV Reiner Leidich\nSTV Dr. Melanie Neeb\nSTV Marc Werner Punzert\nSTV Fabian Schäfer\nSTV Michaela Schöffmann\nab TOP 2\nSTV Andreas Schuch\nSTV Melanie Schunk-Wießner\nSTV Fadi Touma\nSTV Simone van Slobbe-Schneider\nSTV Malek Yacoub\nab TOP 8\nSeite 1 von 20\nSTV/022/2021-2026\nVom Magistrat\nBürgermeister Andreas Ruck\nStadtrat Israel Be Josef\nStadtrat Jörg Buß\nErster Stadtrat Klaus Dieter Gimbel\nStadtrat Reinhard Peter\nStadtrat Ewald Seidler\nVon der Verwaltung\nVFW Stefan Huster\nSchriftführerin\nVBW Bianca Krieb\nEntschuldigt:\nVon der Stadtverordnetenversammlung\nSTV Angelika Bartosch\nSTV Kevin Engel\nSTV Matthias Jung\nSTV Erich Klotz\nSTV Prof. Dr. Helge Stadelmann\nVom Magistrat\nStadtrat Philipp Niklas Mackowiak\nStadtrat Dr. Karl Ernst Rainer Pfaff\nStadtrat Wolfgang Sames\nTAGESORDNUNG:\nTOP 1\nEröffnung sowie Feststellung der ordnungsgemäßen\nLadung und der Beschlussfähigkeit\nTOP 2\nFeststellung der Niederschrift vom 4. Mai 2023\nTOP 3\nWahl der Schöffen für die Amtsperiode 2024 - 2028;\nAufstellung der Vorschlagslisten für Schöffen gemäß §\n36 GVG\nSTV-219/2021-\n2026\nTOP 4\nAntrag \"Jugend entscheidet\" vom 9. März 2023 betr.\nÖPNV - Busverkehr\nA-194/2021-2026\nTOP 5\nAntrag \"Jugend entscheidet\" vom 9. März 2023 betr.\nErtüchtigung vorhandener Sportstätten\nA-195/2021-2026\nTOP 6\nAbschluss einer vertraglichen Vereinbarung zur Über-\nlassung und Nutzung eines Grundstücks zur Errichtung\nvon Gebäuden in Holzbauweise für die Unterbringung\nvon Flüchtlingen\nSTV-222/2021-\n2026\nSeite 2 von 20\nSTV/022/2021-2026\n"
 }

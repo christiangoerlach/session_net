@@ -1,0 +1,413 @@
+{
+  "statistics": {
+    "method1": "PyPDF2",
+    "method2": "pdfplumber",
+    "length1": 124,
+    "length2": 128,
+    "length_diff": -4,
+    "timestamp": "2025-09-14T13:51:25.537428"
+  },
+  "character_differences": [
+    {
+      "position": 11,
+      "char1": "P",
+      "char2": "p",
+      "context1": "Fehler bei PyPDF2: [Errno 2] No",
+      "context2": "Fehler bei pdfplumber: [Errno 2"
+    },
+    {
+      "position": 12,
+      "char1": "y",
+      "char2": "d",
+      "context1": "Fehler bei PyPDF2: [Errno 2] No ",
+      "context2": "Fehler bei pdfplumber: [Errno 2]"
+    },
+    {
+      "position": 13,
+      "char1": "P",
+      "char2": "f",
+      "context1": "Fehler bei PyPDF2: [Errno 2] No s",
+      "context2": "Fehler bei pdfplumber: [Errno 2] "
+    },
+    {
+      "position": 14,
+      "char1": "D",
+      "char2": "p",
+      "context1": "Fehler bei PyPDF2: [Errno 2] No su",
+      "context2": "Fehler bei pdfplumber: [Errno 2] N"
+    },
+    {
+      "position": 15,
+      "char1": "F",
+      "char2": "l",
+      "context1": "Fehler bei PyPDF2: [Errno 2] No suc",
+      "context2": "Fehler bei pdfplumber: [Errno 2] No"
+    },
+    {
+      "position": 16,
+      "char1": "2",
+      "char2": "u",
+      "context1": "Fehler bei PyPDF2: [Errno 2] No such",
+      "context2": "Fehler bei pdfplumber: [Errno 2] No "
+    },
+    {
+      "position": 17,
+      "char1": ":",
+      "char2": "m",
+      "context1": "Fehler bei PyPDF2: [Errno 2] No such ",
+      "context2": "Fehler bei pdfplumber: [Errno 2] No s"
+    },
+    {
+      "position": 18,
+      "char1": " ",
+      "char2": "b",
+      "context1": "Fehler bei PyPDF2: [Errno 2] No such f",
+      "context2": "Fehler bei pdfplumber: [Errno 2] No su"
+    },
+    {
+      "position": 19,
+      "char1": "[",
+      "char2": "e",
+      "context1": "Fehler bei PyPDF2: [Errno 2] No such fi",
+      "context2": "Fehler bei pdfplumber: [Errno 2] No suc"
+    },
+    {
+      "position": 20,
+      "char1": "E",
+      "char2": "r",
+      "context1": "Fehler bei PyPDF2: [Errno 2] No such fil",
+      "context2": "Fehler bei pdfplumber: [Errno 2] No such"
+    },
+    {
+      "position": 21,
+      "char1": "r",
+      "char2": ":",
+      "context1": "ehler bei PyPDF2: [Errno 2] No such file",
+      "context2": "ehler bei pdfplumber: [Errno 2] No such "
+    },
+    {
+      "position": 22,
+      "char1": "r",
+      "char2": " ",
+      "context1": "hler bei PyPDF2: [Errno 2] No such file ",
+      "context2": "hler bei pdfplumber: [Errno 2] No such f"
+    },
+    {
+      "position": 23,
+      "char1": "n",
+      "char2": "[",
+      "context1": "ler bei PyPDF2: [Errno 2] No such file o",
+      "context2": "ler bei pdfplumber: [Errno 2] No such fi"
+    },
+    {
+      "position": 24,
+      "char1": "o",
+      "char2": "E",
+      "context1": "er bei PyPDF2: [Errno 2] No such file or",
+      "context2": "er bei pdfplumber: [Errno 2] No such fil"
+    },
+    {
+      "position": 25,
+      "char1": " ",
+      "char2": "r",
+      "context1": "r bei PyPDF2: [Errno 2] No such file or ",
+      "context2": "r bei pdfplumber: [Errno 2] No such file"
+    },
+    {
+      "position": 26,
+      "char1": "2",
+      "char2": "r",
+      "context1": " bei PyPDF2: [Errno 2] No such file or d",
+      "context2": " bei pdfplumber: [Errno 2] No such file "
+    },
+    {
+      "position": 27,
+      "char1": "]",
+      "char2": "n",
+      "context1": "bei PyPDF2: [Errno 2] No such file or di",
+      "context2": "bei pdfplumber: [Errno 2] No such file o"
+    },
+    {
+      "position": 28,
+      "char1": " ",
+      "char2": "o",
+      "context1": "ei PyPDF2: [Errno 2] No such file or dir",
+      "context2": "ei pdfplumber: [Errno 2] No such file or"
+    },
+    {
+      "position": 29,
+      "char1": "N",
+      "char2": " ",
+      "context1": "i PyPDF2: [Errno 2] No such file or dire",
+      "context2": "i pdfplumber: [Errno 2] No such file or "
+    },
+    {
+      "position": 30,
+      "char1": "o",
+      "char2": "2",
+      "context1": " PyPDF2: [Errno 2] No such file or direc",
+      "context2": " pdfplumber: [Errno 2] No such file or d"
+    },
+    {
+      "position": 31,
+      "char1": " ",
+      "char2": "]",
+      "context1": "PyPDF2: [Errno 2] No such file or direct",
+      "context2": "pdfplumber: [Errno 2] No such file or di"
+    },
+    {
+      "position": 32,
+      "char1": "s",
+      "char2": " ",
+      "context1": "yPDF2: [Errno 2] No such file or directo",
+      "context2": "dfplumber: [Errno 2] No such file or dir"
+    },
+    {
+      "position": 33,
+      "char1": "u",
+      "char2": "N",
+      "context1": "PDF2: [Errno 2] No such file or director",
+      "context2": "fplumber: [Errno 2] No such file or dire"
+    },
+    {
+      "position": 34,
+      "char1": "c",
+      "char2": "o",
+      "context1": "DF2: [Errno 2] No such file or directory",
+      "context2": "plumber: [Errno 2] No such file or direc"
+    },
+    {
+      "position": 35,
+      "char1": "h",
+      "char2": " ",
+      "context1": "F2: [Errno 2] No such file or directory:",
+      "context2": "lumber: [Errno 2] No such file or direct"
+    },
+    {
+      "position": 36,
+      "char1": " ",
+      "char2": "s",
+      "context1": "2: [Errno 2] No such file or directory: ",
+      "context2": "umber: [Errno 2] No such file or directo"
+    },
+    {
+      "position": 37,
+      "char1": "f",
+      "char2": "u",
+      "context1": ": [Errno 2] No such file or directory: '",
+      "context2": "mber: [Errno 2] No such file or director"
+    },
+    {
+      "position": 38,
+      "char1": "i",
+      "char2": "c",
+      "context1": " [Errno 2] No such file or directory: 'i",
+      "context2": "ber: [Errno 2] No such file or directory"
+    },
+    {
+      "position": 39,
+      "char1": "l",
+      "char2": "h",
+      "context1": "[Errno 2] No such file or directory: 'in",
+      "context2": "er: [Errno 2] No such file or directory:"
+    },
+    {
+      "position": 40,
+      "char1": "e",
+      "char2": " ",
+      "context1": "Errno 2] No such file or directory: 'inp",
+      "context2": "r: [Errno 2] No such file or directory: "
+    },
+    {
+      "position": 41,
+      "char1": " ",
+      "char2": "f",
+      "context1": "rrno 2] No such file or directory: 'inpu",
+      "context2": ": [Errno 2] No such file or directory: '"
+    },
+    {
+      "position": 42,
+      "char1": "o",
+      "char2": "i",
+      "context1": "rno 2] No such file or directory: 'input",
+      "context2": " [Errno 2] No such file or directory: 'i"
+    },
+    {
+      "position": 43,
+      "char1": "r",
+      "char2": "l",
+      "context1": "no 2] No such file or directory: 'input\\",
+      "context2": "[Errno 2] No such file or directory: 'in"
+    },
+    {
+      "position": 44,
+      "char1": " ",
+      "char2": "e",
+      "context1": "o 2] No such file or directory: 'input\\\\",
+      "context2": "Errno 2] No such file or directory: 'inp"
+    },
+    {
+      "position": 45,
+      "char1": "d",
+      "char2": " ",
+      "context1": " 2] No such file or directory: 'input\\\\2",
+      "context2": "rrno 2] No such file or directory: 'inpu"
+    },
+    {
+      "position": 46,
+      "char1": "i",
+      "char2": "o",
+      "context1": "2] No such file or directory: 'input\\\\20",
+      "context2": "rno 2] No such file or directory: 'input"
+    },
+    {
+      "position": 48,
+      "char1": "e",
+      "char2": " ",
+      "context1": " No such file or directory: 'input\\\\2023",
+      "context2": "o 2] No such file or directory: 'input\\\\"
+    },
+    {
+      "position": 49,
+      "char1": "c",
+      "char2": "d",
+      "context1": "No such file or directory: 'input\\\\2023_",
+      "context2": " 2] No such file or directory: 'input\\\\2"
+    },
+    {
+      "position": 50,
+      "char1": "t",
+      "char2": "i",
+      "context1": "o such file or directory: 'input\\\\2023_J",
+      "context2": "2] No such file or directory: 'input\\\\20"
+    },
+    {
+      "position": 51,
+      "char1": "o",
+      "char2": "r",
+      "context1": " such file or directory: 'input\\\\2023_Ju",
+      "context2": "] No such file or directory: 'input\\\\202"
+    },
+    {
+      "position": 52,
+      "char1": "r",
+      "char2": "e",
+      "context1": "such file or directory: 'input\\\\2023_Jul",
+      "context2": " No such file or directory: 'input\\\\2023"
+    },
+    {
+      "position": 53,
+      "char1": "y",
+      "char2": "c",
+      "context1": "uch file or directory: 'input\\\\2023_Juli",
+      "context2": "No such file or directory: 'input\\\\2023_"
+    },
+    {
+      "position": 54,
+      "char1": ":",
+      "char2": "t",
+      "context1": "ch file or directory: 'input\\\\2023_Juli_",
+      "context2": "o such file or directory: 'input\\\\2023_J"
+    },
+    {
+      "position": 55,
+      "char1": " ",
+      "char2": "o",
+      "context1": "h file or directory: 'input\\\\2023_Juli_S",
+      "context2": " such file or directory: 'input\\\\2023_Ju"
+    },
+    {
+      "position": 56,
+      "char1": "'",
+      "char2": "r",
+      "context1": " file or directory: 'input\\\\2023_Juli_St",
+      "context2": "such file or directory: 'input\\\\2023_Jul"
+    },
+    {
+      "position": 57,
+      "char1": "i",
+      "char2": "y",
+      "context1": "file or directory: 'input\\\\2023_Juli_Sta",
+      "context2": "uch file or directory: 'input\\\\2023_Juli"
+    },
+    {
+      "position": 58,
+      "char1": "n",
+      "char2": ":",
+      "context1": "ile or directory: 'input\\\\2023_Juli_Stad",
+      "context2": "ch file or directory: 'input\\\\2023_Juli_"
+    },
+    {
+      "position": 59,
+      "char1": "p",
+      "char2": " ",
+      "context1": "le or directory: 'input\\\\2023_Juli_Stadt",
+      "context2": "h file or directory: 'input\\\\2023_Juli_S"
+    },
+    {
+      "position": 60,
+      "char1": "u",
+      "char2": "'",
+      "context1": "e or directory: 'input\\\\2023_Juli_Stadtv",
+      "context2": " file or directory: 'input\\\\2023_Juli_St"
+    },
+    {
+      "position": 61,
+      "char1": "t",
+      "char2": "i",
+      "context1": " or directory: 'input\\\\2023_Juli_Stadtve",
+      "context2": "file or directory: 'input\\\\2023_Juli_Sta"
+    },
+    {
+      "position": "...",
+      "char1": "...",
+      "char2": "...",
+      "context1": "... und 0 weitere Unterschiede",
+      "context2": "... und 4 weitere Unterschiede"
+    }
+  ],
+  "pattern_analysis": {
+    "anwesenheit": {
+      "method1_count": 0,
+      "method2_count": 0,
+      "method1_matches": [],
+      "method2_matches": []
+    },
+    "abwesend": {
+      "method1_count": 0,
+      "method2_count": 0,
+      "method1_matches": [],
+      "method2_matches": []
+    },
+    "tagesordnung": {
+      "method1_count": 0,
+      "method2_count": 0,
+      "method1_matches": [],
+      "method2_matches": []
+    },
+    "top_numbers": {
+      "method1_count": 0,
+      "method2_count": 0,
+      "method1_matches": [],
+      "method2_matches": []
+    },
+    "datum": {
+      "method1_count": 0,
+      "method2_count": 0,
+      "method1_matches": [],
+      "method2_matches": []
+    },
+    "zeit": {
+      "method1_count": 0,
+      "method2_count": 0,
+      "method1_matches": [],
+      "method2_matches": []
+    },
+    "ort": {
+      "method1_count": 0,
+      "method2_count": 0,
+      "method1_matches": [],
+      "method2_matches": []
+    }
+  }
+}
