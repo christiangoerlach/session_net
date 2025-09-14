@@ -50,6 +50,64 @@ class DocumentAnalyzer:
             # Bei Parsing-Fehlern ursprünglichen String zurückgeben
             return date_string
     
+    def extract_agenda(self, text):
+        """
+        Extrahiert die Tagesordnung aus dem Text mit OCR-Fehler-Korrektur
+        
+        Args:
+            text (str): Der zu analysierende Text
+            
+        Returns:
+            str: Die vollständige Tagesordnung oder Fehlermeldung
+        """
+        # Finde TAGESORDNUNG:
+        tagesordnung_match = re.search(r'TAGESORDNUNG\s*:', text, re.IGNORECASE)
+        if not tagesordnung_match:
+            return 'TAGESORDNUNG: nicht gefunden'
+        
+        agenda_start = tagesordnung_match.end()
+        
+        # Finde alle TOPs nach der Tagesordnung
+        top_matches = list(re.finditer(r'TOP\s+(\d+(?:\.\d+)?)', text[agenda_start:], re.IGNORECASE))
+        
+        if len(top_matches) < 2:
+            return 'Nicht genügend TOPs gefunden'
+        
+        # Finde das erste echte TOP 1 (Tagesordnung)
+        first_top1_text = None
+        for match in top_matches:
+            if match.group(1) == '1':
+                first_top1_text = text[agenda_start + match.end():agenda_start + match.end() + 50]
+                break
+        
+        # Finde das Ende der Tagesordnung durch Text-Vergleich
+        agenda_end = None
+        
+        for i, match in enumerate(top_matches):
+            top_num = match.group(1)
+            
+            if top_num == '1' and i > 0:  # Nicht das erste TOP 1
+                # Prüfe den Text nach diesem TOP 1
+                current_text = text[agenda_start + match.end():agenda_start + match.end() + 50]
+                
+                # Wenn der Text gleich dem ersten TOP 1 ist, ist es die Beschlussphase
+                if first_top1_text and current_text == first_top1_text:
+                    agenda_end = agenda_start + match.start()
+                    break
+        
+        if agenda_end:
+            agenda_text = text[agenda_start:agenda_end].strip()
+            
+            # Bereinige den Text
+            agenda_text = re.sub(r'\n--- SEITE \d+ ---\n', '\n', agenda_text)
+            agenda_text = re.sub(r'\n\s*\n\s*\n', '\n\n', agenda_text)
+            agenda_text = re.sub(r'Seite \d+ von \d+', '', agenda_text)
+            agenda_text = re.sub(r'STV/\d+/\d+-\d+', '', agenda_text)
+            
+            return agenda_text.strip()
+        
+        return 'Tagesordnung-Ende nicht gefunden'
+    
     def analyze_document(self, document_path):
         """
         Analysiert ein Dokument mit Azure Document Intelligence
@@ -240,6 +298,7 @@ class DocumentAnalyzer:
         # Metadaten extrahieren
         metadata = results.get('metadata', {})
         attendance_data = results.get('attendance_data', {})
+        agenda_text = results.get('agenda', '')
         
         # Anwesenheitsdaten konvertieren
         attendance_present = []
@@ -277,6 +336,7 @@ class DocumentAnalyzer:
             "total_present": len(attendance_present),
             "total_excused": len(attendance_excused),
             "total_participants": len(attendance_present) + len(attendance_excused),
+            "agenda": agenda_text,  # Neue Tagesordnung
             "analysis_method": results.get('analysis_method', 'unknown'),
             "total_pages": results.get('total_pages', 0),
             "extraction_timestamp": results.get('extraction_timestamp', ''),
@@ -456,12 +516,16 @@ class DocumentAnalyzer:
             local_attendance_data = self.extract_attendance_from_text(local_text)
             local_metadata = self.extract_metadata(local_text)
             
+            # Tagesordnung extrahieren
+            agenda = self.extract_agenda(local_text)
+            
             return {
                 "document_path": document_path,
                 "layout_tops": layout_tops,
                 "attendance_data": local_attendance_data,  # Verwende lokale Daten
                 "all_attendance_matches": all_attendance_matches,
                 "metadata": local_metadata,  # Verwende lokale Metadaten
+                "agenda": agenda,  # Neue Tagesordnung
                 "total_pages": len(response.pages),
                 "full_text": full_text,
                 "local_full_text": local_text,  # Zusätzlich: Lokaler Text
@@ -469,12 +533,16 @@ class DocumentAnalyzer:
                 "extraction_timestamp": datetime.now().isoformat()
             }
         else:
+            # Tagesordnung aus Azure-Text extrahieren
+            agenda = self.extract_agenda(full_text)
+            
             return {
                 "document_path": document_path,
                 "layout_tops": layout_tops,
                 "attendance_data": attendance_data,
                 "all_attendance_matches": all_attendance_matches,
                 "metadata": metadata,
+                "agenda": agenda,  # Neue Tagesordnung
                 "total_pages": len(response.pages),
                 "full_text": full_text,
                 "analysis_method": "Azure only"
