@@ -84,7 +84,7 @@ class DocumentAnalyzer:
     
     def extract_attendance_from_text(self, text):
         """
-        Extrahiert Anwesenheitsliste aus Text mit Regex
+        Extrahiert Anwesenheitsliste aus Text mit Regex - erweitert für mehrseitige Dokumente
         
         Args:
             text (str): Der zu analysierende Text
@@ -92,13 +92,24 @@ class DocumentAnalyzer:
         Returns:
             dict: Strukturierte Anwesenheitsdaten
         """
-        # Finde den Anwesenheitsbereich (zwischen "Anwesend:" und "Tagesordnung:")
-        attendance_section = re.search(r"Anwesend:(.*?)Tagesordnung:", text, re.DOTALL | re.IGNORECASE)
+        # Erweiterte Suche nach Anwesenheitsbereich - berücksichtigt Seitenwechsel
+        # Suche nach "Anwesend:" und dann alles bis zum nächsten Hauptabschnitt
+        attendance_patterns = [
+            r"Anwesend:(.*?)(?=TAGESORDNUNG:|Tagesordnung:)",  # Bis Tagesordnung (nur Hauptüberschrift)
+            r"Anwesend:(.*?)(?=\n\s*TOP\s+1\s)",  # Bis TOP 1 (erste Tagesordnung)
+            r"Anwesend:(.*?)(?=\n\s*[A-ZÄÖÜ][a-zäöüß]+\s*:|$)",  # Bis nächster Hauptabschnitt oder Ende
+            r"Anwesend:(.*?)(?=\n\s*\d+\.\s*[A-Z]|$)"  # Bis nummerierte Liste oder Ende
+        ]
         
-        if not attendance_section:
+        attendance_text = None
+        for pattern in attendance_patterns:
+            match = re.search(pattern, text, re.DOTALL | re.IGNORECASE)
+            if match:
+                attendance_text = match.group(1)
+                break
+        
+        if not attendance_text:
             return {"error": "Anwesenheitsbereich nicht gefunden"}
-        
-        attendance_text = attendance_section.group(1)
         
         # Extrahiere Anwesende und Entschuldigte
         result = {
@@ -107,8 +118,17 @@ class DocumentAnalyzer:
             "funktionen": {}
         }
         
-        # Teile in Anwesend und Entschuldigt
-        entschuldigt_match = re.search(r"Entschuldigt:(.*?)$", attendance_text, re.DOTALL | re.IGNORECASE)
+        # Teile in Anwesend und Entschuldigt - erweitert für mehrseitige Suche
+        entschuldigt_patterns = [
+            r"Entschuldigt:(.*?)(?=Tagesordnung:|TOP\s*\d+|Beschluss|Protokoll|$)",
+            r"Entschuldigt:(.*?)$"
+        ]
+        
+        entschuldigt_match = None
+        for pattern in entschuldigt_patterns:
+            entschuldigt_match = re.search(pattern, attendance_text, re.DOTALL | re.IGNORECASE)
+            if entschuldigt_match:
+                break
         
         if entschuldigt_match:
             anwesend_text = attendance_text[:entschuldigt_match.start()]
@@ -129,6 +149,7 @@ class DocumentAnalyzer:
     def _parse_attendance_section(self, text):
         """
         Parst einen Anwesenheitsbereich und extrahiert Funktionen und Personen
+        Erweitert für mehrseitige Dokumente
         
         Args:
             text (str): Text des Anwesenheitsbereichs
@@ -139,7 +160,9 @@ class DocumentAnalyzer:
         functions = []
         current_function = None
         
-        lines = text.split('\n')
+        # Bereinige den Text von Seitenmarkierungen und anderen Störungen
+        cleaned_text = self._clean_text_for_parsing(text)
+        lines = cleaned_text.split('\n')
         
         for line in lines:
             line = line.strip()
@@ -149,7 +172,7 @@ class DocumentAnalyzer:
             # Ignoriere Seitennummern und Dokumentennamen
             if re.match(r"^Seite \d+ von \d+$", line) or re.match(r"^STV/\d+/\d+-\d+$", line):
                 continue
-                
+            
             # Prüfe ob es eine Funktionsüberschrift ist (erweitert um "Von der Verwaltung:")
             if re.match(r"^(Von der|Vom|Schriftführer)", line, re.IGNORECASE):
                 current_function = line
@@ -174,6 +197,30 @@ class DocumentAnalyzer:
                     functions[-1]["personen"].append(line)
         
         return functions
+    
+    def _clean_text_for_parsing(self, text):
+        """
+        Bereinigt Text für besseres Parsing - entfernt Seitenwechsel-Störungen
+        
+        Args:
+            text (str): Roher Text
+            
+        Returns:
+            str: Bereinigter Text
+        """
+        # Entferne Seitenwechsel-Markierungen, aber behalte den Inhalt
+        cleaned = text
+        
+        # Entferne "--- SEITE X ---" Markierungen
+        cleaned = re.sub(r'\n--- SEITE \d+ ---\n', '\n', cleaned)
+        
+        # Entferne mehrfache Leerzeilen
+        cleaned = re.sub(r'\n\s*\n\s*\n', '\n\n', cleaned)
+        
+        # Entferne Seitenzahlen am Ende von Zeilen
+        cleaned = re.sub(r'\s+\d+\s*$', '', cleaned, flags=re.MULTILINE)
+        
+        return cleaned
     
     def convert_to_custom_format(self, results):
         """
