@@ -25,6 +25,31 @@ class DocumentAnalyzer:
             credential=AzureKeyCredential(self.api_key)
         )
     
+    def convert_date_to_iso(self, date_string):
+        """
+        Konvertiert deutsches Datumsformat zu ISO-Format
+        
+        Args:
+            date_string (str): Datum im Format "20.07.2023"
+            
+        Returns:
+            str: ISO-Format "2023-07-20T00:00:00Z" oder ursprünglicher String bei Fehler
+        """
+        if not date_string:
+            return ""
+        
+        try:
+            # Versuche deutsches Format zu parsen (dd.mm.yyyy)
+            if re.match(r'\d{1,2}\.\d{1,2}\.\d{4}', date_string):
+                date_obj = datetime.strptime(date_string, '%d.%m.%Y')
+                return date_obj.strftime('%Y-%m-%dT00:00:00Z')
+            else:
+                # Falls bereits ISO-Format oder anderes Format, zurückgeben
+                return date_string
+        except ValueError:
+            # Bei Parsing-Fehlern ursprünglichen String zurückgeben
+            return date_string
+    
     def analyze_document(self, document_path):
         """
         Analysiert ein Dokument mit Azure Document Intelligence
@@ -150,176 +175,69 @@ class DocumentAnalyzer:
         
         return functions
     
-    def convert_to_azure_format(self, results):
+    def convert_to_custom_format(self, results):
         """
-        Konvertiert die Analyseergebnisse in Azure Document Intelligence Trainingsformat
+        Konvertiert die Analyseergebnisse in das struktur.json-konforme Format
         
         Args:
             results (dict): Analyseergebnisse
             
         Returns:
-            dict: Azure-konformes JSON-Format
+            dict: struktur.json-konformes JSON-Format
         """
-        # Azure Document Intelligence erwartet ein spezifisches Format für Trainingsdaten
-        azure_format = {
-            "docType": "session_protocol",
-            "fields": {}
-        }
+        # Extrahiere Dateiname für ID
+        document_path = results.get('document_path', '')
+        filename = os.path.basename(document_path)
+        file_id = os.path.splitext(filename)[0]  # Ohne .pdf Extension
         
-        # Metadaten als Felder hinzufügen
+        # Metadaten extrahieren
         metadata = results.get('metadata', {})
-        if metadata:
-            azure_format["fields"]["document_type"] = {
-                "type": "string",
-                "value": metadata.get('dokumenttyp', ''),
-                "boundingRegions": [
-                    {
-                        "pageNumber": 1,
-                        "polygon": [
-                            {"x": 0.1, "y": 0.1},
-                            {"x": 0.4, "y": 0.1},
-                            {"x": 0.4, "y": 0.15},
-                            {"x": 0.1, "y": 0.15}
-                        ]
-                    }
-                ]
-            }
-            azure_format["fields"]["session_type"] = {
-                "type": "string", 
-                "value": metadata.get('sitzungsart', ''),
-                "boundingRegions": [
-                    {
-                        "pageNumber": 1,
-                        "polygon": [
-                            {"x": 0.1, "y": 0.2},
-                            {"x": 0.6, "y": 0.2},
-                            {"x": 0.6, "y": 0.25},
-                            {"x": 0.1, "y": 0.25}
-                        ]
-                    }
-                ]
-            }
-            azure_format["fields"]["date"] = {
-                "type": "date",
-                "value": metadata.get('tag', ''),
-                "boundingRegions": [
-                    {
-                        "pageNumber": 1,
-                        "polygon": [
-                            {"x": 0.1, "y": 0.3},
-                            {"x": 0.3, "y": 0.3},
-                            {"x": 0.3, "y": 0.35},
-                            {"x": 0.1, "y": 0.35}
-                        ]
-                    }
-                ]
-            }
-            azure_format["fields"]["duration"] = {
-                "type": "string",
-                "value": metadata.get('dauer', ''),
-                "boundingRegions": [
-                    {
-                        "pageNumber": 1,
-                        "polygon": [
-                            {"x": 0.1, "y": 0.4},
-                            {"x": 0.4, "y": 0.4},
-                            {"x": 0.4, "y": 0.45},
-                            {"x": 0.1, "y": 0.45}
-                        ]
-                    }
-                ]
-            }
-            azure_format["fields"]["location"] = {
-                "type": "string",
-                "value": metadata.get('ort', ''),
-                "boundingRegions": [
-                    {
-                        "pageNumber": 1,
-                        "polygon": [
-                            {"x": 0.1, "y": 0.5},
-                            {"x": 0.7, "y": 0.5},
-                            {"x": 0.7, "y": 0.55},
-                            {"x": 0.1, "y": 0.55}
-                        ]
-                    }
-                ]
-            }
-        
-        # Anwesenheitsdaten strukturieren
         attendance_data = results.get('attendance_data', {})
+        
+        # Anwesenheitsdaten konvertieren
+        attendance_present = []
+        attendance_excused = []
+        
         if isinstance(attendance_data, dict) and 'error' not in attendance_data:
-            
-            # Anwesende Personen
-            anwesend_list = []
+            # Anwesende Personen konvertieren
             for func in attendance_data.get('anwesend', []):
                 for person in func.get('personen', []):
-                    anwesend_list.append({
+                    attendance_present.append({
                         "name": person,
                         "function": func.get('funktion', ''),
                         "status": "present"
                     })
             
-            # Entschuldigte Personen
-            entschuldigt_list = []
+            # Entschuldigte Personen konvertieren
             for func in attendance_data.get('entschuldigt', []):
                 for person in func.get('personen', []):
-                    entschuldigt_list.append({
+                    attendance_excused.append({
                         "name": person,
                         "function": func.get('funktion', ''),
                         "status": "excused"
                     })
-            
-            azure_format["fields"]["attendance_present"] = {
-                "type": "array",
-                "value": anwesend_list,
-                "boundingRegions": [
-                    {
-                        "pageNumber": 1,
-                        "polygon": [
-                            {"x": 0.1, "y": 0.6},
-                            {"x": 0.8, "y": 0.6},
-                            {"x": 0.8, "y": 0.8},
-                            {"x": 0.1, "y": 0.8}
-                        ]
-                    }
-                ]
-            }
-            
-            azure_format["fields"]["attendance_excused"] = {
-                "type": "array", 
-                "value": entschuldigt_list,
-                "boundingRegions": [
-                    {
-                        "pageNumber": 1,
-                        "polygon": [
-                            {"x": 0.1, "y": 0.85},
-                            {"x": 0.8, "y": 0.85},
-                            {"x": 0.8, "y": 0.95},
-                            {"x": 0.1, "y": 0.95}
-                        ]
-                    }
-                ]
-            }
-            
-            # Zusammenfassung
-            azure_format["fields"]["attendance_summary"] = {
-                "type": "object",
-                "value": {
-                    "total_present": len(anwesend_list),
-                    "total_excused": len(entschuldigt_list),
-                    "total_participants": len(anwesend_list) + len(entschuldigt_list)
-                }
-            }
         
-        # Zusätzliche Metadaten für Azure
-        azure_format["azure_metadata"] = {
+        # struktur.json-konformes Format erstellen
+        custom_format = {
+            "id": file_id,
+            "document_type": metadata.get('dokumenttyp', ''),
+            "session_type": metadata.get('sitzungsart', ''),
+            "date": self.convert_date_to_iso(metadata.get('tag', '')),  # ISO-Format
+            "duration": metadata.get('dauer', ''),
+            "location": metadata.get('ort', ''),
+            "attendance_present": attendance_present,
+            "attendance_excused": attendance_excused if attendance_excused else [],  # Immer Array
+            "total_present": len(attendance_present),
+            "total_excused": len(attendance_excused),
+            "total_participants": len(attendance_present) + len(attendance_excused),
             "analysis_method": results.get('analysis_method', 'unknown'),
             "total_pages": results.get('total_pages', 0),
             "extraction_timestamp": results.get('extraction_timestamp', ''),
-            "document_path": results.get('document_path', '')
+            "document_path": document_path,
+            "full_text": results.get('full_text', '')
         }
         
-        return azure_format
+        return custom_format
     
     def extract_metadata(self, text):
         """
@@ -561,7 +479,7 @@ class DocumentAnalyzer:
                         print(f"    - {person}")
         else:
             print(f"Fehler: {results['attendance_data'].get('error', 'Unbekannter Fehler')}")
-        
+
 
 def process_all_pdfs_in_folder(folder_path):
     """
@@ -600,17 +518,19 @@ def process_all_pdfs_in_folder(folder_path):
                 print(f"❌ Fehler bei der Analyse: {results['error']}")
                 continue
             
-            # Erstelle Azure-konforme Labels für Training
-            azure_format = analyzer.convert_to_azure_format(results)
+            # Erstelle benutzerdefiniertes Format für Training
+            custom_format = analyzer.convert_to_custom_format(results)
             
-            # Speichere .labels.json Datei (für Azure Document Intelligence Training)
+            # Speichere .json Datei im output Ordner
             base_name = os.path.splitext(pdf_file)[0]
-            labels_file = os.path.join(folder_path, f"{base_name}.labels.json")
+            output_folder = os.path.join(os.path.dirname(folder_path), "output")
+            os.makedirs(output_folder, exist_ok=True)
+            custom_file = os.path.join(output_folder, f"{base_name}.json")
             
-            with open(labels_file, 'w', encoding='utf-8') as f:
-                json.dump(azure_format, f, ensure_ascii=False, indent=2)
+            with open(custom_file, 'w', encoding='utf-8') as f:
+                json.dump(custom_format, f, ensure_ascii=False, indent=2)
             
-            print(f"✅ Labels erstellt: {os.path.basename(labels_file)}")
+            print(f"✅ Custom Format erstellt: {os.path.basename(custom_file)}")
             
             # Zeige kurze Zusammenfassung
             metadata = results.get('metadata', {})
@@ -632,16 +552,18 @@ def process_all_pdfs_in_folder(folder_path):
     print("\n" + "=" * 60)
     print(f"🎉 VERARBEITUNG ABGESCHLOSSEN!")
     print(f"   ✅ Erfolgreich verarbeitet: {successful_count}/{len(pdf_files)} Dateien")
-    print(f"   📁 Alle .labels.json Dateien wurden im Ordner gespeichert:")
-    print(f"      {folder_path}")
+    output_folder = os.path.join(os.path.dirname(folder_path), "output")
+    print(f"   📁 Alle .json Dateien wurden im Ordner gespeichert:")
+    print(f"      {output_folder}")
     
     if successful_count > 0:
-        print(f"\n📋 Erstellte Trainingsdateien:")
+        print(f"\n📋 Erstellte JSON Dateien:")
         for pdf_file in pdf_files:
             base_name = os.path.splitext(pdf_file)[0]
-            labels_file = os.path.join(folder_path, f"{base_name}.labels.json")
-            if os.path.exists(labels_file):
-                print(f"   ✅ {base_name}.labels.json")
+            custom_file = os.path.join(output_folder, f"{base_name}.json")
+            if os.path.exists(custom_file):
+                print(f"   ✅ {base_name}.json")
+
 
 def main():
     """Hauptfunktion für PDF-Analyse"""
@@ -651,13 +573,13 @@ def main():
     if len(sys.argv) > 1:
         folder_path = sys.argv[1]
     else:
-        # Standard-Ordner für Stavo-Protokolle
-        folder_path = r"D:\ki\session_net\pohlheim_protokolle\Stavo"
+        # Standard-Ordner für Training-Input
+        folder_path = r"D:\ki\session_net\training\input"
         print(f"🔍 Verwende Standard-Ordner: {folder_path}")
     
     if not os.path.exists(folder_path):
         print(f"❌ Ordner nicht gefunden: {folder_path}")
-        print("💡 Verwenden Sie: python extract.py <pfad_zum_ordner>")
+        print("💡 Verwenden Sie: python extract2.py <pfad_zum_ordner>")
         return
     
     try:
@@ -671,6 +593,7 @@ def main():
         print("   - Stellen Sie sicher, dass die PDF-Dateien nicht beschädigt sind")
         print("   - Überprüfen Sie Ihre Internetverbindung")
         print("   - Überprüfen Sie den API Key in config.env")
+
 
 if __name__ == "__main__":
     main()

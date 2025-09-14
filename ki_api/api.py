@@ -1,110 +1,92 @@
 import os
-from azure.ai.projects import AIProjectClient
-from azure.identity import DefaultAzureCredential
+from openai import AzureOpenAI
 from dotenv import load_dotenv
 
 # Lade Umgebungsvariablen aus config.env
 load_dotenv('config.env')
 
-class AzureAgentChat:
+class AzureOpenAIChat:
     def __init__(self):
-        """Initialisiere den Azure AI Agent Chat"""
-        self.client = AIProjectClient(
-            endpoint=os.getenv('AZURE_ENDPOINT'), 
-            credential=DefaultAzureCredential()
+        """Initialisiere den Azure OpenAI Chat"""
+        # Erstelle Azure OpenAI Client
+        self.client = AzureOpenAI(
+            api_key=os.getenv('AZURE_API_KEY'),
+            api_version=os.getenv('AZURE_API_VERSION', '2023-07-01-preview'),
+            azure_endpoint=os.getenv('AZURE_ENDPOINT')
         )
-        self.agent_id = os.getenv('AZURE_AI_AGENT_ID')
-        self.thread = None
-        self.agent = None
+        
+        self.deployment = os.getenv('AZURE_DEPLOYMENT', 'gpt-35-turbo')
+        self.messages = []
+        
+        # System-Nachricht für den Assistenten
+        self.system_message = {
+            "role": "system", 
+            "content": "Du bist ein hilfreicher Assistent für die Stadt Pohlheim. Du hilfst bei Fragen zu kommunalen Angelegenheiten, Sitzungen und Terminen. Inhaltliche Informationen dürfen nur aus den bereitgestellten Daten kommen, wenn diese icht vorhanden sind, dann antworte, dass du es nicht weisst"
+        }
+        
+        # Initialisiere mit System-Nachricht
+        self.messages.append(self.system_message)
+    
+    def add_message_to_history(self, role, content):
+        """Füge eine Nachricht zum Chatverlauf hinzu"""
+        self.messages.append({"role": role, "content": content})
+    
+    def get_conversation_summary(self):
+        """Gibt eine Zusammenfassung des aktuellen Gesprächs zurück"""
+        user_messages = [msg for msg in self.messages if msg["role"] == "user"]
+        assistant_messages = [msg for msg in self.messages if msg["role"] == "assistant"]
+        
+        return f"Gespräch: {len(user_messages)} Fragen, {len(assistant_messages)} Antworten"
         
     def initialize(self):
-        """Initialisiere Agent und Thread"""
+        """Initialisiere Azure OpenAI Verbindung"""
         try:
-            # Hole den Agenten
-            self.agent = self.client.agents.get_agent(self.agent_id)
-            print(f"✅ Agent gefunden: {self.agent.name}")
+            # Teste die Verbindung mit einer einfachen Anfrage
+            test_response = self.client.chat.completions.create(
+                model=self.deployment,
+                messages=[
+                    {"role": "system", "content": "Du bist ein Test-Assistent."},
+                    {"role": "user", "content": "Antworte nur mit 'Verbindung erfolgreich'"}
+                ],
+                temperature=0.7,
+                top_p=0.95,
+                frequency_penalty=0.0,
+                presence_penalty=0.0,
+                max_tokens=10000
+            )
             
-            # Starte einen neuen Thread
-            self.thread = self.client.agents.threads.create()
-            print(f"✅ Thread erstellt: {self.thread.id}")
+            print(f"✅ Azure OpenAI Verbindung erfolgreich")
+            print(f"✅ Deployment: {self.deployment}")
             return True
             
         except Exception as e:
             print(f"❌ Fehler bei der Initialisierung: {e}")
             return False
     
-    def extract_text_content(self, content):
-        """Extrahiere Text aus verschiedenen Content-Formaten"""
-        if isinstance(content, list):
-            for item in content:
-                if isinstance(item, dict):
-                    if 'text' in item and isinstance(item['text'], dict):
-                        return item['text'].get('value', str(content))
-                    elif 'value' in item:
-                        return item['value']
-            return str(content)
-        elif isinstance(content, dict):
-            if 'text' in content and isinstance(content['text'], dict):
-                return content['text'].get('value', str(content))
-            elif 'value' in content:
-                return content['value']
-            else:
-                return str(content)
-        else:
-            return str(content)
-    
     def send_message(self, message):
-        """Sende eine Nachricht an den Agenten"""
+        """Sende eine Nachricht an Azure OpenAI"""
         try:
-            # Sende die Nachricht
-            msg = self.client.agents.messages.create(
-                thread_id=self.thread.id, 
-                role="user", 
-                content=message
+            # Füge Benutzer-Nachricht zum Verlauf hinzu
+            self.add_message_to_history("user", message)
+            
+            # Sende Anfrage an Azure OpenAI mit Playground-Parametern
+            response = self.client.chat.completions.create(
+                model=self.deployment,
+                messages=self.messages,
+                temperature=0.7,
+                top_p=0.95,
+                frequency_penalty=0.0,
+                presence_penalty=0.0,
+                max_tokens=15000
             )
             
-            # Starte den Run
-            run = self.client.agents.runs.create(
-                thread_id=self.thread.id, 
-                agent_id=self.agent_id
-            )
+            # Extrahiere die Antwort
+            assistant_message = response.choices[0].message.content
             
-            # Warte auf die Antwort
-            while run.status not in ["completed", "failed", "cancelled"]:
-                run = self.client.agents.runs.get(thread_id=self.thread.id, run_id=run.id)
-                if run.status == "completed":
-                    break
+            # Füge Assistant-Antwort zum Verlauf hinzu
+            self.add_message_to_history("assistant", assistant_message)
             
-            if run.status == "completed":
-                # Hole alle Nachrichten
-                messages = self.client.agents.messages.list(thread_id=self.thread.id)
-                message_list = list(messages)
-                
-                # Debug: Zeige alle Nachrichten (nur bei Bedarf)
-                # print(f"DEBUG: {len(message_list)} Nachrichten gefunden")
-                # for i, msg in enumerate(message_list):
-                #     print(f"  {i}: {msg.role} - {type(msg.content)} - {msg.content}")
-                
-                # Finde die neueste Agent-Antwort (die erste in der Liste ist die neueste)
-                for msg in message_list:
-                    if msg.role == "assistant":
-                        # Direkte Extraktion aus dem Content
-                        content = msg.content
-                        if isinstance(content, list) and len(content) > 0:
-                            item = content[0]
-                            # Das Item ist ein MessageTextContent Objekt
-                            if hasattr(item, 'text') and hasattr(item.text, 'value'):
-                                return item.text.value
-                            # Fallback für Dictionary-Zugriff
-                            elif isinstance(item, dict) and 'text' in item:
-                                text_dict = item['text']
-                                if isinstance(text_dict, dict) and 'value' in text_dict:
-                                    return text_dict['value']
-                        return str(content)
-                
-                return "Keine Agent-Antwort gefunden."
-            else:
-                return f"❌ Run fehlgeschlagen mit Status: {run.status}"
+            return assistant_message
                 
         except Exception as e:
             return f"❌ Fehler beim Senden der Nachricht: {e}"
@@ -112,11 +94,12 @@ class AzureAgentChat:
     def chat_loop(self):
         """Hauptschleife für den Chat"""
         print("\n" + "="*60)
-        print("🤖 Session Net Pohlheim AI Agent Chat")
+        print("🤖 Session Net Pohlheim Azure OpenAI Chat")
         print("="*60)
-        print("Testversion: 2025-09-06 12:48")
+        print("Version: Azure OpenAI Integration")
         print("'quit', 'exit' oder 'beenden' um den Chat zu verlassen.")
-        print("'clear' um den Thread zu löschen und neu zu starten.")
+        print("'clear' um den Chat-Verlauf zu löschen und neu zu starten.")
+        print("'history' um den Chat-Status anzuzeigen.")
         print("-"*60)
         
         while True:
@@ -129,22 +112,26 @@ class AzureAgentChat:
                     print("👋 Auf Wiedersehen!")
                     break
                 
-                # Thread löschen
+                # Chat-Verlauf löschen
                 if user_input.lower() in ['clear', 'neu', 'reset']:
-                    self.thread = self.client.agents.threads.create()
-                    print("✅ Neuer Thread erstellt!")
+                    self.messages = [self.system_message]  # Nur System-Nachricht behalten
+                    print("✅ Chat-Verlauf gelöscht!")
+                    continue
+                
+                # Chat-Verlauf anzeigen
+                if user_input.lower() in ['history', 'verlauf', 'status']:
+                    print(f"📊 {self.get_conversation_summary()}")
                     continue
                 
                 # Leere Eingabe ignorieren
                 if not user_input:
                     continue
                 
-                # Nachricht an Agent senden
-                # print("⏳ Agent denkt nach...")
+                # Nachricht an Azure OpenAI senden
                 response = self.send_message(user_input)
                 
                 # Antwort anzeigen
-                print(f"🤖 Agent: {response}")
+                print(f"🤖 Assistant: {response}")
                 
             except KeyboardInterrupt:
                 print("\n👋 Chat beendet!")
@@ -154,7 +141,7 @@ class AzureAgentChat:
 
 def main():
     """Hauptfunktion"""
-    chat = AzureAgentChat()
+    chat = AzureOpenAIChat()
     
     if chat.initialize():
         chat.chat_loop()

@@ -1,0 +1,36 @@
+{
+  "fields": [
+    {
+      "name": "document_type",
+      "type": "string"
+    },
+    {
+      "name": "session_type",
+      "type": "string"
+    },
+    {
+      "name": "date",
+      "type": "date"
+    },
+    {
+      "name": "duration",
+      "type": "string"
+    },
+    {
+      "name": "location",
+      "type": "string"
+    },
+    {
+      "name": "attendance_present",
+      "type": "array"
+    },
+    {
+      "name": "attendance_excused",
+      "type": "array"
+    },
+    {
+      "name": "attendance_summary",
+      "type": "object"
+    }
+  ]
+}
