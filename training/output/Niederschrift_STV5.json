@@ -1,0 +1,389 @@
+{
+  "id": "Niederschrift_STV5",
+  "document_type": "Niederschrift",
+  "session_type": "Stadtverordnetenversammlung",
+  "date": "2025-01-23T00:00:00Z",
+  "duration": "19:03 Uhr bis 20:46 Uhr",
+  "location": "Volkshalle Watzenborn-Steinberg, Ludwigstraße 33-35, 35415 Pohlheim",
+  "attendance": [
+    {
+      "name": "STV Malke Aydin",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Angelika Bartosch",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Lukas Be Josef",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Karsten Becker",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Sonya Can",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Georg Celik",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Iliyo Danho",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Lorenz Diehl",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Kevin Engel",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Björn Feuerbach",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Samuel Gergin",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Eckart Hafemann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Simon Hafemann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Uwe Happel",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Antje Häuser",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Prof. Dr. Ernst-Ulrich Huster",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Bettina Jost",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Erich Klotz",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Norman Klotz",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Michel Kögler",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Matthias Kücükkaplan",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Reiner Leidich",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Siglinde Michen",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Dr. Melanie Neeb",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Marc Werner Punzert",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Michaela Schöffmann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Andreas Schuch",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Melanie Schunk-Wießner",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Prof. Dr. Helge Stadelmann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Dominic Tamme",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Fadi Touma",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Simone van Slobbe-Schneider",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Sven Weigel",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "Bürgermeister Andreas Ruck",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Erster Stadtrat Israel Be Josef",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Peter Alexander",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Jörg Buß",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Christian Görlach",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Philipp Niklas Mackowiak",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Tobias Maschmann",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Thomas Telling",
+      "function": "Schriftführer(in)",
+      "status": "present"
+    },
+    {
+      "name": "STV Matthias Jung",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Risko Noah",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Sebastian Opper",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "Stadtrat Wolfgang Sames",
+      "function": "Vom Magistrat",
+      "status": "excused"
+    },
+    {
+      "name": "Stadtrat Reimar Stenzel",
+      "function": "Vom Magistrat",
+      "status": "excused"
+    }
+  ],
+  "agenda": "TOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen\nLadung und der Beschlussfähigkeit\nTOP 2 Feststellung der Niederschrift vom 13. Dezember 2024\nTOP 3 Vorlage des Entwurfs der Haushaltssatzung 2025/2026 STV-371/2021-\ngemäß § 97 Hessische Gemeindeordnung 2026\nTOP 4 Antrag der CDU-Fraktion vom 23. November 2024 betr. A-372/2021-2026\nBericht über Umsetzungsstand von Stadtverordnetenbe-\nschlüssen nach 6 Monaten\nTOP 5 Antrag der CDU-Fraktion vom 23. November 2024 betr. A-373/2021-2026\nBericht über die kommunale Wärmeplanung\nTOP 6 Antrag der CDU-Fraktion vom 23. November 2024 betr. A-374/2021-2026\nBericht zum Haushaltsvollzug\nTOP 7 Antrag der Fraktionen SPD, FDP und Bündnis 90/Die A-365/2021-2026\nGrünen vom 1. Dezember 2024 betr. Umsetzung der\nPV-Strategie\n___________\n\n\nTOP 8 Antrag der Fraktionen SPD, FDP und Bündnis 90/Die A-366/2021-2026\nGrünen vom 1. Dezember 2024 betr. Monitoring in der\noffenen und aufsuchenden Jugendarbeit\nTOP 9 Antrag der FDP-Fraktion vom 18. Dezember 2024 betr. A-367/2021-2026\nÜberarbeitung der Gebührensatzungen\nTOP 10 Antrag der CDU-Fraktion vom 4. Januar 2025 betr. Sa- A-368/2021-2026\nnierungsgutachten und Finanzierung des Hallenbades\nTOP 11 Antrag der Fraktionen SPD und Bündnis 90/Die Grünen A-369/2021-2026\nvom 6. Januar 2025 betr. Priorisierung und Umsetzung\nder Maßnahmen für den Radverkehr lt. Radwegever-\nkehrskonzept\nTOP 12 Mitteilungen\nTOP 12.1 Mitteilung 1\nTOP 12.2 Mitteilung 2\nTOP 12.3 Mitteilung 3\nTOP 12.4 Mitteilung 4\nTOP 12.5 Mitteilung 5\nTOP 12.6 Mitteilung 6\nTOP 12.7 Mitteilung 7\nTOP 13 Beantwortung von Anfragen",
+  "top_contents": [
+    {
+      "nummer": "1",
+      "ueberschrift": "TOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen Ladung und der Be-\nschlussfähigkeit",
+      "vorlage": "",
+      "inhalt": "Stadtverordnetenvorsteherin Hiltrud Hofmann eröffnet die Sitzung, begrüßt alle Anwesenden\nund stellt ordnungsgemäße Ladung und Beschlussfähigkeit fest.\nAnschließend gedenkt Frau Hofmann dem verstorbenen Mandatsträger Klaus-Dieter Deppe\nund bittet alle Anwesenden, sich für eine Schweigeminute von ihren Plätzen zu erheben.\nDann nimmt sie die Gelegenheit wahr und gratuliert den Stadtverordneten Sven Weigel und\nSimone van Slobbe-Schneider sowie den Stadträten Christian Görlach, Phillip Niklas Mack-\nowiak, Jörg Buß und Ersten Stadtrat Israel Be Josef nachträglich zum Geburtstag.\nAbschließend informiert sie über das Digital-Mobil des Landkreises Gießen, welches den\nStadtverordneten vor Beginn der Sitzung vorgestellt wurde.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "2",
+      "ueberschrift": "TOP 2 Feststellung der Niederschrift vom 13. Dezember 2024",
+      "vorlage": "",
+      "inhalt": "Die Niederschrift vom 13. Dezember 2024 wird ohne Änderungen festgestellt.\n___________\n\n\n--- SEITE 4 ---",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "3",
+      "ueberschrift": "TOP 3 Vorlage des Entwurfs der Haushaltssatzung 2025/2026 gemäß § 97 Hessi-\nsche Gemeindeordnung",
+      "vorlage": "Vorlage: STV-371/2021-2026",
+      "inhalt": "Bürgermeister Andreas Ruck legt der Stadtverordnetenversammlung den vom Magistrat\nfestgestellten Entwurf der Haushaltssatzung für die Haushaltsjahre 2025 und 2026 vor. Er\nbittet um Beratung in den parlamentarischen Gremien, in den Ortsbeiräten und Fraktionen.\nDer Bürgermeister bietet den Fraktionen an, dass für die Beratungen in den Fraktionen Mit-\narbeiter des Fachbereichs 2 eingeladen werden können.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "4",
+      "ueberschrift": "TOP 4 Antrag der CDU-Fraktion vom 23. November 2024 betr. Bericht über Umset-",
+      "vorlage": "",
+      "inhalt": "zungsstand von Stadtverordnetenbeschlüssen nach 6 Monaten\nVorlage: A-372/2021-2026\nDer Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vom\n23. November 2024 vor:\nDer Magistrat wird beauftragt unaufgefordert einen Bericht zum Umsetzungsstand eines\nStadtverordnetenbeschlusses zu erstatten, wenn seit der Beschlussfassung mehr als 6 Mo-\nnate vergangen sind.\nSTV Reiner Leidich bringt den Antrag ein und begründet ihn.\nBürgermeister Andreas Ruck teilt mit, dass er den Antrag als unproblematisch und umsetz-\nbar ansieht.\nÜber den Antrag lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "5",
+      "ueberschrift": "TOP 5 Antrag der CDU-Fraktion vom 23. November 2024 betr. Bericht über die\nkommunale Wärmeplanung",
+      "vorlage": "Vorlage: A-373/2021-2026",
+      "inhalt": "Der Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vor:\nDer Magistrat wird gebeten über den Umsetzungsstand der kommunalen Wärmeplanung\neinen schriftlichen Bericht zu erstatten.\nSTV Kevin Engel bringt den Antrag ein und begründet ihn.\nBürgermeister Andreas Ruck nimmt Stellung zum Antrag.\nSTV Eckart Hafemann beantragt, das Wort „schriftlichen“ aus dem Antrag zu streichen.\nHierüber wird wie folgt abgestimmt:\n\n\n\nAnschließend lässt die Stadtverordnetenvorsteherin über den CDU-Antrag abstimmen.",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit abgelehnt\n15 Ja-Stimmen (13 SPD, 2 Grüne)\n16 Nein-Stimmen (9 CDU, 5 FW, 1 Grüne, 1 FDP)\n3 Enthaltungen (Grüne)\n___________"
+    },
+    {
+      "nummer": "6",
+      "ueberschrift": "TOP 6 Antrag der CDU-Fraktion vom 23. November 2024 betr. Bericht zum Haus-\nhaltsvollzug",
+      "vorlage": "Vorlage: A-374/2021-2026",
+      "inhalt": "Der Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vor:\nDer Magistrat wird beauftragt dem vierteljährlich zu erstattenden Bericht zum Haushaltsvoll-\nzug künftig auch eine Auswertung des Finanzhaushaltes beizufügen. Dabei sind auch die\nBuchungen zu Lasten der Haushaltsreste darzustellen, sofern sich diese nicht aus dem Aus-\ndruck ergeben.\nSTV Reiner Leidich bringt den Antrag ein und begründet ihn.",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "7",
+      "ueberschrift": "TOP 7 Antrag der Fraktionen SPD, FDP und Bündnis 90/Die Grünen vom 1. De-\nzember 2024 betr. Umsetzung der PV-Strategie",
+      "vorlage": "Vorlage: A-365/2021-2026",
+      "inhalt": "STV Uwe Happel berichtet aus der gemeinsamen Sitzung der Ausschüsse für Soziales, Kul-\ntur und Sport sowie Bauen, Stadtentwicklung und Umwelt.\nÜber den dort geänderten Antrag lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\n1. Die Vorlage des Klimabeirates zur PV-Strategie in der Stadt Pohlheim ist zur Be-\nhandlung und Beschlussfassung an die parlamentarischen Gremien weiterzuleiten. In\nder nächsten BSU-Sitzung soll dieses Thema mit dem Ziel diskutiert werden, wie\ndiese Strategie operationalisiert werden kann.\n2. Im Rahmen der Haushaltsberatungen ist zu beschließen, welche Mittel in den Haus-\nhaltsjahren 2025 bis 2027 eingestellt werden müssen.",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "8",
+      "ueberschrift": "TOP 8 Antrag der Fraktionen SPD, FDP und Bündnis 90/Die Grünen vom 1. De-",
+      "vorlage": "",
+      "inhalt": "zember 2024 betr. Monitoring in der offenen und aufsuchenden Jugendar-\nbeit\nVorlage: A-366/2021-2026\nSTV Uwe Happel berichtet aus der Sitzung des Ausschusses für Soziales, Kultur und Sport.\nÜber den dort geänderten Antrag wird wie folgt abgestimmt:\n___________\n\n\nDer Magistrat wird beauftragt, ein Monitoring zu entwickeln und zu betreiben, das der syste-\nmatischen Erfassung, Messung und Beobachtung von Prozessen in der offenen und aufsu-\nchenden Jugendarbeit dient. Hierbei ist ggf. unterstützend die fachliche Expertise des Fach-\ndienstes Kinder- und Jugendhilfe beim Landkreis Gießen einzuholen. Dem Ausschuss SKS\nist in der Sitzung am 25. März 2025 über das Ergebnis zu berichten.",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "9",
+      "ueberschrift": "TOP 9 Antrag der FDP-Fraktion vom 18. Dezember 2024 betr. Überarbeitung der\nGebührensatzungen",
+      "vorlage": "Vorlage: A-367/2021-2026",
+      "inhalt": "Der Stadtverordnetenversammlung liegt folgender Antrag der FDP-Fraktion vor:\nDer Magistrat wird beauftragt die Gebührensatzungen der Stadt Pohlheim bis zum\n31.12.2025 auf einen aktuellen Stand zu bringen. Hierbei sind die aktuellen Kosten zu be-\nrücksichtigen. Wir bitten hierbei in 3 Stufen vorzugehen.\n1. Prüfung und Darstellung der Aktualität, sowie des Maßnahmenbedarfs bis spätestens\nEnde April 2025 um die Entscheidungen im Vorgang Hebesätze zu unterstützen.\n2. Information über Beratungs- oder Entscheidungsbedarf durch die Stadtverordneten-\nversammlung mit entsprechender Vorlage bis Ende August 2025.\n3. Vorstellung der überarbeiteten Satzungen bis 31.12.2025\nSollten die Termine für einzelne Satzungen aus besonderen Gründen nicht eingehalten wer-\nden können, ist dies der Stadtverordnetenversammlung mit neuem Terminvorschlag zum\nBeschluss der Verschiebung vorzulegen.\nSTV Eckart Hafemann berichtet aus der Sitzung des Haupt- und Finanzausschusses.\nNach eingehender Beratung und Diskussion lässt die Stadtverordnetenvorsteherin über den\nAntrag abstimmen.",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "10",
+      "ueberschrift": "TOP 10 Antrag der CDU-Fraktion vom 4. Januar 2025 betr. Sanierungsgutachten\nund Finanzierung des Hallenbades",
+      "vorlage": "Vorlage: A-368/2021-2026",
+      "inhalt": "Der Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vor:\n1. Der Magistrat wird um einen detaillierten Sachstandsbericht zum Umsetzungsstand\ndes Beschlusses vom 5. September 2024 gebeten.\n2. Die in den Hallenbad-Zweckverband entsandten Mitglieder werden angewiesen über\nden Wirtschaftsplan für das Jahr 2025 ff. erst nach Freigabe durch die Stadtverord-\nnetenversammlung zu entscheiden. Auf den § 4 Nr. 3 der Satzung wird hingewiesen.\nSTV Eckart Hafemann berichtet aus der Sitzung des Haupt- und Finanzausschusses.\nSTV Reiner Leidich bringt folgenden Änderungsantrag ein:\n1. Der Bürgermeister wird aufgefordert, rechtzeitig vor der nächsten Sitzung der Ver-\nbandsversammlung des Zweckverbandes Hallenbad einen revidierten Wirtschafts-\n___________\n\n\nplan ohne Instandhaltungs- und Sanierungskosten für das Jahr 2025 an alle Stadt-\nverordneten zu übermitteln. Auf dieser Grundlage entscheidet die Stadtverordneten-\nversammlung, wie ihre Vertreterinnen und Vertreter in der Verbandsversammlung\nabstimmen werden.\n2. Alle Fraktionen sind mit der Einrichtung einer interfraktionellen Arbeitsgruppe zum\nThema „Zukunft des Hallenbades“ einverstanden. Der Arbeitsgruppe gehören von\nder SPD sowie der CDU zwei Vertreter/innen an. Die übrigen Fraktionen entsenden\njeweils eine/n Vertreter/in. Für den Magistrat nimmt der Bürgermeister an den Ar-\nbeitsgruppentreffen teil. Die Stadtverordnetenvorsteherin lädt zur ersten Sitzung der\nArbeitsgruppe ein, sobald das Gesamtsanierungsgutachten und die Folgekostenauf-\nstellung den Arbeitsgruppenmitgliedern vorliegen.\nSTV Simone van Slobbe-Schneider bringt folgenden Änderungsantrag der Fraktionen SPD\nund Bündnis 90/Die Grünen ein:\nDie Stadtverordnetenversammlung möge beschließen,\n1. Der Bürgermeister wird aufgefordert, in der Sitzung der Stadtverordnetenversamm-\nlung vor der nächsten Sitzung der Verbandsversammlung des Zweckverbandes Hal-\nlenbad einen revidierten Wirtschaftsplan ohne Instandhaltungs- und Sanierungskos-\nten für das Jahr 2025 an alle Stadtverordneten zu übermitteln. Auf dieser Grundlage\nentscheidet die Stadtverordnetenversammlung, wie ihre Vertreterinnen und Vertreter\nin der Verbandsversammlung abstimmen werden.\n2. Es wird eine interfraktionelle Arbeitsgruppe gegründet, die das weitere investive Vor-\ngehen beim Hallenbad berät und Vorschläge zur Lösung erarbeitet. Ihr gehören von\njeder Fraktion ein Mitglied, die Stadtverordnetenvorsteherin und der Bürgermeister\nan. Die Stadtverordnetenvorsteherin lädt zur konstituierenden Sitzung ein. Ziel ist es,\ngenerell eine Aussage zur Zukunft des Hallenbades zu treffen, zeitliche Schritte bei\nder Sanierung und einen Sanierungsplan zu entwickeln. Letzterer muss Aussagen\nüber die Beteiligung anderer Gebietskörperschaften, des Landes, des Bundes und\nweiterer möglicher externer Finanzierungsquellen enthalten. Außerdem ist die Mittel-\naufbringung der Stadt Pohlheim zu diskutieren. Des Weiteren ist zu prüfen, welche\nModalitäten der Finanzierung sinnvoll sind. Das Beratungsergebnis ist der Stadtver-\nordnetenversammlung vorzulegen.\nNach eingehender Beratung und Diskussion folgt eine Sitzungsunterbrechung von 20:21 Uhr\nbis 20:28 Uhr.\nNach Wiedereintritt in die Sitzung teilt die CDU-Fraktion mit, dass der Änderungsantrag zu-\nrückgezogen und der Ursprungsantrag durch den Änderungsantrag der Fraktionen SPD und\nBündnis 90/Die Grünen ersetzt werde.\nAnschließend lässt die Stadtverordnetenvorsteherin über den Änderungsantrag der Fraktio-\nnen SPD und Bündnis 90/Die Grünen abstimmen.\n1. Der Bürgermeister wird aufgefordert, in der Sitzung der Stadtverordnetenversamm-\nlung vor der nächsten Sitzung der Verbandsversammlung des Zweckverbandes Hal-\nlenbad einen revidierten Wirtschaftsplan ohne Instandhaltungs- und Sanierungskos-\nten für das Jahr 2025 an alle Stadtverordneten zu übermitteln. Auf dieser Grundlage\nentscheidet die Stadtverordnetenversammlung, wie ihre Vertreterinnen und Vertreter\nin der Verbandsversammlung abstimmen werden.\n\n\n\n2. Es wird eine interfraktionelle Arbeitsgruppe gegründet, die das weitere investive Vor-\ngehen beim Hallenbad berät und Vorschläge zur Lösung erarbeitet. Ihr gehören von\njeder Fraktion ein Mitglied, die Stadtverordnetenvorsteherin und der Bürgermeister\nan. Die Stadtverordnetenvorsteherin lädt zur konstituierenden Sitzung ein. Ziel ist es,\ngenerell eine Aussage zur Zukunft des Hallenbades zu treffen, zeitliche Schritte bei\nder Sanierung und einen Sanierungsplan zu entwickeln. Letzterer muss Aussagen\nüber die Beteiligung anderer Gebietskörperschaften, des Landes, des Bundes und\nweiterer möglicher externer Finanzierungsquellen enthalten. Außerdem ist die Mittel-\naufbringung der Stadt Pohlheim zu diskutieren. Des Weiteren ist zu prüfen, welche\nModalitäten der Finanzierung sinnvoll sind. Das Beratungsergebnis ist der Stadtver-\nordnetenversammlung vorzulegen.",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen\n___________"
+    },
+    {
+      "nummer": "11",
+      "ueberschrift": "TOP 11 Antrag der Fraktionen SPD und Bündnis 90/Die Grünen vom 6. Januar 2025",
+      "vorlage": "",
+      "inhalt": "betr. Priorisierung und Umsetzung der Maßnahmen für den Radverkehr lt.\nRadwegeverkehrskonzept\nVorlage: A-369/2021-2026\nDer Stadtverordnetenversammlung liegt folgender Antrag der Fraktionen SPD und Bündnis\n90/Die Grünen vor:\nDie Verwaltung wird gebeten, die verschiedenen Maßnahmen zur Verbesserung der Radinf-\nrastruktur innerorts, die für die Modellkommune Pohlheim durch das Ingenieurbüro HS Inge-\nnieure GmbH in 2023 vorgeschlagen wurden, nach Umsetzbarkeit und Höhe der Kosten zu\nhierarchisieren und der Stadtverordnetenversammlung einen Vorschlag zur Umsetzung und\nFinanzierung ( u.a. wieviel Fördermittel wo zu beantragen sind) zu unterbreiten und zur Bera-\ntung und Abstimmung vorzulegen. Es sollen insbesondere Maßnahmen aufgezeigt werden,\ndie bereits in den Haushaltsjahren 2025 und 2026 verwirklicht werden können.\nSowohl die Anregungen der AG8 zur Radverkehrssicherheit in Pohlheim als auch das Prü-\nfungsergebnis aus dem Antrag „Sicher durch den Pohlheimer Straßenverkehr“ A 022/2021 –\n2026 mit den Resultaten der Befragung der Ortsbeiräte nach neuralgischen Punkten für Rad-\nfahrerinnen in den Stadtteilen sollen dabei berücksichtigt werden.\nSTV Uwe Happel berichtet aus der gemeinsamen Sitzung der Ausschüsse für Soziales, Kul-\ntur und Sport sowie Bauen, Stadtentwicklung und Umwelt.\nÜber den dort geänderten Antrag wird wie folgt abgestimmt:\nDer Magistrat wird gebeten, die verschiedenen Maßnahmen zur Verbesserung der\nRadinfrastruktur innerorts, die für die Modellkommune Pohlheim durch das Ingenieurbüro HS\nIngenieure GmbH in 2023 vorgeschlagen wurden, nach Umsetzbarkeit und Höhe der Kosten\nzu hierarchisieren und der Stadtverordnetenversammlung einen Vorschlag zur Umsetzung\nund Finanzierung ( u.a. wieviel Fördermittel wo zu beantragen sind) zu unterbreiten und zur\nBeratung und Abstimmung vorzulegen. Es sollen insbesondere Maßnahmen aufgezeigt wer-\nden, die bereits in den Haushaltsjahren 2025 und 2026 verwirklicht werden können.\nSowohl die Anregungen der AG8 zur Radverkehrssicherheit in Pohlheim als auch das\nPrüfungsergebnis aus dem Antrag „Sicher durch den Pohlheimer Straßenverkehr“\nA022/2021-2026 mit den Resultaten der Befragung der Ortsbeiräte nach neuralgischen\n___________\n\n\nPunkten für Radfahrerinnen in den Stadtteilen sollen dabei berücksichtigt werden.",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "12",
+      "ueberschrift": "TOP 12 Mitteilungen",
+      "vorlage": "",
+      "inhalt": "",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "12.1",
+      "ueberschrift": "TOP 12.1 Mitteilung 1",
+      "vorlage": "",
+      "inhalt": "Stadtverordnetenvorsteherin Hiltrud Hofmann teilt mit, dass voraussichtlich am 25. April 2025\neine Bürgerversammlung zum Thema Verkehr (Straßenverkehr, Radverkehr, ÖPNV) statt-\nfinden werde.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "12.2",
+      "ueberschrift": "TOP 12.2 Mitteilung 2",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruckinformiert über die Statistik des Einwohnermeldeamtes. Dem-\nnach beträgt die Gesamt-Einwohnerzahl zum 31.12.2024 19.303.\nAußerdem informiert er über die Anzahl der Eheschließungen, Geburten und Sterbefälle.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "12.3",
+      "ueberschrift": "TOP 12.3 Mitteilung 3",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck informiert zum Sachstand Rhein-Main-Link. Für den Bereich\nPohlheim-Butzbach werde es eine Prüfung zur Trassenführung entlang der BAB 5 geben.\nDas Planfeststellungsverfahren könne frühestens in anderthalb bis zwei Jahren erfolgen.\nEine weitere Veranstaltung zu diesem Thema soll im Bürgerhaus Griedel am 11.02.2025\nstattfinden.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "12.4",
+      "ueberschrift": "TOP 12.4 Mitteilung 4",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck erstattet den Bericht über den Haushaltsvollzug zum\n31.12.2024.\nDer Bericht steht in Session zur Verfügung.\nDie Stadtverordnetenversammlung nimmt diesen zur Kenntnis.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "12.5",
+      "ueberschrift": "TOP 12.5 Mitteilung 5",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck informiert über den Sachstand zur Kita Magdeburger Straße.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "12.6",
+      "ueberschrift": "TOP 12.6 Mitteilung 6",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck informiert über den Jahresbericht 2024 des Stadtarchivs. Der\nBericht wird der Niederschrift als Anlage beigefügt.\n___________\n\n\n--- SEITE 10 ---",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "12.7",
+      "ueberschrift": "TOP 12.7 Mitteilung 7",
+      "vorlage": "",
+      "inhalt": "Dezernent Stadtrat Peter Alexander teilt mit, dass der Bauantrag für das Jugendzentrum\nfertiggestellt und bei der Bauaufsicht eingereicht worden sei.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "13",
+      "ueberschrift": "TOP 13 Beantwortung von Anfragen\nKeine.",
+      "vorlage": "",
+      "inhalt": "",
+      "abstimmung": ""
+    }
+  ],
+  "top_contents_text": "TOP 1\nTOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen Ladung und der Be-\nschlussfähigkeit\nStadtverordnetenvorsteherin Hiltrud Hofmann eröffnet die Sitzung, begrüßt alle Anwesenden\nund stellt ordnungsgemäße Ladung und Beschlussfähigkeit fest.\nAnschließend gedenkt Frau Hofmann dem verstorbenen Mandatsträger Klaus-Dieter Deppe\nund bittet alle Anwesenden, sich für eine Schweigeminute von ihren Plätzen zu erheben.\nDann nimmt sie die Gelegenheit wahr und gratuliert den Stadtverordneten Sven Weigel und\nSimone van Slobbe-Schneider sowie den Stadträten Christian Görlach, Phillip Niklas Mack-\nowiak, Jörg Buß und Ersten Stadtrat Israel Be Josef nachträglich zum Geburtstag.\nAbschließend informiert sie über das Digital-Mobil des Landkreises Gießen, welches den\nStadtverordneten vor Beginn der Sitzung vorgestellt wurde.\n---\nTOP 2\nTOP 2 Feststellung der Niederschrift vom 13. Dezember 2024\nDie Niederschrift vom 13. Dezember 2024 wird ohne Änderungen festgestellt.\n___________\n\n\n--- SEITE 4 ---\n---\nTOP 3\nTOP 3 Vorlage des Entwurfs der Haushaltssatzung 2025/2026 gemäß § 97 Hessi-\nsche Gemeindeordnung\nVorlage: Vorlage: STV-371/2021-2026\nBürgermeister Andreas Ruck legt der Stadtverordnetenversammlung den vom Magistrat\nfestgestellten Entwurf der Haushaltssatzung für die Haushaltsjahre 2025 und 2026 vor. Er\nbittet um Beratung in den parlamentarischen Gremien, in den Ortsbeiräten und Fraktionen.\nDer Bürgermeister bietet den Fraktionen an, dass für die Beratungen in den Fraktionen Mit-\narbeiter des Fachbereichs 2 eingeladen werden können.\n---\nTOP 4\nTOP 4 Antrag der CDU-Fraktion vom 23. November 2024 betr. Bericht über Umset-\nzungsstand von Stadtverordnetenbeschlüssen nach 6 Monaten\nVorlage: A-372/2021-2026\nDer Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vom\n23. November 2024 vor:\nDer Magistrat wird beauftragt unaufgefordert einen Bericht zum Umsetzungsstand eines\nStadtverordnetenbeschlusses zu erstatten, wenn seit der Beschlussfassung mehr als 6 Mo-\nnate vergangen sind.\nSTV Reiner Leidich bringt den Antrag ein und begründet ihn.\nBürgermeister Andreas Ruck teilt mit, dass er den Antrag als unproblematisch und umsetz-\nbar ansieht.\nÜber den Antrag lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n---\nTOP 5\nTOP 5 Antrag der CDU-Fraktion vom 23. November 2024 betr. Bericht über die\nkommunale Wärmeplanung\nVorlage: Vorlage: A-373/2021-2026\nDer Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vor:\nDer Magistrat wird gebeten über den Umsetzungsstand der kommunalen Wärmeplanung\neinen schriftlichen Bericht zu erstatten.\nSTV Kevin Engel bringt den Antrag ein und begründet ihn.\nBürgermeister Andreas Ruck nimmt Stellung zum Antrag.\nSTV Eckart Hafemann beantragt, das Wort „schriftlichen“ aus dem Antrag zu streichen.\nHierüber wird wie folgt abgestimmt:\n\n\n\nAnschließend lässt die Stadtverordnetenvorsteherin über den CDU-Antrag abstimmen.\nAbstimmung: Abstimmungsergebnis: Mit Stimmenmehrheit abgelehnt\n15 Ja-Stimmen (13 SPD, 2 Grüne)\n16 Nein-Stimmen (9 CDU, 5 FW, 1 Grüne, 1 FDP)\n3 Enthaltungen (Grüne)\n___________\n---\nTOP 6\nTOP 6 Antrag der CDU-Fraktion vom 23. November 2024 betr. Bericht zum Haus-\nhaltsvollzug\nVorlage: Vorlage: A-374/2021-2026\nDer Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vor:\nDer Magistrat wird beauftragt dem vierteljährlich zu erstattenden Bericht zum Haushaltsvoll-\nzug künftig auch eine Auswertung des Finanzhaushaltes beizufügen. Dabei sind auch die\nBuchungen zu Lasten der Haushaltsreste darzustellen, sofern sich diese nicht aus dem Aus-\ndruck ergeben.\nSTV Reiner Leidich bringt den Antrag ein und begründet ihn.\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n---\nTOP 7\nTOP 7 Antrag der Fraktionen SPD, FDP und Bündnis 90/Die Grünen vom 1. De-\nzember 2024 betr. Umsetzung der PV-Strategie\nVorlage: Vorlage: A-365/2021-2026\nSTV Uwe Happel berichtet aus der gemeinsamen Sitzung der Ausschüsse für Soziales, Kul-\ntur und Sport sowie Bauen, Stadtentwicklung und Umwelt.\nÜber den dort geänderten Antrag lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\n1. Die Vorlage des Klimabeirates zur PV-Strategie in der Stadt Pohlheim ist zur Be-\nhandlung und Beschlussfassung an die parlamentarischen Gremien weiterzuleiten. In\nder nächsten BSU-Sitzung soll dieses Thema mit dem Ziel diskutiert werden, wie\ndiese Strategie operationalisiert werden kann.\n2. Im Rahmen der Haushaltsberatungen ist zu beschließen, welche Mittel in den Haus-\nhaltsjahren 2025 bis 2027 eingestellt werden müssen.\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n---\nTOP 8\nTOP 8 Antrag der Fraktionen SPD, FDP und Bündnis 90/Die Grünen vom 1. De-\nzember 2024 betr. Monitoring in der offenen und aufsuchenden Jugendar-\nbeit\nVorlage: A-366/2021-2026\nSTV Uwe Happel berichtet aus der Sitzung des Ausschusses für Soziales, Kultur und Sport.\nÜber den dort geänderten Antrag wird wie folgt abgestimmt:\n___________\n\n\nDer Magistrat wird beauftragt, ein Monitoring zu entwickeln und zu betreiben, das der syste-\nmatischen Erfassung, Messung und Beobachtung von Prozessen in der offenen und aufsu-\nchenden Jugendarbeit dient. Hierbei ist ggf. unterstützend die fachliche Expertise des Fach-\ndienstes Kinder- und Jugendhilfe beim Landkreis Gießen einzuholen. Dem Ausschuss SKS\nist in der Sitzung am 25. März 2025 über das Ergebnis zu berichten.\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n---\nTOP 9\nTOP 9 Antrag der FDP-Fraktion vom 18. Dezember 2024 betr. Überarbeitung der\nGebührensatzungen\nVorlage: Vorlage: A-367/2021-2026\nDer Stadtverordnetenversammlung liegt folgender Antrag der FDP-Fraktion vor:\nDer Magistrat wird beauftragt die Gebührensatzungen der Stadt Pohlheim bis zum\n31.12.2025 auf einen aktuellen Stand zu bringen. Hierbei sind die aktuellen Kosten zu be-\nrücksichtigen. Wir bitten hierbei in 3 Stufen vorzugehen.\n1. Prüfung und Darstellung der Aktualität, sowie des Maßnahmenbedarfs bis spätestens\nEnde April 2025 um die Entscheidungen im Vorgang Hebesätze zu unterstützen.\n2. Information über Beratungs- oder Entscheidungsbedarf durch die Stadtverordneten-\nversammlung mit entsprechender Vorlage bis Ende August 2025.\n3. Vorstellung der überarbeiteten Satzungen bis 31.12.2025\nSollten die Termine für einzelne Satzungen aus besonderen Gründen nicht eingehalten wer-\nden können, ist dies der Stadtverordnetenversammlung mit neuem Terminvorschlag zum\nBeschluss der Verschiebung vorzulegen.\nSTV Eckart Hafemann berichtet aus der Sitzung des Haupt- und Finanzausschusses.\nNach eingehender Beratung und Diskussion lässt die Stadtverordnetenvorsteherin über den\nAntrag abstimmen.\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n---\nTOP 10\nTOP 10 Antrag der CDU-Fraktion vom 4. Januar 2025 betr. Sanierungsgutachten\nund Finanzierung des Hallenbades\nVorlage: Vorlage: A-368/2021-2026\nDer Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vor:\n1. Der Magistrat wird um einen detaillierten Sachstandsbericht zum Umsetzungsstand\ndes Beschlusses vom 5. September 2024 gebeten.\n2. Die in den Hallenbad-Zweckverband entsandten Mitglieder werden angewiesen über\nden Wirtschaftsplan für das Jahr 2025 ff. erst nach Freigabe durch die Stadtverord-\nnetenversammlung zu entscheiden. Auf den § 4 Nr. 3 der Satzung wird hingewiesen.\nSTV Eckart Hafemann berichtet aus der Sitzung des Haupt- und Finanzausschusses.\nSTV Reiner Leidich bringt folgenden Änderungsantrag ein:\n1. Der Bürgermeister wird aufgefordert, rechtzeitig vor der nächsten Sitzung der Ver-\nbandsversammlung des Zweckverbandes Hallenbad einen revidierten Wirtschafts-\n___________\n\n\nplan ohne Instandhaltungs- und Sanierungskosten für das Jahr 2025 an alle Stadt-\nverordneten zu übermitteln. Auf dieser Grundlage entscheidet die Stadtverordneten-\nversammlung, wie ihre Vertreterinnen und Vertreter in der Verbandsversammlung\nabstimmen werden.\n2. Alle Fraktionen sind mit der Einrichtung einer interfraktionellen Arbeitsgruppe zum\nThema „Zukunft des Hallenbades“ einverstanden. Der Arbeitsgruppe gehören von\nder SPD sowie der CDU zwei Vertreter/innen an. Die übrigen Fraktionen entsenden\njeweils eine/n Vertreter/in. Für den Magistrat nimmt der Bürgermeister an den Ar-\nbeitsgruppentreffen teil. Die Stadtverordnetenvorsteherin lädt zur ersten Sitzung der\nArbeitsgruppe ein, sobald das Gesamtsanierungsgutachten und die Folgekostenauf-\nstellung den Arbeitsgruppenmitgliedern vorliegen.\nSTV Simone van Slobbe-Schneider bringt folgenden Änderungsantrag der Fraktionen SPD\nund Bündnis 90/Die Grünen ein:\nDie Stadtverordnetenversammlung möge beschließen,\n1. Der Bürgermeister wird aufgefordert, in der Sitzung der Stadtverordnetenversamm-\nlung vor der nächsten Sitzung der Verbandsversammlung des Zweckverbandes Hal-\nlenbad einen revidierten Wirtschaftsplan ohne Instandhaltungs- und Sanierungskos-\nten für das Jahr 2025 an alle Stadtverordneten zu übermitteln. Auf dieser Grundlage\nentscheidet die Stadtverordnetenversammlung, wie ihre Vertreterinnen und Vertreter\nin der Verbandsversammlung abstimmen werden.\n2. Es wird eine interfraktionelle Arbeitsgruppe gegründet, die das weitere investive Vor-\ngehen beim Hallenbad berät und Vorschläge zur Lösung erarbeitet. Ihr gehören von\njeder Fraktion ein Mitglied, die Stadtverordnetenvorsteherin und der Bürgermeister\nan. Die Stadtverordnetenvorsteherin lädt zur konstituierenden Sitzung ein. Ziel ist es,\ngenerell eine Aussage zur Zukunft des Hallenbades zu treffen, zeitliche Schritte bei\nder Sanierung und einen Sanierungsplan zu entwickeln. Letzterer muss Aussagen\nüber die Beteiligung anderer Gebietskörperschaften, des Landes, des Bundes und\nweiterer möglicher externer Finanzierungsquellen enthalten. Außerdem ist die Mittel-\naufbringung der Stadt Pohlheim zu diskutieren. Des Weiteren ist zu prüfen, welche\nModalitäten der Finanzierung sinnvoll sind. Das Beratungsergebnis ist der Stadtver-\nordnetenversammlung vorzulegen.\nNach eingehender Beratung und Diskussion folgt eine Sitzungsunterbrechung von 20:21 Uhr\nbis 20:28 Uhr.\nNach Wiedereintritt in die Sitzung teilt die CDU-Fraktion mit, dass der Änderungsantrag zu-\nrückgezogen und der Ursprungsantrag durch den Änderungsantrag der Fraktionen SPD und\nBündnis 90/Die Grünen ersetzt werde.\nAnschließend lässt die Stadtverordnetenvorsteherin über den Änderungsantrag der Fraktio-\nnen SPD und Bündnis 90/Die Grünen abstimmen.\n1. Der Bürgermeister wird aufgefordert, in der Sitzung der Stadtverordnetenversamm-\nlung vor der nächsten Sitzung der Verbandsversammlung des Zweckverbandes Hal-\nlenbad einen revidierten Wirtschaftsplan ohne Instandhaltungs- und Sanierungskos-\nten für das Jahr 2025 an alle Stadtverordneten zu übermitteln. Auf dieser Grundlage\nentscheidet die Stadtverordnetenversammlung, wie ihre Vertreterinnen und Vertreter\nin der Verbandsversammlung abstimmen werden.\n\n\n\n2. Es wird eine interfraktionelle Arbeitsgruppe gegründet, die das weitere investive Vor-\ngehen beim Hallenbad berät und Vorschläge zur Lösung erarbeitet. Ihr gehören von\njeder Fraktion ein Mitglied, die Stadtverordnetenvorsteherin und der Bürgermeister\nan. Die Stadtverordnetenvorsteherin lädt zur konstituierenden Sitzung ein. Ziel ist es,\ngenerell eine Aussage zur Zukunft des Hallenbades zu treffen, zeitliche Schritte bei\nder Sanierung und einen Sanierungsplan zu entwickeln. Letzterer muss Aussagen\nüber die Beteiligung anderer Gebietskörperschaften, des Landes, des Bundes und\nweiterer möglicher externer Finanzierungsquellen enthalten. Außerdem ist die Mittel-\naufbringung der Stadt Pohlheim zu diskutieren. Des Weiteren ist zu prüfen, welche\nModalitäten der Finanzierung sinnvoll sind. Das Beratungsergebnis ist der Stadtver-\nordnetenversammlung vorzulegen.\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n___________\n---\nTOP 11\nTOP 11 Antrag der Fraktionen SPD und Bündnis 90/Die Grünen vom 6. Januar 2025\nbetr. Priorisierung und Umsetzung der Maßnahmen für den Radverkehr lt.\nRadwegeverkehrskonzept\nVorlage: A-369/2021-2026\nDer Stadtverordnetenversammlung liegt folgender Antrag der Fraktionen SPD und Bündnis\n90/Die Grünen vor:\nDie Verwaltung wird gebeten, die verschiedenen Maßnahmen zur Verbesserung der Radinf-\nrastruktur innerorts, die für die Modellkommune Pohlheim durch das Ingenieurbüro HS Inge-\nnieure GmbH in 2023 vorgeschlagen wurden, nach Umsetzbarkeit und Höhe der Kosten zu\nhierarchisieren und der Stadtverordnetenversammlung einen Vorschlag zur Umsetzung und\nFinanzierung ( u.a. wieviel Fördermittel wo zu beantragen sind) zu unterbreiten und zur Bera-\ntung und Abstimmung vorzulegen. Es sollen insbesondere Maßnahmen aufgezeigt werden,\ndie bereits in den Haushaltsjahren 2025 und 2026 verwirklicht werden können.\nSowohl die Anregungen der AG8 zur Radverkehrssicherheit in Pohlheim als auch das Prü-\nfungsergebnis aus dem Antrag „Sicher durch den Pohlheimer Straßenverkehr“ A 022/2021 –\n2026 mit den Resultaten der Befragung der Ortsbeiräte nach neuralgischen Punkten für Rad-\nfahrerinnen in den Stadtteilen sollen dabei berücksichtigt werden.\nSTV Uwe Happel berichtet aus der gemeinsamen Sitzung der Ausschüsse für Soziales, Kul-\ntur und Sport sowie Bauen, Stadtentwicklung und Umwelt.\nÜber den dort geänderten Antrag wird wie folgt abgestimmt:\nDer Magistrat wird gebeten, die verschiedenen Maßnahmen zur Verbesserung der\nRadinfrastruktur innerorts, die für die Modellkommune Pohlheim durch das Ingenieurbüro HS\nIngenieure GmbH in 2023 vorgeschlagen wurden, nach Umsetzbarkeit und Höhe der Kosten\nzu hierarchisieren und der Stadtverordnetenversammlung einen Vorschlag zur Umsetzung\nund Finanzierung ( u.a. wieviel Fördermittel wo zu beantragen sind) zu unterbreiten und zur\nBeratung und Abstimmung vorzulegen. Es sollen insbesondere Maßnahmen aufgezeigt wer-\nden, die bereits in den Haushaltsjahren 2025 und 2026 verwirklicht werden können.\nSowohl die Anregungen der AG8 zur Radverkehrssicherheit in Pohlheim als auch das\nPrüfungsergebnis aus dem Antrag „Sicher durch den Pohlheimer Straßenverkehr“\nA022/2021-2026 mit den Resultaten der Befragung der Ortsbeiräte nach neuralgischen\n___________\n\n\nPunkten für Radfahrerinnen in den Stadtteilen sollen dabei berücksichtigt werden.\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n---\nTOP 12\nTOP 12 Mitteilungen\n---\nTOP 12.1\nTOP 12.1 Mitteilung 1\nStadtverordnetenvorsteherin Hiltrud Hofmann teilt mit, dass voraussichtlich am 25. April 2025\neine Bürgerversammlung zum Thema Verkehr (Straßenverkehr, Radverkehr, ÖPNV) statt-\nfinden werde.\n---\nTOP 12.2\nTOP 12.2 Mitteilung 2\nBürgermeister Andreas Ruckinformiert über die Statistik des Einwohnermeldeamtes. Dem-\nnach beträgt die Gesamt-Einwohnerzahl zum 31.12.2024 19.303.\nAußerdem informiert er über die Anzahl der Eheschließungen, Geburten und Sterbefälle.\n---\nTOP 12.3\nTOP 12.3 Mitteilung 3\nBürgermeister Andreas Ruck informiert zum Sachstand Rhein-Main-Link. Für den Bereich\nPohlheim-Butzbach werde es eine Prüfung zur Trassenführung entlang der BAB 5 geben.\nDas Planfeststellungsverfahren könne frühestens in anderthalb bis zwei Jahren erfolgen.\nEine weitere Veranstaltung zu diesem Thema soll im Bürgerhaus Griedel am 11.02.2025\nstattfinden.\n---\nTOP 12.4\nTOP 12.4 Mitteilung 4\nBürgermeister Andreas Ruck erstattet den Bericht über den Haushaltsvollzug zum\n31.12.2024.\nDer Bericht steht in Session zur Verfügung.\nDie Stadtverordnetenversammlung nimmt diesen zur Kenntnis.\n---\nTOP 12.5\nTOP 12.5 Mitteilung 5\nBürgermeister Andreas Ruck informiert über den Sachstand zur Kita Magdeburger Straße.\n---\nTOP 12.6\nTOP 12.6 Mitteilung 6\nBürgermeister Andreas Ruck informiert über den Jahresbericht 2024 des Stadtarchivs. Der\nBericht wird der Niederschrift als Anlage beigefügt.\n___________\n\n\n--- SEITE 10 ---\n---\nTOP 12.7\nTOP 12.7 Mitteilung 7\nDezernent Stadtrat Peter Alexander teilt mit, dass der Bauantrag für das Jugendzentrum\nfertiggestellt und bei der Bauaufsicht eingereicht worden sei.\n---\nTOP 13\nTOP 13 Beantwortung von Anfragen\nKeine.\n---",
+  "analysis_method": "Azure + Local",
+  "total_pages": 2,
+  "extraction_timestamp": "2025-09-15T23:53:21.087771",
+  "document_path": "input\\Niederschrift_STV5.pdf",
+  "full_text": "Stadt Pohlheim\nPohlheim, 29.01.2025\nAz .: STV/037/2021-2026\nNIEDERSCHRIFT\nüber die Sitzung der Stadtverordnetenversammlung der Stadt Pohlheim\nTag:\n23.01.2025\nDauer:\n19:03 Uhr bis 20:46 Uhr\nOrt:\nVolkshalle Watzenborn-Steinberg, Ludwigstraße 33-35, 35415 Pohlheim\nAnwesend:\nVon der Stadtverordnetenversammlung\nStadtverordnetenvorsteherin Hiltrud Hofmann\nSTV Malke Aydin\nSTV Angelika Bartosch\nSTV Lukas Be Josef\nSTV Karsten Becker\nSTV Sonya Can\nSTV Georg Celik\nSTV Iliyo Danho\nSTV Lorenz Diehl\nSTV Kevin Engel\nSTV Björn Feuerbach\nSTV Samuel Gergin\nSTV Eckart Hafemann\nSTV Simon Hafemann\nSTV Uwe Happel\nSTV Antje Häuser\nSTV Prof. Dr. Ernst-Ulrich Huster\nSTV Bettina Jost\nSTV Erich Klotz\nSTV Norman Klotz\nSTV Michel Kögler\nSTV Matthias Kücükkaplan\nSTV Reiner Leidich\nSTV Siglinde Michen\nSTV Dr. Melanie Neeb\nSTV Marc Werner Punzert\nSTV Michaela Schöffmann\nSTV Andreas Schuch\nSTV Melanie Schunk-Wießner\nSTV Prof. Dr. Helge Stadelmann\nSTV Dominic Tamme\nSTV Fadi Touma\nSTV Simone van Slobbe-Schneider\nSeite 1 von 10\nSTV/037/2021-2026\nSTV Sven Weigel\nVom Magistrat\nBürgermeister Andreas Ruck\nErster Stadtrat Israel Be Josef\nStadtrat Peter Alexander\nStadtrat Jörg Buß\nStadtrat Christian Görlach\nStadtrat Philipp Niklas Mackowiak\nStadtrat Tobias Maschmann\nSchriftführer(in)\nThomas Telling\nEntschuldigt:\nVon der Stadtverordnetenversammlung\nSTV Matthias Jung\nSTV Risko Noah\nSTV Sebastian Opper\nVom Magistrat\nStadtrat Wolfgang Sames\nStadtrat Reimar Stenzel\nTAGESORDNUNG:\nTOP 1\nEröffnung sowie Feststellung der ordnungsgemäßen\nLadung und der Beschlussfähigkeit\nTOP 2\nFeststellung der Niederschrift vom 13. Dezember 2024\nTOP 3\nVorlage des Entwurfs der Haushaltssatzung 2025/2026\ngemäß § 97 Hessische Gemeindeordnung\nSTV-371/2021-\n2026\nTOP 4\nAntrag der CDU-Fraktion vom 23. November 2024 betr.\nBericht über Umsetzungsstand von Stadtverordnetenbe-\nschlüssen nach 6 Monaten\nA-372/2021-2026\nTOP 5\nAntrag der CDU-Fraktion vom 23. November 2024 betr.\nBericht über die kommunale Wärmeplanung\nA-373/2021-2026\nTOP 6\nAntrag der CDU-Fraktion vom 23. November 2024 betr.\nBericht zum Haushaltsvollzug\nA-374/2021-2026\nTOP 7\nAntrag der Fraktionen SPD, FDP und Bündnis 90/Die\nGrünen vom 1. Dezember 2024 betr. Umsetzung der\nPV-Strategie\nA-365/2021-2026\nSeite 2 von 10\nSTV/037/2021-2026\n"
+}

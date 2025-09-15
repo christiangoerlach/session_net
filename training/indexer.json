@@ -1,0 +1,105 @@
+{
+  "name": "session-protocols-indexer-141278",
+  "description": null,
+  "dataSourceName": "datenquelle",
+  "skillsetName": null,
+  "targetIndexName": "session-protocols-index-top",
+  "disabled": null,
+  "schedule": {
+    "interval": "PT1H",
+    "startTime": "2025-01-01T00:00:00Z"
+  },
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": 10,
+    "maxFailedItemsPerBatch": 10,
+    "configuration": {
+      "dataToExtract": "contentAndMetadata",
+      "parsingMode": "json",
+      "indexedFileNameExtensions": ".json",
+      "excludedFileNameExtensions": "",
+      "failOnUnsupportedContentType": false,
+      "failOnUnprocessableDocument": false
+    }
+  },
+  "fieldMappings": [
+    {
+      "sourceFieldName": "/id",
+      "targetFieldName": "id",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "/document_type",
+      "targetFieldName": "document_type",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "/session_type",
+      "targetFieldName": "session_type",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "/date",
+      "targetFieldName": "date",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "/duration",
+      "targetFieldName": "duration",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "/location",
+      "targetFieldName": "location",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "/attendance",
+      "targetFieldName": "attendance",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "/agenda",
+      "targetFieldName": "agenda",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "/top_contents",
+      "targetFieldName": "top_contents",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "/top_contents_text",
+      "targetFieldName": "top_contents_text",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "/analysis_method",
+      "targetFieldName": "analysis_method",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "/total_pages",
+      "targetFieldName": "total_pages",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "/extraction_timestamp",
+      "targetFieldName": "extraction_timestamp",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "/document_path",
+      "targetFieldName": "document_path",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "/full_text",
+      "targetFieldName": "full_text",
+      "mappingFunction": null
+    }
+  ],
+  "outputFieldMappings": [],
+  "cache": null,
+  "encryptionKey": null
+}

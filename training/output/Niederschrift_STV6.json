@@ -1,0 +1,466 @@
+{
+  "id": "Niederschrift_STV6",
+  "document_type": "Niederschrift",
+  "session_type": "Stadtverordnetenversammlung",
+  "date": "2024-12-13T00:00:00Z",
+  "duration": "19:08 Uhr bis 20:47 Uhr",
+  "location": "Volkshalle Watzenborn-Steinberg, Ludwigstraße 33-35, 35415 Pohlheim",
+  "attendance": [
+    {
+      "name": "STV Malke Aydin",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Angelika Bartosch",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Lukas Be Josef TOP 8 bis",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Karsten Becker TOP 7 bis",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Sonya Can",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Iliyo Danho",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Lorenz Diehl",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Kevin Engel",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Björn Feuerbach",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Samuel Gergin",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Eckart Hafemann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Uwe Happel TOP 4 bis",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Antje Häuser",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Prof. Dr. Ernst-Ulrich Huster",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Bettina Jost",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Matthias Jung",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Erich Klotz",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Michel Kögler",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Matthias Kücükkaplan",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Reiner Leidich",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Dr. Melanie Neeb",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Sebastian Opper",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Marc Werner Punzert",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Michaela Schöffmann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Andreas Schuch",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Melanie Schunk-Wießner",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Prof. Dr. Helge Stadelmann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Dominic Tamme",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Fadi Touma",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Simone van Slobbe-Schneider",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Sven Weigel",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "Bürgermeister Andreas Ruck",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Erster Stadtrat Israel Be Josef",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Peter Alexander",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Jörg Buß",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Christian Görlach",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Tobias Maschmann",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Wolfgang Sames",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Reimar Stenzel",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Thomas Telling",
+      "function": "Schriftführer(in)",
+      "status": "present"
+    },
+    {
+      "name": "STV Georg Celik",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Simon Hafemann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Norman Klotz",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Siglinde Michen",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Risko Noah",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "Stadtrat Philipp Niklas Mackowiak",
+      "function": "Vom Magistrat",
+      "status": "excused"
+    }
+  ],
+  "agenda": "TOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen\nLadung und der Beschlussfähigkeit\nTOP 2 Feststellung der Niederschrift vom 7. November 2024\nTOP 3 Ehrungen\nTOP 4 Stromkonzessionsverfahren der Stadt Pohlheim STV-362/2021-\n2026\nTOP 5 4. Änderungssatzung zur Entwässerungssatzung STV-354/2021-\n2026\nTOP 6 5. Änderungssatzung zur Wasserversorgungssatzung STV-355/2021-\n2026\nTOP 7 Beratung und Beschlussfassung über den Wirtschafts- STV-356/2021-\nplan 2025 des Eigenbetriebs Wasserwerke Pohlheim 2026\nTOP 8 Erneuerung der Kugelstoßanlage auf dem Sportgelände STV-357/2021-\n\"Neumühle\" im Stadtteil Watzenborn-Steinberg; 2026\nTeilaufhebung Sperrvermerk für Haushaltsansatz\nI085601-18\n___________\n\n\nTOP 9 Planungskosten für die Erneuerung der Sportanlage STV-358/2021-\n\"Neumühle\" im Stadtteil Watzenborn-Steinberg; 2026\nTeilaufhebung Sperrvermerk für Haushaltsansatz\nI085601-18\nTOP 10 Betriebskommission Wasserwerke Pohlheim; STV-359/2021-\nWahl von zwei Vertreterinnen/Vertretern und zwei Stell- 2026\nvertreterinnen/Stellvertretern in die Betriebskommission\nWasserwerke Pohlheim; Personalrat\nTOP 11 Beratung und Beschlussfassung über die Hebesatzsat- STV-361/2021-\nzung 2025 bis 2026 2026\nTOP 12 Neue Richtlinie für die Förderung der Vereine der Stadt STV-363/2021-\nPohlheim 2026\nTOP 13 Antrag der Fraktionen SPD, FDP und Bündnis 90/Die A-365/2021-2026\nGrünen vom 1. Dezember 2024 betr. Umsetzung der\nPV-Strategie\nTOP 14 Antrag der Fraktionen SPD, FDP und Bündnis 90/Die A-366/2021-2026\nGrünen vom 1. Dezember 2024 betr. Monitoring in der\noffenen und aufsuchenden Jugendarbeit\nTOP 15 Mitteilungen\nTOP 15.1 Mitteilung 1\nTOP 15.2 Mitteilung 2\nTOP 15.3 Mitteilung 3\nTOP 15.4 Mitteilung 4\nTOP 15.5 Mitteilung 5\nTOP 15.6 Mitteilung 6\nTOP 15.7 Mitteilung 7\nTOP 15.8 Mitteilung 8\nTOP 15.9 Mitteilung 9\nTOP 15.10 Mitteilung 10\nTOP 15.11 Mitteilung 11\nTOP 15.12 Mitteilung 12\nTOP 16 Beantwortung von Anfragen\nTOP 16.1 Anfrage 1\n___________\n\n\n--- SEITE 4 ---",
+  "top_contents": [
+    {
+      "nummer": "1",
+      "ueberschrift": "TOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen Ladung und der Be-\nschlussfähigkeit",
+      "vorlage": "",
+      "inhalt": "Stadtverordnetenvorsteherin Hiltrud Hofmann eröffnet die Sitzung, begrüßt alle Anwesenden\nund stellt ordnungsgemäße Ladung und Beschlussfähigkeit fest.\nAnschließend nimmt sie die Gelegenheit wahr und gratuliert der Stadtverordneten Melanie\nSchunk-Wießner sowie Stadtrat Reimar Stenzel nachträglich zum Geburtstag.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "2",
+      "ueberschrift": "TOP 2 Feststellung der Niederschrift vom 7. November 2024",
+      "vorlage": "",
+      "inhalt": "Die Niederschrift vom 7. November 2024 wird ohne Änderungen festgestellt.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "3",
+      "ueberschrift": "TOP 3 Ehrungen",
+      "vorlage": "",
+      "inhalt": "Stadtverordnetenvorsteherin Hiltrud Hofmann würdigt die folgenden ehrenamtlich Tätigen:\nKlaus-Dieter Schardt – 10jährige ehrenamtliche Tätigkeit\nJanuar 2014 bis 20. März 2017 Mitglied aus dem Stadtteil Hausen im\nSeniorenbeirat der Stadt Pohlheim\n21. März 2017 bis 15. Dez. 2019 Stellvertreter aus dem Stadtteil Hausen im\nSeniorenbeirat der Stadt Pohlheim\n16. Dez. 2019 bis heute Mitglied aus dem Stadtteil Hausen im\nSeniorenbeirat der Stadt Pohlheim\nMichael Lederer – 10jährige ehrenamtliche Tätigkeit\nApril 2014 bis März 2016 Stellvertreter aus dem Stadtteil Grüningen im\nSeniorenbeirat der Stadt Pohlheim\nApril 2016 bis 24. Sept. 2019 Mitglied aus dem Stadtteil Grüningen im\nSeniorenbeirat der Stadt Pohlheim\n25. Sept. 2019 bis heute Stellvertreter aus dem Stadtteil Grüningen im\nSeniorenbeirat der Stadt Pohlheim\nBettina Jost – 20jährige ehrenamtliche Tätigkeit\nJanuar 2004 bis heute Mitglied im Ortsbeirat Hausen\nab April 2021 bis heute stellv. Ortsvorsteherin\nNovember 2014 bis heute Mitglied der Stadtverordnetenversammlung\nFrau Jost wird zur Ehrenstadtverordneten ernannt.\nJörg Diehl – 20jährige ehrenamtliche Tätigkeit\nOktober 1998 bis Januar 2000\n___________\n\n\nApril 2001 bis März 2011\nund\nApril 2016 bis heute Mitglied im Ortsbeirat Holzheim\nvon April 2016 bis März 2021 Schriftführer\nvon April 2021 bis heute stellv. Schriftführer\nHerr Diehl wird zum Ehrenortsbeirat ernannt.\nEhrenausländerbeirat Cehver Tan – 30jährige ehrenamtliche Tätigkeit\nMai 1994 bis heute Mitglied im Ausländerbeirat\nvon Mai 1995 bis April 2021 Vorsitzender\nDezember 2014 Verleihung der Ehrenbezeichnung\n„Ehrenausländerbeirat“\nEhrenstadtverordneter Ulrich Sann – 35jährige ehrenamtliche Tätigkeit\nApril 1985 bis März 1989\nund\nApril 1993 bis Februar 1994 Mitglied Ortsbeirat Holzheim\nApril 1993 bis März 2021 Mitglied Stadtverordnetenversammlung\nu. a.\nvon April 2011 bis 2016\nAusschuss für Bauen, Stadtentwicklung und Umwelt\nvon April 2016 bis März 2021\nstellvertr. Vorsitzender des Ausschusses für\nBauen, Stadtentwicklung und Umwelt\nFW-Fraktionsvorsitzender\nstellv. Stadtverordnetenvorsteher\nDezember 2019 bis heute Mitglied Klimabeirat\nEhrenstadtverordneter Matthias Jung – 35jährige ehrenamtliche Tätigkeit\nApril 1989 bis Oktober 1998 Mitglied Ortsbeirat Holzheim\nApril 1993 bis März 1997 Mitglied Stadtverordnetenversammlung\nFebruar 1999 bis März 2001 Mitglied Stadtverordnetenversammlung\nApril 2001 bis März 2006 Mitglied des Magistrats\nApril 2006 bis Januar 2013 Mitglied Stadtverordnetenversammlung\nu. a.\nvon April 2006 bis Januar 2019\nVorsitzender des Ausschusses für Soziales,\nKultur und Sport\nvon November 2008 bis Januar 2013\nCDU-Fraktionsvorsitzender\nFebruar 2013 bis März 2016 Mitglied Magistrat\nApril 2016 bis heute Mitglied Stadtverordnetenversammlung\n___________\n\n\nu. a.\nvon April 2016 bis Dezember 2020\nFraktionsvorsitzender der CDU und\nstellv. Stadtverordnetenvorsteher\nvon November 2016 bis März 2017\nMitglied Akteneinsichtsausschuss\nEhrenbürger und Ehrenstadtverordneter Horst Biadala – 45jährige ehrenamtliche Tä-\ntigkeit\nOktober 1972 bis Februar 1978 Mitglied des Magistrats\nApril 1981 bis März 1989 Mitglied der Stadtverordnetenversammlung\nApril 1993 bis heute Mitglied des Ortsbeirates Holzheim\nApril 1997 bis März 2021 Mitglied der Stadtverordnetenversammlung\nu. a.\nvon April 1997 bis März 2001 Stadtverordneten-\nvorsteher\nvon 1998 bis 2011 Fraktionsvorsitzender der SPD\nvon Februar 2012 bis März 2016 Vorsitzender des Aus-\nschusses für Bauen, Stadtentwicklung und Umwelt\nvon August 2019 bis März 2021 Mitglied im Ausschuss\nfür Bauen, Stadtentwicklung und Umwelt\nAlle Geehrten erhalten eine Ehrenurkunde sowie ein Präsent.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "4",
+      "ueberschrift": "TOP 4 Stromkonzessionsverfahren der Stadt Pohlheim",
+      "vorlage": "Vorlage: STV-362/2021-2026",
+      "inhalt": "STV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung der Stadt Pohlheim beschließt, den Bürgermeister damit\nzu beauftragen, den Konzessionsvertrag Strom für das Stadtgebiet mit Stadtwerke Gießen\nAG für die Dauer von 20 Jahren abzuschließen, weil die Stadtwerke Gießen AG das nach\nden Auswahlkriterien beste Angebot abgegeben hat.",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "5",
+      "ueberschrift": "TOP 5 4. Änderungssatzung zur Entwässerungssatzung",
+      "vorlage": "Vorlage: STV-354/2021-2026",
+      "inhalt": "STV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\n___________\n\n\nDie Stadtverordnetenversammlung beschließt, der nachfolgenden 4. Änderungssatzung zur\nEntwässerungssatzung zuzustimmen. Die 4. Änderungssatzung tritt am 1. Januar 2025 in\nKraft.\n4. Änderungssatzung zur Entwässerungssatzung\nAufgrund der §§ 5, 19, 20, 51 und 93 Abs. 1 der Hessischen Gemeindeordnung (HGO) in der\nFassung der Bekanntmachung vom 07.03.2005 (GVBl. I S. 142), zuletzt geändert durch Art.\n2 des Gesetzes vom 16.02.2023 (GVBl. S. 90, 93), der §§ 37 bis 40 des Hessischen Was-\nsergesetzes (HWG) in der Fassung vom 14.12.2010 (GVBl. I S. 548), zuletzt geändert durch\nArtikel 3 des Gesetzes vom 28.06.2023 (GVBl. S. 473, 475), der §§ 1 bis 5 a), 6 a), 9 bis 12\ndes Hessischen Gesetzes über kommunale Abgaben (KAG) in der Fassung vom\n24.03.2013, (GVBl. I S. 134), zuletzt geändert durch Artikel 4 des Gesetzes vom 20.07.2023\n(GVBl. S. 582) der §§ 1 und 9 des Gesetzes über Abgaben für das Einleiten von Abwasser in\nGewässer (Abwasserabgabengesetz - AbwAG) in der Fassung der Bekanntmachung vom\n18.01.2005 (BGBl. I S. 114), zuletzt geändert durch Artikel 2 der Verordnung vom\n22.08.2018 (BGBl. I S. 1327) und der §§ 1 und 2 des Hessischen Ausführungsgesetzes zum\nAbwasserabgabengesetz (HAbwAG) in der Fassung der Bekanntmachung vom 09.06.2016\n(GVBl. S. 71), zuletzt geändert durch Artikel 1 und 2 des Gesetzes vom 25.05.2023\n(GVBl. S. 357), hat die Stadtverordnetenversammlung der Stadt Pohlheim am 13.12.2024\nfolgende 4. Änderungssatzung zur Entwässerungssatzung (EWS) beschlossen.\nI.\n§ 24 Gebührenmaßstäbe und -sätze für Niederschlagswasser - erhält folgende Fassung:\n§ 24\nGebührenmaßstäbe und -sätze für Niederschlagswasser\n(1) Gebührenmaßstab für das Einleiten von Niederschlagswasser ist die bebaute und künst-\nlich befestigte Grundstücksfläche, von der das Niederschlagswasser in die Abwasseran-\nlage eingeleitet wird oder abfließt; pro m² wird eine Gebühr von 0,38 € jährlich erhoben.\n(2) Die bebaute und künstlich befestigte Grundstücksfläche wird unter Berücksichtigung des\nGrades der Wasserdurchlässigkeit für die einzelnen Versiegelungsarten nach folgenden\nFaktoren festgesetzt:\n1. Dachflächen\n1.1 Flachdächer, geneigte Dächer 1,0\n1.2 Kiesdächer 0,5\n1.3 Gründächer 0,4\n2. Befestigte Grundstücksflächen\n2.1 Beton-, Schwarzdecken (Asphalt, Teer o. Ä.), Pflaster mit Fugenver-\nguss, sonstige wasserundurchlässige Flächen mit Fugendichtung 1,0\n2.2 Pflaster (z. B. auch Rasen- oder Splittfugenpflaster, Betonsteinpflas-\nter, Basaltpflaster, Platten) bis zu einer Fugenbreite von 15 mm 0,7\n2.3 Pflaster (z. B. auch Rasen- oder Splittfugenpflaster, Platten)\nmit einer größeren Fugenbreite als 15 mm 0,6\n2.4 wassergebundene Decken (aus Kies, Splitt, Schlacke o. Ä.) 0,5\n2.5 Porenpflaster oder ähnliche wasserdurchlässige Pflaster 0,4\n2.6 Rasengittersteine 0,2\n___________\n\n\n(3) Bei der Ermittlung bebauter oder künstlich befestigter Grundstücksflächen bleiben sol-\nche Flächen ganz oder teilweise außer Ansatz, von denen dort anfallendes Nieder-\nschlagswasser in Zisternen oder ähnlichen Vorrichtungen (Behältnissen) mit einem Fas-\nsungsvermögen von mindestens 1 m³ gesammelt und auf dem Grundstück verwendet\nwird. Von der Niederschlagswassergebühr sind befreit\na) alle ohne direkten oder mittelbaren Anschluss an die Abwasseranlage entwässernden\nFlächen, in vollem Umfang\nb) bei Anschluss an die Abwasseranlage und Verwendung des Niederschlagswassers\nals Brauchwasser eine Fläche von 20 m² je m³ Speichervolumen\nc) bei zusätzlicher Nutzung zur Gartenbewässerung erhöht sich die so errechnete Flä-\nche nach b) um 10 %\nd) bei Anschluss an die Abwasseranlage und alleiniger Verwendung des Niederschlags-\nwassers zur Gartenbewässerung eine Fläche von 10 m² je m³ Speichervolumen.\n(4) Ist die gebührenpflichtige Fläche, von der Niederschlagswasser in Zisternen oder ähnli-\nche Vorrichtungen gesammelt wird, geringer als die aufgrund des Zisternenvolumens er-\nrechnete außer Ansatz zu lassende Fläche, so bleibt nur diejenige Fläche unberücksich-\ntigt, von der Niederschlagswasser in die zuvor genannten Vorrichtungen eingeleitet wird.\n(5) Zur Ermittlung der versiegelten Flächen darf die Stadt Dienstleister beauftragen, um Be-\nfliegungen durchzuführen, Luftbilder und Erklärungsbögen auszuwerten und hierfür die\nentsprechenden Daten erheben.\n(6) Ändert sich die gebührenpflichtige Fläche, so ist dies bei der Festsetzung der Gebüh-\nren ab dem Monat der Änderung zu berücksichtigen.\n§ 26 Gebührenmaßstäbe und -sätze für Schmutzwasser - erhält folgende Fassung\n§ 26\nGebührenmaßstäbe und -sätze für Schmutzwasser\n(1) Gebührenmaßstab für das Einleiten häuslichen Schmutzwassers ist der Frischwasser-\nverbrauch auf dem angeschlossenen Grundstück.\nDie Gebühr beträgt pro m3 Frischwasserverbrauch\na) bei zentraler Abwasserreinigung in der Abwasseranlage 2,36 €\nb) bei notwendiger Vorreinigung des Abwassers in einer Grundstückskläreinrichtung\ndie in § 26 (1) a festgesetzten Gebühren gemindert um 10 vom hundert\n(2) Gebührenmaßstab für das Einleiten nicht häuslichen Schmutzwassers ist der Frisch-\nwasserverbrauch auf dem angeschlossenen Grundstück unter Berücksichtigung des\nVerschmutzungsgrads. Der Verschmutzungsgrad wird grundsätzlich durch Stichpro-\nben - bei vorhandenen Teilströmen in diesen - ermittelt und als chemischer Sauer-\nstoffbedarf aus der nicht abgesetzten, homogenisierten Probe (CSB) nach DIN\n38409-H41 (Ausgabe Dezember 1980) dargestellt. Wird ein erhöhter Verschmut-\nzungsgrad gemessen, ist das Messergebnis dem Abwassereinleiter innerhalb von\nzwei Wochen nach Eingang bei der Stadt bekanntzugeben.\nDie Gebühren nach Abs. 1 gelten bei einem CSB bis 800 mg/l; bei einem höheren\nCSB wird die Gebühr vervielfacht mit dem Ergebnis der Formel\n___________\n\n\n0,5 x festgestellter CSB + 0,5\n800\nWird ein erhöhter Verschmutzungsgrad nur im Abwasser eines Teilstroms der Grund-\nstücksentwässerungsanlage festgestellt, wird die erhöhte Gebühr nur für die in diesen\nTeilstrom geleitete Frischwassermenge, die durch private Wasserzähler zu messen\nist, berechnet. Liegen innerhalb eines Kalenderjahres mehrere Feststellungen des\nVerschmutzungsgrads vor, kann die Stadt der Gebührenfestsetzung den rechneri-\nschen Durchschnittswert zugrunde legen.\n(3) Die Grundgebühr stellt das Entgelt für die Bereitstellung der öffentlichen Abwasser-\nentsorgungsanlage dar. Sie wird für jedes Grundstück erhoben und beträgt je An-\nschluss der nachstehenden Wasserzähler\nQ 5,00 €/Monat\n3 4\nQ 7,13 €/Monat\n3 10\nab Q 10,76 €/Monat.\n3 16\nII.\nDie 4. Änderungssatzung zur Entwässerungssatzung tritt zum 01.01.2025 in Kraft.",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "6",
+      "ueberschrift": "TOP 6 5. Änderungssatzung zur Wasserversorgungssatzung",
+      "vorlage": "Vorlage: STV-355/2021-2026",
+      "inhalt": "STV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung beschließt, der nachfolgenden 5. Änderungssatzung zur\nWasserversorgungssatzung zuzustimmen. Die 5. Änderungssatzung tritt am 1. Januar 2025\nin Kraft.\n5. Änderungssatzung zur Wasserversorgungssatzung\nAufgrund der §§ 5, 19, 20, 51 und 93 Abs. 1 der Hessischen Gemeindeordnung (HGO) in der\nFassung der Bekanntmachung vom 07.03.2005 (GVBl. I S. 142), zuletzt geändert durch Art.\n2 des Gesetzes vom 16.02.2023 (GVBl. S. 90, 93), der §§ 30, 31, 36 des Hessischen Was-\nsergesetzes (HWG) in der Fassung vom 14.12.2010 (GVBl. I S. 548), zuletzt geändert durch\nArtikel 3 des Gesetzes vom 28.06.2023 (GVBl. S. 473, 475), der §§ 1 bis 5a, 6a, 9 bis 12 des\nHessischen Gesetzes über kommunale Abgaben (KAG) vom 24.03.2013 (GVBl. I S. 134),\nzuletzt geändert durch Artikel 4 des Gesetzes vom 20.07.2023 (GVBl. S. 582), hat die Stadt-\nverordnetenversammlung der Stadt Pohlheim am 13.12.2024 folgende 5. Änderungssatzung\nzur Wasserversorgungssatzung (WVS) beschlossen.\nI.\n___________\n\n\n§ 26 - Benutzungsgebühren, Grundgebühr - erhält folgende Fassung:\n§ 26\nBenutzungsgebühren, Grundgebühren\n(1) Die Stadt erhebt zur Deckung der Kosten im Sinne des § 10 Abs. 2 KAG Gebühren.\n(2) Die Benutzungsgebühr bemisst sich nach der Menge (m³) des zur Verfügung gestellten\nWassers. Ist eine Messeinrichtung ausgefallen oder wird der Stadt bzw. einem Beauf-\ntragten der Zutritt zu den Messeinrichtungen verweigert oder ist das Ablesen der Mess-\neinrichtungen aus sonstigen Gründen nicht möglich oder nicht erfolgt, schätzt die Stadt\nden Verbrauch nach pflichtgemäßem Ermessen.\n(3) Die Benutzungsgebühr beträgt pro m³ 2,75 € (einschl. gesetzlicher Umsatzsteuer).\n(4) Die Grundgebühr stellt das Entgelt für die Bereitstellung der öffentlichen Wasserversor-\ngungsanlage dar. Sie wird für jeden Grundstücksanschluss erhoben und beträgt je An-\nschluss der nachstehenden Wasserzähler.\nQ 5,35 € / Monat (einschl. gesetzlicher Umsatzsteuer)\n3 4\nQ 7,63 € / Monat (einschl. gesetzlicher Umsatzsteuer)\n3 10\nab Q 11,51 € / Monat (einschl. gesetzlicher Umsatzsteuer)\n3 16\nII.\nDie 5. Änderungssatzung zur Wasserversorgungssatzung tritt zum 01.01.2025 in Kraft.",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "7",
+      "ueberschrift": "TOP 7 Beratung und Beschlussfassung über den Wirtschaftsplan 2025 des Eigen-\nbetriebs Wasserwerke Pohlheim",
+      "vorlage": "Vorlage: STV-356/2021-2026",
+      "inhalt": "STV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung fasst folgenden Beschluss:\n„Der im Entwurf vorgelegte Wirtschaftsplan 2025, bestehend aus dem Er-\nfolgsplan, der Stellenübersicht sowie dem Finanz-, Vermögens- und In-\nvestitionsplan, wird im Erfolgsplan\nWasserversorgung in den Erträgen auf 2.443.000 Euro\nin den Aufwendungen auf 2.223.000 Euro\nund im Erfolgsplan\nAbwasserentsorgung in den Erträgen auf 3.339.000 Euro\n___________\n\n\nin den Aufwendungen auf 3.224.000 Euro\nsowie im Vermögensplan\nWasserversorgung in den Einnahmen auf 2.267.000 Euro\nin den Ausgaben auf 2.267.000 Euro\nund im Vermögensplan\nAbwasserbeseitigung in den Einnahmen auf 4.246.000 Euro\nin den Ausgaben auf 4.246.000 Euro\nfestgesetzt.“",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "8",
+      "ueberschrift": "TOP 8 Erneuerung der Kugelstoßanlage auf dem Sportgelände \"Neumühle\" im\nStadtteil Watzenborn-Steinberg;",
+      "vorlage": "",
+      "inhalt": "Teilaufhebung Sperrvermerk für Haushaltsansatz I085601-18\nVorlage: STV-357/2021-2026",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "9",
+      "ueberschrift": "TOP 9 Planungskosten für die Erneuerung der Sportanlage \"Neumühle\" im Stadt-\nteil Watzenborn-Steinberg;",
+      "vorlage": "",
+      "inhalt": "Teilaufhebung Sperrvermerk für Haushaltsansatz I085601-18\nVorlage: STV-358/2021-2026\nDie Tagesordnungspunkte 8 und 9 werden gemeinsam aufgerufen und beraten.\nSTV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nDezernent Stadtrat Peter Alexander erläutert den aktuellen Sachstand.\nEs folgt eine eingehende Beratung und Diskussion.\nSTV Malke Aydin stellt einen Antrag zur Geschäftsordnung auf Sitzungsunterbrechung.\nDie Sitzung wird von 20:05 Uhr bis 20:10 Uhr unterbrochen.\nNach Wiedereintritt in die Sitzung lässt die Stadtverordnetenvorsteherin zunächst über",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "8",
+      "ueberschrift": "TOP\n8 abstimmen:",
+      "vorlage": "",
+      "inhalt": "Die Stadtverordnetenversammlung beschließt, für die Erneuerung der Kugelstoßanlage auf\ndem Sportgelände „Neumühle“ im Stadtteil Watzenborn-Steinberg die Teilaufhebung des\nSperrvermerks in Höhe von 15.000,00 Euro für den Haushaltsansatz 2024 I085601-18 im\nInvestitionsprogramm 2024.",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n20 Ja-Stimmen (12 SPD, 5 Grüne, 2 FDP, 1 FW)\n1 Nein-Stimme (CDU)\n11 Enthaltungen (8 CDU, 3 FW)\nAnschließend wird über"
+    },
+    {
+      "nummer": "9",
+      "ueberschrift": "TOP 9 abgestimmt:\n___________",
+      "vorlage": "",
+      "inhalt": "Die Stadtverordnetenversammlung beschließt, Planungskosten in Höhe von 225.000,00 Eu-\nro für die Erneuerung der Sportanlage „Neumühle“ im Stadtteil Watzenborn-Steinberg bereit-\nzustellen und den Sperrvermerk bei dem Haushaltsansatz I085601-18 teilweise aufzuheben.",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n17 Ja-Stimmen (12 SPD, 5 Grüne)\n1 Nein-Stimme (CDU)\n14 Enthaltungen (8 CDU, 4 FW, 2 FDP)"
+    },
+    {
+      "nummer": "10",
+      "ueberschrift": "TOP 10 Betriebskommission Wasserwerke Pohlheim;",
+      "vorlage": "",
+      "inhalt": "Wahl von zwei Vertreterinnen/Vertretern und zwei Stellvertreterin-\nnen/Stellvertretern in die Betriebskommission Wasserwerke Pohlheim; Per-\nsonalrat\nVorlage: STV-359/2021-2026\nSTV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nGemäß § 7 Abs. 1 Nr. 1.3 der Eigenbetriebssatzung gehören der Betriebskommission u. a.\nfolgende Personen an:\nZwei Mitglieder des Personalrates der Stadt (und die gleiche Anzahl von Stellvertretern), die\nauf dessen Vorschlag von der Stadtverordnetenversammlung nach den Grundsätzen der\nMehrheitswahl für die Dauer der Wahlzeit des Personalrates zu wählen sind.\nDer Personalrat hat in seiner konstituierenden Sitzung am 22.05.2024 folgende Mitglieder\nbenannt, die von der Stadtverordnetenversammlung zu wählen sind:\nVertreter/innen:\n1. Holger Tews\n2. Markus Paegelow\nStellvertreter/innen:\n1. Stefan Huster\n2. Alexander Bauer\nDie Stadtverordnetenvorsteherin lässt über die genannten Personen wie folgt abstimmen:",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "11",
+      "ueberschrift": "TOP 11 Beratung und Beschlussfassung über die Hebesatzsatzung 2025 bis 2026",
+      "vorlage": "Vorlage: STV-361/2021-2026",
+      "inhalt": "STV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nDie Stadtverordnetenvorsteherin teilt mit, dass im Ältestenrat die folgenden Hebesätze be-\nsprochen wurden:\nGrundsteuer A: 300 v. H.\nGrundsteuer B: 282 v. H.\n___________\n\n\nAußerdem wird festgehalten, sich die tatsächlichen Zahlungen im Februar und Mai 2025 an-\nzuschauen und die Hebesätze dann nochmals zu prüfen.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung beschließt, der nachfolgenden Satzung über die Festset-\nzung der Steuersätze für die Grund- und Gewerbesteuer - Hebesatzsatzung - zuzustimmen.\nSatzung über die Festsetzung der Steuersätze für die Grund- und Gewerbesteuer\n- Hebesatzsatzung -\nAufgrund der §§ 5 und 51 der Hessischen Gemeindeordnung in der Fassung der Bekannt-\nmachung vom 07.03.2005 (GVBl. I S. 142), zuletzt geändert durch Art. 2 des Gesetzes vom\n16.02.2023 (GVBl. S. 90, 93), des § 25 des Grundsteuergesetzes (GrStG) vom 7. August\n1973 (BGBl. I S. 965), zuletzt geändert durch Art. 34 des Gesetzes vom 23. Oktober 2024\n(BGBl. I Nr. 323) und des § 16 des Gewerbesteuergesetzes (GewStG) i. d. F. der Bekannt-\nmachung vom 15. Oktober 2002 (BGBl. I S. 4167), zuletzt geändert durch Art. 19 des Geset-\nzes vom 27. März 2024 (BGBl. I Nr. 108) hat die Stadtverordnetenversammlung am\n13.12.2024 die folgende Satzung beschlossen:\n§ 1 Festsetzung der Hebesätze\nDie Hebesätze für die Grundsteuer und für die Gewerbesteuer werden wie folgt festgesetzt:\n1. Grundsteuer für die land- und forstwirtschaftlichen Betriebe (Grundsteuer A) 300 v. H.\n2. für die Grundstücke (Grundsteuer B) 282 v. H.\n3. für die Gewerbesteuer 380 v. H.\n§ 2 Gültigkeit\nDie Hebesätze nach § 1 gelten für das Haushaltsjahr 2025.\n§ 3 Inkrafttreten\nDiese Satzung tritt am 01.01.2025 in Kraft.",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n25 Ja-Stimmen (8 SPD, 8 CDU, 5 Grüne, 4 FW)\n2 Nein-Stimmen (1 CDU, 1 FDP)\n2 Enthaltungen (1 SPD, 1 FDP)"
+    },
+    {
+      "nummer": "12",
+      "ueberschrift": "TOP 12 Neue Richtlinie für die Förderung der Vereine der Stadt Pohlheim",
+      "vorlage": "Vorlage: STV-363/2021-2026",
+      "inhalt": "Der Stadtverordnetenversammlung liegt die überarbeitete Richtlinie zur Förderung der Ver-\neine der Stadt Pohlheim vor.\nDie Stadtverordnetenvorsteherin lässt wie folgt abstimmen:\n___________\n\n\nDie Stadtverordnetenversammlung beschließt der überarbeiteten „Richtlinie zur Förderung\nder Vereine der Stadt Pohlheim“ zuzustimmen. Der Magistrat wird gebeten einen Zeitpunkt\nfestzulegen, ab wann die überarbeitete Richtlinie in Kraft treten soll.",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen\n28 Ja-Stimmen (9 SPD, 8 CDU, 5 Grüne, 2 FDP, 4 FW)\n1 Enthaltung (CDU)"
+    },
+    {
+      "nummer": "13",
+      "ueberschrift": "TOP 13 Antrag der Fraktionen SPD, FDP und Bündnis 90/Die Grünen vom 1. De-\nzember 2024 betr. Umsetzung der PV-Strategie",
+      "vorlage": "Vorlage: A-365/2021-2026",
+      "inhalt": "Der Stadtverordnetenversammlung liegt folgender Antrag der Fraktionen SPD, FDP und\nBündnis 90/Die Grünen vor:\nDie Stadtverordnetenversammlung der Stadt Pohlheim möge beschließen:\n1. Die Vorlage des Klimabeirates zur PV-Strategie in der Stadt Pohlheim ist zur Be-\nhandlung und Beschlussfassung an die parlamentarischen Gremien weiterzuleiten.\nZunächst soll der BSU in seiner Sitzung im Januar 2025 die Problematik mit dem Ziel\ndiskutieren, wie diese Strategie operational umgesetzt werden kann. Dabei soll eine\nVorlage erarbeitet werden.\n2. Die dabei entstandene Vorlage ist sodann der Stadtverordnetenversammlung zur\nBeschlussfassung vorzulegen.\nSTV Simone van Slobbe-Schneider bringt den Antrag ein, begründet ihn und verweist ihn in\nden Ausschuss für Bauen, Stadtentwicklung und Umwelt sowie in den Ausschuss für Sozia-\nles, Kultur und Sport.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "14",
+      "ueberschrift": "TOP 14 Antrag der Fraktionen SPD, FDP und Bündnis 90/Die Grünen vom 1. De-",
+      "vorlage": "",
+      "inhalt": "zember 2024 betr. Monitoring in der offenen und aufsuchenden Jugendar-\nbeit\nVorlage: A-366/2021-2026\nDer Stadtverordnetenversammlung liegt folgender Antrag der Fraktionen SPD, FDP und\nBündnis 90/Die Grünen vor:\nDie Mitarbeiterinnen des Kinder- und Jugendbüros werden beauftragt, ein Monitoring zu\nentwickeln und zu betreiben, das der systematischen Erfassung, Messung und Beobachtung\nvon Prozessen in der offenen und aufsuchenden Jugendarbeit dient. Hierbei ist ggf. unter-\nstützend die fachliche Expertise des Fachdienstes Kinder- und Jugendhilfe beim Landkreis\nGießen einzuholen. Dem Ausschuss SKS ist in der Sitzung am 25. März 2025 über das Er-\ngebnis zu berichten.\nSTV Dominic Tamme bringt den Antrag ein, begründet ihn und verweist ihn in den Aus-\nschuss für Soziales, Kultur und Sport.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15",
+      "ueberschrift": "TOP 15 Mitteilungen\n___________",
+      "vorlage": "",
+      "inhalt": "--- SEITE 15 ---",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15.1",
+      "ueberschrift": "TOP 15.1 Mitteilung 1",
+      "vorlage": "",
+      "inhalt": "Stadtverordnetenvorsteherin Hiltrud Hofmann informiert über die noch offenen Anträge.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15.2",
+      "ueberschrift": "TOP 15.2 Mitteilung 2",
+      "vorlage": "",
+      "inhalt": "Bezüglich der am 23.02.2024 stattfindenden Bundestagswahl informiert Bürgermeister An-\ndreas Ruck über den Ersatz für die Wahllokale Volkshalle und Limeshalle.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15.3",
+      "ueberschrift": "TOP 15.3 Mitteilung 3",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck informiert über eine Veranstaltung in der Klosterwaldhalle am\n20.12.2024. Seitens der Stadtverwaltung bestehe keine rechtliche Handhabe gegen die\nVermietung.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15.4",
+      "ueberschrift": "TOP 15.4 Mitteilung 4",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck informiert über die Termine für die Haushaltsberatungen.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15.5",
+      "ueberschrift": "TOP 15.5 Mitteilung 5",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck informiert über den Glasfaserdoppelausbau in Watzenborn-\nSteinberg durch die Firma TNG sowie GlasfaserPlus (Telekom).",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15.6",
+      "ueberschrift": "TOP 15.6 Mitteilung 6",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck spricht die Teilnahme von Stadtverordneten an Veranstaltun-\ngen an, da er durch verschiedene Veranstalter darauf angesprochen wurde.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15.7",
+      "ueberschrift": "TOP 15.7 Mitteilung 7",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck informiert über den Sachstand bezüglich PV-Anlagen. In Holz-\nheim sei die Anlage nahezu fertiggestellt. In Grüningen solle der Ausbau im Januar 2025\nbeginnen.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15.8",
+      "ueberschrift": "TOP 15.8 Mitteilung 8",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck teilt mit, dass die Ladesäule auf dem Festplatz Garbenteich\nnunmehr in Betrieb sei.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15.9",
+      "ueberschrift": "TOP 15.9 Mitteilung 9",
+      "vorlage": "",
+      "inhalt": "Mit Bezug auf das Antragsmonitoring teilt Bürgermeister Andreas Ruck mit, dass der Herstel-\nler mittlerweile eine Option zur Beschlusskontrolle programmiert habe. Die Einführung ist für\ndas 1. Halbjahr 2025 vorgesehen.\n___________\n\n\n--- SEITE 16 ---",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15.10",
+      "ueberschrift": "TOP 15.10 Mitteilung 10",
+      "vorlage": "",
+      "inhalt": "Bezüglich der Renaturierung des Flachsbach teilt Bürgermeister Andreas Ruck mit, dass zur\nUmsetzung Grunderwerb getätigt werden müsse, da Grundstücke nicht in städtischem Besitz\nseien. Mit der Unteren Wasserbehörde werde geklärt, welche Fördermöglichkeiten bestün-\nden. Eine grobe Kostenschätzung für die Maßnahmen gehe derzeit von rd. 355 TEUR aus.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15.11",
+      "ueberschrift": "TOP 15.11 Mitteilung 11",
+      "vorlage": "",
+      "inhalt": "Dezernent Stadtrat Peter Alexander teilt mit, dass die Ausschreibung zur Sanierung des\nSportgeländes Neumühle erfolgt und ein Fördermittelantrag gestellt sei. Die Durchführung\nder Maßnahme sei für Mai/Juni 2025 vorgesehen.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "15.12",
+      "ueberschrift": "TOP 15.12 Mitteilung 12",
+      "vorlage": "",
+      "inhalt": "Erster Stadtrat Israel Be Josef teilt mit, dass er sein Amt als ehrenamtlicher Dezernent zum\n31. Dezember 2024 aus persönlichen Gründen niederlegen werde.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "16",
+      "ueberschrift": "TOP 16 Beantwortung von Anfragen",
+      "vorlage": "",
+      "inhalt": "",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "16.1",
+      "ueberschrift": "TOP 16.1 Anfrage 1",
+      "vorlage": "",
+      "inhalt": "Mit Bezug auf die Anfrage des Stadtverordneten Reiner Leidich zu den Gewerbesteuerein-\nnahmen im laufenden Jahr teilt Bürgermeister Andreas Ruck mit, dass die Sollstellung\n11.387.995,25 € lag. Davon wurden Gutschriften ausgetragen i. H. v. 4.644.149,14 €. Somit\nbetragen die Einnahmen 6.743.846,11 €.\nAbschließend richten die Stadtverordnetenvorsteherin sowie der Bürgermeister noch einige\nWorte zum Jahresschluss an die Versammlung. Sie wünschen allen gesegnete Weihnachts-\ntage und einen guten Rutsch ins neue Jahr.",
+      "abstimmung": ""
+    }
+  ],
+  "top_contents_text": "TOP 1\nTOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen Ladung und der Be-\nschlussfähigkeit\nStadtverordnetenvorsteherin Hiltrud Hofmann eröffnet die Sitzung, begrüßt alle Anwesenden\nund stellt ordnungsgemäße Ladung und Beschlussfähigkeit fest.\nAnschließend nimmt sie die Gelegenheit wahr und gratuliert der Stadtverordneten Melanie\nSchunk-Wießner sowie Stadtrat Reimar Stenzel nachträglich zum Geburtstag.\n---\nTOP 2\nTOP 2 Feststellung der Niederschrift vom 7. November 2024\nDie Niederschrift vom 7. November 2024 wird ohne Änderungen festgestellt.\n---\nTOP 3\nTOP 3 Ehrungen\nStadtverordnetenvorsteherin Hiltrud Hofmann würdigt die folgenden ehrenamtlich Tätigen:\nKlaus-Dieter Schardt – 10jährige ehrenamtliche Tätigkeit\nJanuar 2014 bis 20. März 2017 Mitglied aus dem Stadtteil Hausen im\nSeniorenbeirat der Stadt Pohlheim\n21. März 2017 bis 15. Dez. 2019 Stellvertreter aus dem Stadtteil Hausen im\nSeniorenbeirat der Stadt Pohlheim\n16. Dez. 2019 bis heute Mitglied aus dem Stadtteil Hausen im\nSeniorenbeirat der Stadt Pohlheim\nMichael Lederer – 10jährige ehrenamtliche Tätigkeit\nApril 2014 bis März 2016 Stellvertreter aus dem Stadtteil Grüningen im\nSeniorenbeirat der Stadt Pohlheim\nApril 2016 bis 24. Sept. 2019 Mitglied aus dem Stadtteil Grüningen im\nSeniorenbeirat der Stadt Pohlheim\n25. Sept. 2019 bis heute Stellvertreter aus dem Stadtteil Grüningen im\nSeniorenbeirat der Stadt Pohlheim\nBettina Jost – 20jährige ehrenamtliche Tätigkeit\nJanuar 2004 bis heute Mitglied im Ortsbeirat Hausen\nab April 2021 bis heute stellv. Ortsvorsteherin\nNovember 2014 bis heute Mitglied der Stadtverordnetenversammlung\nFrau Jost wird zur Ehrenstadtverordneten ernannt.\nJörg Diehl – 20jährige ehrenamtliche Tätigkeit\nOktober 1998 bis Januar 2000\n___________\n\n\nApril 2001 bis März 2011\nund\nApril 2016 bis heute Mitglied im Ortsbeirat Holzheim\nvon April 2016 bis März 2021 Schriftführer\nvon April 2021 bis heute stellv. Schriftführer\nHerr Diehl wird zum Ehrenortsbeirat ernannt.\nEhrenausländerbeirat Cehver Tan – 30jährige ehrenamtliche Tätigkeit\nMai 1994 bis heute Mitglied im Ausländerbeirat\nvon Mai 1995 bis April 2021 Vorsitzender\nDezember 2014 Verleihung der Ehrenbezeichnung\n„Ehrenausländerbeirat“\nEhrenstadtverordneter Ulrich Sann – 35jährige ehrenamtliche Tätigkeit\nApril 1985 bis März 1989\nund\nApril 1993 bis Februar 1994 Mitglied Ortsbeirat Holzheim\nApril 1993 bis März 2021 Mitglied Stadtverordnetenversammlung\nu. a.\nvon April 2011 bis 2016\nAusschuss für Bauen, Stadtentwicklung und Umwelt\nvon April 2016 bis März 2021\nstellvertr. Vorsitzender des Ausschusses für\nBauen, Stadtentwicklung und Umwelt\nFW-Fraktionsvorsitzender\nstellv. Stadtverordnetenvorsteher\nDezember 2019 bis heute Mitglied Klimabeirat\nEhrenstadtverordneter Matthias Jung – 35jährige ehrenamtliche Tätigkeit\nApril 1989 bis Oktober 1998 Mitglied Ortsbeirat Holzheim\nApril 1993 bis März 1997 Mitglied Stadtverordnetenversammlung\nFebruar 1999 bis März 2001 Mitglied Stadtverordnetenversammlung\nApril 2001 bis März 2006 Mitglied des Magistrats\nApril 2006 bis Januar 2013 Mitglied Stadtverordnetenversammlung\nu. a.\nvon April 2006 bis Januar 2019\nVorsitzender des Ausschusses für Soziales,\nKultur und Sport\nvon November 2008 bis Januar 2013\nCDU-Fraktionsvorsitzender\nFebruar 2013 bis März 2016 Mitglied Magistrat\nApril 2016 bis heute Mitglied Stadtverordnetenversammlung\n___________\n\n\nu. a.\nvon April 2016 bis Dezember 2020\nFraktionsvorsitzender der CDU und\nstellv. Stadtverordnetenvorsteher\nvon November 2016 bis März 2017\nMitglied Akteneinsichtsausschuss\nEhrenbürger und Ehrenstadtverordneter Horst Biadala – 45jährige ehrenamtliche Tä-\ntigkeit\nOktober 1972 bis Februar 1978 Mitglied des Magistrats\nApril 1981 bis März 1989 Mitglied der Stadtverordnetenversammlung\nApril 1993 bis heute Mitglied des Ortsbeirates Holzheim\nApril 1997 bis März 2021 Mitglied der Stadtverordnetenversammlung\nu. a.\nvon April 1997 bis März 2001 Stadtverordneten-\nvorsteher\nvon 1998 bis 2011 Fraktionsvorsitzender der SPD\nvon Februar 2012 bis März 2016 Vorsitzender des Aus-\nschusses für Bauen, Stadtentwicklung und Umwelt\nvon August 2019 bis März 2021 Mitglied im Ausschuss\nfür Bauen, Stadtentwicklung und Umwelt\nAlle Geehrten erhalten eine Ehrenurkunde sowie ein Präsent.\n---\nTOP 4\nTOP 4 Stromkonzessionsverfahren der Stadt Pohlheim\nVorlage: Vorlage: STV-362/2021-2026\nSTV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung der Stadt Pohlheim beschließt, den Bürgermeister damit\nzu beauftragen, den Konzessionsvertrag Strom für das Stadtgebiet mit Stadtwerke Gießen\nAG für die Dauer von 20 Jahren abzuschließen, weil die Stadtwerke Gießen AG das nach\nden Auswahlkriterien beste Angebot abgegeben hat.\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n---\nTOP 5\nTOP 5 4. Änderungssatzung zur Entwässerungssatzung\nVorlage: Vorlage: STV-354/2021-2026\nSTV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\n___________\n\n\nDie Stadtverordnetenversammlung beschließt, der nachfolgenden 4. Änderungssatzung zur\nEntwässerungssatzung zuzustimmen. Die 4. Änderungssatzung tritt am 1. Januar 2025 in\nKraft.\n4. Änderungssatzung zur Entwässerungssatzung\nAufgrund der §§ 5, 19, 20, 51 und 93 Abs. 1 der Hessischen Gemeindeordnung (HGO) in der\nFassung der Bekanntmachung vom 07.03.2005 (GVBl. I S. 142), zuletzt geändert durch Art.\n2 des Gesetzes vom 16.02.2023 (GVBl. S. 90, 93), der §§ 37 bis 40 des Hessischen Was-\nsergesetzes (HWG) in der Fassung vom 14.12.2010 (GVBl. I S. 548), zuletzt geändert durch\nArtikel 3 des Gesetzes vom 28.06.2023 (GVBl. S. 473, 475), der §§ 1 bis 5 a), 6 a), 9 bis 12\ndes Hessischen Gesetzes über kommunale Abgaben (KAG) in der Fassung vom\n24.03.2013, (GVBl. I S. 134), zuletzt geändert durch Artikel 4 des Gesetzes vom 20.07.2023\n(GVBl. S. 582) der §§ 1 und 9 des Gesetzes über Abgaben für das Einleiten von Abwasser in\nGewässer (Abwasserabgabengesetz - AbwAG) in der Fassung der Bekanntmachung vom\n18.01.2005 (BGBl. I S. 114), zuletzt geändert durch Artikel 2 der Verordnung vom\n22.08.2018 (BGBl. I S. 1327) und der §§ 1 und 2 des Hessischen Ausführungsgesetzes zum\nAbwasserabgabengesetz (HAbwAG) in der Fassung der Bekanntmachung vom 09.06.2016\n(GVBl. S. 71), zuletzt geändert durch Artikel 1 und 2 des Gesetzes vom 25.05.2023\n(GVBl. S. 357), hat die Stadtverordnetenversammlung der Stadt Pohlheim am 13.12.2024\nfolgende 4. Änderungssatzung zur Entwässerungssatzung (EWS) beschlossen.\nI.\n§ 24 Gebührenmaßstäbe und -sätze für Niederschlagswasser - erhält folgende Fassung:\n§ 24\nGebührenmaßstäbe und -sätze für Niederschlagswasser\n(1) Gebührenmaßstab für das Einleiten von Niederschlagswasser ist die bebaute und künst-\nlich befestigte Grundstücksfläche, von der das Niederschlagswasser in die Abwasseran-\nlage eingeleitet wird oder abfließt; pro m² wird eine Gebühr von 0,38 € jährlich erhoben.\n(2) Die bebaute und künstlich befestigte Grundstücksfläche wird unter Berücksichtigung des\nGrades der Wasserdurchlässigkeit für die einzelnen Versiegelungsarten nach folgenden\nFaktoren festgesetzt:\n1. Dachflächen\n1.1 Flachdächer, geneigte Dächer 1,0\n1.2 Kiesdächer 0,5\n1.3 Gründächer 0,4\n2. Befestigte Grundstücksflächen\n2.1 Beton-, Schwarzdecken (Asphalt, Teer o. Ä.), Pflaster mit Fugenver-\nguss, sonstige wasserundurchlässige Flächen mit Fugendichtung 1,0\n2.2 Pflaster (z. B. auch Rasen- oder Splittfugenpflaster, Betonsteinpflas-\nter, Basaltpflaster, Platten) bis zu einer Fugenbreite von 15 mm 0,7\n2.3 Pflaster (z. B. auch Rasen- oder Splittfugenpflaster, Platten)\nmit einer größeren Fugenbreite als 15 mm 0,6\n2.4 wassergebundene Decken (aus Kies, Splitt, Schlacke o. Ä.) 0,5\n2.5 Porenpflaster oder ähnliche wasserdurchlässige Pflaster 0,4\n2.6 Rasengittersteine 0,2\n___________\n\n\n(3) Bei der Ermittlung bebauter oder künstlich befestigter Grundstücksflächen bleiben sol-\nche Flächen ganz oder teilweise außer Ansatz, von denen dort anfallendes Nieder-\nschlagswasser in Zisternen oder ähnlichen Vorrichtungen (Behältnissen) mit einem Fas-\nsungsvermögen von mindestens 1 m³ gesammelt und auf dem Grundstück verwendet\nwird. Von der Niederschlagswassergebühr sind befreit\na) alle ohne direkten oder mittelbaren Anschluss an die Abwasseranlage entwässernden\nFlächen, in vollem Umfang\nb) bei Anschluss an die Abwasseranlage und Verwendung des Niederschlagswassers\nals Brauchwasser eine Fläche von 20 m² je m³ Speichervolumen\nc) bei zusätzlicher Nutzung zur Gartenbewässerung erhöht sich die so errechnete Flä-\nche nach b) um 10 %\nd) bei Anschluss an die Abwasseranlage und alleiniger Verwendung des Niederschlags-\nwassers zur Gartenbewässerung eine Fläche von 10 m² je m³ Speichervolumen.\n(4) Ist die gebührenpflichtige Fläche, von der Niederschlagswasser in Zisternen oder ähnli-\nche Vorrichtungen gesammelt wird, geringer als die aufgrund des Zisternenvolumens er-\nrechnete außer Ansatz zu lassende Fläche, so bleibt nur diejenige Fläche unberücksich-\ntigt, von der Niederschlagswasser in die zuvor genannten Vorrichtungen eingeleitet wird.\n(5) Zur Ermittlung der versiegelten Flächen darf die Stadt Dienstleister beauftragen, um Be-\nfliegungen durchzuführen, Luftbilder und Erklärungsbögen auszuwerten und hierfür die\nentsprechenden Daten erheben.\n(6) Ändert sich die gebührenpflichtige Fläche, so ist dies bei der Festsetzung der Gebüh-\nren ab dem Monat der Änderung zu berücksichtigen.\n§ 26 Gebührenmaßstäbe und -sätze für Schmutzwasser - erhält folgende Fassung\n§ 26\nGebührenmaßstäbe und -sätze für Schmutzwasser\n(1) Gebührenmaßstab für das Einleiten häuslichen Schmutzwassers ist der Frischwasser-\nverbrauch auf dem angeschlossenen Grundstück.\nDie Gebühr beträgt pro m3 Frischwasserverbrauch\na) bei zentraler Abwasserreinigung in der Abwasseranlage 2,36 €\nb) bei notwendiger Vorreinigung des Abwassers in einer Grundstückskläreinrichtung\ndie in § 26 (1) a festgesetzten Gebühren gemindert um 10 vom hundert\n(2) Gebührenmaßstab für das Einleiten nicht häuslichen Schmutzwassers ist der Frisch-\nwasserverbrauch auf dem angeschlossenen Grundstück unter Berücksichtigung des\nVerschmutzungsgrads. Der Verschmutzungsgrad wird grundsätzlich durch Stichpro-\nben - bei vorhandenen Teilströmen in diesen - ermittelt und als chemischer Sauer-\nstoffbedarf aus der nicht abgesetzten, homogenisierten Probe (CSB) nach DIN\n38409-H41 (Ausgabe Dezember 1980) dargestellt. Wird ein erhöhter Verschmut-\nzungsgrad gemessen, ist das Messergebnis dem Abwassereinleiter innerhalb von\nzwei Wochen nach Eingang bei der Stadt bekanntzugeben.\nDie Gebühren nach Abs. 1 gelten bei einem CSB bis 800 mg/l; bei einem höheren\nCSB wird die Gebühr vervielfacht mit dem Ergebnis der Formel\n___________\n\n\n0,5 x festgestellter CSB + 0,5\n800\nWird ein erhöhter Verschmutzungsgrad nur im Abwasser eines Teilstroms der Grund-\nstücksentwässerungsanlage festgestellt, wird die erhöhte Gebühr nur für die in diesen\nTeilstrom geleitete Frischwassermenge, die durch private Wasserzähler zu messen\nist, berechnet. Liegen innerhalb eines Kalenderjahres mehrere Feststellungen des\nVerschmutzungsgrads vor, kann die Stadt der Gebührenfestsetzung den rechneri-\nschen Durchschnittswert zugrunde legen.\n(3) Die Grundgebühr stellt das Entgelt für die Bereitstellung der öffentlichen Abwasser-\nentsorgungsanlage dar. Sie wird für jedes Grundstück erhoben und beträgt je An-\nschluss der nachstehenden Wasserzähler\nQ 5,00 €/Monat\n3 4\nQ 7,13 €/Monat\n3 10\nab Q 10,76 €/Monat.\n3 16\nII.\nDie 4. Änderungssatzung zur Entwässerungssatzung tritt zum 01.01.2025 in Kraft.\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n---\nTOP 6\nTOP 6 5. Änderungssatzung zur Wasserversorgungssatzung\nVorlage: Vorlage: STV-355/2021-2026\nSTV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung beschließt, der nachfolgenden 5. Änderungssatzung zur\nWasserversorgungssatzung zuzustimmen. Die 5. Änderungssatzung tritt am 1. Januar 2025\nin Kraft.\n5. Änderungssatzung zur Wasserversorgungssatzung\nAufgrund der §§ 5, 19, 20, 51 und 93 Abs. 1 der Hessischen Gemeindeordnung (HGO) in der\nFassung der Bekanntmachung vom 07.03.2005 (GVBl. I S. 142), zuletzt geändert durch Art.\n2 des Gesetzes vom 16.02.2023 (GVBl. S. 90, 93), der §§ 30, 31, 36 des Hessischen Was-\nsergesetzes (HWG) in der Fassung vom 14.12.2010 (GVBl. I S. 548), zuletzt geändert durch\nArtikel 3 des Gesetzes vom 28.06.2023 (GVBl. S. 473, 475), der §§ 1 bis 5a, 6a, 9 bis 12 des\nHessischen Gesetzes über kommunale Abgaben (KAG) vom 24.03.2013 (GVBl. I S. 134),\nzuletzt geändert durch Artikel 4 des Gesetzes vom 20.07.2023 (GVBl. S. 582), hat die Stadt-\nverordnetenversammlung der Stadt Pohlheim am 13.12.2024 folgende 5. Änderungssatzung\nzur Wasserversorgungssatzung (WVS) beschlossen.\nI.\n___________\n\n\n§ 26 - Benutzungsgebühren, Grundgebühr - erhält folgende Fassung:\n§ 26\nBenutzungsgebühren, Grundgebühren\n(1) Die Stadt erhebt zur Deckung der Kosten im Sinne des § 10 Abs. 2 KAG Gebühren.\n(2) Die Benutzungsgebühr bemisst sich nach der Menge (m³) des zur Verfügung gestellten\nWassers. Ist eine Messeinrichtung ausgefallen oder wird der Stadt bzw. einem Beauf-\ntragten der Zutritt zu den Messeinrichtungen verweigert oder ist das Ablesen der Mess-\neinrichtungen aus sonstigen Gründen nicht möglich oder nicht erfolgt, schätzt die Stadt\nden Verbrauch nach pflichtgemäßem Ermessen.\n(3) Die Benutzungsgebühr beträgt pro m³ 2,75 € (einschl. gesetzlicher Umsatzsteuer).\n(4) Die Grundgebühr stellt das Entgelt für die Bereitstellung der öffentlichen Wasserversor-\ngungsanlage dar. Sie wird für jeden Grundstücksanschluss erhoben und beträgt je An-\nschluss der nachstehenden Wasserzähler.\nQ 5,35 € / Monat (einschl. gesetzlicher Umsatzsteuer)\n3 4\nQ 7,63 € / Monat (einschl. gesetzlicher Umsatzsteuer)\n3 10\nab Q 11,51 € / Monat (einschl. gesetzlicher Umsatzsteuer)\n3 16\nII.\nDie 5. Änderungssatzung zur Wasserversorgungssatzung tritt zum 01.01.2025 in Kraft.\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n---\nTOP 7\nTOP 7 Beratung und Beschlussfassung über den Wirtschaftsplan 2025 des Eigen-\nbetriebs Wasserwerke Pohlheim\nVorlage: Vorlage: STV-356/2021-2026\nSTV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung fasst folgenden Beschluss:\n„Der im Entwurf vorgelegte Wirtschaftsplan 2025, bestehend aus dem Er-\nfolgsplan, der Stellenübersicht sowie dem Finanz-, Vermögens- und In-\nvestitionsplan, wird im Erfolgsplan\nWasserversorgung in den Erträgen auf 2.443.000 Euro\nin den Aufwendungen auf 2.223.000 Euro\nund im Erfolgsplan\nAbwasserentsorgung in den Erträgen auf 3.339.000 Euro\n___________\n\n\nin den Aufwendungen auf 3.224.000 Euro\nsowie im Vermögensplan\nWasserversorgung in den Einnahmen auf 2.267.000 Euro\nin den Ausgaben auf 2.267.000 Euro\nund im Vermögensplan\nAbwasserbeseitigung in den Einnahmen auf 4.246.000 Euro\nin den Ausgaben auf 4.246.000 Euro\nfestgesetzt.“\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n---\nTOP 8\nTOP 8 Erneuerung der Kugelstoßanlage auf dem Sportgelände \"Neumühle\" im\nStadtteil Watzenborn-Steinberg;\nTeilaufhebung Sperrvermerk für Haushaltsansatz I085601-18\nVorlage: STV-357/2021-2026\n---\nTOP 9\nTOP 9 Planungskosten für die Erneuerung der Sportanlage \"Neumühle\" im Stadt-\nteil Watzenborn-Steinberg;\nTeilaufhebung Sperrvermerk für Haushaltsansatz I085601-18\nVorlage: STV-358/2021-2026\nDie Tagesordnungspunkte 8 und 9 werden gemeinsam aufgerufen und beraten.\nSTV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nDezernent Stadtrat Peter Alexander erläutert den aktuellen Sachstand.\nEs folgt eine eingehende Beratung und Diskussion.\nSTV Malke Aydin stellt einen Antrag zur Geschäftsordnung auf Sitzungsunterbrechung.\nDie Sitzung wird von 20:05 Uhr bis 20:10 Uhr unterbrochen.\nNach Wiedereintritt in die Sitzung lässt die Stadtverordnetenvorsteherin zunächst über\n---\nTOP 8\nTOP\n8 abstimmen:\nDie Stadtverordnetenversammlung beschließt, für die Erneuerung der Kugelstoßanlage auf\ndem Sportgelände „Neumühle“ im Stadtteil Watzenborn-Steinberg die Teilaufhebung des\nSperrvermerks in Höhe von 15.000,00 Euro für den Haushaltsansatz 2024 I085601-18 im\nInvestitionsprogramm 2024.\nAbstimmung: Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n20 Ja-Stimmen (12 SPD, 5 Grüne, 2 FDP, 1 FW)\n1 Nein-Stimme (CDU)\n11 Enthaltungen (8 CDU, 3 FW)\nAnschließend wird über\n---\nTOP 9\nTOP 9 abgestimmt:\n___________\nDie Stadtverordnetenversammlung beschließt, Planungskosten in Höhe von 225.000,00 Eu-\nro für die Erneuerung der Sportanlage „Neumühle“ im Stadtteil Watzenborn-Steinberg bereit-\nzustellen und den Sperrvermerk bei dem Haushaltsansatz I085601-18 teilweise aufzuheben.\nAbstimmung: Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n17 Ja-Stimmen (12 SPD, 5 Grüne)\n1 Nein-Stimme (CDU)\n14 Enthaltungen (8 CDU, 4 FW, 2 FDP)\n---\nTOP 10\nTOP 10 Betriebskommission Wasserwerke Pohlheim;\nWahl von zwei Vertreterinnen/Vertretern und zwei Stellvertreterin-\nnen/Stellvertretern in die Betriebskommission Wasserwerke Pohlheim; Per-\nsonalrat\nVorlage: STV-359/2021-2026\nSTV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nGemäß § 7 Abs. 1 Nr. 1.3 der Eigenbetriebssatzung gehören der Betriebskommission u. a.\nfolgende Personen an:\nZwei Mitglieder des Personalrates der Stadt (und die gleiche Anzahl von Stellvertretern), die\nauf dessen Vorschlag von der Stadtverordnetenversammlung nach den Grundsätzen der\nMehrheitswahl für die Dauer der Wahlzeit des Personalrates zu wählen sind.\nDer Personalrat hat in seiner konstituierenden Sitzung am 22.05.2024 folgende Mitglieder\nbenannt, die von der Stadtverordnetenversammlung zu wählen sind:\nVertreter/innen:\n1. Holger Tews\n2. Markus Paegelow\nStellvertreter/innen:\n1. Stefan Huster\n2. Alexander Bauer\nDie Stadtverordnetenvorsteherin lässt über die genannten Personen wie folgt abstimmen:\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n---\nTOP 11\nTOP 11 Beratung und Beschlussfassung über die Hebesatzsatzung 2025 bis 2026\nVorlage: Vorlage: STV-361/2021-2026\nSTV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nDie Stadtverordnetenvorsteherin teilt mit, dass im Ältestenrat die folgenden Hebesätze be-\nsprochen wurden:\nGrundsteuer A: 300 v. H.\nGrundsteuer B: 282 v. H.\n___________\n\n\nAußerdem wird festgehalten, sich die tatsächlichen Zahlungen im Februar und Mai 2025 an-\nzuschauen und die Hebesätze dann nochmals zu prüfen.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung beschließt, der nachfolgenden Satzung über die Festset-\nzung der Steuersätze für die Grund- und Gewerbesteuer - Hebesatzsatzung - zuzustimmen.\nSatzung über die Festsetzung der Steuersätze für die Grund- und Gewerbesteuer\n- Hebesatzsatzung -\nAufgrund der §§ 5 und 51 der Hessischen Gemeindeordnung in der Fassung der Bekannt-\nmachung vom 07.03.2005 (GVBl. I S. 142), zuletzt geändert durch Art. 2 des Gesetzes vom\n16.02.2023 (GVBl. S. 90, 93), des § 25 des Grundsteuergesetzes (GrStG) vom 7. August\n1973 (BGBl. I S. 965), zuletzt geändert durch Art. 34 des Gesetzes vom 23. Oktober 2024\n(BGBl. I Nr. 323) und des § 16 des Gewerbesteuergesetzes (GewStG) i. d. F. der Bekannt-\nmachung vom 15. Oktober 2002 (BGBl. I S. 4167), zuletzt geändert durch Art. 19 des Geset-\nzes vom 27. März 2024 (BGBl. I Nr. 108) hat die Stadtverordnetenversammlung am\n13.12.2024 die folgende Satzung beschlossen:\n§ 1 Festsetzung der Hebesätze\nDie Hebesätze für die Grundsteuer und für die Gewerbesteuer werden wie folgt festgesetzt:\n1. Grundsteuer für die land- und forstwirtschaftlichen Betriebe (Grundsteuer A) 300 v. H.\n2. für die Grundstücke (Grundsteuer B) 282 v. H.\n3. für die Gewerbesteuer 380 v. H.\n§ 2 Gültigkeit\nDie Hebesätze nach § 1 gelten für das Haushaltsjahr 2025.\n§ 3 Inkrafttreten\nDiese Satzung tritt am 01.01.2025 in Kraft.\nAbstimmung: Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n25 Ja-Stimmen (8 SPD, 8 CDU, 5 Grüne, 4 FW)\n2 Nein-Stimmen (1 CDU, 1 FDP)\n2 Enthaltungen (1 SPD, 1 FDP)\n---\nTOP 12\nTOP 12 Neue Richtlinie für die Förderung der Vereine der Stadt Pohlheim\nVorlage: Vorlage: STV-363/2021-2026\nDer Stadtverordnetenversammlung liegt die überarbeitete Richtlinie zur Förderung der Ver-\neine der Stadt Pohlheim vor.\nDie Stadtverordnetenvorsteherin lässt wie folgt abstimmen:\n___________\n\n\nDie Stadtverordnetenversammlung beschließt der überarbeiteten „Richtlinie zur Förderung\nder Vereine der Stadt Pohlheim“ zuzustimmen. Der Magistrat wird gebeten einen Zeitpunkt\nfestzulegen, ab wann die überarbeitete Richtlinie in Kraft treten soll.\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n28 Ja-Stimmen (9 SPD, 8 CDU, 5 Grüne, 2 FDP, 4 FW)\n1 Enthaltung (CDU)\n---\nTOP 13\nTOP 13 Antrag der Fraktionen SPD, FDP und Bündnis 90/Die Grünen vom 1. De-\nzember 2024 betr. Umsetzung der PV-Strategie\nVorlage: Vorlage: A-365/2021-2026\nDer Stadtverordnetenversammlung liegt folgender Antrag der Fraktionen SPD, FDP und\nBündnis 90/Die Grünen vor:\nDie Stadtverordnetenversammlung der Stadt Pohlheim möge beschließen:\n1. Die Vorlage des Klimabeirates zur PV-Strategie in der Stadt Pohlheim ist zur Be-\nhandlung und Beschlussfassung an die parlamentarischen Gremien weiterzuleiten.\nZunächst soll der BSU in seiner Sitzung im Januar 2025 die Problematik mit dem Ziel\ndiskutieren, wie diese Strategie operational umgesetzt werden kann. Dabei soll eine\nVorlage erarbeitet werden.\n2. Die dabei entstandene Vorlage ist sodann der Stadtverordnetenversammlung zur\nBeschlussfassung vorzulegen.\nSTV Simone van Slobbe-Schneider bringt den Antrag ein, begründet ihn und verweist ihn in\nden Ausschuss für Bauen, Stadtentwicklung und Umwelt sowie in den Ausschuss für Sozia-\nles, Kultur und Sport.\n---\nTOP 14\nTOP 14 Antrag der Fraktionen SPD, FDP und Bündnis 90/Die Grünen vom 1. De-\nzember 2024 betr. Monitoring in der offenen und aufsuchenden Jugendar-\nbeit\nVorlage: A-366/2021-2026\nDer Stadtverordnetenversammlung liegt folgender Antrag der Fraktionen SPD, FDP und\nBündnis 90/Die Grünen vor:\nDie Mitarbeiterinnen des Kinder- und Jugendbüros werden beauftragt, ein Monitoring zu\nentwickeln und zu betreiben, das der systematischen Erfassung, Messung und Beobachtung\nvon Prozessen in der offenen und aufsuchenden Jugendarbeit dient. Hierbei ist ggf. unter-\nstützend die fachliche Expertise des Fachdienstes Kinder- und Jugendhilfe beim Landkreis\nGießen einzuholen. Dem Ausschuss SKS ist in der Sitzung am 25. März 2025 über das Er-\ngebnis zu berichten.\nSTV Dominic Tamme bringt den Antrag ein, begründet ihn und verweist ihn in den Aus-\nschuss für Soziales, Kultur und Sport.\n---\nTOP 15\nTOP 15 Mitteilungen\n___________\n--- SEITE 15 ---\n---\nTOP 15.1\nTOP 15.1 Mitteilung 1\nStadtverordnetenvorsteherin Hiltrud Hofmann informiert über die noch offenen Anträge.\n---\nTOP 15.2\nTOP 15.2 Mitteilung 2\nBezüglich der am 23.02.2024 stattfindenden Bundestagswahl informiert Bürgermeister An-\ndreas Ruck über den Ersatz für die Wahllokale Volkshalle und Limeshalle.\n---\nTOP 15.3\nTOP 15.3 Mitteilung 3\nBürgermeister Andreas Ruck informiert über eine Veranstaltung in der Klosterwaldhalle am\n20.12.2024. Seitens der Stadtverwaltung bestehe keine rechtliche Handhabe gegen die\nVermietung.\n---\nTOP 15.4\nTOP 15.4 Mitteilung 4\nBürgermeister Andreas Ruck informiert über die Termine für die Haushaltsberatungen.\n---\nTOP 15.5\nTOP 15.5 Mitteilung 5\nBürgermeister Andreas Ruck informiert über den Glasfaserdoppelausbau in Watzenborn-\nSteinberg durch die Firma TNG sowie GlasfaserPlus (Telekom).\n---\nTOP 15.6\nTOP 15.6 Mitteilung 6\nBürgermeister Andreas Ruck spricht die Teilnahme von Stadtverordneten an Veranstaltun-\ngen an, da er durch verschiedene Veranstalter darauf angesprochen wurde.\n---\nTOP 15.7\nTOP 15.7 Mitteilung 7\nBürgermeister Andreas Ruck informiert über den Sachstand bezüglich PV-Anlagen. In Holz-\nheim sei die Anlage nahezu fertiggestellt. In Grüningen solle der Ausbau im Januar 2025\nbeginnen.\n---\nTOP 15.8\nTOP 15.8 Mitteilung 8\nBürgermeister Andreas Ruck teilt mit, dass die Ladesäule auf dem Festplatz Garbenteich\nnunmehr in Betrieb sei.\n---\nTOP 15.9\nTOP 15.9 Mitteilung 9\nMit Bezug auf das Antragsmonitoring teilt Bürgermeister Andreas Ruck mit, dass der Herstel-\nler mittlerweile eine Option zur Beschlusskontrolle programmiert habe. Die Einführung ist für\ndas 1. Halbjahr 2025 vorgesehen.\n___________\n\n\n--- SEITE 16 ---\n---\nTOP 15.10\nTOP 15.10 Mitteilung 10\nBezüglich der Renaturierung des Flachsbach teilt Bürgermeister Andreas Ruck mit, dass zur\nUmsetzung Grunderwerb getätigt werden müsse, da Grundstücke nicht in städtischem Besitz\nseien. Mit der Unteren Wasserbehörde werde geklärt, welche Fördermöglichkeiten bestün-\nden. Eine grobe Kostenschätzung für die Maßnahmen gehe derzeit von rd. 355 TEUR aus.\n---\nTOP 15.11\nTOP 15.11 Mitteilung 11\nDezernent Stadtrat Peter Alexander teilt mit, dass die Ausschreibung zur Sanierung des\nSportgeländes Neumühle erfolgt und ein Fördermittelantrag gestellt sei. Die Durchführung\nder Maßnahme sei für Mai/Juni 2025 vorgesehen.\n---\nTOP 15.12\nTOP 15.12 Mitteilung 12\nErster Stadtrat Israel Be Josef teilt mit, dass er sein Amt als ehrenamtlicher Dezernent zum\n31. Dezember 2024 aus persönlichen Gründen niederlegen werde.\n---\nTOP 16\nTOP 16 Beantwortung von Anfragen\n---\nTOP 16.1\nTOP 16.1 Anfrage 1\nMit Bezug auf die Anfrage des Stadtverordneten Reiner Leidich zu den Gewerbesteuerein-\nnahmen im laufenden Jahr teilt Bürgermeister Andreas Ruck mit, dass die Sollstellung\n11.387.995,25 € lag. Davon wurden Gutschriften ausgetragen i. H. v. 4.644.149,14 €. Somit\nbetragen die Einnahmen 6.743.846,11 €.\nAbschließend richten die Stadtverordnetenvorsteherin sowie der Bürgermeister noch einige\nWorte zum Jahresschluss an die Versammlung. Sie wünschen allen gesegnete Weihnachts-\ntage und einen guten Rutsch ins neue Jahr.\n---",
+  "analysis_method": "Azure + Local",
+  "total_pages": 2,
+  "extraction_timestamp": "2025-09-15T23:54:04.931513",
+  "document_path": "input\\Niederschrift_STV6.pdf",
+  "full_text": "Stadt Pohlheim\nPohlheim, 17.12.2024\nAz .: STV/036/2021-2026\nNIEDERSCHRIFT\nüber die Sitzung der Stadtverordnetenversammlung der Stadt Pohlheim\nTag:\n13.12.2024\nDauer:\n19:08 Uhr bis 20:47 Uhr\nOrt:\nVolkshalle Watzenborn-Steinberg, Ludwigstraße 33-35, 35415 Pohlheim\nAnwesend:\nVon der Stadtverordnetenversammlung\nStadtverordnetenvorsteherin Hiltrud Hofmann\nSTV Malke Aydin\nSTV Angelika Bartosch\nSTV Lukas Be Josef\nSTV Karsten Becker\nTOP 8 bis 10\nTOP 7 bis 10\nSTV Sonya Can\nSTV Iliyo Danho\nSTV Lorenz Diehl\nSTV Kevin Engel\nSTV Björn Feuerbach\nSTV Samuel Gergin\nSTV Eckart Hafemann\nSTV Uwe Happel\nSTV Antje Häuser\nSTV Prof. Dr. Ernst-Ulrich Huster\nSTV Bettina Jost\nSTV Matthias Jung\nSTV Erich Klotz\nSTV Michel Kögler\nSTV Matthias Kücükkaplan\nSTV Reiner Leidich\nSTV Dr. Melanie Neeb\nSTV Sebastian Opper\nSTV Marc Werner Punzert\nSTV Michaela Schöffmann\nSTV Andreas Schuch\nSTV Melanie Schunk-Wießner\nSTV Prof. Dr. Helge Stadelmann\nSTV Dominic Tamme\nSTV Fadi Touma\nSTV Simone van Slobbe-Schneider\nSTV Sven Weigel\nTOP 4 bis 10\nSeite 1 von 16\nSTV/036/2021-2026\nVom Magistrat\nBürgermeister Andreas Ruck\nErster Stadtrat Israel Be Josef\nStadtrat Peter Alexander\nStadtrat Jörg Buß\nStadtrat Christian Görlach\nStadtrat Tobias Maschmann\nStadtrat Wolfgang Sames\nStadtrat Reimar Stenzel\nSchriftführer(in)\nThomas Telling\nEntschuldigt:\nVon der Stadtverordnetenversammlung\nSTV Georg Celik\nSTV Simon Hafemann\nSTV Norman Klotz\nSTV Siglinde Michen\nSTV Risko Noah\nVom Magistrat\nStadtrat Philipp Niklas Mackowiak\nTAGESORDNUNG:\nTOP 1\nEröffnung sowie Feststellung der ordnungsgemäßen\nLadung und der Beschlussfähigkeit\nTOP 2\nFeststellung der Niederschrift vom 7. November 2024\nTOP 3\nEhrungen\nTOP 4\nStromkonzessionsverfahren der Stadt Pohlheim\nSTV-362/2021-\n2026\nTOP 5\n4. Änderungssatzung zur Entwässerungssatzung\nSTV-354/2021-\n2026\nTOP 6\n5. Änderungssatzung zur Wasserversorgungssatzung\nSTV-355/2021-\n2026\nTOP 7\nBeratung und Beschlussfassung über den Wirtschafts-\nplan 2025 des Eigenbetriebs Wasserwerke Pohlheim\nSTV-356/2021-\n2026\nTOP 8\nErneuerung der Kugelstoßanlage auf dem Sportgelände\n\"Neumühle\" im Stadtteil Watzenborn-Steinberg;\nTeilaufhebung Sperrvermerk für Haushaltsansatz\nI085601-18\nSTV-357/2021-\n2026\nSeite 2 von 16\nSTV/036/2021-2026\n"
+}

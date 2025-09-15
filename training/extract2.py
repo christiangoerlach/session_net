@@ -67,8 +67,9 @@ class DocumentAnalyzer:
         
         agenda_start = tagesordnung_match.end()
         
-        # Finde alle TOPs nach der Tagesordnung
-        top_matches = list(re.finditer(r'TOP\s+(\d+(?:\.\d+)?)', text[agenda_start:], re.IGNORECASE))
+        # Finde alle TOPs nach der Tagesordnung - nur am Zeilenanfang
+        # Verwende MULTILINE Flag um ^ am Zeilenanfang zu erkennen
+        top_matches = list(re.finditer(r'^TOP\s+(\d+(?:\.\d+)?)', text[agenda_start:], re.IGNORECASE | re.MULTILINE))
         
         if len(top_matches) < 2:
             return []
@@ -220,8 +221,9 @@ class DocumentAnalyzer:
         
         agenda_start = tagesordnung_match.end()
         
-        # Finde alle TOPs nach der Tagesordnung
-        top_matches = list(re.finditer(r'TOP\s+(\d+(?:\.\d+)?)', text[agenda_start:], re.IGNORECASE))
+        # Finde alle TOPs nach der Tagesordnung - nur am Zeilenanfang
+        # Verwende MULTILINE Flag um ^ am Zeilenanfang zu erkennen
+        top_matches = list(re.finditer(r'^TOP\s+(\d+(?:\.\d+)?)', text[agenda_start:], re.IGNORECASE | re.MULTILINE))
         
         if len(top_matches) < 2:
             return 'Nicht genügend TOPs gefunden'
@@ -454,15 +456,14 @@ class DocumentAnalyzer:
         agenda_text = results.get('agenda', '')
         top_contents = results.get('top_contents', [])
         
-        # Anwesenheitsdaten konvertieren
-        attendance_present = []
-        attendance_excused = []
+        # Anwesenheitsdaten konvertieren - vereinfachte Struktur
+        attendance = []
         
         if isinstance(attendance_data, dict) and 'error' not in attendance_data:
             # Anwesende Personen konvertieren
             for func in attendance_data.get('anwesend', []):
                 for person in func.get('personen', []):
-                    attendance_present.append({
+                    attendance.append({
                         "name": person,
                         "function": func.get('funktion', ''),
                         "status": "present"
@@ -471,11 +472,14 @@ class DocumentAnalyzer:
             # Entschuldigte Personen konvertieren
             for func in attendance_data.get('entschuldigt', []):
                 for person in func.get('personen', []):
-                    attendance_excused.append({
+                    attendance.append({
                         "name": person,
                         "function": func.get('funktion', ''),
                         "status": "excused"
                     })
+        
+        # TOP-Inhalte für semantische Suche zusammenfassen
+        top_contents_text = self.generate_top_contents_text(top_contents)
         
         # struktur.json-konformes Format erstellen
         custom_format = {
@@ -485,13 +489,10 @@ class DocumentAnalyzer:
             "date": self.convert_date_to_iso(metadata.get('tag', '')),  # ISO-Format
             "duration": metadata.get('dauer', ''),
             "location": metadata.get('ort', ''),
-            "attendance_present": attendance_present,
-            "attendance_excused": attendance_excused if attendance_excused else [],  # Immer Array
-            "total_present": len(attendance_present),
-            "total_excused": len(attendance_excused),
-            "total_participants": len(attendance_present) + len(attendance_excused),
+            "attendance": attendance,  # Vereinfachte Struktur - flache Liste
             "agenda": agenda_text,  # Neue Tagesordnung
             "top_contents": top_contents,  # Neue TOP-Inhalte
+            "top_contents_text": top_contents_text,  # Zusammengefasster Text für semantische Suche
             "analysis_method": results.get('analysis_method', 'unknown'),
             "total_pages": results.get('total_pages', 0),
             "extraction_timestamp": results.get('extraction_timestamp', ''),
@@ -500,6 +501,47 @@ class DocumentAnalyzer:
         }
         
         return custom_format
+    
+    def generate_top_contents_text(self, top_contents):
+        """
+        Generiert einen zusammengefassten Text aus allen TOP-Inhalten für semantische Suche
+        
+        Args:
+            top_contents: Liste der TOP-Inhalte
+            
+        Returns:
+            str: Zusammengefasster Text aller TOP-Inhalte
+        """
+        if not top_contents:
+            return ""
+        
+        text_parts = []
+        
+        for top in top_contents:
+            # TOP-Nummer und Überschrift
+            if top.get('nummer'):
+                text_parts.append(f"TOP {top['nummer']}")
+            
+            if top.get('ueberschrift'):
+                text_parts.append(top['ueberschrift'])
+            
+            # Vorlage falls vorhanden
+            if top.get('vorlage'):
+                text_parts.append(f"Vorlage: {top['vorlage']}")
+            
+            # Inhalt falls vorhanden
+            if top.get('inhalt'):
+                text_parts.append(top['inhalt'])
+            
+            # Abstimmungsergebnis falls vorhanden
+            if top.get('abstimmung'):
+                text_parts.append(f"Abstimmung: {top['abstimmung']}")
+            
+            # Trennung zwischen TOPs
+            text_parts.append("---")
+        
+        return "\n".join(text_parts)
+    
     
     def extract_metadata(self, text):
         """

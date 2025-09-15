@@ -1,0 +1,340 @@
+{
+  "id": "Niederschrift_STV_oeffentlich",
+  "document_type": "Niederschrift",
+  "session_type": "Stadtverordnetenversammlung",
+  "date": "2025-03-06T00:00:00Z",
+  "duration": "19:00 Uhr bis 21:40 Uhr",
+  "location": "Volkshalle Watzenborn-Steinberg, Ludwigstraße 33-35, 35415 Pohlheim",
+  "attendance": [
+    {
+      "name": "STV Malke Aydin ab TOP",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Angelika Bartosch",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Lukas Be Josef",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Karsten Becker",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Sonya Can",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Iliyo Danho",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Lorenz Diehl",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Kevin Engel",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Björn Feuerbach",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Samuel Gergin",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Eckart Hafemann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Simon Hafemann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Uwe Happel",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Antje Häuser",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Prof. Dr. Ernst-Ulrich Huster",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Matthias Jung",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Erich Klotz",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Norman Klotz",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Michel Kögler",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Matthias Kücükkaplan",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Reiner Leidich",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Siglinde Michen",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Dr. Melanie Neeb",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Risko Noah",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Sebastian Opper",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Marc Werner Punzert",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Michaela Schöffmann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Andreas Schuch",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Melanie Schunk-Wießner",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Dominic Tamme",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Fadi Touma",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Simone van Slobbe-Schneider",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Sven Weigel",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "Erster Stadtrat Israel Be Josef",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Peter Alexander",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Jörg Buß",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Christian Görlach",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Philipp Niklas Mackowiak",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Tobias Maschmann",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Wolfgang Sames",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Reimar Stenzel",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "VWF Stefan Huster",
+      "function": "Schriftführer(in)",
+      "status": "present"
+    },
+    {
+      "name": "STV Georg Celik",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Bettina Jost",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Prof. Dr. Helge Stadelmann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "Bürgermeister Andreas Ruck",
+      "function": "Vom Magistrat",
+      "status": "excused"
+    }
+  ],
+  "agenda": "TOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen\nLadung und der Beschlussfähigkeit\nTOP 2 Feststellung der Niederschrift vom 23. Januar 2025\nTOP 3 Errichtung einer Norma Filiale im Stadtteil Grüningen; STV-\nGrundsatzbeschluss zu den Planungsabsichten 360/20212026\nTOP 4 Neuwahl eines Ortsgerichtsmitgliedes STV-\n377/20212026\nTOP 5 Bebauungsplan Nr. 23 \"Garbenteich-Ost\" im Stadtteil STV-\nGarbenteich; 379/20212026\nBeschluss zur 2. erneuten Offenlegung gemäß § 4a Abs.\n3 BauGB\n___________\n\nNiederschrift_STV_06032025_öffentlich.docx\nTOP 7 Antrag der CDU-Fraktion vom 23. Januar 2025 A-375/2021-2026\nbetr. Doppelhaushalt 2025/2026\nTOP 8 Mitteilungen\nTOP 8.1 Mitteilung 1\nTOP 8.2 Mitteilung 2\nTOP 6 Errichtung eines Funktionsgebäudes auf dem STV-\nSportgelände \"An der Neumühle\" im Stadtteil 380/20212026\nWatzenborn-Steinberg;\nVertrag mit dem FC Turabdin-Babylon Pohlheim e.V.\nTOP 9 Beantwortung von Anfragen",
+  "top_contents": [
+    {
+      "nummer": "1",
+      "ueberschrift": "TOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen Ladung und der\nBeschlussfähigkeit",
+      "vorlage": "",
+      "inhalt": "Stadtverordnetenvorsteherin Hiltrud Hofmann eröffnet die Sitzung, begrüßt alle Anwesenden\nund stellt ordnungsgemäße Ladung und Beschlussfähigkeit fest.\nAnschließend nimmt sie die Gelegenheit wahr und gratuliert Frau Sonya Can, Herrn Matthias\nKücükkaplan, Herrn Prof. Dr. Helge Stadelmann, Herrn Fadi Touma und Herrn Norman Klotz\nnachträglich zum Geburtstag.\nZur Tagesordnung schlägt Stadtverordnetenvorsteherin Hiltrud Hofmann vor, die\nTagesordnungspunkte 6 und 7 in umgekehrter Reihenfolge aufzurufen, da",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "6",
+      "ueberschrift": "TOP 6\nnichtöffentlich beraten werden sollte.\nEckart Hafemann beantragt daher, den",
+      "vorlage": "",
+      "inhalt": "",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "6",
+      "ueberschrift": "TOP 6 „Errichtung eines Funktionsgebäudes auf dem",
+      "vorlage": "",
+      "inhalt": "Sportgelände \"An der Neumühle\" im Stadtteil Watzenborn-Steinberg“ nichtöffentlich zu\nberaten.\nStadtverordnetenvorsteherin Hiltrud Hofmann lässt darüber abstimmen:",
+      "abstimmung": "Abstimmungsergebnis: 26 Ja-Stimmen\n7 Nein-Stimmen"
+    },
+    {
+      "nummer": "2",
+      "ueberschrift": "TOP 2 Feststellung der Niederschrift vom 23. Januar 2025",
+      "vorlage": "",
+      "inhalt": "Die Niederschrift vom 23. Januar 2025 wird ohne Änderungen festgestellt.\n___________\n\nNiederschrift_STV_06032025_öffentlich.docx\n--- SEITE 4 ---",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "3",
+      "ueberschrift": "TOP 3 Errichtung einer Norma Filiale im Stadtteil Grüningen;\nGrundsatzbeschluss zu den Planungsabsichten",
+      "vorlage": "Vorlage: STV-360/2021-2026",
+      "inhalt": "STV Eckart Hafemann berichtet aus der Sitzung des Bau- und Siedlungsausschusses.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung der Stadt Pohlheim fast folgenden Beschluss:\nDie beabsichtigte Planung wird zustimmend zur Kenntnis genommen. Ein entsprechendes\nBauleitplanverfahren kann eingeleitet werden. Die Kosten sind vom Vorhabenträger zu\ntragen.",
+      "abstimmung": "Abstimmungsergebnis: 27 Ja-Stimmen\n2 Nein-Stimmen\n4 Enthaltungen"
+    },
+    {
+      "nummer": "4",
+      "ueberschrift": "TOP 4 Neuwahl eines Ortsgerichtsmitgliedes Vorlage:\nSTV-377/2021-2026",
+      "vorlage": "",
+      "inhalt": "STV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschusses.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung beschließt, dem Vorschlag des Ortsbeirates über die\nBesetzung des Amtes mit Herrn Peter Alexander zu folgen.",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen"
+    },
+    {
+      "nummer": "5",
+      "ueberschrift": "TOP 5 Bebauungsplan Nr. 23 \"Garbenteich-Ost\" im Stadtteil Garbenteich;",
+      "vorlage": "",
+      "inhalt": "Beschluss zur 2. erneuten Offenlegung gemäß § 4a Abs. 3 BauGB\nVorlage: STV-379/2021-2026\nSTV Eckart Hafemann berichtet aus dem Bau- und Siedlungsausschuss.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung der Stadt Pohlheim nimmt die genannten Anpassungen\nim artenschutzrechtlichen Fachbeitrag sowie im Umweltbericht zur Kenntnis und beschließt\ndie Durchführung einer 2. erneuten Offenlegung gem. § 4a Abs. 3 BauGB.\nDabei ist der Öffentlichkeit sowie den berührten Behörden und sonstigen Trägern öffentlicher\nBelange, beschränkt auf die o.g. Änderungs- oder Ergänzungsinhalte, Gelegenheit zur\nStellungnahme zu geben. Hierauf ist in der erneuten Bekanntmachung hinzuweisen.\nGem. § 4a Abs. 3 Satz 3 BauGB soll dabei die Dauer der Veröffentlichungsfrist im Internet\nund der Frist zur Stellungnahme angemessen verkürzt werden.\n___________\n\nNiederschrift_STV_06032025_öffentlich.docx",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen\n5 Enthaltungen"
+    },
+    {
+      "nummer": "7",
+      "ueberschrift": "TOP 7 Antrag der CDU-Fraktion vom 23. Januar 2025 betr. Doppelhaushalt\n2025/2026",
+      "vorlage": "Vorlage: A-375/2021-2026",
+      "inhalt": "STV Eckart Hafemann berichtet aus dem Haupt- und Finanzausschuss.\nEs folgt eine kurze Diskussion.\nAnschließend lässt die Stadtverordnetenvorsteherin über diesen Antrag abstimmen:",
+      "abstimmung": "Abstimmungsergebnis: 9 Ja-Stimmen\n25 Nein-Stimmen"
+    },
+    {
+      "nummer": "8",
+      "ueberschrift": "TOP 8 Mitteilungen",
+      "vorlage": "",
+      "inhalt": "",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "8.1",
+      "ueberschrift": "TOP 8.1 Mitteilung 1",
+      "vorlage": "",
+      "inhalt": "Erster Stadtrat Israel Be Josef teilt mit, dass heute ein umfangreicher Bericht zum Thema\nHallenbad vorgelegt werden sollte, dies aber durch die Erkrankung des Bürgermeisters bei\nder nächsten Stadtverordnetenversammlung nachgeholt werden sollte.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "8.2",
+      "ueberschrift": "TOP 8.2 Mitteilung 2",
+      "vorlage": "",
+      "inhalt": "Die Stadtverordnetenvorsteherin Hiltrud Hofmann teilt mit, dass Sie für den 19.03.2025 zu\neiner Sitzung der interfraktionellen Arbeitsgruppe zum Thema Hallenbad eingeladen habe.\nEs folgt eine Sitzungsunterbrechung von 19:42 Uhr bis 20:03 Uhr.\nDie Stadtverordnetenvorsteherin stellt die Nicht-Öffentlichkeit her.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "6",
+      "ueberschrift": "TOP 6 Errichtung eines Funktionsgebäudes auf dem Sportgelände \"An der",
+      "vorlage": "",
+      "inhalt": "Neumühle\" im Stadtteil Watzenborn-Steinberg; Vertrag mit dem FC\nTurabdin-Babylon Pohlheim e.V. Vorlage: STV-380/2021-2026\nDie Stadtverordnetenversammlung beschließt, dem beigefügten Vertrag mit dem FC\nTurabdin-Babylon Pohlheim e.V. zum Zwecke der Errichtung eines Funktionsgebäudes\nzuzustimmen.\n\n\nNiederschrift_STV_06032025_öffentlich.docx\nHerr Leidich bittet zu Protokoll zu geben, wie er abgestimmt hat. Herr Leidich hat diesem\nBeschluss nicht zugestimmt.\nDie Stadtverordnetenvorsteherin stellt die Öffentlichkeit wieder her und trägt die\nBeschlusslage vor.",
+      "abstimmung": "Abstimmungsergebnis: 23 Ja-Stimmen\n8 Nein-Stimmen\n3 Enthaltungen\n___________"
+    },
+    {
+      "nummer": "9",
+      "ueberschrift": "TOP 9 Beantwortung von Anfragen",
+      "vorlage": "",
+      "inhalt": "Es liegen aktuell nur Fragen der CDU zum Thema Hallenbad vor. Der erste Stadtrat Israel\nBe Josef klärt mit dem Bürgermeister Andreas Ruck ab, ob die Antworten diesem Protokoll\nbeigefügt werden sollen.\nDer Fragenkatalog soll zuerst in der neu gebildeten AG Hallenbad besprochen werden.\nEs gibt außerdem den Wunsch, den Bericht zum Thema Hallenbad vorab schriftlich zu\nbekommen. Erster Stadtrat Israel Be Josef, teilt mit, dass der Bericht dem Magistrat auch\nnoch nicht vorgelegen habe und verweist auf die nächste Stadtverordnetensitzung.",
+      "abstimmung": ""
+    }
+  ],
+  "top_contents_text": "TOP 1\nTOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen Ladung und der\nBeschlussfähigkeit\nStadtverordnetenvorsteherin Hiltrud Hofmann eröffnet die Sitzung, begrüßt alle Anwesenden\nund stellt ordnungsgemäße Ladung und Beschlussfähigkeit fest.\nAnschließend nimmt sie die Gelegenheit wahr und gratuliert Frau Sonya Can, Herrn Matthias\nKücükkaplan, Herrn Prof. Dr. Helge Stadelmann, Herrn Fadi Touma und Herrn Norman Klotz\nnachträglich zum Geburtstag.\nZur Tagesordnung schlägt Stadtverordnetenvorsteherin Hiltrud Hofmann vor, die\nTagesordnungspunkte 6 und 7 in umgekehrter Reihenfolge aufzurufen, da\n---\nTOP 6\nTOP 6\nnichtöffentlich beraten werden sollte.\nEckart Hafemann beantragt daher, den\n---\nTOP 6\nTOP 6 „Errichtung eines Funktionsgebäudes auf dem\nSportgelände \"An der Neumühle\" im Stadtteil Watzenborn-Steinberg“ nichtöffentlich zu\nberaten.\nStadtverordnetenvorsteherin Hiltrud Hofmann lässt darüber abstimmen:\nAbstimmung: Abstimmungsergebnis: 26 Ja-Stimmen\n7 Nein-Stimmen\n---\nTOP 2\nTOP 2 Feststellung der Niederschrift vom 23. Januar 2025\nDie Niederschrift vom 23. Januar 2025 wird ohne Änderungen festgestellt.\n___________\n\nNiederschrift_STV_06032025_öffentlich.docx\n--- SEITE 4 ---\n---\nTOP 3\nTOP 3 Errichtung einer Norma Filiale im Stadtteil Grüningen;\nGrundsatzbeschluss zu den Planungsabsichten\nVorlage: Vorlage: STV-360/2021-2026\nSTV Eckart Hafemann berichtet aus der Sitzung des Bau- und Siedlungsausschusses.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung der Stadt Pohlheim fast folgenden Beschluss:\nDie beabsichtigte Planung wird zustimmend zur Kenntnis genommen. Ein entsprechendes\nBauleitplanverfahren kann eingeleitet werden. Die Kosten sind vom Vorhabenträger zu\ntragen.\nAbstimmung: Abstimmungsergebnis: 27 Ja-Stimmen\n2 Nein-Stimmen\n4 Enthaltungen\n---\nTOP 4\nTOP 4 Neuwahl eines Ortsgerichtsmitgliedes Vorlage:\nSTV-377/2021-2026\nSTV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschusses.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung beschließt, dem Vorschlag des Ortsbeirates über die\nBesetzung des Amtes mit Herrn Peter Alexander zu folgen.\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n---\nTOP 5\nTOP 5 Bebauungsplan Nr. 23 \"Garbenteich-Ost\" im Stadtteil Garbenteich;\nBeschluss zur 2. erneuten Offenlegung gemäß § 4a Abs. 3 BauGB\nVorlage: STV-379/2021-2026\nSTV Eckart Hafemann berichtet aus dem Bau- und Siedlungsausschuss.\nAnschließend lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung der Stadt Pohlheim nimmt die genannten Anpassungen\nim artenschutzrechtlichen Fachbeitrag sowie im Umweltbericht zur Kenntnis und beschließt\ndie Durchführung einer 2. erneuten Offenlegung gem. § 4a Abs. 3 BauGB.\nDabei ist der Öffentlichkeit sowie den berührten Behörden und sonstigen Trägern öffentlicher\nBelange, beschränkt auf die o.g. Änderungs- oder Ergänzungsinhalte, Gelegenheit zur\nStellungnahme zu geben. Hierauf ist in der erneuten Bekanntmachung hinzuweisen.\nGem. § 4a Abs. 3 Satz 3 BauGB soll dabei die Dauer der Veröffentlichungsfrist im Internet\nund der Frist zur Stellungnahme angemessen verkürzt werden.\n___________\n\nNiederschrift_STV_06032025_öffentlich.docx\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n5 Enthaltungen\n---\nTOP 7\nTOP 7 Antrag der CDU-Fraktion vom 23. Januar 2025 betr. Doppelhaushalt\n2025/2026\nVorlage: Vorlage: A-375/2021-2026\nSTV Eckart Hafemann berichtet aus dem Haupt- und Finanzausschuss.\nEs folgt eine kurze Diskussion.\nAnschließend lässt die Stadtverordnetenvorsteherin über diesen Antrag abstimmen:\nAbstimmung: Abstimmungsergebnis: 9 Ja-Stimmen\n25 Nein-Stimmen\n---\nTOP 8\nTOP 8 Mitteilungen\n---\nTOP 8.1\nTOP 8.1 Mitteilung 1\nErster Stadtrat Israel Be Josef teilt mit, dass heute ein umfangreicher Bericht zum Thema\nHallenbad vorgelegt werden sollte, dies aber durch die Erkrankung des Bürgermeisters bei\nder nächsten Stadtverordnetenversammlung nachgeholt werden sollte.\n---\nTOP 8.2\nTOP 8.2 Mitteilung 2\nDie Stadtverordnetenvorsteherin Hiltrud Hofmann teilt mit, dass Sie für den 19.03.2025 zu\neiner Sitzung der interfraktionellen Arbeitsgruppe zum Thema Hallenbad eingeladen habe.\nEs folgt eine Sitzungsunterbrechung von 19:42 Uhr bis 20:03 Uhr.\nDie Stadtverordnetenvorsteherin stellt die Nicht-Öffentlichkeit her.\n---\nTOP 6\nTOP 6 Errichtung eines Funktionsgebäudes auf dem Sportgelände \"An der\nNeumühle\" im Stadtteil Watzenborn-Steinberg; Vertrag mit dem FC\nTurabdin-Babylon Pohlheim e.V. Vorlage: STV-380/2021-2026\nDie Stadtverordnetenversammlung beschließt, dem beigefügten Vertrag mit dem FC\nTurabdin-Babylon Pohlheim e.V. zum Zwecke der Errichtung eines Funktionsgebäudes\nzuzustimmen.\n\n\nNiederschrift_STV_06032025_öffentlich.docx\nHerr Leidich bittet zu Protokoll zu geben, wie er abgestimmt hat. Herr Leidich hat diesem\nBeschluss nicht zugestimmt.\nDie Stadtverordnetenvorsteherin stellt die Öffentlichkeit wieder her und trägt die\nBeschlusslage vor.\nAbstimmung: Abstimmungsergebnis: 23 Ja-Stimmen\n8 Nein-Stimmen\n3 Enthaltungen\n___________\n---\nTOP 9\nTOP 9 Beantwortung von Anfragen\nEs liegen aktuell nur Fragen der CDU zum Thema Hallenbad vor. Der erste Stadtrat Israel\nBe Josef klärt mit dem Bürgermeister Andreas Ruck ab, ob die Antworten diesem Protokoll\nbeigefügt werden sollen.\nDer Fragenkatalog soll zuerst in der neu gebildeten AG Hallenbad besprochen werden.\nEs gibt außerdem den Wunsch, den Bericht zum Thema Hallenbad vorab schriftlich zu\nbekommen. Erster Stadtrat Israel Be Josef, teilt mit, dass der Bericht dem Magistrat auch\nnoch nicht vorgelegen habe und verweist auf die nächste Stadtverordnetensitzung.\n---",
+  "analysis_method": "Azure + Local",
+  "total_pages": 2,
+  "extraction_timestamp": "2025-09-15T23:40:39.675150",
+  "document_path": "input\\Niederschrift_STV_oeffentlich.pdf",
+  "full_text": "Stadt Pohlheim\nPohlheim, 10.03.2025\nAz .: STV/038/2021-2026\nNIEDERSCHRIFT\nüber die Sitzung der Stadtverordnetenversammlung der Stadt Pohlheim\nTag:\n06.03.2025\nDauer:\n19:00 Uhr bis 21:40 Uhr\nOrt:\nVolkshalle Watzenborn-Steinberg, Ludwigstraße 33-35, 35415 Pohlheim\nAnwesend:\nVon der Stadtverordnetenversammlung\nStadtverordnetenvorsteherin Hiltrud Hofmann\nSTV Malke Aydin\nSTV Angelika Bartosch\nSTV Lukas Be Josef\nSTV Karsten Becker\nab TOP 7\nSTV Sonya Can\nSTV Iliyo Danho\nSTV Lorenz Diehl\nSTV Kevin Engel\nSTV Björn Feuerbach\nSTV Samuel Gergin\nSTV Eckart Hafemann\nSTV Simon Hafemann\nSTV Uwe Happel\nSTV Antje Häuser\nSTV Prof. Dr. Ernst-Ulrich Huster\nSTV Matthias Jung\nSTV Erich Klotz\nSTV Norman Klotz\nSTV Michel Kögler\nSTV Matthias Kücükkaplan\nSTV Reiner Leidich\nSTV Siglinde Michen\nSTV Dr. Melanie Neeb\nSTV Risko Noah\nSTV Sebastian Opper\nSTV Marc Werner Punzert\nSTV Michaela Schöffmann\nSTV Andreas Schuch\nSTV Melanie Schunk-Wießner\nSTV Dominic Tamme\nSeite 1 von 6\nSTV/038/2021-2026\nSTV Fadi Touma\nSTV Simone van Slobbe-Schneider\nSTV Sven Weigel\nVom Magistrat\nErster Stadtrat Israel Be Josef\nStadtrat Peter Alexander\nStadtrat Jörg Buß\nStadtrat Christian Görlach\nStadtrat Philipp Niklas Mackowiak\nStadtrat Tobias Maschmann\nStadtrat Wolfgang Sames\nStadtrat Reimar Stenzel\nSchriftführer(in)\nVWF Stefan Huster\nEntschuldigt:\nVon der Stadtverordnetenversammlung\nSTV Georg Celik\nSTV Bettina Jost\nSTV Prof. Dr. Helge Stadelmann\nVom Magistrat\nBürgermeister Andreas Ruck\nTAGESORDNUNG:\nTOP 1\nEröffnung sowie Feststellung der ordnungsgemäßen\nLadung und der Beschlussfähigkeit\nTOP 2\nFeststellung der Niederschrift vom 23. Januar 2025\nTOP 3\nErrichtung einer Norma Filiale im Stadtteil Grüningen;\nGrundsatzbeschluss zu den Planungsabsichten\nSTV-\n360/20212026\nTOP 4\nNeuwahl eines Ortsgerichtsmitgliedes\nSTV-\n377/20212026\nTOP 5\nBebauungsplan Nr. 23 \"Garbenteich-Ost\" im Stadtteil\nGarbenteich;\nBeschluss zur 2. erneuten Offenlegung gemäß § 4a Abs.\n3 BauGB\nSTV-\n379/20212026\nSeite 2 von 6\nNiederschrift_STV_06032025_öffentlich.docx\n"
+}

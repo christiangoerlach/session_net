@@ -1,0 +1,361 @@
+{
+  "id": "Niederschrift_STV2",
+  "document_type": "Niederschrift",
+  "session_type": "Stadtverordnetenversammlung",
+  "date": "2025-06-12T00:00:00Z",
+  "duration": "19:03 Uhr bis 20:31 Uhr",
+  "location": "Volkshalle Watzenborn-Steinberg, Ludwigstraße 33-35, 35415 Pohlheim",
+  "attendance": [
+    {
+      "name": "STV Malke Aydin",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Angelika Bartosch",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Karsten Becker",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Iliyo Danho",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Lorenz Diehl",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Samuel Gergin",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Eckart Hafemann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Simon Hafemann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Uwe Happel",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Antje Häuser",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Prof. Dr. Ernst-Ulrich Huster",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Bettina Jost",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Matthias Jung",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Erich Klotz",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Michel Kögler",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Matthias Kücükkaplan",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Reiner Leidich",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Dr. Melanie Neeb",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Michaela Schöffmann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Melanie Schunk-Wießner",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Prof. Dr. Helge Stadelmann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Dominic Tamme",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Fadi Touma",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Simone van Slobbe-Schneider",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Sven Weigel",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "Bürgermeister Andreas Ruck",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Peter Alexander",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Jörg Buß",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Christian Görlach",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Tobias Maschmann",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Thomas Telling",
+      "function": "Schriftführer(in)",
+      "status": "present"
+    },
+    {
+      "name": "STV Lukas Be Josef",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Sonya Can",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Georg Celik",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Kevin Engel",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Björn Feuerbach",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Norman Klotz",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Siglinde Michen",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Risko Noah",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Sebastian Opper",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Marc Werner Punzert",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Andreas Schuch",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "Erster Stadtrat Israel Be Josef",
+      "function": "Vom Magistrat",
+      "status": "excused"
+    },
+    {
+      "name": "Stadtrat Philipp Niklas Mackowiak",
+      "function": "Vom Magistrat",
+      "status": "excused"
+    },
+    {
+      "name": "Stadtrat Wolfgang Sames",
+      "function": "Vom Magistrat",
+      "status": "excused"
+    },
+    {
+      "name": "Stadtrat Reimar Stenzel",
+      "function": "Vom Magistrat",
+      "status": "excused"
+    }
+  ],
+  "agenda": "TOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen\nLadung und der Beschlussfähigkeit\nTOP 2 Feststellung der Niederschrift vom 3. April 2025\nTOP 3 2. Änderung der Geschäftsordnung für die Stadtverord- STV-394/2021-\nnetenversammlung und die Ausschüsse der Stadt Pohl- 2026\nheim\nTOP 4 Bebauungsplan Nr. 23 \"Garbenteich-Ost\" im Stadtteil STV-395/2021-\nGarbenteich; 2026\na) 1. Nachtragsvertrag zum Städtebaulichen Vertrag\nvom 16.03.2021\nb) Abwägungsbeschluss\nc) Satzungsbeschluss\nTOP 5 Photovoltaik-Strategie der Stadt Pohlheim STV-382/2021-\n2026\nTOP 6 Antrag der CDU-Fraktion vom 27. April 2025 betr. För- A-389/2021-2026\nderanfragen bei der Fördermittelmanagerin beim Land-\nkreis Gießen\n___________\n\n\nTOP 7 Antrag der CDU-Fraktion vom 27. April 2025 betr. För- A-390/2021-2026\nderung Leichtathletikanlage\nTOP 8 Antrag der CDU-Fraktion vom 27. April 2025 betr. Sanie- A-391/2021-2026\nrung der Verbindungswege im Kleingartengebiet\nGrüningen\nTOP 9 Mitteilungen\nTOP 9.1 Mitteilung 1\nTOP 9.2 Mitteilung 2\nTOP 9.3 Mitteilung 3\nTOP 9.4 Mitteilung 4\nTOP 10 Anfragen\nTOP 10.1 Anfrage 1\nTOP 10.2 Anfrage 2",
+  "top_contents": [
+    {
+      "nummer": "1",
+      "ueberschrift": "TOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen Ladung und der Be-\nschlussfähigkeit",
+      "vorlage": "",
+      "inhalt": "Stadtverordnetenvorsteherin Hiltrud Hofmann eröffnet die Sitzung, begrüßt alle Anwesenden\nund stellt ordnungsgemäße Ladung und Beschlussfähigkeit fest.\nSTV Reiner Leidich beantragt, des Tagesordnungspunkt 5 von der Tagesordnung abzuset-\nzen. STV Prof. Dr. Ernst-Ulrich Huster erwidert mit einer Gegenrede.\nÜber den Antrag, Tagesordnungspunkt 5 abzusetzen, lässt die Stadtverordnetenvorsteherin\nwie folgt abstimmen:",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit abgelehnt\n7 Ja-Stimmen (CDU)\n17 Nein-Stimmen (11 SPD, 6 Grüne)\n2 Enthaltungen (FW)\nAnschließend nimmt die Stadtverordnetenvorsteherin die Gelegenheit wahr und gratuliert\nden Stadtverordneten Risko Noah, Samuel Gergin, Uwe Happel, Andreas Schuch, Malke\nAydin, Bettina Jost, Marc Punzert und Simon Hafemann sowie Stadtrat Peter Alexander\nnachträglich zum Geburtstag."
+    },
+    {
+      "nummer": "2",
+      "ueberschrift": "TOP 2 Feststellung der Niederschrift vom 3. April 2025",
+      "vorlage": "",
+      "inhalt": "Die Niederschrift vom 3. April 2025 wird ohne Änderungen festgestellt.\n___________\n\n\n--- SEITE 4 ---",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "3",
+      "ueberschrift": "TOP 3 2. Änderung der Geschäftsordnung für die Stadtverordnetenversammlung\nund die Ausschüsse der Stadt Pohlheim",
+      "vorlage": "Vorlage: STV-394/2021-2026",
+      "inhalt": "STV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nAuf die Frage des Stadtverordneten Malke Aydin, warum mündliche Anfragen in der Stadt-\nverordnetenversammlung nicht mehr zulässig seien und ob diese rechtlich unbedenklich sei,\nteilt diese mit, dass dies schon immer so in der Geschäftsordnung stand, lediglich die Hand-\nhabung sei eine andere gewesen.\nDie Stadtverordnetenvorsteherin lässt wie folgt abstimmen:\nDie Stadtverordnetenversammlung beschließt die nachfolgende 2. Änderung der Geschäfts-\nordnung für die Stadtverordnetenversammlung und die Ausschüsse:\n„2. Änderung der Geschäftsordnung für die Stadtverordnetenversammlung und die\nAusschüsse der Stadt Pohlheim\nAufgrund der §§ 60 Abs. 1, 62 Abs. 5 der Hessischen Gemeindeordnung (HGO) in der Fas-\nsung der Bekanntmachung vom 7. März 2005 (GVBl. I S. 142), mehrfach geändert, §§ 4c, 8c\nund 149 neu gefasst, § 36b aufgehoben sowie § 52a neu eingefügt durch Artikel 1 des Ge-\nsetzes vom 1. April 2025 (GVBl. 2025 Nr. 24) hat die Stadtverordnetenversammlung der\nStadt Pohlheim durch Beschluss vom _______________ eine 2. Änderung der Geschäfts-\nordnung für die Stadtverordnetenversammlung und die Ausschüsse der Stadt Pohlheim be-\nschlossen:\nI.\n§ 8 erhält folgende Fassung:\n§ 8\nRechte und Pflichten\n(1) Die Fraktionen wirken bei der Willensbildung und Entscheidungsfindung in der Stadt-\nverordnetenversammlung mit; sie können insoweit ihre Auffassung öffentlich darstel-\nlen.\n(2) Eine Fraktion kann Mitglieder des Magistrates und sonstige Personen beratend zu\nihren Sitzungen hinzuziehen. Sie unterliegen den Pflichten des § 24 HGO.\n(3) Die Fraktionssitzungen können auch per Telefon- oder Videokonferenz durchgeführt\nwerden.\n§ 9 Absatz 5 erhält folgende Fassung:\n(5) Die oder der Vorsitzende der Stadtverordnetenversammlung beruft den Ältestenrat\nnach Bedarf ein und leitet die Verhandlungen. Die Verhandlungen können auch per\nTelefon- oder Videokonferenz durchgeführt werden. Sie oder er ist verpflichtet, den\nÄltestenrat einzuberufen, wenn dies eine Fraktion oder die Bürgermeisterin oder der\nBürgermeister namens des Magistrates verlangt. Beruft sie oder er den Ältestenrat\nwährend einer Sitzung der Stadtverordnetenversammlung ein, so ist diese damit un-\nterbrochen.\n___________\n\n\n§ 17 erhält folgende Fassung:\n§ 17\nAnhörungspflicht\nDie Stadtverordnetenversammlung hört den Ausländerbeirat zu allen wichtigen Angelegen-\nheiten, die ausländische Einwohnerinnen und Einwohner betreffen. Sie setzt dem Auslän-\nderbeirat eine Frist zur Stellungnahme von einem Monat. Die Stellungnahme ist in schriftli-\ncher oder elektronischer Form an die oder den Vorsitzenden der Stadtverordnetenversamm-\nlung zu richten. Sie oder er kann die Frist in Einzelfällen angemessen verlängern oder kür-\nzen. Äußert sich der Ausländerbeirat verspätet oder gar nicht, so gilt dies als Zustimmung.\n§ 18 erhält folgende Fassung:\n§ 18\nVorschlagsrecht des Ausländerbeirates\nDer Ausländerbeirat hat ein Vorschlagsrecht in allen Angelegenheiten, die ausländische\nEinwohnerinnen und Einwohner betreffen. Vorschläge reicht er in schriftlicher oder elektroni-\nscher Form bei dem Magistrat ein. Dieser legt sie mit seiner Stellungnahme der Stadtverord-\nnetenversammlung vor, wenn diese für die Entscheidung zuständig ist. In allen wichtigen\nAngelegenheiten, die ausländische Einwohner und Einwohnerinnen betreffen, kann der Aus-\nländerbeirat Anträge an die Stadtverordnetenversammlung richten. Die Stadtverordnetenver-\nsammlung entscheidet in angemessener Frist über Vorschläge des Ausländerbeirates. Die\noder der Vorsitzende teilt die Entscheidung dem Ausländerbeirat in schriftlicher oder elektro-\nnischer Form mit.\n§ 20 Absatz 1 erhält folgende Fassung:\n§ 20\nAnhörungspflicht\n(1) Die Stadtverordnetenversammlung hört den Ortsbeirat zu allen wichtigen Angelegen-\nheiten, die den Stadtteil betreffen, insbesondere zu dem Entwurf des Haushaltsplanes\nund den Bebauungsplänen. Sie setzt dem Ortsbeirat eine Frist zur Stellungnahme\nvon einem Monat. Die Stellungnahme ist in schriftlicher oder elektronischer Form an\ndie oder den Vorsitzenden der Stadtverordnetenversammlung zu richten. Sie oder er\nkann in Einzelfällen die Frist angemessen verlängern oder kürzen. Äußert sich der\nOrtsbeirat verspätet oder gar nicht, so gilt dies als Zustimmung.\n§ 21 erhält folgende Fassung:\n§ 21\nVorschlagsrecht des Ortsbeirates\nDer Ortsbeirat hat ein Vorschlagsrecht in allen Angelegenheiten, die den Stadtteil angehen.\nVorschläge reicht er in schriftlicher oder elektronischer Form bei dem Magistrat ein. Dieser\nlegt sie mit seiner Stellungnahme der Stadtverordnetenversammlung vor, wenn diese für die\nEntscheidung zuständig ist. Die Stadtverordnetenversammlung entscheidet in angemesse-\nner Frist über Vorschläge des Ortsbeirates. Die oder der Vorsitzende der Stadtverordneten-\nversammlung teilt die Entscheidung dem Ortsbeirat in schriftlicher oder elektronischer Form\nmit.\n___________\n\n\n§ 26 erhält folgende Fassung:\n§ 26\nAnträge\n(1) Die Stadtverordneten, jede Fraktion, der Magistrat und die Bürgermeisterin oder der\nBürgermeister können Anträge in die Stadtverordnetenversammlung einbringen. Der\nAusländerbeirat kann in allen wichtigen Angelegenheiten, die ausländische Einwoh-\nner und Einwohnerinnen betreffen, Anträge in die Stadtverordnetenversammlung ein-\nbringen.\n(2) Anträge sind schriftlich und von der Antragstellerin oder vom Antragsteller unter-\nzeichnet bei der oder dem Vorsitzenden oder bei einer von der oder dem Vorsitzen-\nden zu bestimmenden Person in der Verwaltung einzureichen. Eine Einreichung\ndurch Fax, Computerfax und E-Mail ist ausreichend. Bei Anträgen von Fraktionen ge-\nnügt - außer im Falle des § 56 Abs. 1 Satz 2 HGO - die Unterschrift der oder des Vor-\nsitzenden oder ihrer oder seiner Stellvertretung. Zwischen dem Zugang der Anträge\nbei der oder dem Vorsitzenden und dem Sitzungstag müssen mindestens zehn volle\nKalendertage liegen.\nWird ein Antrag/eine Vorlage unter Verkürzung der Antragsfrist auf die Tagesordnung\ngesetzt, ist hierfür ein Grund zu bezeichnen. Dieser ist öffentlich bekannt zu geben.\n(3) Anträge müssen begründet sein und eine klare für die Verwaltung ausführbare An-\nweisung enthalten. Beschlussvorschlag und Begründung sind voneinander zu tren-\nnen.\n(4) Zur Vorbereitung einer Entscheidung der Stadtverordnetenversammlung verweist die\noder der Vorsitzende Anträge an den zuständigen Ausschuss, wenn die Antragstelle-\nrin oder der Antragsteller dies bestimmt hat.\n(5) Anträge, mit denen der Magistrat aufgefordert wird, einen Bericht abzugeben, werden\nals Berichtsanträge bezeichnet. Die Beschlussfassung erfolgt in der Stadtverordne-\ntenversammlung ohne vorherige Beratung in den Ausschüssen. Mit der Beschluss-\nfassung über den Berichtsantrag legt die Stadtverordnetenversammlung fest, wel-\nchem Ausschuss oder welchen Ausschüssen Bericht zu erstatten ist. Mit der Entge-\ngennahme des Berichts in diesem Ausschuss bzw. diesen Ausschüssen gelten Be-\nrichtsanträge als erledigt. Eine Berichterstattung an die Stadtverordnetenversamm-\nlung erfolgt nicht.\n(6) Verspätete Anträge nimmt die oder der Vorsitzende auf die Tagesordnung der fol-\ngenden Sitzung.\n(7) Ist die Anhörung eines Ortsbeirates und/oder des Ausländerbeirates erforderlich, be-\nvor die Stadtverordnetenversammlung entscheidet, so leitet die oder der Vorsitzende\ndiese unverzüglich nach Eingang des Antrages ein. Die oder der Vorsitzende setzt\ndem Ortsbeirat und/oder dem Ausländerbeirat eine Frist zur Stellungnahme. Dabei\nsind die §§ 17, 19, 20 und 22 zu beachten.\n(8) Während der Sitzung sind mündliche Anträge, die einen Gegenstand der Tagesord-\nnung ergänzen oder ändern, zulässig. Diese sind in die Niederschrift aufzunehmen.\n___________\n\n\n§ 32 erhält folgende Fassung:\n§ 32\nSchriftliche Anfragen\n(1) Schriftliche Anfragen von Stadtverordneten oder einer Fraktion an den Magistrat sind\nbei der Stadtverordnetenvorsteherin oder dem Stadtverordnetenvorsteher sowie dem\nSchriftführer oder der Schriftführerin der Stadtverordnetenversammlung einzureichen.\nDie Anfragen können auch in elektronischer Form erfolgen. Die Anfragen werden\nunmittelbar an den Magistrat weitergeleitet.\n(2) Sollte die Anfrage nicht innerhalb einer Frist von sechs Wochen beantwortet werden,\nist sie auf Antrag einer Fraktion oder der Fragestellerin bzw. des Fragestellers auf die\nTagesordnung der nächsten Sitzung der Stadtverordnetenversammlung zu setzen\nund zur Diskussion zu stellen. Die/Der Anfragende erhält zuerst die Gelegenheit, sei-\nne/ihre Fragen zu stellen.\n§ 32 a wird neu eingefügt:\n§ 32 a\nAnfragen in der Stadtverordnetenversammlung\n(1) Vor jeder Stadtverordnetenversammlung können schriftliche Fragen an den Magistrat\nüber Gegenstände aus dem Geschäftsbereich des Magistrats gestellt werden. Die\nFragen sind eine Woche vor der Stadtverordnetensitzung schriftlich oder in elektroni-\nscher Form bei der Stadtverordnetenvorsteherin oder dem Stadtverordnetenvorste-\nher sowie dem Schriftführer oder der Schriftführerin der Stadtverordnetenversamm-\nlung einzureichen und werden unmittelbar an den Magistrat weitergeleitet.\n(2) Die Anfragen werden in der Sitzung beim TOP Anfragen aufgerufen. Der/Die Anfra-\ngende erhält zuerst die Gelegenheit, seine/ihre Fragen zu stellen. Bei Unmöglichkeit\nder unmittelbaren Beantwortung gilt die Sechs-Wochen-Frist gemäß § 32 auch für\ndiese Anfrage(n).\n(3) Es können nach der Beantwortung der Fragen insgesamt zwei mündliche Zusatzfra-\ngen zum Fragegegenstand gestellt werden. Zusätzlich kann jede Fraktion zum Fra-\ngegegenstand eine mündliche Zusatzfrage stellen.\n§ 37 erhält folgende Fassung:\n§ 37\nEinladung, Öffentlichkeit, sinngemäß anzuwendende Vorschriften\n(1) Die oder der Vorsitzende des Ausschusses setzt Tagesordnung, Zeit und Ort der Sit-\nzungen im Benehmen mit der oder dem Vorsitzenden der Stadtverordnetenversamm-\nlung und dem Magistrat fest.\n(2) Die Sitzungen der Ausschüsse sind in der Regel öffentlich. § 13 gilt entsprechend.\n(3) Für den Geschäftsgang der Ausschüsse finden die Vorschriften dieser Geschäftsord-\nnung sinngemäß Anwendung, soweit sich nicht ausdrücklich aus dem Gesetz oder\naus dieser Geschäftsordnung Abweichendes ergibt.\n(4) Anträge an die Stadtverordnetenversammlung können auf die Tagesordnung der\nAusschüsse zur Vorberatung aufgenommen werden, sofern die Frist für die Stadtver-\n___________\n\n\nordnetenversammlung eingehalten wird und sie rechtzeitig vor Versenden der Einla-\ndung zu den Ausschüssen vorliegen.\n§ 38 erhält folgende Fassung:\n§ 38\nStimmrecht, Teilnahme von Mitgliedern anderer Gremien bzw. Gruppierungen\n(1) Ein Stimmrecht haben alleine die Mitglieder des Ausschusses. Die oder der Vorsit-\nzende der Stadtverordnetenversammlung und ihre oder seine Stellvertreterinnen\nund/oder Stellvertreter sind berechtigt, an den Ausschusssitzungen mit beratender\nStimme teilzunehmen. Fraktionen, auf die bei der Besetzung eines Ausschusses kein\nSitz entfallen ist, sind berechtigt, in diesen ein Mitglied mit beratender Stimme zu ent-\nsenden.\n(2) Wer einen Antrag gestellt hat, kann diesen in den Ausschüssen begründen, auch\nwenn er ihnen nicht als Mitglied angehört.\n(3) Der Magistrat nimmt an den Ausschusssitzungen teil. § 16 gilt entsprechend. Sonsti-\nge Stadtverordnete können - auch an nicht-öffentlichen Sitzungen - nur als Zuhöre-\nrinnen oder Zuhörer teilnehmen. Für den Wahlvorbereitungsausschuss gelten die be-\nsonderen Regeln des § 42 Abs. 2 HGO.\n(4) Die Ausschüsse hören den Ausländerbeirat zu allen wichtigen Angelegenheiten, die\nausländische Einwohnerinnen und Einwohner berühren. Sie setzen dem Ausländer-\nbeirat eine Frist zur Stellungnahme von einem Monat. Die Stellungnahme ist in\nschriftlicher oder elektronischer Form an die oder den Vorsitzende/n des jeweiligen\nAusschusses zu richten. Sie oder er kann in Einzelfällen die Frist angemessen ver-\nlängern oder verkürzen. Äußert sich der Ausländerbeirat verspätet oder gar nicht, so\ngilt dies als Zustimmung.\n(5) Die Ausschüsse können Vertreterinnen und Vertreter derjenigen Bevölkerungsgrup-\npen, die von ihrer Entscheidung vorwiegend betroffen werden, und Sachverständige\nzu den Beratungen zuziehen. Darüber hinaus können sie die Beiräte der Stadt sowie\nKommissionen nach Maßgabe der Regelungen in VII. bis IX. an ihren Sitzungen be-\nteiligen.\n§ 41 erhält folgende Fassung:\n§ 41\nNiederschrift\n(1) Über den wesentlichen Inhalt der Verhandlungen der Stadtverordnetenversammlung\nist eine Niederschrift zu fertigen. Sie soll sich auf die Angabe der Anwesenden, der\nverhandelten Gegenstände, der gefassten Beschlüsse und der vollzogenen Wahlen\nbeschränken. Die Abstimmungsergebnisse sowie Verlauf und Ergebnisse von Wah-\nlen sind festzuhalten. Jede Stadtverordnete und jeder Stadtverordneter kann vor Be-\nginn der Stimmabgabe verlangen, dass ihre bzw. seine Abstimmung in der Nieder-\nschrift festgehalten wird.\n(2) Die Niederschrift ist von der oder dem Vorsitzenden sowie von der Schriftführerin\noder dem Schriftführer zu unterzeichnen. Zu Schriftführern können nur Personen aus\ndem in § 61 Abs. 2 Satz 2 HGO bezeichneten Personenkreis gewählt werden. Die\nSchriftführerin oder der Schriftführer ist für den Inhalt der Niederschrift alleine ver-\nantwortlich.\n___________\n\n\n(3) Den Stadtverordneten sowie den Mitgliedern des Magistrates wird eine Kopie der\nNiederschrift innerhalb von zehn Kalendertagen zugeleitet. Dies kann auch in elekt-\nronischer Form erfolgen, wenn dies zwischen der oder dem Vorsitzenden und der\noder dem Stadtverordneten bzw. den Mitgliedern des Magistrates zuvor vereinbart\nwurde. Gleichzeitig ist die Niederschrift im „Parlamentsinformationssystem“ für die\nGremienmitglieder einzustellen.\n(4) Stadtverordnete sowie Mitglieder des Magistrates können Einwendungen gegen die\nRichtigkeit der Niederschrift innerhalb von siebenTagen nach der Übermittlung der\nKopie der Niederschrift bei der oder dem Vorsitzenden schriftlich erheben. Eine Ein-\nreichung der Einwendung durch E-Mail ist ausreichend. Die Einwendung ist zu be-\ngründen. Über fristgerechte Einwendungen entscheidet die Stadtverordnetenver-\nsammlung in der nächsten Sitzung.\n(5) Zur Information der Bevölkerung wird der wesentliche Inhalt der Niederschrift nach\nFeststellung dieser durch die Stadtverordnetenversammlung auf der Internetseite der\nStadt im „Parlamentsinformationssystem“ öffentlich eingestellt, soweit er sich nicht\nauf Verhandlungsgegenstände bezieht, die in nicht-öffentlicher Sitzung erörtert wur-\nden.\n(6) Die Sitzung wird mit Tonträger aufgezeichnet. Dieser ist von der Verwaltung aufzu-\nbewahren und kann auf Antrag von jeder Stadtverordneten und jedem Stadtverordne-\nten und den Mitgliedern des Magistrates in den Räumen der Verwaltung bis zum Ab-\nlauf der Frist des Abs. 4 - bei Einwendungen bis zur Unanfechtbarkeit der Entschei-\ndung - abgehört werden. Danach wird die Aufzeichnung gelöscht.\nII.\nDie 2. Änderung der Geschäftsordnung für die Stadtverordnetenversammlung und die Aus-\nschüsse der Stadt Pohlheim tritt am Tag nach der Beschlussfassung in Kraft.“",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n25 Ja-Stimmen (11 SPD, 6 CDU, 6 Grüne, 2 FW)\n1 Nein-Stimme (CDU)"
+    },
+    {
+      "nummer": "4",
+      "ueberschrift": "TOP 4 Bebauungsplan Nr. 23 \"Garbenteich-Ost\" im Stadtteil Garbenteich;",
+      "vorlage": "",
+      "inhalt": "a) 1. Nachtragsvertrag zum Städtebaulichen Vertrag vom 16.03.2021\nb) Abwägungsbeschluss\nc) Satzungsbeschluss\nVorlage: STV-395/2021-2026\nSTV Eckart Hafemann berichtet aus der gemeinsamen Sitzung des Ausschusses für Bauen,\nStadtentwicklung und Umwelt sowie des Haupt- und Finanzausschusses.\nEs folgt eine eingehende Beratung und Diskussion.\nAnschließend lässt die Stadtverordnetenvorsteherin über die einzelnen Punkte wie folgt ab-\nstimmen:\n1. Die Stadtverordnetenversammlung der Stadt Pohlheim beschließt den beigefügten 1.\nNachtragsvertrag zum Städtebaulichen Vertrag vom 16.03.2021 gemäß § 11 BauGB\n___________\n\n\nzum „Projekt Gewerbegebiet Garbenteich-Ost“. Der Magistrat wird beauftragt dem beur-\nkundenden Notar die Genehmigungserklärung zu übermitteln.",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n18 Ja-Stimmen (9 SPD, 7 CDU, 2 FW)\n7 Nein-Stimmen (5 Grüne, 2 SPD)\n1 Enthaltung (Grüne)\n2. Die seitens der Öffentlichkeit sowie der Behörden und Träger öffentlicher Belange im\nRahmen der Beteiligungsverfahren gemäß §§ 4a Abs.3, 3 und 4 Baugesetzbuch\n(BauGB) vorgebrachten Anregungen wurden gemäß §§ 1 Abs. 5, 6 und 7 sowie 1a\nBauGB geprüft. Die Stadtverordnetenversammlung der Stadt Pohlheim beschließt die\nAbwägungen in der in Anlage 14, 15 und 16 vorliegenden Form.\nAbstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n18 Ja-Stimmen (9 SPD, 7 CDU, 2 FW)\n7 Nein-Stimmen (5 Grüne, 2 SPD)\n1 Enthaltung (Grüne)\n3. Die Stadtverordnetenversammlung der Stadt Pohlheim beschließt den Bebauungsplan\nNr.23 „Garbenteich-Ost“ mit seinen zeichnerischen und planungsrechtlichen Festsetzun-\ngen in der vorliegenden Form gemäß § 10 Abs. 1 BauGB in Verbindung mit § 214 Abs. 4\nBauGB als Satzung. Die Begründung inkl. Umweltbericht und Artenschutzrechtlicher\nFachbeitrag in der vorliegenden Fassung des Satzungsbeschlusses (Anlage 1,5 und 9)\nwerden gebilligt.\nAbstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n18 Ja-Stimmen (9 SPD, 7 CDU, 2 FW)\n7 Nein-Stimmen (5 Grüne, 2 SPD)\n1 Enthaltung (Grüne)\n4. Der Magistrat wird beauftragt, den Satzungsbeschluss ortsüblich bekannt zu machen und\nrückwirkend zum 20.01.2022 in Kraft zu setzen.\nAbstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n18 Ja-Stimmen (9 SPD, 7 CDU, 2 FW)\n7 Nein-Stimmen (5 Grüne, 2 SPD)\n1 Enthaltung (Grüne)"
+    },
+    {
+      "nummer": "5",
+      "ueberschrift": "TOP 5 Photovoltaik-Strategie der Stadt Pohlheim",
+      "vorlage": "Vorlage: STV-382/2021-2026",
+      "inhalt": "STV Eckart Hafemann berichtet aus der Sitzung des Ausschusses für Bauen, Stadtentwick-\nlung und Umwelt.\nNach kurzer Beratung lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung beschließt die Umsetzung der Photovoltaik-Strategie der\nStadt Pohlheim und damit die Aufnahme der maßnahmenbezogenen Kosten in zukünftige\nHaushalte.\n\n\n\n--- SEITE 11 ---",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig beschlossen\n___________"
+    },
+    {
+      "nummer": "6",
+      "ueberschrift": "TOP 6 Antrag der CDU-Fraktion vom 27. April 2025 betr. Förderanfragen bei der\nFördermittelmanagerin beim Landkreis Gießen",
+      "vorlage": "Vorlage: A-389/2021-2026",
+      "inhalt": "Der Antrag hat Erledigung erfahren.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "7",
+      "ueberschrift": "TOP 7 Antrag der CDU-Fraktion vom 27. April 2025 betr. Förderung Leichtathletik-\nanlage",
+      "vorlage": "Vorlage: A-390/2021-2026",
+      "inhalt": "Der Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vor:\n„1. Der Magistrat wird aufgefordert unter Beteiligung der Fördermittelmanagerin beim\nLandkreis Gießen die Möglichkeiten für eine Sportstättenförderung beim Land\nHessen für die geplante Leichtathletikanlage „An der Neumühle“ zu prüfen und der\nSTV zu berichten.\n2. Mit dem Bau der Sportanlage ist erst nach Erhalt eines Förderbescheides\n-Zusage der Förderung- zu beginnen, da vorzeitig begonnene Vorhaben von\neiner möglichen Förderung ausgeschlossen sind.\n3. Die Bereitschaft zur Leistung eines Zuschusses durch die Nutzervereine sind\nabzufragen. wobei auch Förderungen durch den HLV/DLV einbezogen werden\nsollen.“\nSTV Eckart Hafemann berichtet aus der gemeinsamen Sitzung des Ausschusses für Bauen,\nStadtentwicklung und Umwelt sowie des Haupt- und Finanzausschusses.\nDer Antrag wird seitens der antragstellenden Fraktion wie folgt geändert:\n„1. Der Magistrat wird aufgefordert, ggf. unter Beteiligung der Fördermittelmanagerin\nbeim Landkreis Gießen, die Möglichkeiten für eine Sportstättenförderung beim Land\nHessen für die geplante Leichtathletikanlage „An der Neumühle“ zu prüfen und der\nSTV zu berichten.\n2. Die Bereitschaft zur Leistung eines Zuschusses durch die Nutzervereine sind\nabzufragen. wobei auch Förderungen durch den HLV/DLV einbezogen werden\nsollen.“\nEs folgt eine eingehende Beratung und Diskussion.\nÜber den geänderten Antrag lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit abgelehnt\n9 Ja-Stimmen (7 CDU, 2 FW)\n17 Nein-Stimmen (11 SPD, 6 Grüne)"
+    },
+    {
+      "nummer": "8",
+      "ueberschrift": "TOP 8 Antrag der CDU-Fraktion vom 27. April 2025 betr. Sanierung der Verbin-\ndungswege im Kleingartengebiet Grüningen",
+      "vorlage": "Vorlage: A-391/2021-2026",
+      "inhalt": "Der Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vor:\nDie CDU-Fraktion bittet um Vorstellung des Prüfergebnisses für eine nachhaltige Sanierung\nder Verbindungswege im innerörtlichen Kleingartengebiet von Grüningen.\n___________\n\n\nSTV Eckart Hafemann berichtet aus der Sitzung des Ausschusses für Bauen, Stadtentwick-\nlung und Umwelt.\nSTV Reiner Leidich begründet den Antrag.\nBürgermeister Andreas Ruck nimmt wie folgt Stellung zum vorliegenden Antrag:\nDie Begehung des Ortsbeirates Grüningen habe die Wegeführung nochmals verdeutlicht.\nDie gewünschte Maßnahme sei sehr aufwendig und mit hohen Kosten sowie einer Versiege-\nlung der Fläche verbunden. Für die angrenzenden Gärten werde sich die Situation des Was-\nsereintritts nicht verbessern. Auch heute sei der Gartengrund unter der Wegoberfläche.\nAls Maßnahme wurde eine Wasserquerrinne mit einem größeren Einlauf ins Kanalnetz ein-\ngebaut. Leider wurde der Einlauf mit einem Gummikeil bedeckt. Dies sei bei Regen nicht\nförderlich.\nAls erstes müsse der Gummikeil vom Einlauf entfernt werden, um die volle Kapazität zu er-\nreichen. Dann müssen die Gegebenheiten beobachtet und ggf. weitere Möglichkeiten erar-\nbeitet werden.\nSTV Eckart Hafemann stellt folgenden Antrag zur Geschäftsordnung:\n„Durch die Stellungnahme des Bürgermeisters ist der Antrag für erledigt zu erklären.“\nHierüber lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n16 Ja-Stimmen (11 SPD, 5 Grüne)\n10 Nein-Stimmen (7 CDU, 2 FW, 1 Grüne)\nEine Abstimmung über den Antrag der CDU-Fraktion erfolgt nicht mehr."
+    },
+    {
+      "nummer": "9",
+      "ueberschrift": "TOP 9 Mitteilungen",
+      "vorlage": "",
+      "inhalt": "",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "9.1",
+      "ueberschrift": "TOP 9.1 Mitteilung 1",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck informiert über die aufsuchende Energieberatung. Bisher wur-\nden bereits 78 Beratungen gebucht. Die Auftaktveranstaltung findet am 10. September 2025\nstatt.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "9.2",
+      "ueberschrift": "TOP 9.2 Mitteilung 2",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck informiert über das Stadtradeln 2025. Bisher wurden in Pohl-\nheim 17.372 Kilometer erradelt.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "9.3",
+      "ueberschrift": "TOP 9.3 Mitteilung 3",
+      "vorlage": "",
+      "inhalt": "Stadtrat Peter Alexander teilt bzgl. des Jugendzentrums folgendes mit:\n„Die Baugenehmigung des Landkreises gießen vom 5. Mai 2025 ist bei der Stadt Pohlheim\nam 20. Mai 2025 eingegangen. Der Baubeginn für den Umbau des Objektes Ludwigstraße\n___________\n\n\n37 zu einem Jugendzentrum und Räumlichkeiten für die Verwaltung ist a, 1. Juni 2025 er-\nfolgt.\nBewilligungsbescheid durch das Land Hessen vom 29. April 2025:\nAuf Grundlage der Förderrichtlinie zum Ausbau inklusiver kommunaler Angebote im Sinne\nder UN-Behindertenrechtskonvention erhält die Stadt Pohlheimeine Fördermittelzuwendung\nvon 45.509,- €.“",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "9.4",
+      "ueberschrift": "TOP 9.4 Mitteilung 4",
+      "vorlage": "",
+      "inhalt": "Stadtrat Peter Alexander teilt bzgl. des Rechtsstreits zum Sportgelände Neumühle folgendes\nmit:\n„Die Klageerwiderung zur Festsetzungsklage des „FC Gießen“ ist dem Amtsgericht Gießen\nvon der Rechtsanwaltskanzlei der Stadt Pohlheim mit heutigem tage übermittelt worden.\nDer Magistrat hat in seiner Sitzung am 5. Juni 2025 beschlossen, dass durch die Stadt Pohl-\nheim ein Klageantrag auf Erlass einer einstweiligen Verfügung zwecks Duldung der Betre-\ntung des Grundstücks mit der Flurstück-Nr. 589/1 durch die Rechtsanwaltskanzlei der Stadt\nPohlheim gestellt werden soll.“",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "10",
+      "ueberschrift": "TOP 10 Anfragen",
+      "vorlage": "",
+      "inhalt": "",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "10.1",
+      "ueberschrift": "TOP 10.1 Anfrage 1",
+      "vorlage": "",
+      "inhalt": "Mit Bezug auf die Anfrage der Stadtverordneten Simone van Slobbe-Schneider vom\n13. August 2024 bzgl. Bleifund im Petersgraben Dorf-Güll teilt Bürgermeister Andreas Ruck\nmit, dass seitens des RP Gießen noch immer keine Antwort vorliege.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "10.2",
+      "ueberschrift": "TOP 10.2 Anfrage 2",
+      "vorlage": "",
+      "inhalt": "Es liegen mehrere Anfragen des Stadtverordneten Malke Aydin vor, welche wie folgt beant-\nwortet werden:\nA: Betreibervertrag Kita „Magdeburger Straße“\nAm 3. April 2025 wurde durch die Stadtverordnetenversammlung beschlossen die künftige\nTrägerschaft über die Kindertageseinrichtung Magdeburger Straße dem Trägerverein\nDeutsches Rotes Kreuz Kreisverband Marburg-Gießen e. V. zu übertragen.\nFragen:\n1. Wurde die Trägervereinbarung inzwischen abgeschlossen?\nAntwort: Nein, der Vertrag solle bis spätestens Mitte/Ende Juni 2025 abgeschlossen werden.\n2. Ab wann sind in welcher Höhe monatliche Vorauszahlungen an den Betreiber zu\nzahlen?\n___________\n\n\nAntwort: Dies werde mit dem zukünftigen Betreiber noch besprochen. Im Haushalt\n2025/2026 seien Haushaltsmittel eingeplant. Wenn weitere Mittel benötigt werden, können\ndiese über einen Nachtrag eingestellt werden.\nB: Ruhebänke am Limesradwanderweg\nAm 10.10.2024 hat die STV beschlossen, dass der Magistrat in der Pohlheimer Gemarkung\nentlang des Limes-Rad-Wanderweges in Abstimmung mit dem Seniorenbeirat weitere\nRuhebänke aufstellen lassen soll. Bei der Antragsbegründung wurde besonders auf den\nStreckenabschnitt zwischen dem Holzheimer Unterwald und dem Limesturm hingewiesen.\nFragen:\n1. Wann wurde der Seniorenbeirat mit dem Sachverhalt befasst und wann wird der\nBeschluss umgesetzt?\n2. Wie viele Ruhebänke sollen entlang des Streckenabschnittes zwischen dem\nHolzheimer Unterwald und dem Limesturm aufgestellt werden?\nAntwort: Die Überprüfung zur Umsetzung der Maßnahme habe ergeben, dass auf Grund der\nTatsache, dass der Limes ein UNESCO-Welterbe sei, dort keine bodeneingreifenden Maß-\nnahmen vorgenommen werden dürfen und somit keine Bänke entlang des Limes aufgestellt\nwerden können.\nC: Kunstrasenplatz Sportgelände „An der Neumühle“\nDemnächst beginnen die Arbeiten zur Errichtung des neuen Kunstrasenplatzes.\nFragen:\n1. Wie viel wird der neue Platz kosten?\nAntwort: Die Kosten für den Kunstrasenbelag belaufen sich nach Ausschreibung und Auf-\ntragsvergabe auf 282504,87 €.\n2. Wann wurde der Bewilligungsbescheid für eine Förderung erteilt und wie hoch ist der\nFörderbetrag?\nAntwort: Der Antrag auf eine Förderung nach dem Sonder-Investitionsprogramm Sportland\nHessen“ vom 28. November 2024 lautet auf die Gewährung eines Fördermittelbetrags von\n50.000 €. Es liegt zwar immer noch kein Bewilligungsbescheid vor, aber die Zusage vom\n24. März 2025 für einen sofortigen Maßnahmenbeginn.\nD: Vorhaben „Norma-Markt“ in Grüningen\nFrage: Wann wurde mit dem Investor eine Verwaltungsvereinbarung zur Übernahme der\nPlanungskosten geschlossen?\nAntwort: Derzeit gebe es keinen Handlungsbedarf. Die Vereinbarung werde zu einem späte-\nren Zeitpunkt geschlossen, wenn das Bauleitverfahren angestoßen wird.\nStadtverordnetenvorsteherin Hiltrud Hofmann schließt die Sitzung und wünscht allen eine\nangenehme Sommerpause.\n___________\n\n\n--- SEITE 15 ---",
+      "abstimmung": ""
+    }
+  ],
+  "top_contents_text": "TOP 1\nTOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen Ladung und der Be-\nschlussfähigkeit\nStadtverordnetenvorsteherin Hiltrud Hofmann eröffnet die Sitzung, begrüßt alle Anwesenden\nund stellt ordnungsgemäße Ladung und Beschlussfähigkeit fest.\nSTV Reiner Leidich beantragt, des Tagesordnungspunkt 5 von der Tagesordnung abzuset-\nzen. STV Prof. Dr. Ernst-Ulrich Huster erwidert mit einer Gegenrede.\nÜber den Antrag, Tagesordnungspunkt 5 abzusetzen, lässt die Stadtverordnetenvorsteherin\nwie folgt abstimmen:\nAbstimmung: Abstimmungsergebnis: Mit Stimmenmehrheit abgelehnt\n7 Ja-Stimmen (CDU)\n17 Nein-Stimmen (11 SPD, 6 Grüne)\n2 Enthaltungen (FW)\nAnschließend nimmt die Stadtverordnetenvorsteherin die Gelegenheit wahr und gratuliert\nden Stadtverordneten Risko Noah, Samuel Gergin, Uwe Happel, Andreas Schuch, Malke\nAydin, Bettina Jost, Marc Punzert und Simon Hafemann sowie Stadtrat Peter Alexander\nnachträglich zum Geburtstag.\n---\nTOP 2\nTOP 2 Feststellung der Niederschrift vom 3. April 2025\nDie Niederschrift vom 3. April 2025 wird ohne Änderungen festgestellt.\n___________\n\n\n--- SEITE 4 ---\n---\nTOP 3\nTOP 3 2. Änderung der Geschäftsordnung für die Stadtverordnetenversammlung\nund die Ausschüsse der Stadt Pohlheim\nVorlage: Vorlage: STV-394/2021-2026\nSTV Melanie Schunk-Wießner berichtet aus der Sitzung des Haupt- und Finanzausschus-\nses.\nAuf die Frage des Stadtverordneten Malke Aydin, warum mündliche Anfragen in der Stadt-\nverordnetenversammlung nicht mehr zulässig seien und ob diese rechtlich unbedenklich sei,\nteilt diese mit, dass dies schon immer so in der Geschäftsordnung stand, lediglich die Hand-\nhabung sei eine andere gewesen.\nDie Stadtverordnetenvorsteherin lässt wie folgt abstimmen:\nDie Stadtverordnetenversammlung beschließt die nachfolgende 2. Änderung der Geschäfts-\nordnung für die Stadtverordnetenversammlung und die Ausschüsse:\n„2. Änderung der Geschäftsordnung für die Stadtverordnetenversammlung und die\nAusschüsse der Stadt Pohlheim\nAufgrund der §§ 60 Abs. 1, 62 Abs. 5 der Hessischen Gemeindeordnung (HGO) in der Fas-\nsung der Bekanntmachung vom 7. März 2005 (GVBl. I S. 142), mehrfach geändert, §§ 4c, 8c\nund 149 neu gefasst, § 36b aufgehoben sowie § 52a neu eingefügt durch Artikel 1 des Ge-\nsetzes vom 1. April 2025 (GVBl. 2025 Nr. 24) hat die Stadtverordnetenversammlung der\nStadt Pohlheim durch Beschluss vom _______________ eine 2. Änderung der Geschäfts-\nordnung für die Stadtverordnetenversammlung und die Ausschüsse der Stadt Pohlheim be-\nschlossen:\nI.\n§ 8 erhält folgende Fassung:\n§ 8\nRechte und Pflichten\n(1) Die Fraktionen wirken bei der Willensbildung und Entscheidungsfindung in der Stadt-\nverordnetenversammlung mit; sie können insoweit ihre Auffassung öffentlich darstel-\nlen.\n(2) Eine Fraktion kann Mitglieder des Magistrates und sonstige Personen beratend zu\nihren Sitzungen hinzuziehen. Sie unterliegen den Pflichten des § 24 HGO.\n(3) Die Fraktionssitzungen können auch per Telefon- oder Videokonferenz durchgeführt\nwerden.\n§ 9 Absatz 5 erhält folgende Fassung:\n(5) Die oder der Vorsitzende der Stadtverordnetenversammlung beruft den Ältestenrat\nnach Bedarf ein und leitet die Verhandlungen. Die Verhandlungen können auch per\nTelefon- oder Videokonferenz durchgeführt werden. Sie oder er ist verpflichtet, den\nÄltestenrat einzuberufen, wenn dies eine Fraktion oder die Bürgermeisterin oder der\nBürgermeister namens des Magistrates verlangt. Beruft sie oder er den Ältestenrat\nwährend einer Sitzung der Stadtverordnetenversammlung ein, so ist diese damit un-\nterbrochen.\n___________\n\n\n§ 17 erhält folgende Fassung:\n§ 17\nAnhörungspflicht\nDie Stadtverordnetenversammlung hört den Ausländerbeirat zu allen wichtigen Angelegen-\nheiten, die ausländische Einwohnerinnen und Einwohner betreffen. Sie setzt dem Auslän-\nderbeirat eine Frist zur Stellungnahme von einem Monat. Die Stellungnahme ist in schriftli-\ncher oder elektronischer Form an die oder den Vorsitzenden der Stadtverordnetenversamm-\nlung zu richten. Sie oder er kann die Frist in Einzelfällen angemessen verlängern oder kür-\nzen. Äußert sich der Ausländerbeirat verspätet oder gar nicht, so gilt dies als Zustimmung.\n§ 18 erhält folgende Fassung:\n§ 18\nVorschlagsrecht des Ausländerbeirates\nDer Ausländerbeirat hat ein Vorschlagsrecht in allen Angelegenheiten, die ausländische\nEinwohnerinnen und Einwohner betreffen. Vorschläge reicht er in schriftlicher oder elektroni-\nscher Form bei dem Magistrat ein. Dieser legt sie mit seiner Stellungnahme der Stadtverord-\nnetenversammlung vor, wenn diese für die Entscheidung zuständig ist. In allen wichtigen\nAngelegenheiten, die ausländische Einwohner und Einwohnerinnen betreffen, kann der Aus-\nländerbeirat Anträge an die Stadtverordnetenversammlung richten. Die Stadtverordnetenver-\nsammlung entscheidet in angemessener Frist über Vorschläge des Ausländerbeirates. Die\noder der Vorsitzende teilt die Entscheidung dem Ausländerbeirat in schriftlicher oder elektro-\nnischer Form mit.\n§ 20 Absatz 1 erhält folgende Fassung:\n§ 20\nAnhörungspflicht\n(1) Die Stadtverordnetenversammlung hört den Ortsbeirat zu allen wichtigen Angelegen-\nheiten, die den Stadtteil betreffen, insbesondere zu dem Entwurf des Haushaltsplanes\nund den Bebauungsplänen. Sie setzt dem Ortsbeirat eine Frist zur Stellungnahme\nvon einem Monat. Die Stellungnahme ist in schriftlicher oder elektronischer Form an\ndie oder den Vorsitzenden der Stadtverordnetenversammlung zu richten. Sie oder er\nkann in Einzelfällen die Frist angemessen verlängern oder kürzen. Äußert sich der\nOrtsbeirat verspätet oder gar nicht, so gilt dies als Zustimmung.\n§ 21 erhält folgende Fassung:\n§ 21\nVorschlagsrecht des Ortsbeirates\nDer Ortsbeirat hat ein Vorschlagsrecht in allen Angelegenheiten, die den Stadtteil angehen.\nVorschläge reicht er in schriftlicher oder elektronischer Form bei dem Magistrat ein. Dieser\nlegt sie mit seiner Stellungnahme der Stadtverordnetenversammlung vor, wenn diese für die\nEntscheidung zuständig ist. Die Stadtverordnetenversammlung entscheidet in angemesse-\nner Frist über Vorschläge des Ortsbeirates. Die oder der Vorsitzende der Stadtverordneten-\nversammlung teilt die Entscheidung dem Ortsbeirat in schriftlicher oder elektronischer Form\nmit.\n___________\n\n\n§ 26 erhält folgende Fassung:\n§ 26\nAnträge\n(1) Die Stadtverordneten, jede Fraktion, der Magistrat und die Bürgermeisterin oder der\nBürgermeister können Anträge in die Stadtverordnetenversammlung einbringen. Der\nAusländerbeirat kann in allen wichtigen Angelegenheiten, die ausländische Einwoh-\nner und Einwohnerinnen betreffen, Anträge in die Stadtverordnetenversammlung ein-\nbringen.\n(2) Anträge sind schriftlich und von der Antragstellerin oder vom Antragsteller unter-\nzeichnet bei der oder dem Vorsitzenden oder bei einer von der oder dem Vorsitzen-\nden zu bestimmenden Person in der Verwaltung einzureichen. Eine Einreichung\ndurch Fax, Computerfax und E-Mail ist ausreichend. Bei Anträgen von Fraktionen ge-\nnügt - außer im Falle des § 56 Abs. 1 Satz 2 HGO - die Unterschrift der oder des Vor-\nsitzenden oder ihrer oder seiner Stellvertretung. Zwischen dem Zugang der Anträge\nbei der oder dem Vorsitzenden und dem Sitzungstag müssen mindestens zehn volle\nKalendertage liegen.\nWird ein Antrag/eine Vorlage unter Verkürzung der Antragsfrist auf die Tagesordnung\ngesetzt, ist hierfür ein Grund zu bezeichnen. Dieser ist öffentlich bekannt zu geben.\n(3) Anträge müssen begründet sein und eine klare für die Verwaltung ausführbare An-\nweisung enthalten. Beschlussvorschlag und Begründung sind voneinander zu tren-\nnen.\n(4) Zur Vorbereitung einer Entscheidung der Stadtverordnetenversammlung verweist die\noder der Vorsitzende Anträge an den zuständigen Ausschuss, wenn die Antragstelle-\nrin oder der Antragsteller dies bestimmt hat.\n(5) Anträge, mit denen der Magistrat aufgefordert wird, einen Bericht abzugeben, werden\nals Berichtsanträge bezeichnet. Die Beschlussfassung erfolgt in der Stadtverordne-\ntenversammlung ohne vorherige Beratung in den Ausschüssen. Mit der Beschluss-\nfassung über den Berichtsantrag legt die Stadtverordnetenversammlung fest, wel-\nchem Ausschuss oder welchen Ausschüssen Bericht zu erstatten ist. Mit der Entge-\ngennahme des Berichts in diesem Ausschuss bzw. diesen Ausschüssen gelten Be-\nrichtsanträge als erledigt. Eine Berichterstattung an die Stadtverordnetenversamm-\nlung erfolgt nicht.\n(6) Verspätete Anträge nimmt die oder der Vorsitzende auf die Tagesordnung der fol-\ngenden Sitzung.\n(7) Ist die Anhörung eines Ortsbeirates und/oder des Ausländerbeirates erforderlich, be-\nvor die Stadtverordnetenversammlung entscheidet, so leitet die oder der Vorsitzende\ndiese unverzüglich nach Eingang des Antrages ein. Die oder der Vorsitzende setzt\ndem Ortsbeirat und/oder dem Ausländerbeirat eine Frist zur Stellungnahme. Dabei\nsind die §§ 17, 19, 20 und 22 zu beachten.\n(8) Während der Sitzung sind mündliche Anträge, die einen Gegenstand der Tagesord-\nnung ergänzen oder ändern, zulässig. Diese sind in die Niederschrift aufzunehmen.\n___________\n\n\n§ 32 erhält folgende Fassung:\n§ 32\nSchriftliche Anfragen\n(1) Schriftliche Anfragen von Stadtverordneten oder einer Fraktion an den Magistrat sind\nbei der Stadtverordnetenvorsteherin oder dem Stadtverordnetenvorsteher sowie dem\nSchriftführer oder der Schriftführerin der Stadtverordnetenversammlung einzureichen.\nDie Anfragen können auch in elektronischer Form erfolgen. Die Anfragen werden\nunmittelbar an den Magistrat weitergeleitet.\n(2) Sollte die Anfrage nicht innerhalb einer Frist von sechs Wochen beantwortet werden,\nist sie auf Antrag einer Fraktion oder der Fragestellerin bzw. des Fragestellers auf die\nTagesordnung der nächsten Sitzung der Stadtverordnetenversammlung zu setzen\nund zur Diskussion zu stellen. Die/Der Anfragende erhält zuerst die Gelegenheit, sei-\nne/ihre Fragen zu stellen.\n§ 32 a wird neu eingefügt:\n§ 32 a\nAnfragen in der Stadtverordnetenversammlung\n(1) Vor jeder Stadtverordnetenversammlung können schriftliche Fragen an den Magistrat\nüber Gegenstände aus dem Geschäftsbereich des Magistrats gestellt werden. Die\nFragen sind eine Woche vor der Stadtverordnetensitzung schriftlich oder in elektroni-\nscher Form bei der Stadtverordnetenvorsteherin oder dem Stadtverordnetenvorste-\nher sowie dem Schriftführer oder der Schriftführerin der Stadtverordnetenversamm-\nlung einzureichen und werden unmittelbar an den Magistrat weitergeleitet.\n(2) Die Anfragen werden in der Sitzung beim TOP Anfragen aufgerufen. Der/Die Anfra-\ngende erhält zuerst die Gelegenheit, seine/ihre Fragen zu stellen. Bei Unmöglichkeit\nder unmittelbaren Beantwortung gilt die Sechs-Wochen-Frist gemäß § 32 auch für\ndiese Anfrage(n).\n(3) Es können nach der Beantwortung der Fragen insgesamt zwei mündliche Zusatzfra-\ngen zum Fragegegenstand gestellt werden. Zusätzlich kann jede Fraktion zum Fra-\ngegegenstand eine mündliche Zusatzfrage stellen.\n§ 37 erhält folgende Fassung:\n§ 37\nEinladung, Öffentlichkeit, sinngemäß anzuwendende Vorschriften\n(1) Die oder der Vorsitzende des Ausschusses setzt Tagesordnung, Zeit und Ort der Sit-\nzungen im Benehmen mit der oder dem Vorsitzenden der Stadtverordnetenversamm-\nlung und dem Magistrat fest.\n(2) Die Sitzungen der Ausschüsse sind in der Regel öffentlich. § 13 gilt entsprechend.\n(3) Für den Geschäftsgang der Ausschüsse finden die Vorschriften dieser Geschäftsord-\nnung sinngemäß Anwendung, soweit sich nicht ausdrücklich aus dem Gesetz oder\naus dieser Geschäftsordnung Abweichendes ergibt.\n(4) Anträge an die Stadtverordnetenversammlung können auf die Tagesordnung der\nAusschüsse zur Vorberatung aufgenommen werden, sofern die Frist für die Stadtver-\n___________\n\n\nordnetenversammlung eingehalten wird und sie rechtzeitig vor Versenden der Einla-\ndung zu den Ausschüssen vorliegen.\n§ 38 erhält folgende Fassung:\n§ 38\nStimmrecht, Teilnahme von Mitgliedern anderer Gremien bzw. Gruppierungen\n(1) Ein Stimmrecht haben alleine die Mitglieder des Ausschusses. Die oder der Vorsit-\nzende der Stadtverordnetenversammlung und ihre oder seine Stellvertreterinnen\nund/oder Stellvertreter sind berechtigt, an den Ausschusssitzungen mit beratender\nStimme teilzunehmen. Fraktionen, auf die bei der Besetzung eines Ausschusses kein\nSitz entfallen ist, sind berechtigt, in diesen ein Mitglied mit beratender Stimme zu ent-\nsenden.\n(2) Wer einen Antrag gestellt hat, kann diesen in den Ausschüssen begründen, auch\nwenn er ihnen nicht als Mitglied angehört.\n(3) Der Magistrat nimmt an den Ausschusssitzungen teil. § 16 gilt entsprechend. Sonsti-\nge Stadtverordnete können - auch an nicht-öffentlichen Sitzungen - nur als Zuhöre-\nrinnen oder Zuhörer teilnehmen. Für den Wahlvorbereitungsausschuss gelten die be-\nsonderen Regeln des § 42 Abs. 2 HGO.\n(4) Die Ausschüsse hören den Ausländerbeirat zu allen wichtigen Angelegenheiten, die\nausländische Einwohnerinnen und Einwohner berühren. Sie setzen dem Ausländer-\nbeirat eine Frist zur Stellungnahme von einem Monat. Die Stellungnahme ist in\nschriftlicher oder elektronischer Form an die oder den Vorsitzende/n des jeweiligen\nAusschusses zu richten. Sie oder er kann in Einzelfällen die Frist angemessen ver-\nlängern oder verkürzen. Äußert sich der Ausländerbeirat verspätet oder gar nicht, so\ngilt dies als Zustimmung.\n(5) Die Ausschüsse können Vertreterinnen und Vertreter derjenigen Bevölkerungsgrup-\npen, die von ihrer Entscheidung vorwiegend betroffen werden, und Sachverständige\nzu den Beratungen zuziehen. Darüber hinaus können sie die Beiräte der Stadt sowie\nKommissionen nach Maßgabe der Regelungen in VII. bis IX. an ihren Sitzungen be-\nteiligen.\n§ 41 erhält folgende Fassung:\n§ 41\nNiederschrift\n(1) Über den wesentlichen Inhalt der Verhandlungen der Stadtverordnetenversammlung\nist eine Niederschrift zu fertigen. Sie soll sich auf die Angabe der Anwesenden, der\nverhandelten Gegenstände, der gefassten Beschlüsse und der vollzogenen Wahlen\nbeschränken. Die Abstimmungsergebnisse sowie Verlauf und Ergebnisse von Wah-\nlen sind festzuhalten. Jede Stadtverordnete und jeder Stadtverordneter kann vor Be-\nginn der Stimmabgabe verlangen, dass ihre bzw. seine Abstimmung in der Nieder-\nschrift festgehalten wird.\n(2) Die Niederschrift ist von der oder dem Vorsitzenden sowie von der Schriftführerin\noder dem Schriftführer zu unterzeichnen. Zu Schriftführern können nur Personen aus\ndem in § 61 Abs. 2 Satz 2 HGO bezeichneten Personenkreis gewählt werden. Die\nSchriftführerin oder der Schriftführer ist für den Inhalt der Niederschrift alleine ver-\nantwortlich.\n___________\n\n\n(3) Den Stadtverordneten sowie den Mitgliedern des Magistrates wird eine Kopie der\nNiederschrift innerhalb von zehn Kalendertagen zugeleitet. Dies kann auch in elekt-\nronischer Form erfolgen, wenn dies zwischen der oder dem Vorsitzenden und der\noder dem Stadtverordneten bzw. den Mitgliedern des Magistrates zuvor vereinbart\nwurde. Gleichzeitig ist die Niederschrift im „Parlamentsinformationssystem“ für die\nGremienmitglieder einzustellen.\n(4) Stadtverordnete sowie Mitglieder des Magistrates können Einwendungen gegen die\nRichtigkeit der Niederschrift innerhalb von siebenTagen nach der Übermittlung der\nKopie der Niederschrift bei der oder dem Vorsitzenden schriftlich erheben. Eine Ein-\nreichung der Einwendung durch E-Mail ist ausreichend. Die Einwendung ist zu be-\ngründen. Über fristgerechte Einwendungen entscheidet die Stadtverordnetenver-\nsammlung in der nächsten Sitzung.\n(5) Zur Information der Bevölkerung wird der wesentliche Inhalt der Niederschrift nach\nFeststellung dieser durch die Stadtverordnetenversammlung auf der Internetseite der\nStadt im „Parlamentsinformationssystem“ öffentlich eingestellt, soweit er sich nicht\nauf Verhandlungsgegenstände bezieht, die in nicht-öffentlicher Sitzung erörtert wur-\nden.\n(6) Die Sitzung wird mit Tonträger aufgezeichnet. Dieser ist von der Verwaltung aufzu-\nbewahren und kann auf Antrag von jeder Stadtverordneten und jedem Stadtverordne-\nten und den Mitgliedern des Magistrates in den Räumen der Verwaltung bis zum Ab-\nlauf der Frist des Abs. 4 - bei Einwendungen bis zur Unanfechtbarkeit der Entschei-\ndung - abgehört werden. Danach wird die Aufzeichnung gelöscht.\nII.\nDie 2. Änderung der Geschäftsordnung für die Stadtverordnetenversammlung und die Aus-\nschüsse der Stadt Pohlheim tritt am Tag nach der Beschlussfassung in Kraft.“\nAbstimmung: Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n25 Ja-Stimmen (11 SPD, 6 CDU, 6 Grüne, 2 FW)\n1 Nein-Stimme (CDU)\n---\nTOP 4\nTOP 4 Bebauungsplan Nr. 23 \"Garbenteich-Ost\" im Stadtteil Garbenteich;\na) 1. Nachtragsvertrag zum Städtebaulichen Vertrag vom 16.03.2021\nb) Abwägungsbeschluss\nc) Satzungsbeschluss\nVorlage: STV-395/2021-2026\nSTV Eckart Hafemann berichtet aus der gemeinsamen Sitzung des Ausschusses für Bauen,\nStadtentwicklung und Umwelt sowie des Haupt- und Finanzausschusses.\nEs folgt eine eingehende Beratung und Diskussion.\nAnschließend lässt die Stadtverordnetenvorsteherin über die einzelnen Punkte wie folgt ab-\nstimmen:\n1. Die Stadtverordnetenversammlung der Stadt Pohlheim beschließt den beigefügten 1.\nNachtragsvertrag zum Städtebaulichen Vertrag vom 16.03.2021 gemäß § 11 BauGB\n___________\n\n\nzum „Projekt Gewerbegebiet Garbenteich-Ost“. Der Magistrat wird beauftragt dem beur-\nkundenden Notar die Genehmigungserklärung zu übermitteln.\nAbstimmung: Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n18 Ja-Stimmen (9 SPD, 7 CDU, 2 FW)\n7 Nein-Stimmen (5 Grüne, 2 SPD)\n1 Enthaltung (Grüne)\n2. Die seitens der Öffentlichkeit sowie der Behörden und Träger öffentlicher Belange im\nRahmen der Beteiligungsverfahren gemäß §§ 4a Abs.3, 3 und 4 Baugesetzbuch\n(BauGB) vorgebrachten Anregungen wurden gemäß §§ 1 Abs. 5, 6 und 7 sowie 1a\nBauGB geprüft. Die Stadtverordnetenversammlung der Stadt Pohlheim beschließt die\nAbwägungen in der in Anlage 14, 15 und 16 vorliegenden Form.\nAbstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n18 Ja-Stimmen (9 SPD, 7 CDU, 2 FW)\n7 Nein-Stimmen (5 Grüne, 2 SPD)\n1 Enthaltung (Grüne)\n3. Die Stadtverordnetenversammlung der Stadt Pohlheim beschließt den Bebauungsplan\nNr.23 „Garbenteich-Ost“ mit seinen zeichnerischen und planungsrechtlichen Festsetzun-\ngen in der vorliegenden Form gemäß § 10 Abs. 1 BauGB in Verbindung mit § 214 Abs. 4\nBauGB als Satzung. Die Begründung inkl. Umweltbericht und Artenschutzrechtlicher\nFachbeitrag in der vorliegenden Fassung des Satzungsbeschlusses (Anlage 1,5 und 9)\nwerden gebilligt.\nAbstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n18 Ja-Stimmen (9 SPD, 7 CDU, 2 FW)\n7 Nein-Stimmen (5 Grüne, 2 SPD)\n1 Enthaltung (Grüne)\n4. Der Magistrat wird beauftragt, den Satzungsbeschluss ortsüblich bekannt zu machen und\nrückwirkend zum 20.01.2022 in Kraft zu setzen.\nAbstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n18 Ja-Stimmen (9 SPD, 7 CDU, 2 FW)\n7 Nein-Stimmen (5 Grüne, 2 SPD)\n1 Enthaltung (Grüne)\n---\nTOP 5\nTOP 5 Photovoltaik-Strategie der Stadt Pohlheim\nVorlage: Vorlage: STV-382/2021-2026\nSTV Eckart Hafemann berichtet aus der Sitzung des Ausschusses für Bauen, Stadtentwick-\nlung und Umwelt.\nNach kurzer Beratung lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nDie Stadtverordnetenversammlung beschließt die Umsetzung der Photovoltaik-Strategie der\nStadt Pohlheim und damit die Aufnahme der maßnahmenbezogenen Kosten in zukünftige\nHaushalte.\n\n\n\n--- SEITE 11 ---\nAbstimmung: Abstimmungsergebnis: Einstimmig beschlossen\n___________\n---\nTOP 6\nTOP 6 Antrag der CDU-Fraktion vom 27. April 2025 betr. Förderanfragen bei der\nFördermittelmanagerin beim Landkreis Gießen\nVorlage: Vorlage: A-389/2021-2026\nDer Antrag hat Erledigung erfahren.\n---\nTOP 7\nTOP 7 Antrag der CDU-Fraktion vom 27. April 2025 betr. Förderung Leichtathletik-\nanlage\nVorlage: Vorlage: A-390/2021-2026\nDer Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vor:\n„1. Der Magistrat wird aufgefordert unter Beteiligung der Fördermittelmanagerin beim\nLandkreis Gießen die Möglichkeiten für eine Sportstättenförderung beim Land\nHessen für die geplante Leichtathletikanlage „An der Neumühle“ zu prüfen und der\nSTV zu berichten.\n2. Mit dem Bau der Sportanlage ist erst nach Erhalt eines Förderbescheides\n-Zusage der Förderung- zu beginnen, da vorzeitig begonnene Vorhaben von\neiner möglichen Förderung ausgeschlossen sind.\n3. Die Bereitschaft zur Leistung eines Zuschusses durch die Nutzervereine sind\nabzufragen. wobei auch Förderungen durch den HLV/DLV einbezogen werden\nsollen.“\nSTV Eckart Hafemann berichtet aus der gemeinsamen Sitzung des Ausschusses für Bauen,\nStadtentwicklung und Umwelt sowie des Haupt- und Finanzausschusses.\nDer Antrag wird seitens der antragstellenden Fraktion wie folgt geändert:\n„1. Der Magistrat wird aufgefordert, ggf. unter Beteiligung der Fördermittelmanagerin\nbeim Landkreis Gießen, die Möglichkeiten für eine Sportstättenförderung beim Land\nHessen für die geplante Leichtathletikanlage „An der Neumühle“ zu prüfen und der\nSTV zu berichten.\n2. Die Bereitschaft zur Leistung eines Zuschusses durch die Nutzervereine sind\nabzufragen. wobei auch Förderungen durch den HLV/DLV einbezogen werden\nsollen.“\nEs folgt eine eingehende Beratung und Diskussion.\nÜber den geänderten Antrag lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nAbstimmung: Abstimmungsergebnis: Mit Stimmenmehrheit abgelehnt\n9 Ja-Stimmen (7 CDU, 2 FW)\n17 Nein-Stimmen (11 SPD, 6 Grüne)\n---\nTOP 8\nTOP 8 Antrag der CDU-Fraktion vom 27. April 2025 betr. Sanierung der Verbin-\ndungswege im Kleingartengebiet Grüningen\nVorlage: Vorlage: A-391/2021-2026\nDer Stadtverordnetenversammlung liegt folgender Antrag der CDU-Fraktion vor:\nDie CDU-Fraktion bittet um Vorstellung des Prüfergebnisses für eine nachhaltige Sanierung\nder Verbindungswege im innerörtlichen Kleingartengebiet von Grüningen.\n___________\n\n\nSTV Eckart Hafemann berichtet aus der Sitzung des Ausschusses für Bauen, Stadtentwick-\nlung und Umwelt.\nSTV Reiner Leidich begründet den Antrag.\nBürgermeister Andreas Ruck nimmt wie folgt Stellung zum vorliegenden Antrag:\nDie Begehung des Ortsbeirates Grüningen habe die Wegeführung nochmals verdeutlicht.\nDie gewünschte Maßnahme sei sehr aufwendig und mit hohen Kosten sowie einer Versiege-\nlung der Fläche verbunden. Für die angrenzenden Gärten werde sich die Situation des Was-\nsereintritts nicht verbessern. Auch heute sei der Gartengrund unter der Wegoberfläche.\nAls Maßnahme wurde eine Wasserquerrinne mit einem größeren Einlauf ins Kanalnetz ein-\ngebaut. Leider wurde der Einlauf mit einem Gummikeil bedeckt. Dies sei bei Regen nicht\nförderlich.\nAls erstes müsse der Gummikeil vom Einlauf entfernt werden, um die volle Kapazität zu er-\nreichen. Dann müssen die Gegebenheiten beobachtet und ggf. weitere Möglichkeiten erar-\nbeitet werden.\nSTV Eckart Hafemann stellt folgenden Antrag zur Geschäftsordnung:\n„Durch die Stellungnahme des Bürgermeisters ist der Antrag für erledigt zu erklären.“\nHierüber lässt die Stadtverordnetenvorsteherin wie folgt abstimmen:\nAbstimmung: Abstimmungsergebnis: Mit Stimmenmehrheit beschlossen\n16 Ja-Stimmen (11 SPD, 5 Grüne)\n10 Nein-Stimmen (7 CDU, 2 FW, 1 Grüne)\nEine Abstimmung über den Antrag der CDU-Fraktion erfolgt nicht mehr.\n---\nTOP 9\nTOP 9 Mitteilungen\n---\nTOP 9.1\nTOP 9.1 Mitteilung 1\nBürgermeister Andreas Ruck informiert über die aufsuchende Energieberatung. Bisher wur-\nden bereits 78 Beratungen gebucht. Die Auftaktveranstaltung findet am 10. September 2025\nstatt.\n---\nTOP 9.2\nTOP 9.2 Mitteilung 2\nBürgermeister Andreas Ruck informiert über das Stadtradeln 2025. Bisher wurden in Pohl-\nheim 17.372 Kilometer erradelt.\n---\nTOP 9.3\nTOP 9.3 Mitteilung 3\nStadtrat Peter Alexander teilt bzgl. des Jugendzentrums folgendes mit:\n„Die Baugenehmigung des Landkreises gießen vom 5. Mai 2025 ist bei der Stadt Pohlheim\nam 20. Mai 2025 eingegangen. Der Baubeginn für den Umbau des Objektes Ludwigstraße\n___________\n\n\n37 zu einem Jugendzentrum und Räumlichkeiten für die Verwaltung ist a, 1. Juni 2025 er-\nfolgt.\nBewilligungsbescheid durch das Land Hessen vom 29. April 2025:\nAuf Grundlage der Förderrichtlinie zum Ausbau inklusiver kommunaler Angebote im Sinne\nder UN-Behindertenrechtskonvention erhält die Stadt Pohlheimeine Fördermittelzuwendung\nvon 45.509,- €.“\n---\nTOP 9.4\nTOP 9.4 Mitteilung 4\nStadtrat Peter Alexander teilt bzgl. des Rechtsstreits zum Sportgelände Neumühle folgendes\nmit:\n„Die Klageerwiderung zur Festsetzungsklage des „FC Gießen“ ist dem Amtsgericht Gießen\nvon der Rechtsanwaltskanzlei der Stadt Pohlheim mit heutigem tage übermittelt worden.\nDer Magistrat hat in seiner Sitzung am 5. Juni 2025 beschlossen, dass durch die Stadt Pohl-\nheim ein Klageantrag auf Erlass einer einstweiligen Verfügung zwecks Duldung der Betre-\ntung des Grundstücks mit der Flurstück-Nr. 589/1 durch die Rechtsanwaltskanzlei der Stadt\nPohlheim gestellt werden soll.“\n---\nTOP 10\nTOP 10 Anfragen\n---\nTOP 10.1\nTOP 10.1 Anfrage 1\nMit Bezug auf die Anfrage der Stadtverordneten Simone van Slobbe-Schneider vom\n13. August 2024 bzgl. Bleifund im Petersgraben Dorf-Güll teilt Bürgermeister Andreas Ruck\nmit, dass seitens des RP Gießen noch immer keine Antwort vorliege.\n---\nTOP 10.2\nTOP 10.2 Anfrage 2\nEs liegen mehrere Anfragen des Stadtverordneten Malke Aydin vor, welche wie folgt beant-\nwortet werden:\nA: Betreibervertrag Kita „Magdeburger Straße“\nAm 3. April 2025 wurde durch die Stadtverordnetenversammlung beschlossen die künftige\nTrägerschaft über die Kindertageseinrichtung Magdeburger Straße dem Trägerverein\nDeutsches Rotes Kreuz Kreisverband Marburg-Gießen e. V. zu übertragen.\nFragen:\n1. Wurde die Trägervereinbarung inzwischen abgeschlossen?\nAntwort: Nein, der Vertrag solle bis spätestens Mitte/Ende Juni 2025 abgeschlossen werden.\n2. Ab wann sind in welcher Höhe monatliche Vorauszahlungen an den Betreiber zu\nzahlen?\n___________\n\n\nAntwort: Dies werde mit dem zukünftigen Betreiber noch besprochen. Im Haushalt\n2025/2026 seien Haushaltsmittel eingeplant. Wenn weitere Mittel benötigt werden, können\ndiese über einen Nachtrag eingestellt werden.\nB: Ruhebänke am Limesradwanderweg\nAm 10.10.2024 hat die STV beschlossen, dass der Magistrat in der Pohlheimer Gemarkung\nentlang des Limes-Rad-Wanderweges in Abstimmung mit dem Seniorenbeirat weitere\nRuhebänke aufstellen lassen soll. Bei der Antragsbegründung wurde besonders auf den\nStreckenabschnitt zwischen dem Holzheimer Unterwald und dem Limesturm hingewiesen.\nFragen:\n1. Wann wurde der Seniorenbeirat mit dem Sachverhalt befasst und wann wird der\nBeschluss umgesetzt?\n2. Wie viele Ruhebänke sollen entlang des Streckenabschnittes zwischen dem\nHolzheimer Unterwald und dem Limesturm aufgestellt werden?\nAntwort: Die Überprüfung zur Umsetzung der Maßnahme habe ergeben, dass auf Grund der\nTatsache, dass der Limes ein UNESCO-Welterbe sei, dort keine bodeneingreifenden Maß-\nnahmen vorgenommen werden dürfen und somit keine Bänke entlang des Limes aufgestellt\nwerden können.\nC: Kunstrasenplatz Sportgelände „An der Neumühle“\nDemnächst beginnen die Arbeiten zur Errichtung des neuen Kunstrasenplatzes.\nFragen:\n1. Wie viel wird der neue Platz kosten?\nAntwort: Die Kosten für den Kunstrasenbelag belaufen sich nach Ausschreibung und Auf-\ntragsvergabe auf 282504,87 €.\n2. Wann wurde der Bewilligungsbescheid für eine Förderung erteilt und wie hoch ist der\nFörderbetrag?\nAntwort: Der Antrag auf eine Förderung nach dem Sonder-Investitionsprogramm Sportland\nHessen“ vom 28. November 2024 lautet auf die Gewährung eines Fördermittelbetrags von\n50.000 €. Es liegt zwar immer noch kein Bewilligungsbescheid vor, aber die Zusage vom\n24. März 2025 für einen sofortigen Maßnahmenbeginn.\nD: Vorhaben „Norma-Markt“ in Grüningen\nFrage: Wann wurde mit dem Investor eine Verwaltungsvereinbarung zur Übernahme der\nPlanungskosten geschlossen?\nAntwort: Derzeit gebe es keinen Handlungsbedarf. Die Vereinbarung werde zu einem späte-\nren Zeitpunkt geschlossen, wenn das Bauleitverfahren angestoßen wird.\nStadtverordnetenvorsteherin Hiltrud Hofmann schließt die Sitzung und wünscht allen eine\nangenehme Sommerpause.\n___________\n\n\n--- SEITE 15 ---\n---",
+  "analysis_method": "Azure + Local",
+  "total_pages": 2,
+  "extraction_timestamp": "2025-09-15T23:53:09.422329",
+  "document_path": "input\\Niederschrift_STV2.pdf",
+  "full_text": "Stadt Pohlheim\nPohlheim, 20.06.2025\nAz .: STV/040/2021-2026\nNIEDERSCHRIFT\nüber die Sitzung der Stadtverordnetenversammlung der Stadt Pohlheim\nTag:\n12.06.2025\nDauer:\n19:03 Uhr bis 20:31 Uhr\nOrt:\nVolkshalle Watzenborn-Steinberg, Ludwigstraße 33-35, 35415 Pohlheim\nAnwesend:\nVon der Stadtverordnetenversammlung\nStadtverordnetenvorsteherin Hiltrud Hofmann\nSTV Malke Aydin\nSTV Angelika Bartosch\nSTV Karsten Becker\nSTV Iliyo Danho\nSTV Lorenz Diehl\nSTV Samuel Gergin\nSTV Eckart Hafemann\nSTV Simon Hafemann\nSTV Uwe Happel\nSTV Antje Häuser\nSTV Prof. Dr. Ernst-Ulrich Huster\nSTV Bettina Jost\nSTV Matthias Jung\nSTV Erich Klotz\nSTV Michel Kögler\nSTV Matthias Kücükkaplan\nSTV Reiner Leidich\nSTV Dr. Melanie Neeb\nSTV Michaela Schöffmann\nSTV Melanie Schunk-Wießner\nSTV Prof. Dr. Helge Stadelmann\nSTV Dominic Tamme\nSTV Fadi Touma\nSTV Simone van Slobbe-Schneider\nSTV Sven Weigel\nVom Magistrat\nBürgermeister Andreas Ruck\nStadtrat Peter Alexander\nStadtrat Jörg Buß\nStadtrat Christian Görlach\nSeite 1 von 15\nSTV/040/2021-2026\nStadtrat Tobias Maschmann\nSchriftführer(in)\nThomas Telling\nEntschuldigt:\nVon der Stadtverordnetenversammlung\nSTV Lukas Be Josef\nSTV Sonya Can\nSTV Georg Celik\nSTV Kevin Engel\nSTV Björn Feuerbach\nSTV Norman Klotz\nSTV Siglinde Michen\nSTV Risko Noah\nSTV Sebastian Opper\nSTV Marc Werner Punzert\nSTV Andreas Schuch\nVom Magistrat\nErster Stadtrat Israel Be Josef\nStadtrat Philipp Niklas Mackowiak\nStadtrat Wolfgang Sames\nStadtrat Reimar Stenzel\nTAGESORDNUNG:\nTOP 1\nEröffnung sowie Feststellung der ordnungsgemäßen\nLadung und der Beschlussfähigkeit\nTOP 2\nFeststellung der Niederschrift vom 3. April 2025\nTOP 3\n2. Änderung der Geschäftsordnung für die Stadtverord-\nnetenversammlung und die Ausschüsse der Stadt Pohl-\nheim\nSTV-394/2021-\n2026\nTOP 4\nBebauungsplan Nr. 23 \"Garbenteich-Ost\" im Stadtteil\nGarbenteich;\na) 1. Nachtragsvertrag zum Städtebaulichen Vertrag\nvom 16.03.2021\nb) Abwägungsbeschluss\nc) Satzungsbeschluss\nSTV-395/2021-\n2026\nTOP 5\nPhotovoltaik-Strategie der Stadt Pohlheim\nSTV-382/2021-\n2026\nTOP 6\nAntrag der CDU-Fraktion vom 27. April 2025 betr. För-\nderanfragen bei der Fördermittelmanagerin beim Land-\nkreis Gießen\nA-389/2021-2026\nSeite 2 von 15\nSTV/040/2021-2026\n"
+}

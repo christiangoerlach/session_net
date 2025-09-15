@@ -57,11 +57,11 @@
       "name": "duration",
       "type": "Edm.String",
       "searchable": true,
-      "filterable": false,
+      "filterable": true,
       "retrievable": true,
       "stored": true,
-      "sortable": false,
-      "facetable": false,
+      "sortable": true,
+      "facetable": true,
       "key": false,
       "analyzer": "standard.lucene",
       "synonymMaps": []
@@ -73,7 +73,7 @@
       "filterable": true,
       "retrievable": true,
       "stored": true,
-      "sortable": false,
+      "sortable": true,
       "facetable": true,
       "key": false,
       "analyzer": "standard.lucene",
@@ -125,56 +125,7 @@
       ]
     },
     {
-      "name": "total_present",
-      "type": "Edm.Int32",
-      "searchable": false,
-      "filterable": true,
-      "retrievable": true,
-      "stored": true,
-      "sortable": true,
-      "facetable": true,
-      "key": false,
-      "synonymMaps": []
-    },
-    {
-      "name": "total_excused",
-      "type": "Edm.Int32",
-      "searchable": false,
-      "filterable": true,
-      "retrievable": true,
-      "stored": true,
-      "sortable": true,
-      "facetable": true,
-      "key": false,
-      "synonymMaps": []
-    },
-    {
-      "name": "total_participants",
-      "type": "Edm.Int32",
-      "searchable": false,
-      "filterable": true,
-      "retrievable": true,
-      "stored": true,
-      "sortable": true,
-      "facetable": true,
-      "key": false,
-      "synonymMaps": []
-    },
-    {
       "name": "agenda",
-      "type": "Edm.String",
-      "searchable": true,
-      "filterable": false,
-      "retrievable": true,
-      "stored": true,
-      "sortable": false,
-      "facetable": false,
-      "key": false,
-      "analyzer": "standard.lucene",
-      "synonymMaps": []
-    },
-    {
-      "name": "top_contents_text",
       "type": "Edm.String",
       "searchable": true,
       "filterable": false,
@@ -198,7 +149,7 @@
           "retrievable": true,
           "stored": true,
           "sortable": false,
-          "facetable": true,
+          "facetable": false,
           "key": false,
           "analyzer": "standard.lucene",
           "synonymMaps": []
@@ -224,7 +175,7 @@
           "retrievable": true,
           "stored": true,
           "sortable": false,
-          "facetable": true,
+          "facetable": false,
           "key": false,
           "analyzer": "standard.lucene",
           "synonymMaps": []
@@ -233,7 +184,7 @@
           "name": "inhalt",
           "type": "Edm.String",
           "searchable": true,
-          "filterable": true,
+          "filterable": false,
           "retrievable": true,
           "stored": true,
           "sortable": false,
@@ -250,7 +201,7 @@
           "retrievable": true,
           "stored": true,
           "sortable": false,
-          "facetable": true,
+          "facetable": false,
           "key": false,
           "analyzer": "standard.lucene",
           "synonymMaps": []
@@ -258,15 +209,29 @@
       ]
     },
     {
-      "name": "analysis_method",
+      "name": "top_contents_text",
       "type": "Edm.String",
-      "searchable": false,
-      "filterable": true,
+      "searchable": true,
+      "filterable": false,
       "retrievable": true,
       "stored": true,
       "sortable": false,
+      "facetable": false,
+      "key": false,
+      "analyzer": "standard.lucene",
+      "synonymMaps": []
+    },
+    {
+      "name": "analysis_method",
+      "type": "Edm.String",
+      "searchable": true,
+      "filterable": true,
+      "retrievable": true,
+      "stored": true,
+      "sortable": true,
       "facetable": true,
       "key": false,
+      "analyzer": "standard.lucene",
       "synonymMaps": []
     },
     {
@@ -289,20 +254,21 @@
       "retrievable": true,
       "stored": true,
       "sortable": true,
-      "facetable": false,
+      "facetable": true,
       "key": false,
       "synonymMaps": []
     },
     {
       "name": "document_path",
       "type": "Edm.String",
-      "searchable": false,
-      "filterable": false,
+      "searchable": true,
+      "filterable": true,
       "retrievable": true,
       "stored": true,
-      "sortable": false,
-      "facetable": false,
+      "sortable": true,
+      "facetable": true,
       "key": false,
+      "analyzer": "standard.lucene",
       "synonymMaps": []
     },
     {
@@ -357,7 +323,9 @@
   "tokenFilters": [],
   "charFilters": [],
   "similarity": {
-    "@odata.type": "#Microsoft.Azure.Search.BM25Similarity"
+    "@odata.type": "#Microsoft.Azure.Search.BM25Similarity",
+    "k1": 1.2,
+    "b": 0.75
   },
   "semantic": {
     "configurations": [
@@ -385,43 +353,6 @@
               "fieldName": "session_type"
             }
           ]
-        }
-      }
-    ]
-  },
-  "vectorSearch": {
-    "algorithms": [
-      {
-        "name": "vector-config-1757781129422",
-        "kind": "hnsw",
-        "hnswParameters": {
-          "metric": "cosine",
-          "m": 4,
-          "efConstruction": 400,
-          "efSearch": 500
-        }
-      }
-    ],
-    "profiles": [
-      {
-        "name": "vector-profile-1757781124624",
-        "algorithm": "vector-config-1757781129422"
-      },
-      {
-        "name": "vector-profile-1757781158895",
-        "algorithm": "vector-config-1757781129422",
-        "compression": "vector-1757781104489-compressor"
-      }
-    ],
-    "vectorizers": [],
-    "compressions": [
-      {
-        "name": "vector-1757781104489-compressor",
-        "kind": "binaryQuantization",
-        "rescoringOptions": {
-          "enableRescoring": true,
-          "defaultOversampling": 4,
-          "rescoreStorageMethod": "preserveOriginals"
         }
       }
     ]

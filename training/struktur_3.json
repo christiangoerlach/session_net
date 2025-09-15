@@ -80,7 +80,7 @@
       "synonymMaps": []
     },
     {
-      "name": "attendance",
+      "name": "attendance_present",
       "type": "Collection(Edm.ComplexType)",
       "fields": [
         {
@@ -112,6 +112,37 @@
         {
           "name": "status",
           "type": "Edm.String",
+          "searchable": false,
+          "filterable": true,
+          "retrievable": true,
+          "stored": true,
+          "sortable": false,
+          "facetable": true,
+          "key": false,
+          "synonymMaps": []
+        }
+      ]
+    },
+    {
+      "name": "attendance_excused",
+      "type": "Collection(Edm.ComplexType)",
+      "fields": [
+        {
+          "name": "name",
+          "type": "Edm.String",
+          "searchable": true,
+          "filterable": true,
+          "retrievable": true,
+          "stored": true,
+          "sortable": false,
+          "facetable": false,
+          "key": false,
+          "analyzer": "standard.lucene",
+          "synonymMaps": []
+        },
+        {
+          "name": "function",
+          "type": "Edm.String",
           "searchable": true,
           "filterable": true,
           "retrievable": true,
@@ -120,6 +151,18 @@
           "facetable": true,
           "key": false,
           "analyzer": "standard.lucene",
+          "synonymMaps": []
+        },
+        {
+          "name": "status",
+          "type": "Edm.String",
+          "searchable": false,
+          "filterable": true,
+          "retrievable": true,
+          "stored": true,
+          "sortable": false,
+          "facetable": true,
+          "key": false,
           "synonymMaps": []
         }
       ]
@@ -162,19 +205,6 @@
     },
     {
       "name": "agenda",
-      "type": "Edm.String",
-      "searchable": true,
-      "filterable": false,
-      "retrievable": true,
-      "stored": true,
-      "sortable": false,
-      "facetable": false,
-      "key": false,
-      "analyzer": "standard.lucene",
-      "synonymMaps": []
-    },
-    {
-      "name": "top_contents_text",
       "type": "Edm.String",
       "searchable": true,
       "filterable": false,
@@ -327,8 +357,7 @@
           "session_type": 2,
           "location": 1.5,
           "document_type": 1.2,
-          "top_contents/inhalt": 3.0,
-          "top_contents_text": 3.5
+          "agenda": 1.8
         }
       },
       "functions": []
@@ -347,7 +376,7 @@
       "sourceFields": [
         "session_type",
         "location",
-        "top_contents_text"
+        "agenda"
       ]
     }
   ],
@@ -371,7 +400,7 @@
           },
           "prioritizedContentFields": [
             {
-              "fieldName": "top_contents_text"
+              "fieldName": "full_text"
             },
             {
               "fieldName": "agenda"

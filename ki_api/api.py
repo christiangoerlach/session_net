@@ -56,7 +56,9 @@ class AzureOpenAIChat:
             )
             
             print(f"✅ Azure OpenAI Verbindung erfolgreich")
+            print(f"✅ Projekt-Instanz: {os.getenv('AZURE_ENDPOINT')}")
             print(f"✅ Deployment: {self.deployment}")
+            print(f"✅ API-Version: {os.getenv('AZURE_API_VERSION')}")
             return True
             
         except Exception as e:

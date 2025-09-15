@@ -1,0 +1,366 @@
+{
+  "id": "Niederschrift_STV4",
+  "document_type": "Niederschrift",
+  "session_type": "Stadtverordnetenversammlung",
+  "date": "2025-04-03T00:00:00Z",
+  "duration": "19:00 Uhr bis 21:50 Uhr",
+  "location": "Volkshalle Watzenborn-Steinberg, Ludwigstraße 33-35, 35415 Pohlheim",
+  "attendance": [
+    {
+      "name": "STV Malke Aydin",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Angelika Bartosch",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Lukas Be Josef",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Karsten Becker",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Sonya Can",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Iliyo Danho",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Lorenz Diehl",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Kevin Engel",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Björn Feuerbach",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Samuel Gergin",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Eckart Hafemann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Simon Hafemann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Uwe Happel",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Antje Häuser",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Prof. Dr. Ernst-Ulrich Huster",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Matthias Jung",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Erich Klotz",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Norman Klotz",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Michel Kögler",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Matthias Kücükkaplan",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Reiner Leidich",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Siglinde Michen",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Dr. Melanie Neeb",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Risko Noah",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Sebastian Opper",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Marc Werner Punzert",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Michaela Schöffmann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Andreas Schuch",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Melanie Schunk-Wießner",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Prof. Dr. Helge Stadelmann",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Dominic Tamme",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Fadi Touma",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Simone van Slobbe-Schneider",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "STV Sven Weigel",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "present"
+    },
+    {
+      "name": "Bürgermeister Andreas Ruck",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Erster Stadtrat Israel Be Josef",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Peter Alexander",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Jörg Buß",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Christian Görlach",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Tobias Maschmann",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Wolfgang Sames",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "Stadtrat Reimar Stenzel",
+      "function": "Vom Magistrat",
+      "status": "present"
+    },
+    {
+      "name": "VBW Mischa Reitz",
+      "function": "Von der Verwaltung",
+      "status": "present"
+    },
+    {
+      "name": "VFW Stefan Huster",
+      "function": "Schriftführer",
+      "status": "present"
+    },
+    {
+      "name": "STV Georg Celik",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "STV Bettina Jost",
+      "function": "Von der Stadtverordnetenversammlung",
+      "status": "excused"
+    },
+    {
+      "name": "Stadtrat Philipp Niklas Mackowiak",
+      "function": "Vom Magistrat",
+      "status": "excused"
+    }
+  ],
+  "agenda": "TOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen\nLadung und der Beschlussfähigkeit\nTOP 2 Feststellung der Niederschrift vom 6. März 2025\nTOP 3 Trägerschaft Kita Magdeburger Straße STV-386/2021-\n2026\nTOP 4 Beratung und Beschlussfassung über die Haushaltssat- STV-376/2021-\nzung 2025/2026 mit ihren Anlagen 2026\nTOP 4.1 Antrag der FDP-Fraktion vom 18. Februar 2025 betr. A-388/2021-2026\nAnpassung der Haushaltsansätze 2025\nTOP 5 Mitteilungen\nTOP 5.1 Mitteilung 1\nTOP 5.2 Mitteilung 2\n___________\n\n\nTOP 5.3 Mitteilung 3\nTOP 5.4 Mitteilung 4\nTOP 5.5 Mitteilung 5\nTOP 6 Beantwortung von Anfragen",
+  "top_contents": [
+    {
+      "nummer": "1",
+      "ueberschrift": "TOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen Ladung und der Be-\nschlussfähigkeit",
+      "vorlage": "",
+      "inhalt": "Stadtverordnetenvorsteherin Hiltrud Hofmann eröffnet die Sitzung, begrüßt alle Anwesenden\nund stellt ordnungsgemäße Ladung und Beschlussfähigkeit fest.\nEs liegt ein Dringlichkeitsantrag der FW-Fraktion vor. Dieser wird aber als Interfraktioneller\nHaushaltsantrag im Rahmen der Haushaltsberatung behandelt.\nEntschuldigt für diese Sitzung haben sich: Bettina Jost und Georg Celik.\nAnschließend nimmt sie die Gelegenheit wahr und gratuliert den Stadtverordneten Antje\nHäuser, Georg Celik, Lorenz Diehl, dem Stadtrat Wolfgang Sames und Bürgermeister An-\ndreas Ruck nachträglich zum Geburtstag.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "2",
+      "ueberschrift": "TOP 2 Feststellung der Niederschrift vom 6. März 2025",
+      "vorlage": "",
+      "inhalt": "Zur Niederschrift vom 06.03.2025 liegen der Verwaltung folgende Änderungen vor:\n1. Zu Beginn",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "6",
+      "ueberschrift": "TOP 6 muss noch folgender Satz aufgenommen werden: Die Stadtverord-",
+      "vorlage": "",
+      "inhalt": "netenvorsteherin stellt die Nichtöffentlichkeit her.\n2. In",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "6",
+      "ueberschrift": "TOP 6 muss es im Beschlusswortlaut heißen „Die Stadtverordnetenversammlung\nbeschließt.“",
+      "vorlage": "",
+      "inhalt": "3. Bei der Anwesenheit von Herrn Aydin ist neben der Uhrzeit noch der",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "7",
+      "ueberschrift": "TOP 7 zu er-",
+      "vorlage": "",
+      "inhalt": "gänzen, denn ab diesem Zeitpunkt wurde seine Stimme gezählt.\nDiese Änderungen wurden bereits in der Niederschrift korrigiert.\nMit diesen Änderungen gilt die Niederschrift vom 06.03.2025 als festgestellt.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "3",
+      "ueberschrift": "TOP 3 Trägerschaft Kita Magdeburger Straße",
+      "vorlage": "Vorlage: STV-386/2021-2026",
+      "inhalt": "Die Stadtverordnetenvorsteherin teilt zu Beginn mit, dass es sich hier nur um die Beschluss-\nfassung handelt und dieser TOP als A-Punkt aufgerufen werde. Somit muss die Nichtöffent-\nlichkeit nicht hergestellt werden.\nUwe Happel berichtet aus dem SKS und teilt mit, dass der Vorlage einstimmig zugestimmt\nwurde.\nMelanie Schunk-Wießner berichtet aus dem SKS und teilt mit, dass auch hier der Vorlage\neinstimmig zugestimmt wurde.\n___________\n\n\nDie Stadtverordnetenvorsteherin lässt über diesen Antrag abstimmen:\nDie Stadtverordnetenversammlung beschließt, die künftige Trägerschaft über die Kinderta-\ngeseinrichtung Magdeburger Straße dem Trägerverein Deutsches Rotes Kreuz Kreisverband\nMarburg-Gießen e. V., Eichgärtenallee 90, 35394 Gießen zu übertragen und mit diesem die\nder Vorlage beigefügte und in wenigen Details noch endzuverhandelnde „Trägervereinba-\nrung für ein DRK Kindertageseinrichtung in Pohlheim“ abzuschließen.\nIn Ergänzung unter den im SKS und HFA besprochenen Änderungen.",
+      "abstimmung": "Abstimmungsergebnis: Einstimmig Beschlossen"
+    },
+    {
+      "nummer": "4",
+      "ueberschrift": "TOP 4 Beratung und Beschlussfassung über die Haushaltssatzung 2025/2026 mit\nihren Anlagen",
+      "vorlage": "Vorlage: STV-376/2021-2026",
+      "inhalt": "",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "4.1",
+      "ueberschrift": "TOP 4.1 Antrag der FDP-Fraktion vom 18. Februar 2025 betr. Anpassung der Haus-\nhaltsansätze 2025",
+      "vorlage": "Vorlage: A-388/2021-2026",
+      "inhalt": "Dieser Antrag wurde zu Beginn des",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "4",
+      "ueberschrift": "TOP 4 als erstes beraten und abgestimmt.",
+      "vorlage": "",
+      "inhalt": "Es liegt ein Antrag der FDP-Fraktion zum Thema Anpassung der Haushaltsansätze 2025\nvom 18.02.2025 vor:\nDa dieser der Antrag Auswirkungen auf alle anderen Haushaltsanträge hat, zieht die Stadt-\nverordnetenvorsteherin diesen Antrag vor. Er lautet wie folgt:\nDer Ergebnishaushalt 2025 ist auf die tatsächlichen Ausgaben des Jahres 2024 zu be-\nschränken, jedoch nicht über die Planansätze 2024 hinaus.\nAusnahme bilden die Kostenstellen für die Bewirtschaftung der Kindergärten (KST 6460101\nbis 6460109, 6460199, 6470101). Hier sind die tatsächlichen Ausgaben aus 2024 anzuset-\nzen und mit einer Erhöhung von 5 % in das Haushaltsjahr 2025 zu übertragen.\nVorgenanntes betrifft nicht die Kontierungen zur Personalbewirtschaftung, hier ist der Plana-\nnsatz für 2025 unter Berücksichtigung der tatsächlich besetzten bzw. zu besetzenden Stel-\nlen, beizubehalten.\nDer Grundsatz „Haushaltsklarheit, Haushaltswahrheit“ soll gestärkt werden. Zusätzliche\nHaushaltsmittel können nach Ermittlung des konkreten Bedarfs durch die Anwendung der\ngesetzlichen Haushaltsbewirtschaftungsmaßnahmen nachgetragen werden.\n\n\n\n\n\n\naus abgeschlossen Haushaltsjahren.\nDie abschließende Liste der zu übertragenden Haushaltsreste ist Bestandteil des Vorberich-\ntes zum Haushaltsplan.\n\n\n\nund die Pläne vorzustellen. Für das Haushaltsjahr 2026 sind Erschließungskosten über\n500.000 € einzustellen.\nDieser Antrag wurde zurückgezogen.\nSTV 376-12\nS. 95: Kostenstelle I064601-26 Neubau Kita Hausen-Ost: Die CDU beantragt die kurzfristige\nPlanung und Umsetzung bis 2027. Dazu bitten wir folgende Beträge einzustellen und ver-\nweisen ergänzend auf den Bericht zur Betreuungssituation des Landkreises vom April 2024,\nder den Stadtverordneten erst auf Anforderung im Januar 2025 vorgelegt wurde.\nHH 2025: 200.000 € Planungskosten\nHH 2025: Baukosten 2.000.000 €\nHH 2026: Baukosten 5.000.000 €\nHH 2026: VE über 2.000.000 €\n\n\n\nSTV 376-16\nS. 93: Kita Kirchstraße: Der Haushalt bietet keine Perspektive für einen dringend notwendi-\ngen Ersatzbau des Altbestandes. Die CDU bittet um Einstellung von Planungskosten in Höhe\nvon 100.000 € im HH-Jahr 2025 sowie Baukosten im HH-Jahr 2026 in Höhe von 5.000.000\n€ sowie eine VE in gleicher Höhe zu Lasten des Haushaltsjahres 2026.\nDieser Antrag wird zurückgezogen.\nSTV 376-17\nS. 98: Neue Haushaltsstelle im Haushaltsjahr 2025 zur Errichtung von PV-Anlagen auf städ-\ntischen Gebäuden.\nAnsatz in 2025 = 150.000 € und VE = 150.000 €\nDieser Antrag wird vorerst zurückgezogen.\nSTV 376-18\nSeite 99: HH-Stelle I126302-33: Fahrradwegeverbindung innerorts\nHH 2026 + VE jeweils 240.000 €\nAntrag: Verschieben auf HH-Jahr 2027 und 2028\nAlternativ ist eine neue Haushaltsstelle „Straßensanierungen“ in Höhe von 500.000 € für das\nHH-Jahr 2026 einzustellen\nVermerk: Der Stadtverordnetenversammlung ist bis zum 1.7.2025 eine Liste der dringend\nnotwendigen Straßensanierungen vorzulegen. Die STV beschließt danach eine Priorisierung\nder einzelnen Maßnahmen.\n\n\n\n14 Ja-Stimmen (10 CDU, 4 FW)\n21 Nein-Stimmen (13 SPD, 6 Grüne, 2 FDP)\nSTV 376-21\nS. 146 unbebaute Grundstücke: „Hinter der Friedensstraße“: In 2025 ist der Ansatz für den\nzu erwarteten Verkaufserlös vom Investor dem letzten Verhandlungsergebnis anzupassen\n(Minderung rd. 110.000 €)\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-22\nS. 180: Für den Kindergarten Garbenteich ist für 2025 ein Umbau/Erweiterungsbau vorgese-\nhen. Wenn dem so ist, fehlt für 2026 die Abschreibung sowie höhere Kosten für die neue\nGruppe (Zuschusserhöhung). Die CDU bittet um entsprechende Korrektur des Ergebnis-\nhaushaltes und um kurzfristige Vorstellung der Planungen im BSU.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-23\nS. 194: Als voraussichtliche Baukosten für den Kindergarten „Am Schwarzen Morgen“ wur-\nden 9 Millionen Euro veranschlagt. Bei einer Fertigstellung zum 1. Juli 2026 wäre das ein\nBetrag von 90.000 € (6/12) als Abschreibung. Die CDU bittet den Ansatz deshalb um 30.000\n€ zu erhöhen.\nDieser Antrag hat bereits Erledigung erfahren.\nEs wird jedoch von der CDU-Fraktion ein neuer Antrag zur Erhöhung der Betriebskosten auf\n430.000 € gestellt, die sich aus dem Vertrag ab 2026 ergeben.\n\n\n\nSTV 376-27\nS. 93 Kita Kirchstraße: Ergänzen: 400.000 € für Planungskosten in 2027: Bebauung Fläche\nKirchstraße für neue Kita, Verwaltungsräume und Parkplätze; parallel für Kita Hausen-Ost\nebenfalls für 2027 Planungskosten in Höhe 400.000 € einstellen.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-28\nS. 93 – I01301-17 Feuerwehren: Sperrvermerk für „Grundhafte Sanierung Hof FFW (1. BA in\n2025) 75.000 €“, Darstellung der Planung und der Gesamtkosten.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-29\nS. 98 – I126301-97 Lückenschluss Radweg Pfahlgraben: Sperrvermerk für 892.000 €, Dar-\nstellung der Planung.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-30\nS. 99 Erneuerung Hohltangente: 49.250 € in 2025, Sperrvermerk, Vorlage der Planung.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-31\nS. 100 – I126302-39 Sanierung Verbindungsweg Holzheim: Verschiebung des Ansatzes auf\n2027; Der Neubau der Schulsporthalle sollte abgeschlossen werden und ggf kommt es zu\nBeschädigungen durch die Bautätigkeiten und damit zu teilweiser Kostenübernahme vom\nLKGI.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-32\nErneuerung Birkenweg Dorf-Güll, neu aufnehmen. Seit Jahren in der Planung, endlich reali-\nsieren, 60.000 € in 2026\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-33\nErledigung erfahren\nSTV 376-34\nWegefestigung nach Bahnübergang Schiffenbergstraße Garbenteich, neu aufnehmen, zum\nBetonweg entlang des Lückebachs zur fußläufigen Erreichbarkeit der „Neuen Mitte“. 10.000\n€ in 2026\nDieser Antrag hat bereits Erledigung erfahren.\nAnträge der SPD-Fraktion\nSTV-376-35\nS. 95 Sportplatz Holzheim: 10.000 € unter Erläuterung statt Umgestaltung Planung zur Um-\ngestaltung\n___________\n\n\nDieser Antrag hat bereits Erledigung erfahren.\nSTV-376-36\nS. 97 Hinweisschilder Rad-/Gehwege, 16.200 € in 2025, Nachfrage, ob nicht der Landkreis\ndie gesamten Kosten übernimmt.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV-376-37\nNeu: Baugebiet hinter der Burg (HH-Stelle I126301-87): Planungsansatz in Höhe 50.000 €\nvorsehen für 2027/28 mit Sperrvermerk.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV-376-38\nNeu: Förderung von Vereinen, in 2025 10.000 € einstellen.\nNach kurzer Diskussion im HFA wurde dieser Betrag auf 5.000 € reduziert.\nDieser Antrag hat bereits Erledigung erfahren.\nAnträge der Fraktion Bündnis 90 Grüne\nSTV-376-39\nS.100 I126302-33 Investitionen Fahrradwegeverbindungen innerorts; einen Teilbetrag vor-\nziehen: 20.000 € Ansatz für 2025 und 220.000 € für 2026. VE wird 220.000 €",
+      "abstimmung": "Abstimmungsergebnis: Mit Stimmenmehrheit abgelehnt\n6 Ja-Stimmen (2 FDP und 4 FW)\n19 Nein-Stimmen (13 SPD und 6 Grüne)\n10 Enthaltungen (CDU)\nSTV-376-1\nS. 217 Die Stadtverordneten Reiner Leidich, Marc Punzert, Andreas Schuch, Angelika Bar-\ntosch und Simone van Slobbe beantragen für die Neuplanung ÖPNV/Rundverkehr (Verbes-\nserung Pohlheim Süd) gemäß dem Beschluss der STV vom 05.09.2024 15.000 EUR für das\nHaushaltsjahr 2025 einzustellen. (Kostenstelle 12630102).\n___________"
+    },
+    {
+      "nummer": "5",
+      "ueberschrift": "TOP 5 Mitteilungen",
+      "vorlage": "",
+      "inhalt": "",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "5.1",
+      "ueberschrift": "TOP 5.1 Mitteilung 1",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Ruck gibt einen Sachstandsbericht zur Windkraftanlage Höhlerberg ab.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "5.2",
+      "ueberschrift": "TOP 5.2 Mitteilung 2\n___________",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck gibt einen Sachstand zum Thema KiTa Magdeburger Straße\nab.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "5.3",
+      "ueberschrift": "TOP 5.3 Mitteilung 3",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck gibt einen Sachstandsbericht zum Thema KiTa Garbenteich\nab.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "5.4",
+      "ueberschrift": "TOP 5.4 Mitteilung 4",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck teilt mit, es gebe ja das Programm aufsuchende Energiebera-\ntung wo die Stadt Pohlheim dran teilnimmt. Da gibt es aktuell eine neue Kampagne bezüg-\nlich der Energieberater die Bürger beraten.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "5.5",
+      "ueberschrift": "TOP 5.5 Mitteilung 5",
+      "vorlage": "",
+      "inhalt": "Bürgermeister Andreas Ruck teilt den Sachstand zum Thema Naturnahe Gestaltung von\nGrünflächen und Klimaschutz mit.",
+      "abstimmung": ""
+    },
+    {
+      "nummer": "6",
+      "ueberschrift": "TOP 6 Beantwortung von Anfragen",
+      "vorlage": "",
+      "inhalt": "Herr Aydin fragt nach dem Sachstand des Fragenkataloges der CDU-Fraktion zum Thema\nHallenbad. Die Fragen stellende Fraktion der CDU sowie die Stadtverordnetenvorsteherin\nwünschen eine Beantwortung der Fragen in der Stadtverordnetenversammlung.\nBürgermeister Ruck verweist jedoch auf die AG Hallenbad, wo er die Fragen zuerst behan-\ndeln wolle, bevor eine Beantwortung in der Stadtverordnetenversammlung erfolgt.\nFrau van Slobbe-Schneider hatte auch umfangreiche Anfragen, die Antworten werden dem\nProtokoll beigefügt.",
+      "abstimmung": ""
+    }
+  ],
+  "top_contents_text": "TOP 1\nTOP 1 Eröffnung sowie Feststellung der ordnungsgemäßen Ladung und der Be-\nschlussfähigkeit\nStadtverordnetenvorsteherin Hiltrud Hofmann eröffnet die Sitzung, begrüßt alle Anwesenden\nund stellt ordnungsgemäße Ladung und Beschlussfähigkeit fest.\nEs liegt ein Dringlichkeitsantrag der FW-Fraktion vor. Dieser wird aber als Interfraktioneller\nHaushaltsantrag im Rahmen der Haushaltsberatung behandelt.\nEntschuldigt für diese Sitzung haben sich: Bettina Jost und Georg Celik.\nAnschließend nimmt sie die Gelegenheit wahr und gratuliert den Stadtverordneten Antje\nHäuser, Georg Celik, Lorenz Diehl, dem Stadtrat Wolfgang Sames und Bürgermeister An-\ndreas Ruck nachträglich zum Geburtstag.\n---\nTOP 2\nTOP 2 Feststellung der Niederschrift vom 6. März 2025\nZur Niederschrift vom 06.03.2025 liegen der Verwaltung folgende Änderungen vor:\n1. Zu Beginn\n---\nTOP 6\nTOP 6 muss noch folgender Satz aufgenommen werden: Die Stadtverord-\nnetenvorsteherin stellt die Nichtöffentlichkeit her.\n2. In\n---\nTOP 6\nTOP 6 muss es im Beschlusswortlaut heißen „Die Stadtverordnetenversammlung\nbeschließt.“\n3. Bei der Anwesenheit von Herrn Aydin ist neben der Uhrzeit noch der\n---\nTOP 7\nTOP 7 zu er-\ngänzen, denn ab diesem Zeitpunkt wurde seine Stimme gezählt.\nDiese Änderungen wurden bereits in der Niederschrift korrigiert.\nMit diesen Änderungen gilt die Niederschrift vom 06.03.2025 als festgestellt.\n---\nTOP 3\nTOP 3 Trägerschaft Kita Magdeburger Straße\nVorlage: Vorlage: STV-386/2021-2026\nDie Stadtverordnetenvorsteherin teilt zu Beginn mit, dass es sich hier nur um die Beschluss-\nfassung handelt und dieser TOP als A-Punkt aufgerufen werde. Somit muss die Nichtöffent-\nlichkeit nicht hergestellt werden.\nUwe Happel berichtet aus dem SKS und teilt mit, dass der Vorlage einstimmig zugestimmt\nwurde.\nMelanie Schunk-Wießner berichtet aus dem SKS und teilt mit, dass auch hier der Vorlage\neinstimmig zugestimmt wurde.\n___________\n\n\nDie Stadtverordnetenvorsteherin lässt über diesen Antrag abstimmen:\nDie Stadtverordnetenversammlung beschließt, die künftige Trägerschaft über die Kinderta-\ngeseinrichtung Magdeburger Straße dem Trägerverein Deutsches Rotes Kreuz Kreisverband\nMarburg-Gießen e. V., Eichgärtenallee 90, 35394 Gießen zu übertragen und mit diesem die\nder Vorlage beigefügte und in wenigen Details noch endzuverhandelnde „Trägervereinba-\nrung für ein DRK Kindertageseinrichtung in Pohlheim“ abzuschließen.\nIn Ergänzung unter den im SKS und HFA besprochenen Änderungen.\nAbstimmung: Abstimmungsergebnis: Einstimmig Beschlossen\n---\nTOP 4\nTOP 4 Beratung und Beschlussfassung über die Haushaltssatzung 2025/2026 mit\nihren Anlagen\nVorlage: Vorlage: STV-376/2021-2026\n---\nTOP 4.1\nTOP 4.1 Antrag der FDP-Fraktion vom 18. Februar 2025 betr. Anpassung der Haus-\nhaltsansätze 2025\nVorlage: Vorlage: A-388/2021-2026\nDieser Antrag wurde zu Beginn des\n---\nTOP 4\nTOP 4 als erstes beraten und abgestimmt.\nEs liegt ein Antrag der FDP-Fraktion zum Thema Anpassung der Haushaltsansätze 2025\nvom 18.02.2025 vor:\nDa dieser der Antrag Auswirkungen auf alle anderen Haushaltsanträge hat, zieht die Stadt-\nverordnetenvorsteherin diesen Antrag vor. Er lautet wie folgt:\nDer Ergebnishaushalt 2025 ist auf die tatsächlichen Ausgaben des Jahres 2024 zu be-\nschränken, jedoch nicht über die Planansätze 2024 hinaus.\nAusnahme bilden die Kostenstellen für die Bewirtschaftung der Kindergärten (KST 6460101\nbis 6460109, 6460199, 6470101). Hier sind die tatsächlichen Ausgaben aus 2024 anzuset-\nzen und mit einer Erhöhung von 5 % in das Haushaltsjahr 2025 zu übertragen.\nVorgenanntes betrifft nicht die Kontierungen zur Personalbewirtschaftung, hier ist der Plana-\nnsatz für 2025 unter Berücksichtigung der tatsächlich besetzten bzw. zu besetzenden Stel-\nlen, beizubehalten.\nDer Grundsatz „Haushaltsklarheit, Haushaltswahrheit“ soll gestärkt werden. Zusätzliche\nHaushaltsmittel können nach Ermittlung des konkreten Bedarfs durch die Anwendung der\ngesetzlichen Haushaltsbewirtschaftungsmaßnahmen nachgetragen werden.\n\n\n\n\n\n\naus abgeschlossen Haushaltsjahren.\nDie abschließende Liste der zu übertragenden Haushaltsreste ist Bestandteil des Vorberich-\ntes zum Haushaltsplan.\n\n\n\nund die Pläne vorzustellen. Für das Haushaltsjahr 2026 sind Erschließungskosten über\n500.000 € einzustellen.\nDieser Antrag wurde zurückgezogen.\nSTV 376-12\nS. 95: Kostenstelle I064601-26 Neubau Kita Hausen-Ost: Die CDU beantragt die kurzfristige\nPlanung und Umsetzung bis 2027. Dazu bitten wir folgende Beträge einzustellen und ver-\nweisen ergänzend auf den Bericht zur Betreuungssituation des Landkreises vom April 2024,\nder den Stadtverordneten erst auf Anforderung im Januar 2025 vorgelegt wurde.\nHH 2025: 200.000 € Planungskosten\nHH 2025: Baukosten 2.000.000 €\nHH 2026: Baukosten 5.000.000 €\nHH 2026: VE über 2.000.000 €\n\n\n\nSTV 376-16\nS. 93: Kita Kirchstraße: Der Haushalt bietet keine Perspektive für einen dringend notwendi-\ngen Ersatzbau des Altbestandes. Die CDU bittet um Einstellung von Planungskosten in Höhe\nvon 100.000 € im HH-Jahr 2025 sowie Baukosten im HH-Jahr 2026 in Höhe von 5.000.000\n€ sowie eine VE in gleicher Höhe zu Lasten des Haushaltsjahres 2026.\nDieser Antrag wird zurückgezogen.\nSTV 376-17\nS. 98: Neue Haushaltsstelle im Haushaltsjahr 2025 zur Errichtung von PV-Anlagen auf städ-\ntischen Gebäuden.\nAnsatz in 2025 = 150.000 € und VE = 150.000 €\nDieser Antrag wird vorerst zurückgezogen.\nSTV 376-18\nSeite 99: HH-Stelle I126302-33: Fahrradwegeverbindung innerorts\nHH 2026 + VE jeweils 240.000 €\nAntrag: Verschieben auf HH-Jahr 2027 und 2028\nAlternativ ist eine neue Haushaltsstelle „Straßensanierungen“ in Höhe von 500.000 € für das\nHH-Jahr 2026 einzustellen\nVermerk: Der Stadtverordnetenversammlung ist bis zum 1.7.2025 eine Liste der dringend\nnotwendigen Straßensanierungen vorzulegen. Die STV beschließt danach eine Priorisierung\nder einzelnen Maßnahmen.\n\n\n\n14 Ja-Stimmen (10 CDU, 4 FW)\n21 Nein-Stimmen (13 SPD, 6 Grüne, 2 FDP)\nSTV 376-21\nS. 146 unbebaute Grundstücke: „Hinter der Friedensstraße“: In 2025 ist der Ansatz für den\nzu erwarteten Verkaufserlös vom Investor dem letzten Verhandlungsergebnis anzupassen\n(Minderung rd. 110.000 €)\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-22\nS. 180: Für den Kindergarten Garbenteich ist für 2025 ein Umbau/Erweiterungsbau vorgese-\nhen. Wenn dem so ist, fehlt für 2026 die Abschreibung sowie höhere Kosten für die neue\nGruppe (Zuschusserhöhung). Die CDU bittet um entsprechende Korrektur des Ergebnis-\nhaushaltes und um kurzfristige Vorstellung der Planungen im BSU.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-23\nS. 194: Als voraussichtliche Baukosten für den Kindergarten „Am Schwarzen Morgen“ wur-\nden 9 Millionen Euro veranschlagt. Bei einer Fertigstellung zum 1. Juli 2026 wäre das ein\nBetrag von 90.000 € (6/12) als Abschreibung. Die CDU bittet den Ansatz deshalb um 30.000\n€ zu erhöhen.\nDieser Antrag hat bereits Erledigung erfahren.\nEs wird jedoch von der CDU-Fraktion ein neuer Antrag zur Erhöhung der Betriebskosten auf\n430.000 € gestellt, die sich aus dem Vertrag ab 2026 ergeben.\n\n\n\nSTV 376-27\nS. 93 Kita Kirchstraße: Ergänzen: 400.000 € für Planungskosten in 2027: Bebauung Fläche\nKirchstraße für neue Kita, Verwaltungsräume und Parkplätze; parallel für Kita Hausen-Ost\nebenfalls für 2027 Planungskosten in Höhe 400.000 € einstellen.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-28\nS. 93 – I01301-17 Feuerwehren: Sperrvermerk für „Grundhafte Sanierung Hof FFW (1. BA in\n2025) 75.000 €“, Darstellung der Planung und der Gesamtkosten.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-29\nS. 98 – I126301-97 Lückenschluss Radweg Pfahlgraben: Sperrvermerk für 892.000 €, Dar-\nstellung der Planung.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-30\nS. 99 Erneuerung Hohltangente: 49.250 € in 2025, Sperrvermerk, Vorlage der Planung.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-31\nS. 100 – I126302-39 Sanierung Verbindungsweg Holzheim: Verschiebung des Ansatzes auf\n2027; Der Neubau der Schulsporthalle sollte abgeschlossen werden und ggf kommt es zu\nBeschädigungen durch die Bautätigkeiten und damit zu teilweiser Kostenübernahme vom\nLKGI.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-32\nErneuerung Birkenweg Dorf-Güll, neu aufnehmen. Seit Jahren in der Planung, endlich reali-\nsieren, 60.000 € in 2026\nDieser Antrag hat bereits Erledigung erfahren.\nSTV 376-33\nErledigung erfahren\nSTV 376-34\nWegefestigung nach Bahnübergang Schiffenbergstraße Garbenteich, neu aufnehmen, zum\nBetonweg entlang des Lückebachs zur fußläufigen Erreichbarkeit der „Neuen Mitte“. 10.000\n€ in 2026\nDieser Antrag hat bereits Erledigung erfahren.\nAnträge der SPD-Fraktion\nSTV-376-35\nS. 95 Sportplatz Holzheim: 10.000 € unter Erläuterung statt Umgestaltung Planung zur Um-\ngestaltung\n___________\n\n\nDieser Antrag hat bereits Erledigung erfahren.\nSTV-376-36\nS. 97 Hinweisschilder Rad-/Gehwege, 16.200 € in 2025, Nachfrage, ob nicht der Landkreis\ndie gesamten Kosten übernimmt.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV-376-37\nNeu: Baugebiet hinter der Burg (HH-Stelle I126301-87): Planungsansatz in Höhe 50.000 €\nvorsehen für 2027/28 mit Sperrvermerk.\nDieser Antrag hat bereits Erledigung erfahren.\nSTV-376-38\nNeu: Förderung von Vereinen, in 2025 10.000 € einstellen.\nNach kurzer Diskussion im HFA wurde dieser Betrag auf 5.000 € reduziert.\nDieser Antrag hat bereits Erledigung erfahren.\nAnträge der Fraktion Bündnis 90 Grüne\nSTV-376-39\nS.100 I126302-33 Investitionen Fahrradwegeverbindungen innerorts; einen Teilbetrag vor-\nziehen: 20.000 € Ansatz für 2025 und 220.000 € für 2026. VE wird 220.000 €\nAbstimmung: Abstimmungsergebnis: Mit Stimmenmehrheit abgelehnt\n6 Ja-Stimmen (2 FDP und 4 FW)\n19 Nein-Stimmen (13 SPD und 6 Grüne)\n10 Enthaltungen (CDU)\nSTV-376-1\nS. 217 Die Stadtverordneten Reiner Leidich, Marc Punzert, Andreas Schuch, Angelika Bar-\ntosch und Simone van Slobbe beantragen für die Neuplanung ÖPNV/Rundverkehr (Verbes-\nserung Pohlheim Süd) gemäß dem Beschluss der STV vom 05.09.2024 15.000 EUR für das\nHaushaltsjahr 2025 einzustellen. (Kostenstelle 12630102).\n___________\n---\nTOP 5\nTOP 5 Mitteilungen\n---\nTOP 5.1\nTOP 5.1 Mitteilung 1\nBürgermeister Ruck gibt einen Sachstandsbericht zur Windkraftanlage Höhlerberg ab.\n---\nTOP 5.2\nTOP 5.2 Mitteilung 2\n___________\nBürgermeister Andreas Ruck gibt einen Sachstand zum Thema KiTa Magdeburger Straße\nab.\n---\nTOP 5.3\nTOP 5.3 Mitteilung 3\nBürgermeister Andreas Ruck gibt einen Sachstandsbericht zum Thema KiTa Garbenteich\nab.\n---\nTOP 5.4\nTOP 5.4 Mitteilung 4\nBürgermeister Andreas Ruck teilt mit, es gebe ja das Programm aufsuchende Energiebera-\ntung wo die Stadt Pohlheim dran teilnimmt. Da gibt es aktuell eine neue Kampagne bezüg-\nlich der Energieberater die Bürger beraten.\n---\nTOP 5.5\nTOP 5.5 Mitteilung 5\nBürgermeister Andreas Ruck teilt den Sachstand zum Thema Naturnahe Gestaltung von\nGrünflächen und Klimaschutz mit.\n---\nTOP 6\nTOP 6 Beantwortung von Anfragen\nHerr Aydin fragt nach dem Sachstand des Fragenkataloges der CDU-Fraktion zum Thema\nHallenbad. Die Fragen stellende Fraktion der CDU sowie die Stadtverordnetenvorsteherin\nwünschen eine Beantwortung der Fragen in der Stadtverordnetenversammlung.\nBürgermeister Ruck verweist jedoch auf die AG Hallenbad, wo er die Fragen zuerst behan-\ndeln wolle, bevor eine Beantwortung in der Stadtverordnetenversammlung erfolgt.\nFrau van Slobbe-Schneider hatte auch umfangreiche Anfragen, die Antworten werden dem\nProtokoll beigefügt.\n---",
+  "analysis_method": "Azure + Local",
+  "total_pages": 2,
+  "extraction_timestamp": "2025-09-15T23:53:15.955772",
+  "document_path": "input\\Niederschrift_STV4.pdf",
+  "full_text": "Stadt Pohlheim\nPohlheim, 07.04.2025\nAz .: STV/039/2021-2026\nNIEDERSCHRIFT\nüber die Sitzung der Stadtverordnetenversammlung der Stadt Pohlheim\nTag:\n03.04.2025\nDauer:\n19:00 Uhr bis 21:50 Uhr\nOrt:\nVolkshalle Watzenborn-Steinberg, Ludwigstraße 33-35, 35415 Pohlheim\nAnwesend:\nVon der Stadtverordnetenversammlung\nStadtverordnetenvorsteherin Hiltrud Hofmann\nSTV Malke Aydin\nSTV Angelika Bartosch\nSTV Lukas Be Josef\nSTV Karsten Becker\nSTV Sonya Can\nSTV Iliyo Danho\nSTV Lorenz Diehl\nSTV Kevin Engel\nSTV Björn Feuerbach\nSTV Samuel Gergin\nSTV Eckart Hafemann\nSTV Simon Hafemann\nSTV Uwe Happel\nSTV Antje Häuser\nSTV Prof. Dr. Ernst-Ulrich Huster\nSTV Matthias Jung\nSTV Erich Klotz\nSTV Norman Klotz\nSTV Michel Kögler\nSTV Matthias Kücükkaplan\nSTV Reiner Leidich\nSTV Siglinde Michen\nSTV Dr. Melanie Neeb\nSTV Risko Noah\nSTV Sebastian Opper\nSTV Marc Werner Punzert\nSTV Michaela Schöffmann\nSTV Andreas Schuch\nSTV Melanie Schunk-Wießner\nSTV Prof. Dr. Helge Stadelmann\nSTV Dominic Tamme\nSTV Fadi Touma\nSeite 1 von 14\nSTV/039/2021-2026\nSTV Simone van Slobbe-Schneider\nSTV Sven Weigel\nVom Magistrat\nBürgermeister Andreas Ruck\nErster Stadtrat Israel Be Josef\nStadtrat Peter Alexander\nStadtrat Jörg Buß\nStadtrat Christian Görlach\nStadtrat Tobias Maschmann\nStadtrat Wolfgang Sames\nStadtrat Reimar Stenzel\nVon der Verwaltung\nVBW Mischa Reitz\nSchriftführer\nVFW Stefan Huster\nEntschuldigt:\nVon der Stadtverordnetenversammlung\nSTV Georg Celik\nSTV Bettina Jost\nVom Magistrat\nStadtrat Philipp Niklas Mackowiak\nTAGESORDNUNG:\nTOP 1\nEröffnung sowie Feststellung der ordnungsgemäßen\nLadung und der Beschlussfähigkeit\nTOP 2\nFeststellung der Niederschrift vom 6. März 2025\nTOP 3\nTrägerschaft Kita Magdeburger Straße\nSTV-386/2021-\n2026\nTOP 4\nBeratung und Beschlussfassung über die Haushaltssat-\nzung 2025/2026 mit ihren Anlagen\nSTV-376/2021-\n2026\nTOP 4.1\nAntrag der FDP-Fraktion vom 18. Februar 2025 betr.\nAnpassung der Haushaltsansätze 2025\nA-388/2021-2026\nTOP 5\nMitteilungen\nTOP 5.1\nMitteilung 1\nTOP 5.2\nMitteilung 2\nSeite 2 von 14\nSTV/039/2021-2026\n"
+}
